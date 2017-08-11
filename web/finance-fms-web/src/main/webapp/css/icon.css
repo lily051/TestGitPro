@@ -1,0 +1,685 @@
+.icon {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-top: 1px;
+  line-height: 24px;
+  vertical-align: middle;
+}
+.gridIconFix{
+  width: 16px;
+  height: 16px;
+  line-height: 16px;
+}
+.iconFix{
+  margin-right: 10px;
+}
+.iconAdd i{
+  margin-left: 25px;
+  font-style: normal;
+  font-size: 14px;
+}
+.managerOpr {
+  margin-right: 10px;
+  cursor: pointer;
+  font-size: 12px;
+  padding: 4px 7px;
+  border: 1px solid transparent;
+  _border:0;
+  border-radius: 2px;
+  -webkit-border-radius:2px;
+  -moz-border-radius: 2px;
+  color: #666666;
+}
+.managerOpr i {
+  margin-left: 22px;
+  font-style: normal;
+}
+
+.managerOpr{
+  font-style: normal;
+  font-size: 14px;
+}
+.iconExit {
+	background: url("../images/icons/exit_normal.png") no-repeat 0 center;
+	cursor: pointer;
+}
+.iconExit:hover {
+  background: url("../images/icons/exit_hover.png") no-repeat 0 center;
+  color: #82FDC5;
+}
+.iconSearch {
+  background: url("../images/icons/search.png") no-repeat 1px center;
+  position: absolute;
+  right:10px;
+  cursor: pointer;
+  height: 16px;
+  width:16px;
+  top:4px;
+}
+.gird_search .iconSearch{
+  right:8px;
+}
+.iconSearch:hover {
+  background: url("../images/icons/search_hover.png") no-repeat 0px center;
+}
+.iconAdd {
+  background: url("../images/icons/add.png") no-repeat 0 center;
+}
+.iconEdit {
+  background: url("../images/icons/edit.png") no-repeat 0 center;
+}
+.iconPreview {
+  background: url("../images/icons/preview.png") no-repeat 0 center;
+}
+.iconRestart {
+  background: url("../images/icons/restart.png") no-repeat 0 center;
+}
+.iconDelete {
+  background: url("../images/icons/delete.png") no-repeat 0 center; 
+}
+.iconUp {
+  background: url("../images/icons/up.png") no-repeat 0 center; 
+}
+.iconDown {
+  background: url("../images/icons/down.png") no-repeat 0 center; 
+}
+.iconReload{
+  background: url("../images/icons/refresh.png") no-repeat 3px center; 
+}
+.iconAdd:hover {
+  background: url("../images/icons/add_hover.png") no-repeat 0 center;
+}
+.iconEdit:hover {
+  background: url("../images/icons/edit_hover.png") no-repeat 0 center;
+}
+.iconPreview:hover {
+  background: url("../images/icons/preview_hover.png") no-repeat 0 center;
+}
+.iconRestart:hover {
+  background: url("../images/icons/restart_focus.png") no-repeat 0 center;
+}
+.iconDelete:hover {
+  background: url("../images/icons/delete_hover.png") no-repeat 0 center; 
+}
+.iconUp:hover {
+  background: url("../images/icons/up_hover.png") no-repeat 0 center; 
+}
+.iconDown:hover {
+  background: url("../images/icons/down_hover.png") no-repeat 0 center; 
+}
+.iconReload:hover{
+  background: url("../images/icons/refresh_hover.png") no-repeat 3px center; 
+}
+.iconReload:focus,.iconReload:active{
+  background: url("../images/icons/refresh_press.png") no-repeat 3px center; 
+}
+.iconCopy{
+  background: url("../images/icons/copy.png") no-repeat 0 center; 
+}
+.iconCopy:hover{
+  background: url("../images/icons/copy_focus.png") no-repeat 0 center; 
+}
+.iconChangePWD{
+  background: url("../images/icons/reset.png") no-repeat 0 center;
+}
+.iconChangePWD:hover {
+  background: url("../images/icons/reset_focus.png") no-repeat 0 center;
+}
+.filtrateIcon{
+  background: url("../images/icons/filter.png") no-repeat 4px center;
+}
+.filtrateIcon:hover {
+  background: url("../images/icons/filter_hover.png") no-repeat 4px center;
+}
+.filtrateIcon:active,.filtrateIcon:focus {
+  background: url("../images/icons/filter_press.png") no-repeat 4px center;
+}
+.filtrateIconOpen{
+  background: url("../images/icons/filterOpen.png") no-repeat 4px center;
+}
+.filtrateIconOpen:hover {
+  background: url("../images/icons/filterOpen_hover.png") no-repeat 4px center;
+}
+.filtrateIconOpen:active,.filtrateIconOpen:focus {
+  background: url("../images/icons/filterOpen_press.png") no-repeat 4px center;
+}
+.oprAdd  {
+  background: url("../images/icons/add.png") no-repeat 4px center;
+}
+.oprAdd:hover {
+  color: #3F85E4;
+  background: url("../images/icons/add_hover.png") no-repeat 4px center;
+}
+.oprAdd:active,.oprAdd:focus {
+  color: #2D5FA4;
+  background: url("../images/icons/add_press.png") no-repeat 4px center;
+}
+.oprEdit{
+  background: url("../images/icons/edit.png") no-repeat 4px center;
+}
+.oprEdit:hover {
+  color: #3F85E4;
+  background: url("../images/icons/edit_hover.png") no-repeat 4px center;
+}
+.oprEdit:active,.oprEdit:focus {
+  color: #2D5FA4;
+  background: url("../images/icons/edit_press.png") no-repeat 4px center;
+}
+.oprDelete{
+  background: url("/images/icons/delete.png") no-repeat 4px center;
+}
+.oprDelete:hover {
+  color: #3F85E4;
+  background: url("/images/icons/delete_hover.png") no-repeat 4px center;
+  /*background-position:0px -24px;*/
+}
+.oprDelete:active,.oprDelete:focus {
+  color: #2D5FA4;
+  background: url("/images/icons/delete_press.png") no-repeat 4px center;
+ /*  background-position:0px -48px; */
+}
+
+.oprCDelete{
+  background: url("../images/icons/compeldelete.png") no-repeat 4px center;
+}
+.oprCDelete:hover {
+  border: 1px solid #ccc;
+  color: #ccc;
+  background: url("../images/icons/compeldelete_hover.png") no-repeat 4px 4px;
+}
+.oprAbleUser{
+  background: url("../images/icons/oprAbleUser.png") no-repeat 4px center;
+}
+.oprAbleUser:hover {
+  color: #3F85E4;
+  background: url("../images/icons/oprAbleUser_hover.png") no-repeat 4px center;
+}
+.oprAbleUser:active,.oprAbleUser:focus {
+  color: #2D5FA4;
+  background: url("../images/icons/oprAbleUser_press.png") no-repeat 4px center;
+}
+.oprDisableUser{
+  background: url("../images/icons/oprDisableUser.png") no-repeat 4px center;
+}
+.oprDisableUser:hover {
+  color: #3F85E4;
+  background: url("../images/icons/oprDisableUser_hover.png") no-repeat 4px center;
+}
+.oprDisableUser:active,.oprDisableUser:focus {
+  color: #2D5FA4;
+  background: url("../images/icons/oprDisableUser_press.png") no-repeat 4px center;
+}
+.oprCopy{
+  background: url("../images/icons/copy.png") no-repeat 4px center;
+}
+.oprCopy:hover {
+  color: #3F85E4;
+  background: url("../images/icons/copy_hover.png") no-repeat 4px center;
+}
+.oprCopy:active,.oprCopy:focus {
+  color: #2D5FA4;
+  background: url("../images/icons/copy_press.png") no-repeat 4px center;
+}
+.oprTime{
+  background: url("../images/icons/time_normal.png") no-repeat 4px 4px;
+}
+.oprTime:hover {
+  border: 1px solid #ccc;
+  color: #ccc;
+  background: url("../images/icons/time_hover.png") no-repeat 4px center;
+}
+.oprMove{
+  background: url("../images/icons/move.png") no-repeat 4px center;
+}
+.oprMove:hover {
+  border: 1px solid #ccc;
+  color: #ccc;
+  background: url("../images/icons/move_focus.png") no-repeat 4px center;
+}
+.oprSet{
+  background: url("../images/icons/settingS.png") no-repeat 4px center;
+}
+.oprSet:hover {
+  border: 1px solid #ccc;
+  color: #ccc;
+  background: url("../images/icons/settingS_focus.png") no-repeat 4px center;
+}
+.oprImport{
+  background: url("../images/icons/import.png") no-repeat 4px center;
+}
+.oprImport:hover {
+  color: #3F85E4;
+  background: url("../images/icons/import_hover.png") no-repeat 4px center;
+}
+.oprImport:active,.oprImport:focus {
+  color: #2D5FA4;
+  background: url("../images/icons/import_press.png") no-repeat 4px center;
+}
+.oprExport{
+  background: url("../images/icons/export.png") no-repeat 4px center;
+}
+.oprExport:hover {
+  color: #3F85E4;
+  background: url("../images/icons/export_hover.png") no-repeat 4px center;
+}
+.oprExport:active,.oprExport:focus {
+  color: #2D5FA4;
+  background: url("../images/icons/export_press.png") no-repeat 4px center;
+}
+.oprReset{
+  background: url("/images/icons/pwdReset_normal.png") no-repeat 4px center;
+}
+.oprReset:hover {
+  color: #3F85E4;
+  background: url("/images/icons/pwdReset_focus.png") no-repeat 4px center;
+}
+.oprReset:active,.oprReset:focus {
+  color: #2D5FA4;
+  background: url("../images/icons/pwdReset_focus.png") no-repeat 4px center;
+}
+.i-first {
+	background: url("../images/icons/backward.png") no-repeat 0 center;
+}
+.i-first:hover {
+  background: url("../images/icons/backward_hover.png") no-repeat 0 center;
+}
+.i-last {
+	background: url("../images/icons/forward.png") no-repeat 0 center;
+}
+.i-last:hover {
+  background: url("../images/icons/forward_hover.png") no-repeat 0 center;
+}
+.downIcon{
+  background: url("/images/icons/downicon.png") no-repeat center;
+}
+.downIcon:hover,.downIcon:focus{
+  background: url("/images/icons/downicon_hover.png") no-repeat center;
+}
+input.datetimepicker,input.datepicker{
+  background: url("/images/icons/input_calendar.png") no-repeat 98% 4px; 
+  background-color: #fff;
+}
+input.datetimepicker:hover,input.datepicker:hover{
+  background: url("/images/icons/input_calendar_hover.png") no-repeat 98% 4px; 
+}
+input.datetimepicker:active,input.datepicker:active{
+  background: url("/images/icons/input_calendar_press.png") no-repeat 98% 4px; 
+}
+.serviceIcon {
+  background: url("/images/icons/pic.png") no-repeat 0px center; 
+}
+.active .serviceIcon {
+  background: url("/images/icons/pic_focus.png") no-repeat 0px center; 
+}
+.sideBar li:hover .serviceIcon{
+  background: url("/images/icons/pic_focus.png") no-repeat 0px center; 
+}
+.serviceIcon_106001 {
+  background: url("/images/icons/pic.png") no-repeat 0px center; 
+}
+.active .serviceIcon_106001 {
+  background: url("/images/icons/pic_focus.png") no-repeat 0px center; 
+}
+.sideBar li:hover .serviceIcon_106001{
+  background: url("/images/icons/pic_focus.png") no-repeat 0px center; 
+}
+.serviceIcon_106002 {
+  background: url("/images/icons/info.png") no-repeat 0px center; 
+}
+.active .serviceIcon_106002 {
+  background: url("/images/icons/info_focus.png") no-repeat 0px center; 
+}
+.sideBar li:hover .serviceIcon_106002{
+  background: url("/images/icons/info_focus.png") no-repeat 0px center; 
+}
+.roleIcon {
+  background: url("/images/icons/info.png") no-repeat 0px center; 
+}
+.active .roleIcon {
+  background: url("/images/icons/info_focus.png") no-repeat 0px center; 
+}
+.sideBar li:hover .roleIcon{
+  background: url("/images/icons/info_focus.png") no-repeat 0px center; 
+}
+.oprAssign{
+  background: url("../images/icons/assign.png") no-repeat 4px center;
+}
+.oprAssign:hover {
+  color: #3F85E4;
+  background: url("../images/icons/assign_hover.png") no-repeat 4px center;
+}
+.oprAssign:active,.oprAssign:focus {
+  color: #2D5FA4;
+  background: url("../images/icons/assign_press.png") no-repeat 4px center;
+}
+.oprCertificate{
+  background: url("../images/icons/certificate.png") no-repeat 4px center;
+}
+.oprCertificate:hover {
+  color: #3F85E4;
+  background: url("../images/icons/certificate_hover.png") no-repeat 4px center;
+}
+.oprCertificate:active,.oprCertificate:focus {
+  color: #2D5FA4;
+  background: url("../images/icons/certificate_press.png") no-repeat 4px center;
+}
+.iconAssign{
+    background: url("../images/icons/assign.png") no-repeat 0 center;
+}
+.iconAssign:hover{
+    background: url("../images/icons/assign_hover.png") no-repeat 0 center;
+}
+.oprExit{
+  background: url("/images/icons/exit.png") no-repeat 0 center;
+}
+.oprExit:hover{
+  color:#ACCFFE;
+  background: url("/images/icons/exit_hover.png") no-repeat 0 center;
+}
+.oprExit:active{
+  color: #2D5FA4;
+  background: url("/images/icons/exit_press.png") no-repeat 0 center;
+}
+.oprChange{
+  background: url("/images/icons/changePwd.png") no-repeat 0 center;
+}
+.oprChange:hover{
+  color:#ACCFFE;
+  background: url("/images/icons/changePwd_hover.png") no-repeat 0 center;
+}
+.oprChange:active{
+  color: #2D5FA4;
+  background: url("/images/icons/changePwd_press.png") no-repeat 0 center;
+}
+.oprDown{
+  background: url("/images/icons/download.png") no-repeat 0 center;
+}
+.oprDown:hover{
+  color:#ACCFFE;
+  background: url("/images/icons/download_hover.png") no-repeat 0 center;
+}
+.oprDown:active{
+  color: #2D5FA4;
+  background: url("/images/icons/download_press.png") no-repeat 0 center;
+}
+.oprResetUser{
+  background: url("/images/icons/resetPwd.png") no-repeat 4px center;
+}
+.oprResetUser:hover{
+  background: url("/images/icons/resetPwd_hover.png") no-repeat 4px center;
+}
+.oprResetUser:active{
+  color: #2D5FA4;
+  background: url("/images/icons/resetPwd_press.png") no-repeat 4px center;
+}
+.oprDownTemp{
+  display: inline-block;
+  background: url("/images/icons/downTemp.png") no-repeat 4px center;
+}
+.oprDownTemp:hover{
+  color:#3F85E4;
+  background: url("/images/icons/downTemp_hover.png") no-repeat 4px 9px;
+}
+.oprDownTemp:active,.oprDownTemp:focus{
+  color: #2D5FA4;
+  background: url("/images/icons/downTemp_press.png") no-repeat 4px center;
+}
+.oprAlarm{
+  background: url("/images/icons/alarm.png") no-repeat 4px center;
+}
+.oprAlarm:hover {
+  color: #3F85E4;
+  background: url("/images/icons/alarm_hover.png") no-repeat 4px center;
+}
+.oprAlarm:active,.oprAlarm:focus {
+  color: #2D5FA4;
+  background: url("/images/icons/alarm_press.png") no-repeat 4px center;
+}
+.iconDetail{
+  background: url("/images/icons/viewDetail.png") no-repeat 0px center;
+}
+.iconDetail:hover {
+  color: #3F85E4;
+  background: url("/images/icons/viewDetail_hover.png") no-repeat 0px center;
+}
+.iconDetail:active,.iconDetail:focus {
+  color: #2D5FA4;
+  background: url("/images/icons/viewDetail_press.png") no-repeat 0px center;
+}
+.iconRecord{
+  background: url("/images/icons/viewRecord.png") no-repeat 0px center;
+}
+.iconRecord:hover {
+  color: #3F85E4;
+  background: url("/images/icons/viewRecord_hover.png") no-repeat 0px center;
+}
+.iconRecord:active,.iconRecord:focus {
+  color: #2D5FA4;
+  background: url("/images/icons/viewRecord_press.png") no-repeat 0px center;
+}
+.oprNtp{
+  background: url("/images/icons/ntptime.png") no-repeat 0px center;
+}
+.oprNtp:hover{
+  background: url("/images/icons/ntptime_hover.png") no-repeat 0px center;
+}
+.oprNtp:active{
+  color: #2D5FA4;
+  background: url("/images/icons/ntptime_active.png") no-repeat 0px center;
+}
+/*
+zTree icon 样式覆盖
+ */
+.ztree{
+  padding-left: 0;
+  padding-right:0;
+}
+.treeview{
+  width:238px;
+  margin-left:10px;
+}
+.ztree li span.button{
+   margin-top:4px;
+ }
+ .ztree li span.button.center_docu{
+  margin-top:0;
+ }
+ .ztree li a.curSelectedNode{
+   padding-top: 0px;
+   background-color: #3F85E4;
+   color: #333;
+   height: 16px;
+   border: 1px #3F85E4 solid;
+   color: #fff;
+ }
+ .ztree li span.button.home_ico_open,.ztree li span.button.home_ico_close,.ztree li span.button.home_ico_docu{
+   background: url(/images/icons/center.png) no-repeat center;
+   position: relative;
+   top: -4px;
+ }
+ .ztree li .curSelectedNode span.button.home_ico_open,.ztree li .curSelectedNode span.button.home_ico_close,.ztree li .curSelectedNode span.button.home_ico_docu{
+   background: url(/images/icons/center_active.png) no-repeat center;
+ }
+/*产品树的第一个图标*/
+ .ztree li span.button.product_home_ico_open,.ztree li span.button.product_home_ico_close,.ztree li span.button.product_home_ico_docu{
+   background: url(/images/icons/product.png) no-repeat center;
+   position: relative;
+  left:2px;
+ }
+ .ztree li .curSelectedNode span.button.product_home_ico_open,.ztree li .curSelectedNode span.button.product_home_ico_close,.ztree li .curSelectedNode span.button.product_home_ico_docu{
+   background: url(/images/icons/product_active.png) no-repeat center;
+ }
+ /*产品图标*/
+ .ztree li span.button.product_ico_open,.ztree li span.button.product_ico_close,.ztree li span.button.product_ico_docu{
+   background: none;
+   width:0;
+ }
+ /*设备图标*/
+ .ztree li span.button.dev_ico_docu{
+   background: none;
+   width:0;
+ }
+ .ztree li span.reg_ico_docu,.ztree li span.reg_ico_open,.ztree li span.reg_ico_close{
+   background: url(/images/icons/lel0.png) no-repeat center;
+   margin-top: 2px;
+ }
+ .ztree li .curSelectedNode span.reg_ico_docu,.ztree li .curSelectedNode span.reg_ico_open,.ztree li .curSelectedNode span.reg_ico_close{
+   background: url(/images/icons/lel0_active.png) no-repeat center;
+   margin-top: 2px;
+ }
+ .ztree li span.productType_ico_docu,.ztree li span.productType_ico_open,.ztree li span.productType_ico_close{
+   background: url(/images/icons/money.png) no-repeat center;
+   margin-left:2px;
+ }
+ .ztree li .curSelectedNode span.productType_ico_docu,.ztree li .curSelectedNode span.productType_ico_open,.ztree li .curSelectedNode span.productType_ico_close{
+   background: url(/images/icons/money_active.png) no-repeat center;
+   margin-left:2px;
+ }
+ .ztree li span.devChannel_ico_docu,.ztree li span.devChannel_ico_open,.ztree li span.devChannel_ico_close{
+   background: url(/images/icons/recordType.png) no-repeat center;
+   margin-left:2px;
+   margin-top:4px !important;
+ }
+ .ztree li .curSelectedNode span.devChannel_ico_docu,.ztree li .curSelectedNode span.devChannel_ico_open,.ztree li .curSelectedNode span.devChannel_ico_close{
+   background: url(/images/icons/recordType.png) no-repeat center;
+   margin-top:4px !important;
+   margin-left:2px;
+ }
+ .ztree li span.vehicle_ico_docu,.ztree li span.vehicle_ico_open,.ztree li span.vehicle_ico_close{
+   background: url(/images/icons/chedui.png) no-repeat center;
+ }
+ .ztree li span.vehiclegroup_ico_docu,.ztree li span.vehiclegroup_ico_open,.ztree li span.vehiclegroup_ico_close{
+   background: url(/images/icons/chedui.png) no-repeat center;
+ }
+ .ztree li span.m-gun_ico_docu,.ztree li span.m-gun_ico_open,.ztree li span.m-gun_ico_close{
+   background: url(/images/icons/m.png) no-repeat center;
+   background-position:0!important;
+ }
+
+ .ztree li span.gunbulletgroup_ico_docu{
+   background: url(/images/icons/bullet.png) no-repeat center;
+ }
+ .ztree li span.staffgroup_ico_docu{
+   background: url(/images/icons/staffGroup.png) no-repeat center;
+ }
+ .ztree li span.vehicle_ico_docu{
+   background: url(/images/icons/motorcade.png) no-repeat center;
+ }
+ .ztree li span.ico_open,.ztree li span.ico_close{
+   background: url(/images/icons/zuzhi_manage.png) no-repeat center;
+   background-position:0!important;
+ }
+ .ztree li span.ico_docu{
+   background: url(/images/icons/system.png) no-repeat center;
+   background-position:0!important;
+ }
+ .ztree li a,.ztree li a span {
+ 	display:inline-block;
+ 	max-width:120px;
+  _width:120px;
+ 	overflow:hidden;
+ 	text-overflow:ellipsis;
+ }
+ .ztree li a{
+  max-width: 146px;
+ }
+ .ztree li span.button.chk{
+   margin:5px 3px 0 0;
+ }
+ .ztree li a.curSelectedNode{
+   width:154px;
+   height:24px;
+   line-height: 24px;
+   background-color: #3F85E4 !important;
+   border:0;
+ }
+ .ztree li span.button.curSpanActive{
+   background-color: #3F85E4 !important;
+ }
+ .ztree li span.button.children_span_active{
+   background-color:#D2DDEB !important;
+ }
+ .ztree li a.children_active{
+   width:128px;
+   background-color:#D2DDEB;
+ }
+ .ztree li a {
+   padding:0;
+   height:24px;
+   line-height: 24px;
+   margin-bottom:1px;
+ }
+ .ztree li span.button.home_ico_open, .ztree li span.button.home_ico_close, .ztree li span.button.home_ico_docu{
+   
+ }
+ .ztree li span{
+   margin-top:4px;
+ }
+ /* .ztree li span.button.root_close{
+   background: url("/images/icons/retract.png");
+   margin-top:4px;
+ }
+ .ztree li span.button.root_open{
+   background: url("/images/icons/spread.png");
+   margin-top:4px;
+ } */
+ .ztree li span.button.noline_close,.ztree li span.button.root_close,.ztree li span.button.center_close,.ztree li span.button.bottom_close{
+   background: url("/images/icons/retract.png") no-repeat center left;
+   margin-top:0;
+ }
+ .ztree li span.button.noline_open,.ztree li span.button.root_open,.ztree li span.button.center_open,.ztree li span.button.bottom_open{
+   background: url("/images/icons/spread.png") no-repeat center left;
+   margin-top:0;
+ }
+ 
+ .ztree li span.button.switch{
+   height:24px;
+   width:20px;
+   margin-top:0;
+ }
+
+.ztree li span.button.chk.checkbox_false_full{
+	background-image: url("/images/collect/checkbox_false.png") !important;
+	background-repeat: no-repeat; 
+	background-position: 0px 0px;
+}
+
+.ztree li span.button.chk.checkbox_false_full_focus{
+	background-image: url("/images/collect/checkbox_false.png") !important;
+	background-repeat: no-repeat; 
+	background-position: 0px -13px;
+}
+.ztree li span.button.chk.checkbox_true_full{
+  background-image: url("/images/collect/checkbox_true.png") !important;
+  background-repeat: no-repeat; 
+  background-position: 0px 0px;
+}
+
+.ztree li span.button.chk.checkbox_true_full_focus{
+  background-image: url("/images/collect/checkbox_true.png") !important;
+  background-repeat: no-repeat; 
+  background-position: 0px -13px;
+}
+.ztree li span.button.chk.checkbox_true_part{
+  background-image: url("/images/collect/checkbox_true.png") !important;
+  background-repeat: no-repeat; 
+  background-position: 0px -28px;
+}
+.ztree li span.button.chk.checkbox_true_part_focus{
+  background-image: url("/images/collect/checkbox_true.png") !important;
+  background-repeat: no-repeat; 
+  background-position: 0px -41px;
+}
+.ztree li span.button.chk.checkbox_false_part{
+  background-image: url("/images/collect/checkbox_false.png") !important;
+  background-repeat: no-repeat; 
+  background-position: 0px -28px;
+}
+.ztree li span.button.chk.checkbox_false_part_focus{
+  background-image: url("/images/collect/checkbox_false.png") !important;
+  background-repeat: no-repeat; 
+  background-position: 0px -41px;
+}
+
+ /*zTree end*/

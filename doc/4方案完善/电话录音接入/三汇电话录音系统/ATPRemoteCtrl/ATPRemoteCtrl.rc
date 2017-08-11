@@ -1,0 +1,499 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\ATPRemoteCtrl.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\ATPRemoteCtrl.ico"
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ATPREMOTECTRL_DIALOG DIALOGEX 0, 0, 379, 383
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "ATPRemoteCtrl"
+FONT 10, "MS Sans Serif"
+BEGIN
+    CONTROL         "Tab1",IDC_TAB_MAIN,"SysTabControl32",0x0,7,21,365,268
+    CONTROL         "SyATP Dll",IDC_RADIO_MODE,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,7,7,52,10
+    CONTROL         "Web Service(soap)",IDC_RADIO_MODE2,"Button",
+                    BS_AUTORADIOBUTTON,84,7,84,10
+    EDITTEXT        IDC_EDIT_RESULT,6,296,366,80,ES_MULTILINE | WS_VSCROLL
+    COMBOBOX        IDC_COMBO_SERVER_LIST,179,7,89,119,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_DIALOG_INIT DIALOG DISCARDABLE  0, 0, 342, 219
+STYLE WS_CHILD
+FONT 10, "MS Sans Serif"
+BEGIN
+    LTEXT           "Server:",IDC_STATIC,6,10,29,8
+    EDITTEXT        IDC_EDIT_SERVER_IP,41,7,85,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Set Server Addr",IDC_BUTTON_SOAP_DEST,130,7,72,14
+    LTEXT           "Local:",IDC_STATIC,7,28,25,8
+    EDITTEXT        IDC_EDIT_LOCAL_IP,41,25,85,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_LOCAL_PORT,142,25,40,14,ES_AUTOHSCROLL
+    LTEXT           "User:",IDC_STATIC,7,48,21,8
+    EDITTEXT        IDC_EDIT_USER,41,45,40,14,ES_AUTOHSCROLL
+    LTEXT           "Password:",IDC_STATIC,89,48,37,8
+    EDITTEXT        IDC_EDIT_PWD,132,45,40,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Connect",IDC_BUTTON_CONNECT,7,69,50,14
+    PUSHBUTTON      "Disconnect",IDC_BUTTON_DISCONNECT,71,69,50,14
+    LTEXT           "Timeout:",IDC_STATIC,7,95,34,8
+    EDITTEXT        IDC_EDIT_SET_PARAM1,45,92,39,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "SetNetTimeout",IDC_BUTTON_SetNetTimeout,91,92,79,14
+    LTEXT           ":",IDC_STATIC,131,26,8,8
+    EDITTEXT        IDC_EDIT_WEBPORT,303,7,32,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Change WebSerive Port",IDC_BUTTON_SETWEBPORT,211,7,89,
+                    14
+END
+
+IDD_DIALOG_CFG DIALOG DISCARDABLE  0, 0, 367, 258
+STYLE WS_CHILD
+FONT 10, "MS Sans Serif"
+BEGIN
+    LTEXT           "Compress:",IDC_STATIC,7,10,37,8
+    EDITTEXT        IDC_EDIT_COMPRESS,46,7,24,14,ES_AUTOHSCROLL
+    LTEXT           "File Format:",IDC_STATIC,91,10,49,8
+    EDITTEXT        IDC_EDIT_FILE_FORMAT,142,7,24,14,ES_AUTOHSCROLL
+    LTEXT           "Start Ch:",IDC_STATIC,191,10,37,8
+    EDITTEXT        IDC_EDIT_START_CH,232,7,24,14,ES_AUTOHSCROLL
+    LTEXT           "Total Ch:",IDC_STATIC,275,10,37,8
+    EDITTEXT        IDC_EDIT_TOTAL_CH,313,7,24,14,ES_AUTOHSCROLL
+    LTEXT           "Record Path:",IDC_STATIC,7,27,49,8
+    EDITTEXT        IDC_EDIT_REC_PATH,57,25,118,14,ES_AUTOHSCROLL
+    LTEXT           "Last Reboot:",IDC_STATIC,185,27,49,8
+    EDITTEXT        IDC_EDIT_REBOOT_TIME,239,25,101,14,ES_AUTOHSCROLL
+    CONTROL         "AutoReboot",IDC_CHECK_AUTO_REBOOT,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,41,56,14
+    CTEXT           "Hour",IDC_STATIC,69,41,17,14,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT_REBOOT_HOUR,89,41,20,14,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    LTEXT           "Minute",IDC_STATIC,113,41,25,14,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT_REBOOT_MIN,141,41,20,14,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    PUSHBUTTON      "GetGlobalCfg",IDC_BUTTON_GetGlobalCfg,190,41,70,14
+    PUSHBUTTON      "SetGlobalCfg",IDC_BUTTON_SetGlobalCfg,268,41,70,14
+    LTEXT           "ch:",IDC_STATIC,7,68,13,8
+    EDITTEXT        IDC_EDIT_CH,20,65,24,14,ES_AUTOHSCROLL
+    LTEXT           "RecType:",IDC_STATIC,49,68,33,8
+    EDITTEXT        IDC_EDIT_REC_TYPE,85,65,24,14,ES_AUTOHSCROLL
+    LTEXT           "RecDir:",IDC_STATIC,115,68,29,8
+    EDITTEXT        IDC_EDIT_REC_DIR,148,65,24,14,ES_AUTOHSCROLL
+    LTEXT           "MaxRecLen:",IDC_STATIC,177,68,41,8
+    EDITTEXT        IDC_EDIT_MAXRECLEN,220,65,24,14,ES_AUTOHSCROLL
+    LTEXT           "LongRecInterval:",IDC_STATIC,247,67,65,8
+    EDITTEXT        IDC_EDIT_REC_INT,315,64,24,14,ES_AUTOHSCROLL
+    LTEXT           "RecvDtmfTime:",IDC_STATIC,7,84,53,8
+    EDITTEXT        IDC_EDIT_RCV_DTMF_TIME,68,82,24,14,ES_AUTOHSCROLL
+    LTEXT           "BindPhone:",IDC_STATIC,94,84,41,8
+    EDITTEXT        IDC_EDIT_BIND_PHONE,138,82,43,14,ES_AUTOHSCROLL
+    LTEXT           "StartDtmf:",IDC_STATIC,182,84,41,8
+    EDITTEXT        IDC_EDIT_START_DTMF,226,82,31,14,ES_AUTOHSCROLL
+    LTEXT           "StopDtmf:",IDC_STATIC,264,84,37,8
+    EDITTEXT        IDC_EDIT_STOP_DTMF,308,82,31,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "GetChannelCfg",IDC_BUTTON_GetChannelCfg,7,98,70,14
+    PUSHBUTTON      "SetChannelCfg",IDC_BUTTON_SetChannelCfg,85,98,70,14
+    LTEXT           "IP Addr:",IDC_STATIC,7,124,49,8
+    EDITTEXT        IDC_EDIT_IP_ADDR,57,122,82,14,ES_AUTOHSCROLL
+    LTEXT           "DNS:",IDC_STATIC,155,124,20,8
+    EDITTEXT        IDC_EDIT_DNS,181,122,82,14,ES_AUTOHSCROLL
+    LTEXT           "Gateway:",IDC_STATIC,7,140,49,8
+    EDITTEXT        IDC_EDIT_GATEWAY,57,138,82,14,ES_AUTOHSCROLL
+    LTEXT           "Mask:",IDC_STATIC,155,140,24,8
+    EDITTEXT        IDC_EDIT_MASK,181,138,82,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "GetNetCfg",IDC_BUTTON_GetNetCfg,7,155,70,14,WS_DISABLED
+    PUSHBUTTON      "SetNetCfg",IDC_BUTTON_SetNetCfg,85,155,70,14
+    EDITTEXT        IDC_EDIT_DATETIME,7,175,82,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "SetDateTime",IDC_BUTTON_SetDateTime,103,175,70,14
+    LTEXT           "old:",IDC_STATIC,8,199,17,8
+    EDITTEXT        IDC_EDIT_OLD_PWD,27,196,70,14,ES_AUTOHSCROLL
+    LTEXT           "new:",IDC_STATIC,103,199,17,8
+    EDITTEXT        IDC_EDIT_NEW_PWD,122,196,70,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "SetAdminPassword",IDC_BUTTON_SetAdminPassword,200,196,
+                    70,14
+    EDITTEXT        IDC_EDIT_LOG_LEVEL,7,217,82,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "EnableDebugMsg",IDC_BUTTON_EnableDebugMsg,103,217,70,14
+    EDITTEXT        IDC_EDIT_WEBPORT,7,237,40,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "SetWebport",IDC_BUTTON_SET_WEBPORT,54,237,50,14
+    PUSHBUTTON      "GetWebport",IDC_BUTTON_GET_WEBPORT,110,237,50,14
+END
+
+IDD_DIALOG_STATUS DIALOG DISCARDABLE  0, 0, 366, 226
+STYLE WS_CHILD
+FONT 10, "MS Sans Serif"
+BEGIN
+    LTEXT           "channel:",IDC_STATIC,7,10,33,8
+    EDITTEXT        IDC_EDIT_CH,42,7,60,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "GetHardwareInfo",IDC_BUTTON_GetHardwareInfo,7,28,79,14
+    PUSHBUTTON      "GetChannelStatus",IDC_BUTTON_GetChannelStatus,96,28,79,
+                    14
+    PUSHBUTTON      "GetDiskFreeSpace",IDC_BUTTON_SYGetDiskFreeSpace,186,28,
+                    79,14
+    PUSHBUTTON      "GetLineVol",IDC_BUTTON_GetLineVol,7,50,79,14
+    PUSHBUTTON      "GetChannelRunningStatus",
+                    IDC_BUTTON_GetChannelRunningStatus,96,50,107,14
+    PUSHBUTTON      "GetDeviceTime",IDC_BUTTON_GetDeviceTime,7,74,79,14
+    PUSHBUTTON      "GetDevID",IDC_BUTTON_GetDevID,96,74,79,14
+END
+
+IDD_DIALOG_OP DIALOG DISCARDABLE  0, 0, 367, 249
+STYLE WS_CHILD
+FONT 10, "MS Sans Serif"
+BEGIN
+    LTEXT           "channel:",IDC_STATIC,7,10,33,8
+    EDITTEXT        IDC_EDIT_CH,42,7,37,14,ES_AUTOHSCROLL
+    LTEXT           "Monitor:",IDC_STATIC,111,10,33,8
+    EDITTEXT        IDC_EDIT_MONITORIP,146,7,85,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "StartMonitor",IDC_BUTTON_StartMonitor,7,30,65,14
+    PUSHBUTTON      "StopMonitor",IDC_BUTTON_StopMonitor,87,30,65,14
+    PUSHBUTTON      "RebootDevice",IDC_BUTTON_RebootDevice,167,30,65,14
+    COMBOBOX        IDC_COMBO_RebootDevice,247,30,69,38,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "DelFile",IDC_BUTTON_DelFile,7,55,54,14
+    LTEXT           "File:",IDC_STATIC,68,58,21,8
+    EDITTEXT        IDC_EDIT_DELFILE,91,55,221,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "DelFiles",IDC_BUTTON_DelFiles,7,74,54,14
+    LTEXT           "ch:",IDC_STATIC,64,77,13,8
+    EDITTEXT        IDC_EDIT_CH_START,80,74,21,14,ES_AUTOHSCROLL
+    LTEXT           "-",IDC_STATIC,106,77,8,8
+    EDITTEXT        IDC_EDIT_CH_END,115,74,21,14,ES_AUTOHSCROLL
+    LTEXT           "Date/Time:",IDC_STATIC,141,77,41,8
+    EDITTEXT        IDC_EDIT_DATE_BEGIN,185,74,57,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_TIME_BEGIN,253,74,59,14,ES_AUTOHSCROLL
+    LTEXT           "/",IDC_STATIC,245,77,8,8
+    LTEXT           "-",IDC_STATIC,174,93,8,8
+    EDITTEXT        IDC_EDIT_DATE_END,185,90,57,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_TIME_END,253,90,59,14,ES_AUTOHSCROLL
+    LTEXT           "/",IDC_STATIC,245,93,8,8
+    PUSHBUTTON      "StopDelFile",IDC_BUTTON_StopDelFile,7,113,54,14
+    PUSHBUTTON      "UploadFile",IDC_BUTTON_UploadFile,7,133,54,14
+    LTEXT           "Up/Download File:",IDC_STATIC,61,136,69,8
+    EDITTEXT        IDC_EDIT_UploadFile,132,133,181,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "DownloadFile",IDC_BUTTON_DownloadFile,7,153,54,14
+    LTEXT           "Save File:",IDC_STATIC,89,157,41,8
+    EDITTEXT        IDC_EDIT_SaveFile,132,153,181,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "StartUploadFile",IDC_BUTTON_StartUploadFile,7,174,65,14
+END
+
+IDD_DIALOG_DVD DIALOG DISCARDABLE  0, 0, 365, 229
+STYLE WS_CHILD
+FONT 10, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "CheckMediaConnected",IDC_BUTTON_CheckMediaConnected,7,7,
+                    84,14
+    PUSHBUTTON      "CheckMediaAvailable",IDC_BUTTON_CheckMediaAvailable,105,
+                    7,84,14
+    PUSHBUTTON      "WriteDVD",IDC_BUTTON_WriteDVD,203,7,84,14
+END
+
+IDD_DIALOG_QUERY DIALOG DISCARDABLE  0, 0, 365, 219
+STYLE WS_CHILD
+FONT 10, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_EDIT_MSG,7,7,351,72,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_WANTRETURN
+    PUSHBUTTON      "Execute SQL",IDC_BUTTON_ExecuteSQL,7,83,50,14
+    PUSHBUTTON      "QueryRecord",IDC_BUTTON_QueryRecord,7,102,50,14
+    LTEXT           "Start:",IDC_STATIC,63,106,25,8
+    CONTROL         "DateTimePicker3",IDC_START_DATE,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | WS_TABSTOP,90,102,55,15
+    CONTROL         "DateTimePicker3",IDC_START_TIME,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_UPDOWN | WS_TABSTOP | 0x8,148,102,
+                    50,15
+    LTEXT           "End:",IDC_STATIC,206,106,17,8
+    CONTROL         "DateTimePicker3",IDC_END_DATE,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | WS_TABSTOP,228,102,55,15
+    CONTROL         "DateTimePicker3",IDC_END_TIME,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_UPDOWN | WS_TABSTOP | 0x8,286,102,
+                    50,15
+    LTEXT           "Channel:",IDC_STATIC,63,125,33,8
+    EDITTEXT        IDC_EDIT_START_CH,107,122,24,14,ES_AUTOHSCROLL
+    LTEXT           "-",IDC_STATIC,138,125,8,8
+    EDITTEXT        IDC_EDIT_END_CH,151,122,24,14,ES_AUTOHSCROLL
+    LTEXT           "StartIndex:",IDC_STATIC,186,125,48,8
+    EDITTEXT        IDC_EDIT_START_INDEX,239,122,42,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "CalcData",IDC_BUTTON_CalcData,7,160,50,14
+    CONTROL         "select date range:",IDC_RADIO_CALCDATA_MODE,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,59,162,88,10
+    CONTROL         "select one month:",IDC_RADIO_CALCDATA_MODE2,"Button",
+                    BS_AUTORADIOBUTTON,59,179,84,10
+    CONTROL         "DateTimePicker1",IDC_DATETIMEPICKER1,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | WS_GROUP | WS_TABSTOP,147,161,55,15
+    CONTROL         "DateTimePicker2",IDC_DATETIMEPICKER2,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | WS_TABSTOP,207,161,55,15
+    COMBOBOX        IDC_COMBO_CALC_YEAR,147,179,30,165,CBS_DROPDOWN | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_CALC_MON,181,179,22,164,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_MEDIA_TYPE,57,144,48,62,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Media Type:",IDC_STATIC,7,145,45,8
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "ATPRemoteCtrl MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "ATPRemoteCtrl\0"
+            VALUE "LegalCopyright", "Copyright (C) 2015\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "ATPRemoteCtrl.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "ATPRemoteCtrl Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ATPREMOTECTRL_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 372
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 376
+    END
+
+    IDD_DIALOG_INIT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 335
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 212
+    END
+
+    IDD_DIALOG_CFG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 360
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 251
+    END
+
+    IDD_DIALOG_STATUS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 359
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 219
+    END
+
+    IDD_DIALOG_OP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 360
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 242
+    END
+
+    IDD_DIALOG_DVD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 358
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 222
+    END
+
+    IDD_DIALOG_QUERY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 358
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 212
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_DIALOG_OP DLGINIT
+BEGIN
+    IDC_COMBO_RebootDevice, 0x403, 14, 0
+0x4552, 0x4f42, 0x544f, 0x445f, 0x5645, 0x4349, 0x0045, 
+    IDC_COMBO_RebootDevice, 0x403, 15, 0
+0x4552, 0x5453, 0x5241, 0x5f54, 0x4544, 0x4956, 0x4543, "\000" 
+    0
+END
+
+IDD_DIALOG_QUERY DLGINIT
+BEGIN
+    IDC_COMBO_CALC_MON, 0x403, 2, 0
+0x0031, 
+    IDC_COMBO_CALC_MON, 0x403, 2, 0
+0x0032, 
+    IDC_COMBO_CALC_MON, 0x403, 2, 0
+0x0033, 
+    IDC_COMBO_CALC_MON, 0x403, 2, 0
+0x0034, 
+    IDC_COMBO_CALC_MON, 0x403, 2, 0
+0x0035, 
+    IDC_COMBO_CALC_MON, 0x403, 2, 0
+0x0036, 
+    IDC_COMBO_CALC_MON, 0x403, 2, 0
+0x0037, 
+    IDC_COMBO_CALC_MON, 0x403, 2, 0
+0x0038, 
+    IDC_COMBO_CALC_MON, 0x403, 2, 0
+0x0039, 
+    IDC_COMBO_CALC_MON, 0x403, 3, 0
+0x3031, "\000" 
+    IDC_COMBO_CALC_MON, 0x403, 3, 0
+0x3131, "\000" 
+    IDC_COMBO_CALC_MON, 0x403, 3, 0
+0x3231, "\000" 
+    IDC_COMBO_MEDIA_TYPE, 0x403, 6, 0
+0x5644, 0x5f44, 0x0052, 
+    IDC_COMBO_MEDIA_TYPE, 0x403, 7, 0
+0x5644, 0x5f44, 0x5752, "\000" 
+    0
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\ATPRemoteCtrl.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

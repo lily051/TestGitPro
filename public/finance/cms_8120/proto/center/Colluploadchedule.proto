@@ -1,0 +1,13 @@
+package cms_8120;
+option java_package = "com.hikvision.finance.fms.cms.hpp.center";
+option java_outer_classname = "ColluploadscheduleProto";
+
+//采集时间表
+message Colluploadschedule
+{
+    //必须字段
+    optional int32 id                       = 1;    // 在数据库中的流水号
+    optional int32 CollId                   = 2;    // 采集设备ID
+    optional string stime                   = 3;    // 采集设备的上传开始时间
+    optional string etime                   = 4;    // 采集设备的上传结束时间
+}

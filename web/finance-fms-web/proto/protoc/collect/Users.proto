@@ -1,0 +1,40 @@
+package cms_8120;
+import "type/cmd.proto";
+option java_package = "com.hikvision.finance.fms.cms.hpp.collect";
+option java_outer_classname = "UsersProto";
+option java_generic_services = true;
+
+
+//录像表
+message Users
+{
+    //必须字段
+    optional int32 id                       = 1;    // 在数据库中的流水号
+    optional int32 nUserID                  = 2;    // 用户表id
+    optional int32 nRole                    = 3;    // 用户类型
+    optional string strNickName             = 4;    // 用户名
+    optional string strUserNo               = 5;    // 用户编号
+    optional string strUserName             = 6;    // 用户名
+    optional string strPassword             = 7;    // 用户密码
+    optional string strExpiredDate          = 8;    // 密码到期日期
+    optional string strUpdateDate           = 9;    // 密码更新日期
+    optional int32 updated                  = 10;   // 是否更新过密码
+}
+
+message ReqUsers
+{
+    optional int32 cmd                		= 1;    // CMD_DT_USER_LIST
+    optional int32 nUserID                  = 2;    // 用户表id
+}
+message UsersList
+{
+    optional int32 cmd                		= 1;    // CMD_DT_USER_LIST
+    repeated Users users                    = 2;    // 用户列表
+}
+
+
+service ModifyUserInfoService {
+	
+	rpc QyeryUserInfoByid(ReqUsers) returns (UsersList);			// CMD_DT_USER_LIST(根据用户ID获取用户信息)
+	
+}

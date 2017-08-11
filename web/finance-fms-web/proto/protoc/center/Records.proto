@@ -1,0 +1,91 @@
+package cms_8120;
+import "server/RspServerData.proto";
+option java_package = "com.hikvision.finance.fms.cms.hpp.center";
+option java_outer_classname = "RecordsProto";
+option java_generic_services = true;
+
+
+//录像表
+message Records
+{
+    //必须字段
+    optional int32 id                       = 1;    // 在数据库中的流水号
+    optional int32 nCollectRegionId         = 2;    // 区域ID
+    optional int32 nUserID                  = 3;    // 记录所属用户
+    optional string strRecordName           = 4;    // 记录名称
+    optional int32 nRecordType              = 5;    // 录像类型，1-正常录像，2-补录录像
+    optional int32 nRecordFileType          = 6;    // 文件类型，1-DVR录像，2-本地录像
+    optional int32 nRecordStatus            = 7;    // 记录状态，0-开始记录，1-结束记录（未关联），2-已关联（未上传），3-上传中，4-已上传，8-异常结束，9-上传失败，100-已删除
+    optional int32 nUploadPercent           = 8;    // 记录上传百分比
+    optional string startTime               = 9[default = "1970-01-01 00:00:00"];    // 服务器录像开始时间
+    optional string endTime                 = 10[default = "1970-01-01 00:00:00"];   // 服务器录像结束时间
+    optional int32 nRecordBeginTime         = 11;   // 控件录像开始时间
+    optional int32 nRecordEndTime           = 12;   // 控件录像结束时间
+    optional string streamNo                = 13;   // 采集DVR设备在CVR或者云存储上的唯一标识
+    optional int32 nRepairDevId             = 14;   // DVR的ID
+    optional string strCollectIp            = 15;   // DVR的IP
+    optional int32 dvrPort                  = 16;   // DVR的端口
+    optional string dvrUserName             = 17;   // DVR用户名
+    optional string dvrPwd                  = 18;   // DVR的密码
+    optional int32 nCollectChan             = 19;   // DVR的通道号
+    optional string strUrl                  = 20;   // 本地录像路径
+    optional string screenshotSrc           = 21;   // 截图存储路径
+    optional string dtBusinessTime          = 22[default = "1970-01-01 00:00:00"];   // 录像操作时间
+    optional int32 nRecordLocalTime         = 23;   // 录像开始本地时间
+    optional int32 nFileHeadLen             = 24;   // 文件头长度
+    optional int32 nCallerType              = 25;   // 呼叫类型，0—呼出，1—呼入
+    optional string strCallerId             = 26;   // 呼叫电话号码
+    optional int32 nRepairType              = 27;   // 补录类型：0—正常录像，1—用户补录录像，2—系统补录录像
+    optional int32 nRepairTime              = 28;   // 补录尝试次数
+    optional int32 nLinkOrderId             = 29;   // 关联业务单ID
+    optional int32 nLinkType                = 30;   // 关联类型，0-普通记录，1-交易记录，2-投诉记录
+    optional int32 nManufacturerType        = 31;   // 是否是海康设备
+    optional int32 nFileSize                = 32;   // 录像大小
+    optional int32 nTaskId                  = 33;   // 云存储的任务ID
+    optional string strIp                   = 34;   // 本地录像所在电脑IP
+    optional string strCloudIp              = 35;   // 对象云存储IP
+    optional int32  nCloudPort              = 36;   // 对象云存储端口
+    optional string strAccessKey            = 37;   // 对象云存储AccessKey
+    optional string strSecretKey            = 38;   // 对象云存储SecretKey
+    optional string strBucket               = 39;   // 对象云存储资源池
+
+}
+
+message ReqRecords
+{
+    optional int32 cmd                	    = 1;    // CMD_DT_RECORD_LIST
+    optional int32 id                       = 2;    // 在数据库中的流水号
+    optional int32 nRecordStatus            = 3;    // 记录状态
+    optional int32 nUpLoadPercent           = 4;    // 上传百分比
+    optional int32 nTaskId                  = 5;    // 云存储的任务ID
+    optional string streamNo                = 6;    // 在KMS中保存的文件id
+    optional string rtspPath                = 7;    // 文件在KMS中保存的rtsp路径
+    optional int32 nFileSize                = 8;    // 文件的大小
+    optional string errorMsg                = 9;    // 错误信息
+    optional string startTime               = 10;   // 录像开始时间
+    optional string endTime                 = 11;   // 录像结束时间
+}
+
+message RecordsList
+{
+    optional int32 cmd                	    = 1;    // CMD_DT_RECORD_LIST--CMD_MDT_RECORD_STATUS--CMD_DT_RECORD_INFO--CMD_MDT_UPLOAD_PERCENT
+    repeated Records record                 = 2;    // 录像列表
+}
+
+
+service ModifyRecordsinfoService {
+	
+	rpc QyeryRecordsInfo(ReqRecords) returns (RecordsList);						// CMD_DT_RECORDS_LIST(根据录像状态获取录像信息)
+	
+	rpc UpdateRecordsInfoBystatus(ReqRecords) returns (RspServerData);			// CMD_MDT_RECORDS_STATUS(标记上传录像状态)
+	
+	rpc QueryRecordsInfoByid(ReqRecords) returns (RecordsList);					// CMD_DT_RECORDS_INFO(根据录像ID获取录像信息)
+	
+	rpc UpdateUpLoadPercent(ReqRecords) returns (RspServerData);				//CMD_MDT_UPLOAD_PERCENT(更新上传进度)
+	
+	rpc QueryRecordsFileInfo(ReqRecords) returns (RecordsList);			        // CMD_DT_RECORDS_LIST_EX(获取某一时间段已上传的录像记录，然后删除本地电脑上的录像文件)
+}
+
+
+
+

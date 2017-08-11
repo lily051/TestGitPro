@@ -1,0 +1,37 @@
+[inc]
+hcs_sdk.h                                                                        44189272702ef3cd2de66dce77c232d7
+hcs_sdk_define.h                                                                 ce022702fd461f75b368f036a44f4939
+
+[suse10 64bit]
+libHcsSdk.a                                                                      14a917f6e6cfc3739847d03e5f234792
+libHcsSdk.so                                                                     fba93b8f86915f7f3accff6c8583a487
+libboost_system.so.1.57.0                                                        617aa54b15fdd9d6db00e81ca0123365
+libboost_thread.so.1.57.0                                                        1a47bade2cc953224065120faaa2e586
+libhlog.so                                                                       548b82ea225ea2ce2f951299d2c75fde
+log4cxx.properties                                                               6e01341894a98065a961f30e2d1227fc
+
+[centos 64bit]
+libHcsSdk.a                                                                      2b1d599cbd8a891317b8129d84901c17
+libHcsSdk.so                                                                     c8277f1475bec5064a54b9fe438de435
+libboost_system.so.1.57.0                                                        f1887e79e424e1b84522ce75ff8e17b8
+libboost_thread.so.1.57.0                                                        42ec8b0e57e90320c7b2e3d1910047f6
+libhlog.so                                                                       4559654db0218a4f346920cfb406b158
+log4cxx.properties                                                               6e01341894a98065a961f30e2d1227fc
+
+[win32]
+hcs_sdk.dll                                                                      b03198141583d2604677a90835672ea9
+hcs_sdk.lib                                                                      cd6ed194eb65304d78349e9bf44f99ff
+hcs_sdk.pdb                                                                      388f51315a80fab374e5c232fe4e3868
+hlog.dll                                                                         aa4f5d74cac53592909c8736d60310d1
+hpr.dll                                                                          9c4acb96689369168c8949e28158b2f0
+log4cxx.dll                                                                      5f8671fb6c620166fe950858c7e48420
+log4cxx.properties                                                               6e01341894a98065a961f30e2d1227fc
+
+[win64]
+hcs_sdk.dll                                                                      61d397dedcbfb240d131ea16200be328
+hcs_sdk.lib                                                                      4ae017907897326e79936067cc199176
+hcs_sdk.pdb                                                                      c411539ebd769c7149b79cfaa6979ba3
+hlog.dll                                                                         516a79e7537cabbece6946e137fb1d92
+hpr.dll                                                                          7b64722d1a88101a339e0bcaee74fdb5
+log4cxx.dll                                                                      69678b8262f94529e1a32f1661915df1
+log4cxx.properties                                                               6e01341894a98065a961f30e2d1227fc

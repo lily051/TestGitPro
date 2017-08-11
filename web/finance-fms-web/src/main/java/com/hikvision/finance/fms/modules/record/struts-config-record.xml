@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="recordAction" namespace="/modules/record" extends="ivms">
+		<action name="*" method="{1}" class="recordAction">
+		</action>
+		<action name="signvideo" class="recordAction">
+			<result>/modules/video/signvideo/signvideo.jsp</result>
+		</action>
+		<action name="complainvideo" class="recordAction">
+			<result>/modules/video/complainvideo/complainvideo.jsp</result>
+		</action>
+	</package>
+</struts>

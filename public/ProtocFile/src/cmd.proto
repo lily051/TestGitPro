@@ -1,0 +1,10 @@
+//2015-4-7 11:16:50 chenxiaoyan3 create
+package cms_8120;
+// @命令ID常量定义
+enum CMD {
+    // 看门狗
+    // WATCH_DOG_REQ
+    CMD_SERVICE_WATCH_DOG_CONTROL_REQ = 13501;      // 看门狗控制请求
+    // WATCH_DOG_RSP
+    CMD_SERVICE_WATCH_DOG_CONTROL_RSP = 13502;      // 看门狗控制请求应答
+}

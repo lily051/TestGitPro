@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+    <Service name="FSvcTVWall" ModuleType="41217" startCmd="start.bat" stopCmd="stop.bat" installCmd="install.bat" uninstallCmd="uninstall.bat" configTool="ConfigTool.exe">电视墙服务</Service>
+    <Times>
+        <StartTime>10:11:02</StartTime>
+        <StopTime>20:30:40</StopTime>
+    </Times>
+    <Timeout>
+        <StartTimeout>20</StartTimeout>
+        <StopTimeout>10</StopTimeout>
+    </Timeout>
+</Configuration>

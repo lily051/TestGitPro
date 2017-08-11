@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<language>
+    <type key="1" value="en" />
+    <resource>
+        <string keyword="inm_devstat_st_mins" en="%d Minutes" />
+        <string keyword="inm_parachk_st_sec" en="%d Seconds" />
+        <string keyword="inm_devstat_st_dev" en="%d Devices" />
+        <string keyword="inm_devstat_st_timeofday" en="%d Days" />
+        <string keyword="inm_devstat_st_timeofhours" en="%02d Hours" />
+        <string keyword="inm_parachk_st_bbpfrm" en="BBP Frame" />
+        <string keyword="inm_devstat_st_bpfrm" en="BP Frame" />
+        <string keyword="inm_devstat_list_cpuusg" en="CPU Usage" />
+        <string keyword="inm_devstat_st_cpuusg" en="CPU Usage" />
+        <string keyword="inm_devstat_list_cpuinfo" en="CPU Information" />
+        <string keyword="inm_devstat_st_ehomeser" en="EHOME Server" />
+        <string keyword="inm_devstat_st_iporport" en="IP/Port No.:" />
+        <string keyword="inm_devstat_list_ipordevcd" en="IP/ Device Code" />
+        <string keyword="inm_devstat_list_ipcconn" en="IPC Connection" />
+        <string keyword="inm_devstat_list_ipaddorsuhmask" en="IP Address| Subnet Mask" />
+        <string keyword="inm_parachk_st_frminter" en="I Frame Interval" />
+        <string keyword="inm_devstat_menu_instalser" en="Installation Service" />
+        <string keyword="inm_devstat_tips_restartdevsuccforarea" en="Restarting devices under the area succeeded." />
+        <string keyword="inm_devstat_tips_restartdevfailforarea" en="Some of devices restarting failed." />
+        <string keyword="inm_devstat_btn_save" en="Save" />
+        <string keyword="inm_devstat_list_nameofsavepic" en="Save Picture Name" />
+        <string keyword="inm_devstat_st_faildofsavepic" en="Failed to save picture." />
+        <string keyword="inm_devstat_st_reserved" en="Reserved" />
+        <string keyword="inm_devstat_st_alarmser" en="Alarm Server" />
+        <string keyword="inm_parachk_st_alarmrec" en="Alarm Recording" />
+        <string keyword="inm_parachk_st_vbr" en="VBR" />
+        <string keyword="inm_parachk_st_standardh264" en="Standard H.264" />
+        <string keyword="inm_devstat_st_standardmpeg4" en="Standard MPEG4" />
+        <string keyword="inm_devstat_st_nora" en="n/a" />
+        <string keyword="inm_devstat_st_notrec" en="Recording is not started." />
+        <string keyword="inm_parachk_st_disabled" en="Disabled" />
+        <string keyword="inm_devstat_st_notrpriousrec" en="Pre-recording is not enabled." />
+        <string keyword="inm_devstat_st_offline" en="Offline" />
+        <string keyword="inm_devstat_title_offlineserlist" en="Offline Server List" />
+        <string keyword="inm_devstat_st_offlinedev" en="Offline Devices" />
+        <string keyword="inm_devstat_st_notonlinedev" en="Offline Devices: %d" />
+        <string keyword="inm_devstat_st_loginfaild" en="Login Failed: %d" />
+        <string keyword="inm_devstat_list_offlinetime" en="Offline Time" />
+        <string keyword="inm_devstat_st_unusual" en="Unusual" />
+        <string keyword="inm_devstat_st_notsupp" en="Not Supported." />
+        <string keyword="inm_devstat_warm_notsupprestardev" en="Restart failed for this device type." />
+        <string keyword="inm_devstat_warm_reqgetcameratempfaild" en="Failed to get some of the camera templates." />
+        <string keyword="inm_devstat_warm_devsendsynrztncomfaild" en="Failed to send time synchronization command to some of devices." />
+        <string keyword="inm_devstat_list_params" en="Parameters" />
+        <string keyword="inm_parachk_title_paramdiff" en="Parameters Difference" />
+        <string keyword="inm_devstat_tabtitle_paramanalys" en="Parameters Analysis" />
+        <string keyword="inm_devstat_paramanalys_result" en="Parameters Analysis Result" />
+        <string keyword="inm_devstat_st_patamchk" en="Parameters Check Result-%d-%d-%d-%d-%d-%d.xls" />
+        <string keyword="inm_devstat_st_paramchkresltlist" en="Parameters Check Result Report" />
+        <string keyword="inm_parachk_list_paramname" en="Name" />
+        <string keyword="inm_devstat_list_os" en="OS" />
+        <string keyword="inm_devstat_title_chkpic" en="Check Picture" />
+        <string keyword="inm_parachk_btn_search" en="Search" />
+        <string keyword="inm_devstat_btn_find" en="Find" />
+        <string keyword="inm_timechk_st_findtimesynrnzt" en="Find Time Synchronization" />
+        <string keyword="inm_devstat_st_bad" en="Bad" />
+        <string keyword="inm_devstat_list_prdtype" en="Product Type" />
+        <string keyword="inm_devstat_st_prdtype" en="Product Type" />
+        <string keyword="inm_devstat_warn_creexcelfaild" en="Failed to create Excel." />
+        <string keyword="inm_devstat_st_better" en="Better" />
+        <string keyword="inm_devstat_st_saveser" en="Server for Storage" />
+        <string keyword="inm_devstat_title_largepic" en="Display in Big Picture" />
+        <string keyword="inm_devstat_list_size" en="Size" />
+        <string keyword="inm_parachk_st_sglPfrm" en="Single P Frame" />
+        <string keyword="inm_devstat_list_curbitrate" en="Current Bitrate" />
+        <string keyword="inm_devstat_btn_exportexcel" en="Export Excel" />
+        <string keyword="inm_devstat_tips_expexcelsucc" en="Succeeded to export Excel." />
+        <string keyword="inm_devstat_warn_expexcelfaild" en="Failed to export Excel." />
+        <string keyword="inm_devstat_st_expparamchkreslt" en="Export Parameter Check Result" />
+        <string keyword="inm_devstat_btn_expfaultexcel" en="Export Fault Report" />
+        <string keyword="inm_devstat_st_expfaultreslt" en="Export Fault Result" />
+        <string keyword="inm_devstat_st_exprecfileresltforsearch" en="Export Recording File Search Result" />
+        <string keyword="inm_devstat_st_expdevstatinfo" en="Export Device Status Information" />
+        <string keyword="inm_devstat_st_exptimereslt" en="Export Time Synchronization Result" />
+        <string keyword="inm_devstat_warn_logindevfaild" en="Failed to login device." />
+        <string keyword="inm_parachk_st_low" en="Low" />
+        <string keyword="inm_devstat_st_cbr" en="Constant bit rate" />
+        <string keyword="inm_parachk_st_recschedule" en="Record Schedule" />
+        <string keyword="inm_parachk_st_motionandalarm" en="Motion &amp; Alarm" />
+        <string keyword="inm_devstat_st_motionoralarm" en="Motion|Alarm" />
+        <string keyword="inm_devstat_tips_sendinstalsercomsucc" en="Sending installation service command succeeded." />
+        <string keyword="inm_devstat_warn_sendinstalsercomfaild" en="Sending installation service command failed." />
+        <string keyword="inm_devstat_tips_sendstartsercomsucc" en="Sending start service command succeeded." />
+        <string keyword="inm_devstat_warn_sendstartsercomfaild" en="Sending start service command failed." />
+        <string keyword="inm_devstat_tips_sendstopsercomsucc" en="Sending stop service command succeeded." />
+        <string keyword="inm_devstat_warn_sendstopsercomfaild" en="Sending stop service command failed." />
+        <string keyword="inm_devstat_tips_sendtimesynrnztcomsucc" en="Sending time synchronization command succeeded." />
+        <string keyword="inm_devstat_tips_senduninstalsercomsucc" en="Sending unistalling service command succeeded." />
+        <string keyword="inm_devstat_warn_senduninstalsercomfaild" en="Sending uninstalling service command failed." />
+        <string keyword="inm_devstat_tips_sendrestarsercomsucc" en="Sending restart service command succeeded." />
+        <string keyword="inm_devstat_warn_sendrestarsercomfaild" en="Sending restart service command failed." />
+        <string keyword="inm_devstat_btn_zoomout" en="Zoom-in" />
+        <string keyword="inm_devstat_warn_notsuppbynothikdev" en="Not HIKVISION device, does not support the restart function!" />
+        <string keyword="inm_parachk_st_resolusion" en="Resolution" />
+        <string keyword="inm_parachk_st_no" en="No" />
+        <string keyword="inm_serstat_st_sertype" en="Service Type" />
+        <string keyword="inm_serstat_st_sername" en="Service Name" />
+        <string keyword="inm_serstat_st_ser" en="Server" />
+        <string keyword="inm_serstat_list_serIP" en="Server IP" />
+        <string keyword="inm_serstat_list_serstarttime" en="Server Start Time" />
+        <string keyword="inm_serstat_list_sertype" en="Server Type" />
+        <string keyword="inm_serstat_list_sername" en="Server Name" />
+        <string keyword="inm_serstat_menu_serinfo" en="Server Information" />
+        <string keyword="inm_serstat_list_serhostname" en="Server Host Name" />
+        <string keyword="inm_serstat_st_totalser" en="Total Server:" />
+        <string keyword="inm_serstat_menu_sercinfo" en="Service Information" />
+        <string keyword="inm_serstat_title_serinfo" en="Service Information" />
+        <string keyword="inm_serstat_tabtitle_serstat" en="Service Status" />
+        <string keyword="inm_serstat_list_serstat" en="Service Status" />
+        <string keyword="inm_parachk_st_videoandaudio" en="Video&amp;Audio" />
+        <string keyword="inm_serstat_warn_devnotsupptimesynrnzt" en="Time synchronization is not supported." />
+        <string keyword="inm_serstat_st_change" en="Change" />
+        <string keyword="inm_serstat_st_high" en="High" />
+        <string keyword="inm_serstat_st_faultreslt" en="Fault Report- %d-%d-%d-%d-%d-%d" />
+        <string keyword="inm_devstat_list_faultType" en="Fault Type" />
+        <string keyword="inm_serstat_btn_faultview" en="Fault display" />
+        <string keyword="inm_serstat_btn_close" en="Close" />
+        <string keyword="inm_serstat_st_mition" en="Motion" />
+        <string keyword="inm_serstat_warn_getcameratempfaild" en="Get camera template failed" />
+        <string keyword="inm_serstat_warn_gettimeerrfaild" en="Get the time error of device is faild." />
+        <string keyword="inm_serstat_warn_getdevinfofaild" en="Get device information is faild." />
+        <string keyword="inm_serstat_st_bascinfo" en="Basic Information" />
+        <string keyword="inm_parachk_list_cameraname" en="Camera Name" />
+        <string keyword="inm_devstat_list_chktime" en="Time for Check" />
+        <string keyword="inm_timechk_st_chktime" en="Time for Check" />
+        <string keyword="inm_serstat_st_worse" en="Worse" />
+        <string keyword="inm_parachk_st_better" en="Better" />
+        <string keyword="inm_serstat_st_endtime" en="End Time" />
+        <string keyword="inm_serstat_st_dobestforrec" en="As far as possible pre-recorded." />
+        <string keyword="inm_serstat_st_procsname" en="Process Name" />
+        <string keyword="inm_serstat_list_handle" en="Handle" />
+        <string keyword="inm_serstat_st_handlecount" en="Handle Number" />
+        <string keyword="inm_serstat_st_startdate" en="Start Date" />
+        <string keyword="inm_serstat_warn_timechk" en="Start date cannot be later than the end date." />
+        <string keyword="inm_serstat_st_watchdogip" en="Watchdog IP Address" />
+        <string keyword="inm_serstat_st_watchdogport" en="Watchdog Port No." />
+        <string keyword="inm_serstat_warn_watchdognotactive" en="The watchdog is not activated." />
+        <string keyword="inm_serstat_list_watchdogrunningtime" en="Watchdog Running Time" />
+        <string keyword="inm_devstat_list_cli" en="Client" />
+        <string keyword="inm_serstat_st_offline" en="Offline" />
+        <string keyword="inm_devstat_list_conn" en="Connection" />
+        <string keyword="inm_serstat_st_rec" en="Record" />
+        <string keyword="inm_parachk_st_expirytime" en="Expiry Date" />
+        <string keyword="inm_parachk_list_recparamchange" en="Recording Parameters Change" />
+        <string keyword="inm_serstat_st_resultofrecsearch" en="Record Search Result- %d-%d-%d-%d-%d-%d" />
+        <string keyword="inm_serstat_st_resultlistofrecsearch" en="Search Result" />
+        <string keyword="inm_parachk_list_recschedulechange" en="Recording Schedule Change" />
+        <string keyword="inm_serstat_tabtitle_recchk" en="Recording Inspection" />
+        <string keyword="inm_recchk_list_recsituation" en="Record Status (■ video口no video☆exception)" />
+        <string keyword="inm_recchk_list_recdate" en="Record Date" />
+        <string keyword="inm_parachk_tips_isrecaudiodata" en="No audio data for composite stream." />
+        <string keyword="inm_serstat_st_recdelaysize" en="Time for Post-record" />
+        <string keyword="inm_devstat_list_recstat" en="Record Type" />
+        <string keyword="inm_serstat_list_logicdisk" en="Logic Disk" />
+        <string keyword="inm_parachk_st_streamtype" en="Stream Type" />
+        <string keyword="inm_serstat_st_nochange" en="No change" />
+        <string keyword="inm_serstat_st_unconfigured" en="Unconfigured" />
+        <string keyword="inm_serstat_st_unconfiguredtemplate" en="Unconfigured Template" />
+        <string keyword="inm_serstat_warn_nomatchrecinfo" en="No matched recording file information." />
+        <string keyword="inm_serstat_warn_nomatchdev" en="No matched device found." />
+        <string keyword="inm_serstat_warn_noresltexp" en="No result to export." />
+        <string keyword="inm_serstat_warn_nomatchcameraparaminfo" en="No matched camera parameter information found." />
+        <string keyword="inm_devstat_list_name" en="Name" />
+        <string keyword="inm_parachk_st_comtrig" en="Command Trigger" />
+        <string keyword="inm_parachk_list_templateparam" en="Template Parameters" />
+        <string keyword="inm_serstat_list_defltgetaway" en="Default Gateway" />
+        <string keyword="inm_serstat_list_memusg" en="Memory Usage" />
+        <string keyword="inm_serstat_st_memusg" en="Memory Usage" />
+        <string keyword="inm_serstat_warm_notperm" en="You do not have permission to operate." />
+        <string keyword="inm_serstat_st_otherser" en="Other Servers" />
+        <string keyword="inm_serstat_menu_startser" en="Start Service" />
+        <string keyword="inm_parachk_st_enable" en="Enable" />
+        <string keyword="inm_parachk_list_frontparam" en="Front-end Parameters" />
+        <string keyword="inm_serstat_tips_reqcamratempsucc" en="Requesting camera template succeeded." />
+        <string keyword="inm_serstat_warn_seldevbeforsyn" en="Please select the device to synchronize." />
+        <string keyword="inm_serstat_warn_selcamer" en="Please choose camera." />
+        <string keyword="inm_serstat_warn_seldevbeforsynrnzt" en="Please choose device to synchronize." />
+        <string keyword="inm_serstat_btn_saveall" en="Save All" />
+        <string keyword="inm_timechk_cmb_synrnall" en="Synchronize All" />
+        <string keyword="inm_timechk_btn_synrnall" en="Synchronize All" />
+        <string keyword="inm_parachk_st_fullfrm" en="Full Frame" />
+        <string keyword="inm_serstat_tips_restartalldev" en="Restart all devices of the region?" />
+        <string keyword="inm_serstat_tips_restartdev" en="Restart the device?" />
+        <string keyword="inm_devstat_list_capcty" en="Capacity (MB)" />
+        <string keyword="inm_serstat_list_softwarerunningtime" en="Software Running Time" />
+        <string keyword="inm_serstat_warn_delfaild" en="Deleting file failed." />
+        <string keyword="inm_serstat_warn_searchfaildandwait" en="The searchong is not over. Please wait…" />
+        <string keyword="inm_serstat_list_lastlogintime" en="Last Login Time" />
+        <string keyword="inm_serstat_btn_prepage" en="Previous" />
+        <string keyword="inm_serstat_btn_prepap" en="Previous" />
+        <string keyword="inm_parachk_list_devip" en="Device IP Address" />
+        <string keyword="inm_timechk_st_devip" en="Device IP Address" />
+        <string keyword="inm_serstat_st_devcd" en="Device Code:" />
+        <string keyword="inm_serstat_st_devoffline" en="Device offline" />
+        <string keyword="inm_serstat_warn_devoffline" en="Device offline. Synchronization failed." />
+        <string keyword="inm_devstat_tabtitle_devoffline" en="Device offline." />
+        <string keyword="inm_devstat_st_devtype" en="Device Type:" />
+        <string keyword="inm_devstat_list_devname" en="Device Name" />
+        <string keyword="inm_timechk_st_devname" en="Device Name" />
+        <string keyword="inm_serstat_warn_devnotconnroutser" en="No inspection sevice is applied to the device." />
+        <string keyword="inm_serstat_tabtitle_devsynrnzt" en="Device Time Synchronization" />
+        <string keyword="inm_serstat_st_devinfo" en="Device Information" />
+        <string keyword="inm_serstat_tabtitle_devrput" en="Device Inspection" />
+        <string keyword="inm_serstat_st_devrestarting" en="Device is restarting…" />
+        <string keyword="inm_serstat_tips_restartsucc" en="Device is restarted." />
+        <string keyword="inm_serstat_warn_restartfaild" en="Device operation failed." />
+        <string keyword="inm_devstat_list_devstat" en="Device Status" />
+        <string keyword="inm_serstat_st_devstat" en="DeviceStatus- %d-%d-%d-%d-%d-%d" />
+        <string keyword="inm_serstat_st_devstatlist" en="Device Status List" />
+        <string keyword="inm_devstat_title_devstatinfo" en="Device Status Information" />
+        <string keyword="inm_serstat_st_devstatinfolist" en="Device Status Information List" />
+        <string keyword="inm_serstat_st_devtotal" en="Device Total" />
+        <string keyword="inm_parachk_btn_configrttemplate" en="Configuration Template" />
+        <string keyword="inm_serstat_list_capty" en="Capacity (MB)" />
+        <string keyword="inm_serstat_st_faild" en="Failed." />
+        <string keyword="inm_devstat_list_timediff" en="Time-difference" />
+        <string keyword="inm_timechk_st_timediff" en="Time-difference" />
+        <string keyword="inm_timechk_cmb_timediffbigger10mins" en="Time difference is bigger than 10 minutes." />
+        <string keyword="inm_timechk_cmb_timediffbigger15mins" en="Time difference is bigger than 15 minutes." />
+        <string keyword="inm_timechk_cmb_timediffbigger1mins" en="Time difference is bigger than 1 minutes." />
+        <string keyword="inm_timechk_cmb_timediffbigger30mins" en="Time difference is bigger than 30 minutes." />
+        <string keyword="inm_timechk_cmb_timediffbigger30sec" en="Time difference is bigger than 30 seconds." />
+        <string keyword="inm_timechk_cmb_timediffbigger3mins" en="Time difference is bigger than 3 minutes." />
+        <string keyword="inm_timechk_cmb_timediffbigger5mins" en="Time difference is bigger than 5 minutes." />
+        <string keyword="inm_devstat_st_timeerr" en="Time Error" />
+        <string keyword="inm_devstat_st_timeerrdev" en="Time Error Device: %d" />
+        <string keyword="inm_recchk_list_actualrecdays" en="Actual Recording Days" />
+        <string keyword="inm_parachk_st_profile" en="Profile" />
+        <string keyword="inm_parachk_st_profiletype" en="Profile Type" />
+        <string keyword="inm_parachk_list_videoparamchange" en="Video Parameters Change" />
+        <string keyword="inm_devstat_tabtitle_videoloss" en="Video Loss" />
+        <string keyword="inm_serstat_st_videoloss" en="Video Loss" />
+        <string keyword="inm_serstat_st_videoser" en="Video Server" />
+        <string keyword="inm_serstat_st_videostream" en="Video Stream" />
+        <string keyword="inm_parachk_st_videobitrate" en="Video Bitrate (K)" />
+        <string keyword="inm_devstat_st_videosigexcpt" en="Video Signal Exception: %d" />
+        <string keyword="inm_serstat_tabtitle_videodiagn" en="Video Diagnosis" />
+        <string keyword="inm_serstat_st_videonormal" en="Normal" />
+        <string keyword="inm_devstat_list_videostat" en="Video Status" />
+        <string keyword="inm_parachk_st_yes" en="Yes" />
+        <string keyword="inm_parachk_warn_isrec" en="Record?" />
+        <string keyword="inm_parachk_list_isconfigutemplate" en="Configure Template?" />
+        <string keyword="inm_parachk_list_isstartrout" en="Start Inspection" />
+        <string keyword="inm_parachk_st_isredudarec" en="Redundant Recording" />
+        <string keyword="inm_parachk_list_issuppparamanaly" en="Parameters Analysis" />
+        <string keyword="inm_devstat_st_hide" en="Hide" />
+        <string keyword="inm_timechk_cmb_manuinput" en="Input Manually" />
+        <string keyword="inm_serstat_cmb_datacentertime" en="Data Center Time" />
+        <string keyword="inm_serstat_st_quantchange" en="Quantity Change" />
+        <string keyword="inm_devstat_btn_refresh" en="Refresh" />
+        <string keyword="inm_serstat_st_private264" en="Private 264" />
+        <string keyword="inm_serstat_btn_zoomin" en="Narrow" />
+        <string keyword="inm_devstat_list_belogto" en="Belong to" />
+        <string keyword="inm_devstat_st_belogto" en="Belong to" />
+        <string keyword="inm_serstat_menu_stopser" en="Stop Service" />
+        <string keyword="inm_serstat_st_channel" en="Channel " />
+        <string keyword="inm_devstat_list_channelno" en="Channel No." />
+        <string keyword="inm_serstat_warn_synsearchrange" en="A maximum of 1000 cameras can be inspected at the same time." />
+        <string keyword="inm_serstat_title_savepic" en="Save Picture" />
+        <string keyword="inm_serstat_st_imgquality" en="Image Quality" />
+        <string keyword="inm_serstat_btn_exit" en="Exit" />
+        <string keyword="inm_serstat_st_networkinfo" en="Network Information" />
+        <string keyword="inm_serstat_st_unformate" en="Unformatted" />
+        <string keyword="inm_serstat_st_unconn" en="Disconnected." />
+        <string keyword="inm_serstat_st_unknow" en="Unknown" />
+        <string keyword="inm_serstat_st_unknowserc" en="Unknown Service" />
+        <string keyword="inm_serstat_st_nocamera" en="No camera." />
+        <string keyword="inm_serstat_st_norecinfo" en="No recording information" />
+        <string keyword="inm_serstat_st_nodisk" en="No disk." />
+        <string keyword="inm_serstat_btn_nextpage" en="Next" />
+        <string keyword="inm_serstat_btn_nextpap" en="Next" />
+        <string keyword="inm_parachk_st_showdiff" en="Show Difference" />
+        <string keyword="inm_serstat_list_thread" en="Thread" />
+        <string keyword="inm_serstat_st_threadtotal" en="Thread Total:" />
+        <string keyword="inm_serstat_btn_details" en="Details&gt;&gt;" />
+        <string keyword="inm_serstat_warn_routsersyncomfaild" en="To send inspection service school command is faild." />
+        <string keyword="inm_serstat_btn_timesynrnzt" en="Time Synchronization" />
+        <string keyword="inm_timechk_st_timesynrnztstandard" en="Time Synchronization Standard" />
+        <string keyword="inm_serstat_tips_timesynrnztsucc" en="Time synchronization succeeded." />
+        <string keyword="inm_timechk_st_timesynrnztrange" en="Time Synchronization Range" />
+        <string keyword="inm_serstat_st_timesynrnztreslt" en="Timing results" />
+        <string keyword="inm_serstat_st_timesynrnztresltlist" en="Timing results table" />
+        <string keyword="inm_serstat_warn_timesynrnztfaild" en="Time Synchronization Failed." />
+        <string keyword="inm_serstat_st_timesynrnzttimestandard" en="Time Synchronization Standard" />
+        <string keyword="inm_serstat_list_prottype" en="Protocol Type" />
+        <string keyword="inm_serstat_menu_uninstalserc" en="Uninstall Service" />
+        <string keyword="inm_serstat_st_sigloss" en="Signal Loss" />
+        <string keyword="inm_devstat_list_sigstat" en="Signal Status" />
+        <string keyword="inm_serstat_list_info" en="Information" />
+        <string keyword="inm_serstat_list_infoupdatetime" en="Information Update Time" />
+        <string keyword="inm_serstat_st_infoupdatetime" en="Information Update Time" />
+        <string keyword="inm_serstat_st_hibernate" en="Hibernate" />
+        <string keyword="inm_serstat_st_sleepdiskerr" en="Sleep Disk Error" />
+        <string keyword="inm_serstat_list_editdate" en="Edit Date" />
+        <string keyword="inm_devstat_list_serialno" en="Serial No." />
+        <string keyword="inm_timechk_st_selectedtimesynrnzt" en="Time Synchronization" />
+        <string keyword="inm_serstat_cmb_routsertime" en="Inspection Server Time" />
+        <string keyword="inm_serstat_st_usual" en="General" />
+        <string keyword="inm_parachk_st_motiondetect" en="Motion Detection" />
+        <string keyword="inm_serstat_st_isfirstpage" en="This is the first page." />
+        <string keyword="inm_serstat_st_islastpage" en="This is the last page." />
+        <string keyword="inm_serstat_st_configured" en="Configured" />
+        <string keyword="inm_serstat_st_started" en="Started" />
+        <string keyword="inm_serstat_st_stoped" en="Stopped" />
+        <string keyword="inm_serstat_list_used" en="Used" />
+        <string keyword="inm_serstat_st_paused" en="Paused" />
+        <string keyword="inm_serstat_st_except" en="Abnormal" />
+        <string keyword="inm_parachk_st_audioencdtype" en="Audio Encoding Type" />
+        <string keyword="inm_serstat_title_hardwareserinfo" en="Hardware Service Information" />
+        <string keyword="inm_devstat_list_hddstat" en="HDD Status" />
+        <string keyword="inm_serstat_st_hdd" en="HDD " />
+        <string keyword="inm_devstat_st_hddtotal" en="HDD Total" />
+        <string keyword="inm_devstat_tabtitle_hddfault" en="HDD Fault" />
+        <string keyword="inm_serstat_st_hddfault" en="HDD Fault" />
+        <string keyword="inm_devstat_list_hddno" en="HDD No." />
+        <string keyword="inm_serstat_st_hddcountchange" en="HDD number changed." />
+        <string keyword="inm_serstat_st_hddinfo" en="HDD Infotmation" />
+        <string keyword="inm_devstat_st_hddexcept" en="HDD Exception:" />
+        <string keyword="inm_devstat_st_hddexcep" en="HDD Exception: %d" />
+        <string keyword="inm_serstat_st_hddisformatting" en="HDD is formatting." />
+        <string keyword="inm_devstat_list_hddsta" en="HDD Status" />
+        <string keyword="inm_timechk_cmb_synwithpc" en="Synchronize with PC" />
+        <string keyword="inm_timechk_st_livechannel" en="Live View" />
+        <string keyword="inm_parachk_st_proviousrectime" en="Pre-record Time" />
+        <string keyword="inm_serstat_st_run" en="Run" />
+        <string keyword="inm_serstat_st_runtime" en="Running Time" />
+        <string keyword="inm_serstat_st_online" en="Online" />
+        <string keyword="inm_devstat_btn_expand" en="Expand" />
+        <string keyword="inm_parachk_st_frmrate" en="Frame Rate" />
+        <string keyword="inm_serstat_st_normal" en="Normal" />
+        <string keyword="inm_recchk_st_searching" en="Searching" />
+        <string keyword="inm_serstat_st_exporting" en="Exporting" />
+        <string keyword="inm_serstat_st_updateing" en="Updating" />
+        <string keyword="inm_serstat_st_resuming" en="Resuming" />
+        <string keyword="inm_serstat_st_connecting" en="Connecting" />
+        <string keyword="inm_serstat_st_starting" en="Starting" />
+        <string keyword="inm_serstat_st_stoping" en="Stopping" />
+        <string keyword="inm_serstat_st_pauseing" en="Pausing" />
+        <string keyword="inm_serstat_st_support" en="Support" />
+        <string keyword="inm_serstat_warn_searchrange" en="You can only find the record information before today." />
+        <string keyword="inm_serstat_warn_connsynrnzt" en="Just supports HIKVISION device direct school." />
+        <string keyword="inm_timechk_btn_directsynrnzt" en="Connect device directly to synchronize" />
+        <string keyword="inm_timechk_title_directsynrnzt" en="Connect device directly to synchronize" />
+        <string keyword="inm_parachk_st_vcarec" en="VCA Recording" />
+        <string keyword="inm_serstat_st_mid" en="Medium" />
+        <string keyword="inm_serstat_menu_restartser" en="Restart Server" />
+        <string keyword="inm_devstat_st_restartdev" en="Restart Device" />
+        <string keyword="inm_serstat_st_restartfaild" en="Failed to restart." />
+        <string keyword="inm_serstat_st_reloaddata" en="Load Data Again" />
+        <string keyword="inm_devstat_list_stat" en="Status" />
+        <string keyword="inm_serstat_st_stat" en="Status" />
+        <string keyword="inm_devstat_st_total" en="Total:" />
+        <string keyword="inm_serstat_st_best" en="Best" />
+        <string keyword="inm_serstat_st_min" en="Minimize" />
+        <string keyword="inm_recchk_list_prerectime" en="The first day for recording" />
+        <string keyword="inm_parachk_st_mon" en="Monday" />
+        <string keyword="inm_parachk_st_tues" en="Tuesday" />
+        <string keyword="inm_parachk_st_wed" en="Wednesday" />
+        <string keyword="inm_parachk_st_thur" en="Thursday" />
+        <string keyword="inm_parachk_st_fri" en="Friday" />
+        <string keyword="inm_parachk_st_satu" en="Saturday" />
+        <string keyword="inm_parachk_st_sun" en="Sunday" />
+        <string keyword="inm_timechk_menu_openaudio" en="Open audio" />
+        <string keyword="inm_timechk_menu_closeaudio" en="Close audio" />
+        <string keyword="inm_timechk_menu_stopplay" en="Stop play" />
+        <string keyword="inm_timechk_menu_audio" en="Audio" />
+        <string keyword="inm_timechk_st_isconning" en="Is connecting" />
+        <string keyword="inm_devfault_st_faultresult" en="The results of fault" />
+        <string keyword="inm_parachk_st_bitratetype" en="Rate type" />
+        <string keyword="inm_devstat_warn_restartdev" en="Sure you want to restart the device?" />
+        <string keyword="inm_devstat_btn_ok" en="OK" />
+        <string keyword="inm_devstat_btn_cancel" en="Cancel" />
+        <string keyword="inm_parachk_st_tips" en="The above color represents the actual video program, the below is video plan template." />
+        <string keyword="inm_recdlg_st_recsearchresult" en="Video query results" />
+        <string keyword="inm_serstat_warn_routser" en="To inspection service" />
+        <string keyword="inm_serstat_warn_syncomfaild" en="sends school command faild." />
+        <string keyword="inm_serstat_st_searching" en="searching…" />
+        <string keyword="inm_serstat_st_waiting" en="waiting…" />
+    </resource>
+</language>

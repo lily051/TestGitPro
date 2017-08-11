@@ -1,0 +1,29 @@
+package cms_8120;
+import "type/cmd.proto";
+option java_package = "com.hikvision.finance.fms.cms.hpp.collect";
+option java_outer_classname = "SysteminfoProto";
+option java_generic_services = true;
+
+
+//系统参数表
+message Systeminfo
+{
+    //必须字段
+    optional int32 id                       = 1;    // 在数据库中的流水号
+    optional string strKeyName              = 2;    // 名称
+    optional string strKeyValue             = 3;    // 值
+    optional string strInfo                 = 4;    // 附加信息
+}
+
+message SysteminfoList
+{
+    optional int32 cmd                       = 1;    // CMD_DT_SYSCONFIG_LIST
+    repeated Systeminfo systeminfo           = 2;    // 系统参数列表
+}
+
+
+service ModifySystemInfoService {
+	
+	rpc QyerySystemInfo(Systeminfo) returns (SysteminfoList);			// CMD_DT_SYSCONFIGS_LIST(获取中心系统信息)
+	
+}

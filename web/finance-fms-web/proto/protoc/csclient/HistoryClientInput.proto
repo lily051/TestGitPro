@@ -1,0 +1,56 @@
+package cms_8120;
+option java_package = "com.hikvision.finance.fms.cms.hpp.csclient";
+option java_outer_classname = "HistoryClientInputProto";
+option java_generic_services = true;
+
+//历史业务单信息表
+message HisClientInput
+{
+	optional string  nProId             = 1;         // 业务单号
+	optional int32   inputRegionId      = 2;         // 交易区域id
+	optional string  inputRegionCode    = 3;         // 交易区域编码
+	optional string  inputRegionName    = 5;         // 交易区域名称
+	optional string  name               = 6;         // 客户姓名
+	optional string  strCreditPhone     = 7;         // 客户电话
+	optional int32   creditId           = 8;         // 客户证件类型id
+	optional string  creditCode         = 9;         // 客户证件号
+	optional int32   productTypeId      = 10;        // 产品类型id
+	optional string  productTypeName    = 11;        // 产品类型名称
+	optional int32   productId          = 12;        // 产品id
+    optional string  productName        = 13;        // 产品名称
+	optional string  productCode        = 14;        // 产品代码
+	optional string  strGrade           = 15;        // 产品发行机构
+    optional string  strBuyMoney        = 16;        // 购买金额
+    optional int32   inputUser          = 17;        // 用户Id
+    optional string  businessTime       = 18;        // 业务时间
+    optional int32   clientId           = 19;        // 业务单id(更新业务单用)
+    optional string  pictureStrart      = 20;        // 左侧图片(没有图片传入[nopic])
+	optional string  pictureEnd         = 21;        // 右侧图片(没有图片传入[nopic])
+}
+
+//业务单信息请求信息
+message ReqHisClientInput
+{
+     optional int32  cmd                   = 1;   // CMD_DT_HIS_CLIENTINPUT
+     optional string startDate             = 2;   // 在选择全部的时候, 有时间过滤条件
+     optional string endDate                = 3;   // 在选择全部的时候, 有时间过滤条件
+     optional string custName              = 4;   // 客户姓名
+     optional string nproId                = 5;   // 业务流水号
+     optional int32  inputUser             = 6;   // 用户Id
+     optional int32  pageNo                = 7;   // 当前页数
+     optional int32  pageSize              = 8;   // 当前查询的数据量 default[10] 
+}
+
+message RspCHisClientInput
+{
+	optional int32 cmd                     = 1;    // CMD_DT_HIS_CLIENTINPUT
+    optional int32 result                  = 2;    // 验证结果，0-验证通过，其它值验证失败
+    optional string result_info            = 3;    // 信息
+    repeated HisClientInput hisClientInput = 4; 
+}
+
+service HisClientInputService {
+	
+	rpc QueryHisClientInput(ReqHisClientInput) returns (RspCHisClientInput);        // CMD_DT_HIS_CLIENTINPUT(查询业务单信息)
+}
+

@@ -1,0 +1,7 @@
+一、产品线配置
+1.打开productline.xml参照理财平台，添加其他产品线信息，注意ServiceName是服务名称；
+二、漏洞修复包配置(updata.xml)
+1.newfile为修复后的jar包名称；
+2.oldfile为有缺陷的jar包名称
+3.filepath为替换路径，注意该路径为tomcat的相对路径，..\代表往上一层目录；
+4.将配置updata.xml文件与替换文件放至平级目录打压缩包，修复工具会自动解压解析。

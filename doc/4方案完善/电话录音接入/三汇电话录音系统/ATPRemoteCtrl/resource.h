@@ -1,0 +1,125 @@
+//{{NO_DEPENDENCIES}}
+// Microsoft Developer Studio generated include file.
+// Used by ATPRemoteCtrl.rc
+//
+#define IDD_ATPREMOTECTRL_DIALOG        102
+#define IDR_MAINFRAME                   128
+#define IDD_DIALOG_INIT                 129
+#define IDD_DIALOG_CFG                  131
+#define IDD_DIALOG_STATUS               132
+#define IDD_DIALOG_OP                   133
+#define IDD_DIALOG_DVD                  135
+#define IDD_DIALOG_QUERY                136
+#define IDC_TAB_MAIN                    1000
+#define IDC_RADIO_MODE                  1001
+#define IDC_RADIO_MODE2                 1002
+#define IDC_EDIT_SERVER_IP              1006
+#define IDC_EDIT_LOCAL_PORT             1007
+#define IDC_EDIT_USER                   1008
+#define IDC_EDIT_PWD                    1009
+#define IDC_BUTTON_CONNECT              1010
+#define IDC_BUTTON_DISCONNECT           1011
+#define IDC_EDIT_LOCAL_IP               1012
+#define IDC_BUTTON_SOAP_DEST            1013
+#define IDC_BUTTON_GetHardwareInfo      1014
+#define IDC_BUTTON_GetChannelStatus     1015
+#define IDC_BUTTON_SetNetTimeout        1016
+#define IDC_BUTTON_SYGetDiskFreeSpace   1017
+#define IDC_BUTTON_SetDateTime          1018
+#define IDC_EDIT_SET_PARAM1             1019
+#define IDC_BUTTON_GetGlobalCfg         1020
+#define IDC_BUTTON_SetGlobalCfg         1021
+#define IDC_BUTTON_GetChannelCfg        1022
+#define IDC_BUTTON_SetChannelCfg        1023
+#define IDC_EDIT_COMPRESS               1024
+#define IDC_EDIT_FILE_FORMAT            1025
+#define IDC_EDIT_START_CH               1026
+#define IDC_EDIT_TOTAL_CH               1027
+#define IDC_EDIT_REC_PATH               1028
+#define IDC_EDIT_REBOOT_TIME            1029
+#define IDC_EDIT_CH                     1030
+#define IDC_EDIT_REC_TYPE               1031
+#define IDC_BUTTON_GetLineVol           1031
+#define IDC_EDIT_REC_DIR                1032
+#define IDC_BUTTON_GetChannelRunningStatus 1032
+#define IDC_EDIT_MAXRECLEN              1033
+#define IDC_BUTTON_GetDeviceTime        1033
+#define IDC_EDIT_RCV_DTMF_TIME          1034
+#define IDC_BUTTON_GetDevID             1034
+#define IDC_EDIT_CTL_DTMF               1035
+#define IDC_EDIT_START_DTMF             1035
+#define IDC_EDIT_IP_ADDR                1036
+#define IDC_EDIT_MONITORIP              1036
+#define IDC_EDIT_DNS                    1037
+#define IDC_BUTTON_StartMonitor         1037
+#define IDC_EDIT_DATETIME               1038
+#define IDC_BUTTON_StopMonitor          1038
+#define IDC_EDIT_MASK                   1039
+#define IDC_BUTTON_RebootDevice         1039
+#define IDC_BUTTON_GetNetCfg            1040
+#define IDC_COMBO_RebootDevice          1040
+#define IDC_BUTTON_SetNetCfg            1041
+#define IDC_BUTTON_DelFile              1041
+#define IDC_EDIT_DELFILE                1042
+#define IDC_EDIT_LOG_LEVEL              1042
+#define IDC_EDIT_GATEWAY                1043
+#define IDC_BUTTON_DelFiles             1043
+#define IDC_EDIT_CH_START               1044
+#define IDC_EDIT_REC_INT                1044
+#define IDC_EDIT_CH_END                 1045
+#define IDC_EDIT_STOP_DTMF              1045
+#define IDC_EDIT_DATE_BEGIN             1046
+#define IDC_EDIT_BIND_PHONE             1046
+#define IDC_EDIT_TIME_BEGIN             1047
+#define IDC_EDIT_DATE_END               1048
+#define IDC_EDIT_TIME_END               1049
+#define IDC_BUTTON_StopDelFile          1050
+#define IDC_BUTTON_UploadFile           1051
+#define IDC_EDIT_UploadFile             1052
+#define IDC_BUTTON_DownloadFile         1053
+#define IDC_EDIT_SaveFile               1054
+#define IDC_BUTTON_StartUploadFile      1055
+#define IDC_BUTTON_CheckMediaConnected  1057
+#define IDC_BUTTON_CheckMediaAvailable  1058
+#define IDC_BUTTON_WriteDVD             1059
+#define IDC_BUTTON_SetAdminPassword     1060
+#define IDC_EDIT_OLD_PWD                1061
+#define IDC_EDIT_NEW_PWD                1062
+#define IDC_EDIT_RESULT                 1062
+#define IDC_EDIT_MSG                    1063
+#define IDC_BUTTON_ExecuteSQL           1064
+#define IDC_BUTTON_CalcData             1065
+#define IDC_RADIO_CALCDATA_MODE         1066
+#define IDC_RADIO_CALCDATA_MODE2        1067
+#define IDC_DATETIMEPICKER1             1069
+#define IDC_DATETIMEPICKER2             1070
+#define IDC_COMBO_CALC_YEAR             1072
+#define IDC_COMBO_CALC_MON              1073
+#define IDC_BUTTON_EnableDebugMsg       1074
+#define IDC_BUTTON_QueryRecord          1075
+#define IDC_START_DATE                  1076
+#define IDC_START_TIME                  1077
+#define IDC_END_DATE                    1078
+#define IDC_END_TIME                    1079
+#define IDC_EDIT_END_CH                 1081
+#define IDC_COMBO_SERVER_LIST           1081
+#define IDC_EDIT_START_INDEX            1082
+#define IDC_CHECK_AUTO_REBOOT           1082
+#define IDC_EDIT_REBOOT_HOUR            1083
+#define IDC_EDIT_REBOOT_MIN             1084
+#define IDC_COMBO_MEDIA_TYPE            1085
+#define IDC_EDIT_WEBPORT                1086
+#define IDC_BUTTON_SET_WEBPORT          1087
+#define IDC_BUTTON_GET_WEBPORT          1088
+#define IDC_BUTTON_SETWEBPORT           1090
+
+// Next default values for new objects
+// 
+#ifdef APSTUDIO_INVOKED
+#ifndef APSTUDIO_READONLY_SYMBOLS
+#define _APS_NEXT_RESOURCE_VALUE        138
+#define _APS_NEXT_COMMAND_VALUE         32771
+#define _APS_NEXT_CONTROL_VALUE         1091
+#define _APS_NEXT_SYMED_VALUE           101
+#endif
+#endif

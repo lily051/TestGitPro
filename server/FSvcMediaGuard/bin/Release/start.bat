@@ -1,0 +1,1 @@
+FSvcMediaGuard.exe /start

@@ -1,0 +1,23 @@
+package cms_8120;
+import "type/cmd.proto";
+import "type/ModuleType.proto";
+
+//客户端登陆请求
+message ReqClientLogin
+{
+    optional int32 cmd                  = 1;    // CMD_REQ_CLIENT_LOGIN
+    optional int32 moudle_type          = 2;    //登陆模块类型
+    optional string user_name           = 3;    //用户账户
+    optional string user_pwd            = 4;    //用户密码
+    optional string ip                  = 5;    //登陆的机器IP地址
+    optional string mac                 = 6;    // MAC地址
+    optional string module_version      = 7;    //模块版本号
+    optional string dc_ip               = 8;    //数据中心服务IP
+}
+
+// 客户端请求获取密码保鲜信息
+message ReqUserPwdCheck
+{
+    optional int32 cmd                      = 1;    // CMD_REQ_CLIENT_PWD_CHECK
+    optional string login_name              = 2;    // 用户名
+}

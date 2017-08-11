@@ -1,0 +1,56 @@
+// RPConfig.idl : ActiveX 控件项目的类型库源。
+
+// 此文件将由 MIDL 编译器工具处理以
+// 产生类型库(RPConfig.tlb)，该类型库将成为
+// RPConfig.ocx.
+
+#include <olectl.h>
+#include <idispids.h>
+
+[ uuid(96768222-FEB3-4CE4-9B8E-515BB1DF1D3E), version(1.0),
+  helpfile("RPConfig.hlp"),
+  helpstring("RPConfig ActiveX 控件模块"),
+  control ]
+library RPConfigLib
+{
+	importlib(STDOLE_TLB);
+
+	//  CRPConfigCtrl 的主调度接口
+
+	[ uuid(21AE9E06-DAE1-43B8-96C9-2227AE342D60),
+	  helpstring("RPConfig Control 的调度接口")]
+	dispinterface _DRPConfig
+	{
+		properties:
+		methods:
+
+			[id(DISPID_ABOUTBOX)] void AboutBox();
+            [id(1), helpstring("方法RP_InitLib")] LONG RP_InitLib(void);
+            [id(2), helpstring("方法RP_UninitLib")] LONG RP_UninitLib(void);
+            [id(3), helpstring("方法RP_Function1")] BSTR RP_Function1(BSTR xmlParam);
+            [id(4), helpstring("方法RP_GetVersion")] BSTR RP_GetVersion(void);
+    };
+
+	//  CRPConfigCtrl 的事件调度接口
+
+	[ uuid(0428F28E-5E9D-4DA2-A91B-092341897868),
+	  helpstring("RPConfig Control 的事件接口") ]
+	dispinterface _DRPConfigEvents
+	{
+		properties:
+			//  事件接口没有任何属性
+
+		methods:
+	};
+
+	//  CRPConfigCtrl 的类信息
+
+	[ uuid(A4660BF5-7356-4A3B-8A34-5859ED6C4F2F),
+	  helpstring("RPConfig Control"), control ]
+	coclass RPConfig
+	{
+		[default] dispinterface _DRPConfig;
+		[default, source] dispinterface _DRPConfigEvents;
+	};
+
+};

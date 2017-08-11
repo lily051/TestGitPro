@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<language>
+    <type key="1" value="en" />
+    <resource>
+        <string keyword="ACClientDlg1" en="Access control status type statistics" />
+        <string keyword="ACClientDlg2" en="Control Unit" />
+        <string keyword="ACClientDlg3" en="Access Control Total" />
+        <string keyword="RemoteOpenDlg1" en="Multi-level Permission Remote Open Door" />
+        <string keyword="RemoteOpenDlg2" en="Name: %s" />
+        <string keyword="RemoteOpenDlg3" en="Access Control Card No." />
+        <string keyword="RemoteOpenDlg4" en="Resource Name" />
+        <string keyword="RemoteOpenDlg6" en="Door No." />
+        <string keyword="RemoteOpenDlg7" en="Failed to open door." />
+        <string keyword="ResListDlg1" en="Failed to create status refresh thread." />
+        <string keyword="ResOperDlg1" en="Access Control Status" />
+        <string keyword="ResOperDlg3" en="Device Information" />
+        <string keyword="ResOperDlg5" en="Offline" />
+        <string keyword="ResOperDlg6" en="Door closed." />
+        <string keyword="ResOperDlg7" en="Door open" />
+        <string keyword="ResOperDlg8" en="Unknown" />
+        <string keyword="ResOperDlg10" en="Failed to close door." />
+        <string keyword="ResOperDlg11" en="Configuring door normally open failed." />
+        <string keyword="ResOperDlg12" en="Configuring door normally closed failed." />
+        <string keyword="ResOperDlg13" en="Failed to recover." />
+        <string keyword="AppDef1" en="Event Type" />
+        <string keyword="AppDef3" en="Card Holder" />
+        <string keyword="AppDef4" en="Time" />
+        <string keyword="AppDef7" en="Door Name" />
+        <string keyword="AppDef9" en="Door No." />
+        <string keyword="AppDef10" en="Door Status" />
+        <string keyword="AppDef11" en="Belong to" />
+        <string keyword="AppDef14" en="Door offline." />
+        <string keyword="AppDef15" en="Refresh" />
+        <string keyword="AppDef16" en="Open Door" />
+        <string keyword="AppDef17" en="Close Door" />
+        <string keyword="AppDef18" en="Door Remain Open" />
+        <string keyword="AppDef19" en="Door normally closed." />
+        <string keyword="AppDef20" en="Recover" />
+        <string keyword="AppDef21" en="Access Control Detailed Info" />
+        <string keyword="AppDef22" en="Delete" />
+        <string keyword="AppDef23" en="Clear Log" />
+        <string keyword="ACModulerc1" en="Access Control Event" />
+    </resource>
+</language>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<language>
+    <type key="1" value="en" />
+    <resource>
+        <string keyword="vt_main_btn_starttalk" en="Start" />
+        <string keyword="vt_main_btn_stoptalk" en="Stop" />
+        <string keyword="vt_main_tip_clear" en="Clear" />
+        <string keyword="vt_main_tip_delete" en="Delete" />
+        <string keyword="vt_main_tip_lock" en="Lock" />
+        <string keyword="vt_main_list_index" en="Index" />
+        <string keyword="vt_main_list_time" en="Time" />
+        <string keyword="vt_main_list_alarmname" en="Alarm Name" />
+        <string keyword="vt_main_list_status" en="Status" />
+        <string keyword="vt_main_list_handle" en="" />
+        <string keyword="vt_main_list_grade" en="Level" />
+        <string keyword="vt_main_st_grade1" en="1.00" />
+        <string keyword="vt_main_st_grade2" en="2.00" />
+        <string keyword="vt_main_st_grade3" en="3.00" />
+        <string keyword="vt_main_st_grade4" en="4.00" />
+        <string keyword="vt_main_st_grade5" en="5.00" />
+        <string keyword="vt_main_st_gradeunknown" en="Unknown" />
+        <string keyword="vt_main_st_capturepath" en="Video Intercom Capturing and Recording" />
+        <string keyword="vt_tip_getcamerainfo_failed" en="Failed to get camera information." />
+        <string keyword="vt_tip_preview_failed" en="Live view failed." />
+        <string keyword="vt_tip_talk_failed" en="IP two-way audio failed." />
+        <string keyword="vt_tip_no_talkchannel" en="Two-way audio failed. The two-way audio channel is not linked." />
+        <string keyword="vt_tip_talktype_nosupport" en="Two-way audio failed. The two-way audio type is not supported." />
+        <string keyword="vt_tip_login_failed" en="Two-way audio failed. Failed to log in the device." />
+        <string keyword="vt_tip_clear_allitem" en="Delete all items?" />
+        <string keyword="vt_tip_select_alarmitem" en="Delete the selected alarm?" />
+        <string keyword="vt_tip_delete_item" en="Delete the selected items?" />
+        <string keyword="vt_tip_loginvag_failed" en="Device: &lt;%s&gt;. Login VAG failed." />
+        <string keyword="vt_tip_vagtalk_failed" en="Device: &lt;%s&gt;. Failed to get through VAG." />
+        <string keyword="vt_tip_loadregionres_failed" en="Failed to load video intercom resource." />
+        <string keyword="vt_tip_alarming" en="Alarm is on." />
+        <string keyword="vt_tip_finished" en="Finished." />
+        <string keyword="vt_tip_unknown_status" en="Unknown status." />
+        <string keyword="vt_tip_checked" en="Checked." />
+        <string keyword="vt_tip_uncheck" en="Not checked." />
+    </resource>
+</language>

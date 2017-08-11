@@ -1,0 +1,71 @@
+package cms_8120;
+import "type/cmd.proto";
+option java_package = "com.hikvision.finance.fms.cms.hpp.center";
+option java_outer_classname = "ProductProto";
+option java_generic_services = true;
+
+
+//产品表
+message Product
+{
+    //必须字段
+    optional int32 id                       = 1;    // 在数据库中的流水号
+    optional int32 nParentId                = 2;    // 父类型ID(ProductType的ID)
+    optional string strName                 = 3;    // 产品名称
+	optional string strCode                 = 4;    // 产品编码
+    optional string strEndDate              = 5;    // 产品到期日期
+	optional int32 guaranteeType			= 6;	//保障周期类型
+	optional int32 guaranteeYears			= 7;	//保障期限（默认年）
+	optional int32 saveType					= 8;	//视频保存时间类型
+	optional int32 saveYears				= 9;	//到期后保存时间（默认年）
+	optional int32 nEnabled 				= 10;	//是否启用：0-禁用，1-启用
+	optional string strGrade				= 11;	//发行机构
+	optional string strRisklevel			= 12;	//风险等级
+	optional int32 importUser				= 13;	//导入用户id
+	optional string importTime				= 14;	//导入时间
+	optional int32 checkUser				= 15;	//复核用户id
+	optional string checkTime				= 16;	//复核时间
+	optional string remark					= 17; 	//复核备注
+	optional string strApplyDate			= 18;	//产品申购日
+	optional string strVideoEndDate			= 19;	//视频到期日
+	optional string wordTemplate			= 20;	//话术模板
+}
+
+message ReqProduct
+{
+    optional int32 cmd                	    = 1;    // CMD_DT_PRODUCT_LIST
+   optional int32 id                        = 2;    // 在数据库中的流水号
+    optional int32 nParentId                = 3;    // 父类型ID(ProductType的ID)
+    optional string strName                 = 4;    // 产品名称
+	optional string strCode                 = 5;    // 产品编码
+    optional string strEndDate              = 6;    // 产品到期日期
+	optional int32 guaranteeType			= 7;	//保障周期类型
+	optional int32 guaranteeYears			= 8;	//保障期限（默认年）
+	optional int32 saveType					= 9;	//视频保存时间类型
+	optional int32 saveYears				= 10;	//到期后保存时间（默认年）
+	optional int32 nEnabled 				= 11;	//是否启用：0-禁用，1-启用
+	optional string strGrade				= 12;	//发行机构
+	optional string strRisklevel			= 13;	//风险等级
+	optional int32 importUser				= 14;	//导入用户id
+	optional string importTime				= 15;	//导入时间
+	optional int32 checkUser				= 16;	//复核用户id
+	optional string checkTime				= 17;	//复核时间
+	optional string remark					= 18; 	//复核备注
+	optional string strApplyDate			= 19;	//产品申购日
+	optional string strVideoEndDate			= 20;	//视频到期日
+	optional string wordTemplate			= 21;	//话术模板
+}
+
+message ProductList
+{
+    optional int32 cmd                      = 1;    // CMD_DT_PRODUCT_LIST
+    repeated Product product                = 2;    // 产品列表
+}
+
+
+service ModifyProductService {
+	
+	rpc QueryAllProductInfo(ReqProduct) returns (ProductList);				// CMD_DT_PRODUCT_LIST(获取产品信息)
+	
+}
+

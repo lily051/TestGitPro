@@ -1,0 +1,23 @@
+// 上传服务
+CMD_DT_RECORDS_LIST             = 11000;            // 录像信息集数据--根据录像状态获取录像信息
+    
+// 系统巡检服务
+CMD_WDT_ALARMLOG_INFO           = 12000;             // 写入报警日志信息
+    
+// 录像守卫服务
+CMD_DT_SYSCONFIG_LIST           = 13000;             // 中心系统参数--获取录像守卫服务的工作时间
+CMD_DT_OVERTIMERECORD_LIST      = 13001;             // 查询过期录像信息--获取过期录像信息
+CMD_DT_RECORD_LIST              = 13002;             // 查询录像信息--获取录像信息
+    
+// CS客户端
+CMD_DT_CLIENT_LOGIN             = 14000;        	// 客户端登录请求
+CMD_DT_ISSHOWKAPTCHA			= 14001;			// 是否显示验证码
+CMD_MSG_CLIENT_LOGOUT           = 14002;        	// 客户端退出消息
+CMD_REQ_CLIENT_PWD_CHECK        = 14003;        	// 客户端请求获取密码保鲜信息(待定)
+CMD_RSP_CLIENT_PWD_CHECK        = 14004;        	// 客户端密码保鲜信息返回(待定)
+CMD_DT_REGION_LIST				= 15000;			// 获取组织信息
+CMD_DT_PARAMDICTIONARY_LIST		= 16000;			// 获取证件列表
+CMD_DT_HIS_CLIENTINPUT		    = 20000;			// 获取历史业务单信息
+
+【客户端】11000、12000、13000、13001、13002
+【服务狗/服务】14000、14001、14002、14003、14004、15000、16000、20000

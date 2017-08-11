@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CameraDSAPI", "CameraDSAPI\CameraDSAPI.vcproj", "{81593DD4-B84B-4F89-99F0-27604232887C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81593DD4-B84B-4F89-99F0-27604232887C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{81593DD4-B84B-4F89-99F0-27604232887C}.Debug|Win32.Build.0 = Debug|Win32
+		{81593DD4-B84B-4F89-99F0-27604232887C}.Release|Win32.ActiveCfg = Release|Win32
+		{81593DD4-B84B-4F89-99F0-27604232887C}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

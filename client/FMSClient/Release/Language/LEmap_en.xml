@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<language>
+    <type key="1" value="en" />
+    <resource>
+        <string keyword="kAccessControlOperation" en="Access Control Operation" />
+        <string keyword="kAccessControlPoint" en="Access Control Point" />
+        <string keyword="kAccessControlStatus" en="Access Control Status" />
+        <string keyword="kAccessControlType" en="Access Control Type" />
+        <string keyword="kActualSize" en="Actual Size" />
+        <string keyword="kAdd" en="Add" />
+        <string keyword="kAddAccessControlPoint" en="Add Access Control Point" />
+        <string keyword="kAddAlarmHost" en="Add Alarm Host" />
+        <string keyword="kAddAlarmHostSpot" en="Add Alarm Host" />
+        <string keyword="kAddAnaligPt" en="Add Analog Points" />
+        <string keyword="kAddCamera" en="Add Camera" />
+        <string keyword="kAddHotRegion" en="Add Hot Region" />
+        <string keyword="kAddmap" en="Add map" />
+        <string keyword="kAddSubMap" en="Add sub map" />
+        <string keyword="kAlarmeventdinformationisempty" en="Alarm event [%d] information is empty." />
+        <string keyword="kAlarmEventdInformationofRegiondisEmpty" en="Alarm event [%d] information of region [%d] is empty." />
+        <string keyword="kAlarmHost" en="Alarm Host" />
+        <string keyword="kAlarmHostElementsAddtoMaps" en="[Alarm Host] Element [%s] Add to Map [%s]" />
+        <string keyword="kAlarmHostElementsFailedtoAddtoMaps" en="[Alarm Host] Element [%s] Failed to Add to Map [%s]" />
+        <string keyword="kAlarmHostNameCanNotBeEmpty" en="Alarm host name cannot be empty." />
+        <string keyword="kAlarmHostNameCanNotBeEmpty1" en="Alarm host name cannot be empty." />
+        <string keyword="kAlarmhostNameCannotBeLongerThan48" en="Alarm host name cannot be empty." />
+        <string keyword="kAlarmHostNameContainsIllegalCharacters" en="Alarm host name contains illegal characters." />
+        <string keyword="kAlarmHostNameContainsIllegalCharacters1" en="Alarm host name contains illegal characters." />
+        <string keyword="kAlarmHostNameIsUsed" en="Alarm host name is used." />
+        <string keyword="kAlarmHostNamElengthCannotBeLongerThan48" en="Alarm host name length cannot be longer than 48." />
+        <string keyword="kAlarmHostOperation" en="Alarm Host Operation" />
+        <string keyword="kAlarmHostOperation2" en="Alarm Host Operation" />
+        <string keyword="kAlarmHostSpot" en="Alarm Host" />
+        <string keyword="kAlarmHostSpotNameIsUsed" en="Alarm host name is used." />
+        <string keyword="kAlarmInput" en="Alarm Input" />
+        <string keyword="kAlarmLinkage" en="Alarm Linkage" />
+        <string keyword="kAlarmProperty" en="Alarm Property" />
+        <string keyword="kAnalogStatus" en="Analog Status" />
+        <string keyword="kAndlogPt" en="Analog points" />
+        <string keyword="kAppearance" en="Appearance" />
+        <string keyword="kArm" en="Arm" />
+        <string keyword="kArmed" en="Armed." />
+        <string keyword="kArmingAreaNo" en="Arming Area No." />
+        <string keyword="kArmingfailed" en="Arming failed." />
+        <string keyword="kArmingRegion" en="Arming Region" />
+        <string keyword="kArmingRegionNo" en="Arming Region No." />
+        <string keyword="kArmingStatus" en="Arming Status" />
+        <string keyword="kBackward" en="Backward" />
+        <string keyword="kBandwidthcontrolrequestfailed" en="Bandwidth control request failed." />
+        <string keyword="kBelongto" en="Belong to" />
+        <string keyword="kBelongtoRegion" en="Belong to Region" />
+        <string keyword="kBypass" en="Bypass" />
+        <string keyword="kBypassfailed" en="Bypass failed." />
+        <string keyword="kBypassRecovery" en="Bypass Recovery" />
+        <string keyword="kBypassresumingsucceeded" en="Bypass resuming succeeded." />
+        <string keyword="kBypasssucceeded" en="Bypass succeeded." />
+        <string keyword="kCamera" en="Camera" />
+        <string keyword="kCameradinFormationIsEmpty" en="Camera [%d] information is empty." />
+        <string keyword="kCameraElementsAddtoMaps" en="[Camera] Element [%s] Add to Map [%s]" />
+        <string keyword="kCameraElementsFailedtoAddtoMaps" en="[Camera] Element [%s] Failed to Add to Map [%s]" />
+        <string keyword="kCameralistIsEmpty" en="Camera list is empty." />
+        <string keyword="kCameranamecannotbeempty" en="Camera name cannot be empty." />
+        <string keyword="kCameranamecontainsillegalcharacters" en="Camera name contains illegal characters." />
+        <string keyword="kCameranameisused" en="Camera name is used." />
+        <string keyword="kCameranamelengthcannotbelongerthan48" en="Camera name length cannot be longer than 48." />
+        <string keyword="kCameraPlayback" en="Camera Playback" />
+        <string keyword="kCameraProperty" en="Camera Property" />
+        <string keyword="kCancel" en="Cancel" />
+        <string keyword="kClearAlarm" en="Clear Alarm" />
+        <string keyword="kClose" en="Close" />
+        <string keyword="kClosingDoorFailed" en="Closing door failed." />
+        <string keyword="kCMSFailedFailedToGetmaplist" en="CMS network communication failed. Failed to get map list." />
+        <string keyword="kCMSfailedFailedtogetregiondinformation" en="CMS network communication failed. Failed to get region [%d] information." />
+        <string keyword="kCMSfailedFailedtoUploadmapID" en="CMS network communication failed. Failed to upload map ID." />
+        <string keyword="kCMSFailedFailedtoUploadmaplist" en="CMS network communication failed. Failed to upload map list." />
+        <string keyword="kCMSFailedGettingAlarmEventdInformationByregionIDFailed" en="CMS network communication failed. Getting alarm event [%d] information by region ID failed." />
+        <string keyword="kCMSFailedGettingAlarmEventdInformationfailed" en="CMS network communication failed. Getting alarm event [%d] information failed." />
+        <string keyword="kCMSFailedGettingAlarmEventdInformationRegionIDType" en="CMS network communication failed. Getting alarm event [%d] information by region ID and type failed." />
+        <string keyword="kCMSFailedGettingDevicedFailed" en="CMS network communication failed. Getting signal server information of device [%d] failed." />
+        <string keyword="kCMSFailedGettingdinFormationFailed" en="CMS network communication failed. Getting [%d] information failed." />
+        <string keyword="kCMSFailedGettingListFailed" en="CMS network communication failed. Getting list failed." />
+        <string keyword="kCMSFailedGettingMapdPictureFailed" en="CMS network communication failed. Getting map[%d] picture failed." />
+        <string keyword="kCMSFailedGettingMapElementlistFailed" en="CMS network communication failed. Getting map element list failed." />
+        <string keyword="kCMSFailedGettingRegiondResourceInformationFailed" en="CMS network communication failed. Getting region[%d] resource information failed." />
+        <string keyword="kCMSFailedGettingRegiondSubArealistFailed" en="CMS network communication failed. Getting region[%d] subarea list failed." />
+        <string keyword="kCMSNetFailedBandwidthcontrolRequestFailed" en="CMS network communication failed. Bandwidth control request failed." />
+        <string keyword="kCMSNetFailedBandwidthcontrolRequestfailed1" en="CMS network communication failed. Bandwidth control request failed." />
+        <string keyword="kCMSNetFailedGettingAccessControlStatusFailed" en="CMS network communication failed. Getting access control status failed." />
+        <string keyword="kCMSNetFailedGettingAccessControlStatusFailed1" en="CMS network communication failed. Getting access control status failed." />
+        <string keyword="kCMSNetFailedGettingAlarmlistofRegiondFailed" en="CMS network communication failed. Getting alarm list of region [%d] failed." />
+        <string keyword="kCMSNetFailedGettingDeviceInformationFailed" en="CMS network communication failed. Getting device information failed." />
+        <string keyword="kCMSNetFailedGettingDeviceListOfRegiondFailed" en="CMS network communication failed. Getting device list of region[%d] failed." />
+        <string keyword="kCMSNetFailedGettingregiondDeviceListFailed" en="CMS network communication failed. Getting region [%d] device list failed." />
+        <string keyword="kCMSNetFailedGettingRegiondResourceinformationFailed" en="CMS network communication failed. Getting region [%d] resource information failed." />
+        <string keyword="kCMSNetFailedGettingRegiondSubareaInformationfailed" en="CMS network communication failed. Getting region [%d] sub-area information failed." />
+        <string keyword="kCMSNetFailedGettingRegionfailed" en="CMS network communication failed. Getting region [%d] information failed." />
+        <string keyword="kCMSNetFailedGettingSystemConfigurationListFailed" en="CMS network communication failed. Getting system configuration list failed." />
+        <string keyword="kCMSNetFailedGettinguserpermissionFailed" en="CMS network communication failed. Getting user permission failed." />
+        <string keyword="kCMSNetFailedWritingConfigurationLogFailed" en="CMS network communication failed. Writing configuration log failed." />
+        <string keyword="kCMSNetFailedWritingLogFailed" en="CMS network communication failed. Writing log failed." />
+        <string keyword="kCMSNetworkComFailedtoGetRegiondResourcelist" en="CMS network communication failed. Failed to get region [%d] resource list." />
+        <string keyword="kCMSNFailedGettingRegionResourceListFailed" en="CMS network communication failed. Getting region resource list failed." />
+        <string keyword="kCMSreturnresultisemptyClearingmaplistfailed" en="CMS return result is empty. Clearing map list failed." />
+        <string keyword="kConnected" en="Connected" />
+        <string keyword="kContinueDownloadingLoadData" en="Continue downloading will overwirte local data? Continue?" />
+        <string keyword="kCreatingliveviewwindowfailed" en="Creating live view window failed." />
+        <string keyword="kCreatingLocalDatabaseFailedss" en="Creating local database failed. %s%s" />
+        <string keyword="kCreatingLocalDatabaseSucceeded" en="Creating local database succeeded." />
+        <string keyword="kCurrentMap" en="Current Map:" />
+        <string keyword="kCurrentMaps" en="Current Map: %s" />
+        <string keyword="kDeleingMapSsucceeded" en="Deleing map %s succeeded." />
+        <string keyword="kDelElementFailed" en="Deleting element failed. Please check IE running permission." />
+        <string keyword="kDelElementFaileds" en="Deleting element failed. %s" />
+        <string keyword="kDelete" en="Delete" />
+        <string keyword="kDeleteAllLinkages" en="Delete All Linkages" />
+        <string keyword="kDeletemap" en="Delete map" />
+        <string keyword="kDeletetheelement" en="Delete the element?" />
+        <string keyword="kDeletethemap" en="Delete the map?" />
+        <string keyword="kDelLinkeDelementFaileds" en="Deleting linked element failed. %s" />
+        <string keyword="kDelMapFailedCheckIE" en="Deleting map failed. Please check IE running permission." />
+        <string keyword="kDelMapFaileds" en="Deleting map failed. %s" />
+        <string keyword="kDeviceInfo" en="Device Info" />
+        <string keyword="kDeviceinFormationIsEmpty" en="Device information is empty." />
+        <string keyword="kDeviceIPAddress" en="Device IP Address" />
+        <string keyword="kDevicelistofregiondisempty" en="Device list of region [%d] is empty." />
+        <string keyword="kDeviceoffline" en="Device offline." />
+        <string keyword="kDeviceOperation" en="Device Operation" />
+        <string keyword="kDeviceStatus" en="Device Status" />
+        <string keyword="kDeviceType" en="Device Type" />
+        <string keyword="kDisarm" en="Disarm" />
+        <string keyword="kDisarmed" en="Disarmed." />
+        <string keyword="kDisarmingfailed" en="Disarming failed." />
+        <string keyword="kDisarmingStatus" en="Disarming Status" />
+        <string keyword="kDoNotHaveOperationPermission" en="Sorry, you do not have access control operation permission." />
+        <string keyword="kDoNotHaveViewPermissionOfthisCamera" en="Sorry. You do not have the live view permission of this camera." />
+        <string keyword="kDoor" en="Door" />
+        <string keyword="kDoorClosedStatus" en="Door Closed Status" />
+        <string keyword="kDoorIsClosed" en="Door is closed." />
+        <string keyword="kDoorIsOpened" en="Door is opened." />
+        <string keyword="kDoorOpenStatus" en="Door Open Status" />
+        <string keyword="kDoorRemainClosed" en="Door Remain Closed" />
+        <string keyword="kDoorRemainOpen" en="Door Remain Open" />
+        <string keyword="kDownload" en="Download" />
+        <string keyword="kDownloadEmapfromWEBclient" en="Download E-map from WEB client." />
+        <string keyword="kDownloadingeMapSucceeded" en="Downloading emap succeeded." />
+        <string keyword="kDownloadingmapdata" en="Downloading map data…" />
+        <string keyword="kEdit" en="Edit" />
+        <string keyword="kEdittingElementInformationFaileds" en="Editting element information failed. %s" />
+        <string keyword="kEdittingMapInformationFailedCheckIEPermission" en="Editting map information failed. Please check IE running permission." />
+        <string keyword="kEdittingMapInformationFaileds" en="Editting map information failed. %s" />
+        <string keyword="kElementName" en="Element Name" />
+        <string keyword="kEmap" en="E-map" />
+        <string keyword="kEmapVersionInformationLocaldCenterd" en="E-map Version [Local: %d Center:%d]" />
+        <string keyword="kEndTime" en="End Time" />
+        <string keyword="kEnterExitEditting" en="Enter/Exit Editting" />
+        <string keyword="kEnterExitFullScreen" en="Enter/Exit Full Screen" />
+        <string keyword="kEvnVarPt" en="Environment variables point" />
+        <string keyword="kFailedtoaccessthedatabase" en="Failed to access the database." />
+        <string keyword="kFailedToAddElementPleaseCheckIEPermission" en="Failed to add element. Please check IE running permission." />
+        <string keyword="kFailedToAddMapinformation" en="Failed to add map information.　" />
+        <string keyword="kFailedToAddMapinFormationCheckIEPermission" en="Failed to add map information. Please check IE running permission." />
+        <string keyword="kFailedToAddNewElements" en="Failed to add new element. %s" />
+        <string keyword="kFailedToClearMaplist" en="Failed to clear map list." />
+        <string keyword="kFailedtocreatetheplaybackwindow" en="Failed to create the playback window." />
+        <string keyword="kFailedToDeletesElementFromsMap" en="Failed to delete %s element from %s map." />
+        <string keyword="kFailedToDelLinkedElement" en="Failed to delete linked element. Please check the IE running permission." />
+        <string keyword="kFailedToGetAccessControlElementinFormation" en="Failed to get access control element information." />
+        <string keyword="kFailedtogetaccesscontrolinformation" en="Failed to get access control information." />
+        <string keyword="kFailedtogetaccesscontrolstatus" en="Failed to get access control status." />
+        <string keyword="kFailedtoGetcameraViewfailed" en="Failed to get camera information, live view failed." />
+        <string keyword="kFailedToGetCenterDatabaCheckCenterConnection" en="Failed to get center database version. Please check the data center connection." />
+        <string keyword="kFailedToGetContentCheckXmlFormat" en="Failed to get the xml content: Emap sub-item is not found. Please check the xml file format." />
+        <string keyword="kFailedToGetElementinFormatiOnByElementID" en="Failed to get element information according to element ID. %s" />
+        <string keyword="kFailedToGetElementListAccodingToElementnames" en="Failed to get element list accoding to element name. %s" />
+        <string keyword="kFailedToGetElementListAccodingToMapIDs" en="Failed to get element list accoding to map ID. %s" />
+        <string keyword="kFailedToGetMapIDAccordingToElementSerialNos" en="Failed to get map ID according to element serial No.. %s" />
+        <string keyword="kFailedToGetMaplistByParentID" en="Failed to get map list according to parent map ID. %s" />
+        <string keyword="kFailedToGetPictureofMaps" en="Failed to get picture of map [%s]. " />
+        <string keyword="kFailedToGetTheLocalXmlConfigurationFile" en="Failed to get the local xml configuration file." />
+        <string keyword="kFailedToGetXmlFormatVersion" en="Failed to get xml format: Version sub-item is not found. Please check xml format." />
+        <string keyword="kFailedtoopens" en="Failed to open %s." />
+        <string keyword="kFailedToOperateACCESSRunaAsAdministrator" en="Failed to operate ACCESS file. Please run as administrator." />
+        <string keyword="kFailedtoreconnect" en="Failed to reconnect." />
+        <string keyword="kFailedtorecover" en="Failed to recover." />
+        <string keyword="kFailedToSaveMapPicture" en="Failed to save map picture." />
+        <string keyword="kFailedtoUploadMapElement" en="Failed to upload map element." />
+        <string keyword="kFailedToUpLoadMapPicture" en="Failed to upload map picture." />
+        <string keyword="kFailedtouploadmapspicture" en="Failed to upload map[%s] picture." />
+        <string keyword="kFontColor" en="Font Color" />
+        <string keyword="kForward" en="Forward" />
+        <string keyword="kGettingaccesscontrolstatusnow" en="Getting access control status now…" />
+        <string keyword="kGettingalarmhostinformationnow" en="Getting alarm host information now…" />
+        <string keyword="kGettingalarmhoststatusfailed" en="Getting alarm host status failed." />
+        <string keyword="kGettingCameracamIDDInformationFailed" en="Getting camera [camID:%D] information failed." />
+        <string keyword="kGettingCenterDatabaseVersionFailed" en="Getting center database version failed. Uploading is not executed." />
+        <string keyword="kGettingElementInformationFailed" en="Getting element information failed." />
+        <string keyword="kGettinglinkedinformationfailed" en="Getting linked information failed." />
+        <string keyword="kGettinglistnow" en="Getting list now…" />
+        <string keyword="kGettingMapdpictureListEmpty" en="Getting map [%d] picture list empty." />
+        <string keyword="kGettingMapFailedDownloadmap" en="Getting map information list failed. Failed to download map." />
+        <string keyword="kGettingMaplistFailed" en="Getting map list failed." />
+        <string keyword="kGettingPermissionFailedCannotExecuteOperation2" en="Getting user permission failed. You cannot execute the related operation. Please check CMS service." />
+        <string keyword="kGettingregiondresourcelistisempty" en="Getting region [%d] resource list is empty." />
+        <string keyword="kGettingRegionResFailed" en="Getting region resource information [%d] resource list failed." />
+        <string keyword="kGettingUserFailedCannotExecuteThereLatedOperation" en="Getting user permission failed. You cannot execute the related operation. Please check CMS service." />
+        <string keyword="kHikvision" en="Hikvision" />
+        <string keyword="kHotRegion" en="Hot Region" />
+        <string keyword="kHotRegionAddress" en="Hot Region Address" />
+        <string keyword="kHotRegionProperty" en="Hot Region Property" />
+        <string keyword="kIsDeletealllinkages" en="Delete all linkages?" />
+        <string keyword="kLeft" en="Left" />
+        <string keyword="kLinkage" en="Linkage" />
+        <string keyword="kLinkageMap" en="Linkage Map" />
+        <string keyword="kLinkAnalog" en="Link Analog" />
+        <string keyword="kLinkDevice" en="Link Device" />
+        <string keyword="kLinkedAccessControl" en="Linked Access Control" />
+        <string keyword="kLinkedCamera" en="Linked Camera" />
+        <string keyword="kLiveView" en="Live View" />
+        <string keyword="kLiveView2" en="Live View" />
+        <string keyword="kLiveviewFailed" en="Live view failed." />
+        <string keyword="kLoadingresourcenow" en="Loading resource now…" />
+        <string keyword="kLocalDatadIsNotTheLatest" en="Local Data [%d] is not the latest data.Upload and overwrite central data?" />
+        <string keyword="kMap" en="Map" />
+        <string keyword="kMaplinknameisempty" en="Map link name is empty." />
+        <string keyword="kMaplinknameisillegal" en="Map link name is illegal." />
+        <string keyword="kMapnamecontainsillegalcharacters" en="Map name contains illegal characters." />
+        <string keyword="kMapnameisempty" en="Map name is empty." />
+        <string keyword="kMapnameisused" en="Map name is used." />
+        <string keyword="kMaxmize" en="Maxmize" />
+        <string keyword="kMinimize" en="Minimize" />
+        <string keyword="kMoveDown" en="Move Down" />
+        <string keyword="kMoveUp" en="Move Up" />
+        <string keyword="kName" en="Name" />
+        <string keyword="kNetworkabnormalPleasewait" en="Network abnormal. Please wait…" />
+        <string keyword="kNetworkModuleType" en="Network Module Type" />
+        <string keyword="kNolinkedalarm" en="No linked alarm." />
+        <string keyword="kNoLinkedAlarmHost" en="No linked alarm host." />
+        <string keyword="kNolinkedcamera" en="No linked camera." />
+        <string keyword="kNomapislinked" en="No map is linked." />
+        <string keyword="kNoPermissionToTheCameraLiveViewFailed" en="No permission to the camera. Live view failed." />
+        <string keyword="kOK" en="OK" />
+        <string keyword="kOpeningDoorFailed" en="Opening door failed." />
+        <string keyword="kOperationAccount" en="Operation Account" />
+        <string keyword="kOrganization" en="Organization" />
+        <string keyword="kPath" en="Path" />
+        <string keyword="kPerson" en="Person" />
+        <string keyword="kPlayback" en="Playback" />
+        <string keyword="kPlayback2" en="Playback" />
+        <string keyword="kPlaybackfailed" en="Playback failed." />
+        <string keyword="kPleaseselectvalidpicturefile" en="Please select valid picture file." />
+        <string keyword="kPressEmergencyButton" en="Press Emergency Button" />
+        <string keyword="kProperty" en="Property" />
+        <string keyword="kReconnected" en="Reconnected." />
+        <string keyword="kReconnecting" en="Reconnecting…" />
+        <string keyword="kRecover" en="Recover" />
+        <string keyword="kRecoverSucceeded" en="Recover succeeded." />
+        <string keyword="kRefreshAccessControlStatus" en="Refresh Access Control Status" />
+        <string keyword="kRefreshDeviceStatus" en="Refresh Device Status" />
+        <string keyword="kRefreshingaccesscontrolstatus" en="Refreshing access control status…" />
+        <string keyword="kRefreshingmap" en="Refreshing map…" />
+        <string keyword="kRegiondAlarmEventlistIsEmpty" en="Region [%d] alarm event list is empty" />
+        <string keyword="kRegionddevicelistisempty" en="Region [%d] device list is empty." />
+        <string keyword="kRegiondinformationisempty" en="Region [%d] information is empty." />
+        <string keyword="kRegiondresourceinformationisempty" en="Region [%d] resource information is empty." />
+        <string keyword="kRegiondsubarealistisempty" en="Region[%d] subarea list is empty." />
+        <string keyword="kRegionresourcelistisempty" en="Region resource list is empty." />
+        <string keyword="kRestore" en="Restore" />
+        <string keyword="kResumingbypassfailed" en="Resuming bypass failed." />
+        <string keyword="kRight" en="Right" />
+        <string keyword="ks_AlarmOutput_02d" en="%s_Alarm Output_%02d" />
+        <string keyword="ks_AnalogCamera_02d" en="%s_Analog Camera_%02d" />
+        <string keyword="ks_Camera_02d" en="%s_Camera_%02d" />
+        <string keyword="ks_TwowayAudio_02d" en="%s_Two-way Audio_%02d" />
+        <string keyword="kSavingPictureFailedCheckIEPermission" en="Saving picture of [%s] map failed. Stop downloading, please check IE running permission." />
+        <string keyword="kScale" en="Scale" />
+        <string keyword="kSettingaccesscontrolstatusnow" en="Setting access control status now…" />
+        <string keyword="kSignalserverinformationisempty" en="Signal server information is empty." />
+        <string keyword="kSorryTheCameraIsNotfound" en="Sorry. The camera is not found." />
+        <string keyword="kSorryyoudonothavealarmhostoperationpermission" en="Sorry, you do not have alarm host operation permission." />
+        <string keyword="kSpecialcharacterscannotbecontained" en="Special characters cannot be contained." />
+        <string keyword="kStartingPlaybackNow" en="Starting playback now…" />
+        <string keyword="kStartPlayback" en="Start Playback" />
+        <string keyword="kStartTime" en="Start Time" />
+        <string keyword="kStopFlickering" en="Stop Flickering" />
+        <string keyword="kSubsystemNo" en="Subsystem No." />
+        <string keyword="kSucceededToDeletesElementFromsMap" en="Succeeded to delete %s element from %s map." />
+        <string keyword="kSystemConfigurationListIsEmpty" en="System configuration list is empty." />
+        <string keyword="kThealarmeventlistofregiondisempty" en="The alarm event list of region[%d] is empty." />
+        <string keyword="kTheAlarmHostIslinked" en="The alarm host is linked." />
+        <string keyword="kThealarmislinked" en="The alarm is linked." />
+        <string keyword="kThecameraislinked" en="The camera is linked." />
+        <string keyword="kTheCurrentAccessControlIsOffline" en="The current access control is offline. You cannot connect or operate it." />
+        <string keyword="kThefilesizecannotbelargerthan10M" en="The file size cannot be larger than 10M." />
+        <string keyword="kThehotareanameisused" en="The hot area name is used." />
+        <string keyword="kThemapElementListIsempty" en="The map element list is empty." />
+        <string keyword="kTheParametersInputCannotBeResolved" en="The parameters input cannot be resolved." />
+        <string keyword="kThismapisalreadylinked" en="This map is already linked." />
+        <string keyword="kTwowayAudio" en="Two-way Audio" />
+        <string keyword="kUndefined" en="Undefined" />
+        <string keyword="kUnknowndataerror" en="Unknown data error." />
+        <string keyword="kUnknownStatus" en="Unknown Status" />
+        <string keyword="kUnlock" en="Unlock" />
+        <string keyword="kUpload" en="Upload" />
+        <string keyword="kUploadingmapdatanow" en="Uploading map data now…" />
+        <string keyword="kUploadingMapSucceeded" en="Uploading map succeeded." />
+        <string keyword="kUploadingTheLocaldataWillOverWirte" en="Uploading the local data will overwirte the center data. Continue?" />
+        <string keyword="kUpward" en="Upward" />
+        <string keyword="kZoomin" en="Zoom-in" />
+        <string keyword="kZoomout" en="Zoom-out" />
+        <string keyword="kGetVerOfCenterFail" en="Get updated version of the center failed!" />
+        <string keyword="kSetMapVerNumFailCHECKIE" en="Setting the electronic map a local version number failed, IE permissions may not use the Run as administrator!" />
+        <string keyword="kPressMapLocalVerFailCHECKIE" en="Preservation of electronic map local version number failed, IE permissions may not use the Run as administrator!" />
+        <string keyword="kLockingRatio" en="Locking ratio" />
+        <string keyword="kPreWndReachUpper" en="The preview window reached the upper limit (10)!" />
+        <string keyword="kMisMapResDll" en="Missing electronic map resource DLL, the program exits!" />
+        <string keyword="kPreComInitFail" en="Preview component initialization failed!" />
+        <string keyword="kPlayBackComInitFail" en="Playback component initialization failed!" />
+        <string keyword="kLogoutBandConFailed" en="Logout bandwidth control service failed!" />
+        <string keyword="kPVDestoryFail" en="PV_Destroy failed!" />
+        <string keyword="kPREVIEWCreateFailed" en="PREVIEW_Create failed!" />
+        <string keyword="kMapCaptureVideo" en="Map capture video" />
+        <string keyword="kBandwidthMaximumLimit" en="Bandwidth maximum limit" />
+        <string keyword="kAppLoadBalancingServerFail" en="Application load balancing server failure [camID:%d]" />
+        <string keyword="kTheUpperLimitBandwidth" en="The upper limit bandwidth" />
+        <string keyword="kDoorButtonIsPressed" en="Door button is pressed" />
+        <string keyword="kExitButtonIsPressed" en="Exit button is pressed" />
+        <string keyword="kDoorOpen" en="Door open" />
+        <string keyword="kAlarmSirenD" en="Alarm siren %d" />
+        <string keyword="kStartsBlinking" en="Starts blinking" />
+        <string keyword="kStopsFlashing" en="Stops flashing" />
+        <string keyword="kCreatDBConnFailCHECKADO" en="Creating a database connection pointer failed! Check and repair ADO environment!" />
+        <string keyword="kConToLocalDBFailCHECKIE" en="Connect to the local database fails, check IE permission to run!" />
+        <string keyword="kCreateMapStoragePathFail" en="Create a map storage path failure! Please use the Run as Administrator IE!" />
+        <string keyword="kEmapDelOriginalFolder" en="EmapPicture delete the original folder picture fails, abort the download operation!" />
+        <string keyword="kCreateResultPointFailCheckADO" en="Create a result set pointer failed! Check and repair ADO environment!" />
+        <string keyword="kAlarmEleMapSucc" en="[Alarm] element [% s] to map [%s] successfully" />
+        <string keyword="kAlarmEleMapFail" en="[Alarm] element [% s] to map [%s] failed" />
+        <string keyword="kAnalogPtNameCanNotEmpty" en="Analog point name can not be empty!" />
+        <string keyword="kAnalogPtNameCanNotMore48" en="Analog point name can not be more than 48!" />
+        <string keyword="kAnalogPtNameCanNotIllegal" en="Analog point name contains illegal characters!" />
+        <string keyword="kAnalogPtNameExists" en="This analog point name already exists!" />
+        <string keyword="kNotAssociatedAnalogPoint" en="Not associated analog point!" />
+        <string keyword="kThePtAssociatWithAnalog" en="The point has been associated with analog!" />
+        <string keyword="kAnalogEleToMapSucc" en="[Analog dot] element [%s] to map [%s] successfully" />
+        <string keyword="kAnalogEleToMapFail" en="[Analog dot] element [%s] to map [%s] failed" />
+        <string keyword="kAccessPtCanBeEmpty" en="Access point name can not be empty!" />
+        <string keyword="kAccessPtCanBeMore48" en="Access Point Names can not be more than 48!" />
+        <string keyword="kAccessPtCanBeIllegal" en="Access Point Name contains illegal characters!" />
+        <string keyword="kAccessPtCanExists" en="This access point name already exists!" />
+        <string keyword="kNotAssociateAccessPt" en="Not associated access point!" />
+        <string keyword="kTheAccessPtLinked" en="The access point has been linked!" />
+        <string keyword="kAccessPtEleToMapSucc" en="[Access Point] element [%s] to map [%s] successfully" />
+        <string keyword="kAccessPtEleToMapFail" en="[Access Point] element [%s] to map [%s] failed" />
+        <string keyword="kHotspotsEleTomapSucc" en="[Hotspots] element [%s] to map [%s] successfully" />
+        <string keyword="kHotspotsEleTomapFail" en="[Hotspots] element [%s] to map [%s] failed" />
+        <string keyword="kHotZoneIsEmpty" en="Hot zone name is empty!" />
+        <string keyword="kHotZoneIsMore48" en="Hot zone name can not be more than 48!" />
+        <string keyword="kHotZoneIsMoreIllegal" en="Hot zone name contains illegal characters!" />
+        <string keyword="kAddressIsEmpty" en="The address is empty!" />
+        <string keyword="kAddressIsMore48" en="Address can not be more than 48!" />
+        <string keyword="kAddressIsMoreIllegal" en="Address contains illegal characters!" />
+        <string keyword="kPicCanNotAddZone" en="Pictured location can not add your own hot zone!" />
+        <string keyword="kAlreadyArmItDeterToPerArm" en="Already is armed, it is determined to perform arming operation?" />
+        <string keyword="kItHasDisArmedDeterToPerOper" en="It has been disarmed, determined to be performed disarm operation?" />
+        <string keyword="kAlreadInThePassStateOper" en="Already in the bypass state, you are going to do a bypass operation?" />
+        <string keyword="kHasBeenByPassRecovState" en="Has been in bypass recovery state, you sure you want to perform bypass recovery operation?" />
+        <string keyword="kAlarmIsCanceled" en="Alarm is canceled." />
+        <string keyword="kFailedToCancelAlarm" en="Failed to cancel alarm." />
+        <string keyword="kRefreshingAlarmHostStatus" en="Refreshing alarm host status." />
+        <string keyword="kTheSubsystemNoMustBeBetween" en="The subsystem No. must be between 1 to %d." />
+        <string keyword="kTheAreaNoMustBeBetween" en="The area No. must be between 1 to %d." />
+        <string keyword="kGettingAccessControlInformation" en="Getting access control information…" />
+        <string keyword="kSetDoorNormallyOpenSucc" en="Setting door normally open succeeded." />
+        <string keyword="kSetDoorNormallyClosedSucc" en="Setting door normally closed succeeded." />
+        <string keyword="kSetDoorNormallyOpenFailed" en="Setting door normally open failed." />
+        <string keyword="kSetDoorNormallyClosedFailed" en="Setting door normally closed failed." />
+        <string keyword="kCannotBeEmpty" en="Cannot be empty." />
+        <string keyword="kNotExceedTheMaximumLength" en="Not exceed the maximum length:" />
+        <string keyword="kRefreshAlarmState" en="Refreshing alarm host state" />
+        <string keyword="kGetAccInfo" en="Getting access information" />
+        <string keyword="kWebUploadElectronicMap" en="Web upload electronic map" />
+        <string keyword="kWebDownloadElectronicMaps" en="Web Download electronic  Maps" />
+        <string keyword="kFailed" en="Failed" />
+        <string keyword="kSuccess" en="Success" />
+        <string keyword="kMapSTosuccess" en="Map [% s] to success" />
+        <string keyword="kMapSToFail" en="Map [% s] to fail" />
+    </resource>
+</language>

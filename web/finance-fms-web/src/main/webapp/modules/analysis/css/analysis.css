@@ -1,0 +1,300 @@
+.fullfit{
+	position: relative;
+}
+.tab-withoutBorder{
+	margin:0;
+	padding-top:0;
+}
+.tab-content{
+	position: absolute;
+	top:50px;
+	bottom:15px;
+	right:0;
+	left:0;
+	overflow-y:auto;
+	overflow-x:hidden;
+}
+.tab-content>div{
+	width:100%;
+}
+.ieStyle .filterDIV {
+	margin-right:6px;
+	margin-top:2px;
+}
+ul.tabs{
+	height:49px;
+}
+.tab-withoutBorder ul.tabs li.ui-state-active{
+	height:47px;
+	color:#3F85E4;
+	border-bottom:solid 2px #3F85E4;
+}
+ul.tabs li a, ul.tabs li.ui-state-default a{
+	line-height: 47px;
+	padding:0 20px;
+}
+ul.tabs li a, ul.tabs li.ui-state-default a:hover{
+	color:#3F85E4;
+}
+.filterFormBox{
+	padding-top:0;
+	margin-top:15px;
+	height:40px;
+	background: white;
+	width:980px;
+}
+.ieStyle .filterDIV{
+	height:auto;
+	float:left;
+}
+.staInfo:after{
+	content:' ';
+	display: block;
+	clear:both;
+}
+.staInfo div.info{
+	float:left;
+	width:188px;
+	border:solid 1px #ccc;
+	height:100px;
+	margin-right:6px;
+	font-size: 26px;
+}
+.staInfo div.kind4{
+	width:237px;
+}
+.staInfo div.info .top{
+	height:70px;
+	line-height: 70px;
+	width:100%;
+}
+.staInfo div.info .top span{
+	font-size: 18px;
+	display: inline-block;
+	overflow: hidden;
+}
+.staInfo div.info label{
+	display: inline-block;
+	max-width:100px;
+	/*_width:100px;*/
+	margin-left:10px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow:ellipsis;
+}
+.staInfo div.info .busiSta{
+	max-width:140px;
+	/*_width:140px;*/
+}
+.staInfo div.info .bottom{
+	height:30px;
+	line-height: 30px;
+	width:100%;
+	color:white;
+	font-size:14px;
+	text-indent: 1em;
+}
+.order-bars-chart{
+	height:400px;
+}
+.chartInfo{
+	width:965px;
+	margin-top:20px;
+	position: relative;
+}
+/* .staInfo div.sel-region .top{
+	background: url("/images/statistic/sel-region.png") right no-repeat;
+}
+.staInfo div.sel-region .bottom{
+	background: #EF9383;
+}
+.staInfo div.sale-all .top{
+	background: url("/images/statistic/sale-all.png") right no-repeat;
+}
+.staInfo div.sale-all .bottom{
+	background: #EF9383;
+}
+.staInfo div.sale-pro .top{
+	background: url("/images/statistic/sel-region.png") right no-repeat;
+}
+.staInfo div.sale-pro .bottom{
+	background: #EF9383;
+}
+.staInfo div.sale-champion .top{
+	background: url("/images/statistic/sel-region.png") right no-repeat;
+}
+.staInfo div.sale-champion .bottom{
+	background: #EF9383;
+}
+.staInfo div.sale-best .top{
+	background: url("/images/statistic/sel-region.png") right no-repeat;
+}
+.staInfo div.sale-best .bottom{
+	background: #EF9383;
+} */
+.fieldset_50{
+	float:left;
+	width:490px;
+}
+.selectChange .selector {
+    width: 80px !important;
+}
+.selectChange select {
+    width: 90px !important;
+}
+.selectChange label{
+	margin:0 10px;
+}
+/* .fieldset_50 .selector {
+	display: none;
+	float:left;
+	margin-right:10px;
+} */
+/* .ztree li a.curSelectedNode{
+	width:166px;
+	height:24px;
+	line-height: 24px;
+	background-color: #3F85E4;
+	border:0;
+}
+.ztree li span.button.curSpanActive{
+	background-color: #3F85E4 !important;
+}
+.ztree li span.button.children_span_active{
+	background-color:#D2DDEB !important;
+}
+.ztree li a.children_active{
+	width:150px;
+	background-color:#D2DDEB;
+}
+.ztree li a {
+	padding:0;
+	height:24px;
+	line-height: 24px;
+	margin-bottom:1px;
+}
+.ztree li span.button.home_ico_open, .ztree li span.button.home_ico_close, .ztree li span.button.home_ico_docu{
+	
+}
+.ztree li span{
+	margin-top:4px;
+}
+.ztree li span.button.root_close{
+	background: url("/images/icons/retract.png");
+	margin-top:4px;
+}
+.ztree li span.button.root_open{
+	background: url("/images/icons/spread.png");
+	margin-top:4px;
+}
+.ztree li span.button.root_close,.ztree li span.button.center_close,.ztree li span.button.bottom_close{
+	background: url("/images/icons/retract.png") no-repeat center;
+	margin-top:0;
+}
+.ztree li span.button.root_open,.ztree li span.button.center_open,.ztree li span.button.bottom_open{
+	background: url("/images/icons/spread.png") no-repeat center;
+	margin-top:0;
+}
+.ztree li span.button{
+	margin-top:2px;
+}
+.ztree li span.button.switch{
+	height:24px;
+} */
+.selectChange{
+	display: inline-block;
+}
+.barChart{
+	width:100%;
+	height:400px;
+	overflow: auto;
+}
+.barChartsDiv{
+	width:100%;
+	height:100%;
+}
+.ButtonPos{
+	width:auto;
+	height:auto;
+	position: absolute;
+	left: 180px;
+}
+.chartButton{
+	display: inline-block;
+	padding:5px 8px;
+	border:solid 1px #747474;
+	color:#747474;
+}
+.chartButton.left{
+	border-right:0;
+}
+.chartButton.right{
+	border-left:0;
+}
+.chartButton:hover{
+	color:#3F85E4;
+}
+.chartButton.active.left{
+	border-right:solid 1px;
+}
+.chartButton.active.right{
+	border-left:solid 1px;
+}
+.chartInfo .chartButton.active{
+	border-color:#3F85E4 !important;
+	color:#3F85E4 !important;
+	background: white !important;
+	_margin-left:0 !important;
+}
+.ButtonPos .active{
+	border-color:#3F85E4 !important;
+	color:#3F85E4 !important;
+	_margin-left:0 !important;
+}
+#orderButton {
+	top: 15px;
+}
+#complainButton{
+	top: 414px;
+}
+#checkStatisticNone,#normalStatisticNone,.pieNoData{
+	background: url("/images/statistic/pie.png") no-repeat center center;
+	text-align: center;
+	width:100%;
+	height:100%;
+	line-height: 400px;
+	vertical-align: middle;
+	color:#BDBDBD;
+	position: relative;
+}
+.pieTitle{
+	width:100%;
+	height:30px;
+	position: absolute;
+	top:40px;
+	left:0;
+}
+.halfTitle{
+	width:400px;
+	text-align: center;
+	height:100%;
+	line-height: 30px;
+	font-weight: bold;
+	font-size: 16px;
+}
+.businessNull{
+	background: url("/images/statistic/businessNull.png") no-repeat center center;
+	position: relative;
+	text-align: center;
+}
+span.nullDate{
+	display: block;
+	width:50px;
+	height:40px;
+	position: absolute;
+	top:50%;
+	left:50%;
+	margin-left:-25px;
+	margin-top:40px;
+	color: #ccc;
+}

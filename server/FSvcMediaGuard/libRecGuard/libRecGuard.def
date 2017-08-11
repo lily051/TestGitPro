@@ -1,0 +1,12 @@
+LIBRARY	"libRecGuard"
+EXPORTS
+	libRecGuard_Init               @1
+	libRecGuard_Fini               @2
+	libRecGuard_Start              @3
+	libRecGuard_Stop               @4
+	libRecGuard_GetVersion         @5
+	libRecGuard_GetLastError       @6
+	libRecGuard_SetMsgCallback     @7
+   
+
+ 

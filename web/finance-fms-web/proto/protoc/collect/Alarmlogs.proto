@@ -1,0 +1,48 @@
+package cms_8120;
+import "type/cmd.proto";
+import "server/RspServerData.proto";
+option java_package = "com.hikvision.finance.fms.cms.hpp.collect";
+option java_outer_classname = "AlarmlogsProto";
+option java_generic_services = true;
+
+
+//报警日志表
+message Alarmlogs
+{
+    //必须字段
+    optional int32 id                       = 1;    // 在数据库中的流水号
+    optional int32 nAlarmID                 = 2;    // 0-新报警，1-旧报警
+    optional string strGUID                 = 3;    // 唯一标识;建议采用:SeqNO-timestamp-pid-localip
+    optional int32 nType                    = 4;    // 报警大类型
+    optional int32 nSubType                 = 5;    // 报警类型
+    optional int32 nStatus                  = 6;    // 0-非报警，1-报警
+    optional int32 nPriority                = 7;    // 优先级
+    optional string dtOccurtime             = 8[default = "1970-01-01 00:00:00"];    // 最近一次报警时间
+    optional string dtBegintime             = 9[default = "1970-01-01 00:00:00"];    // 报警发生时间
+    optional int32 nRegionID                = 10;   // 区域号
+    optional int32 nCollectorID             = 11;   // 采集器id
+    optional int32 nCChannel                = 12;   // 通道
+    optional int32 nDevID                   = 13;   // 导致报警操作类型
+    optional string strAppendInfo           = 14;   // 报警描述
+    optional string strHost                 = 15;   // 报警来源ip
+    optional int32 nUserID                  = 16;   // 用户信息
+    optional string strComment              = 17;   // 备注
+}
+
+message AlarmlogsInfo
+{
+    optional int32 cmd                		= 1;    // CMD_DT_ALARMLOGS--CMD_MDT_ALARMOCCURTIME--CMD_WDT_ALARMLOG_INFOS
+    optional Alarmlogs alarmlogs            = 2;    // 报警日志列表
+}
+
+
+
+service ModifyAlarmlogsinfoService {
+	
+	rpc QyeryAlarmlogsID(Alarmlogs) returns (AlarmlogsInfo);			// CMD_DT_ALARMLOGS(查询报警日志信息)
+	
+	rpc UpdateAlarmlogsInfo(Alarmlogs) returns (RspServerData);			// CMD_MDT_ALARMOCCURTIME(更新报警日志信息)
+	
+	rpc SaveAlarmlogsInfo(Alarmlogs) returns (RspServerData);			// CMD_WDT_ALARMLOGS_INFO(保存报警日志)
+	
+}

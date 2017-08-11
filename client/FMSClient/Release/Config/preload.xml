@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preload>
+    <!--相对路径-->
+    <!--主要是一些必须依赖的库、播放库、第三方库文件-->
+    <file>hpr.dll</file>
+    <file>hpp.dll</file>
+    <file>GeneralPlayerAPI.dll</file>
+</preload>

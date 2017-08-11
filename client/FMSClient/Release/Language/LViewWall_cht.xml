@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<language>
+    <type key="4" value="cht" />
+    <resource>
+        <string keyword="vw_tip_getcamerainfo_failed" cht="" />
+        <string keyword="vw_tip_preview_failed" cht="" />
+    </resource>
+</language>

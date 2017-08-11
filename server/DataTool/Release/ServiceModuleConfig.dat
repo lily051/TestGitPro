@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+	<Service name="FSvcWeb_8120" ModuleType="41228" startCmd="start.bat" stopCmd="stop.bat" installCmd="install.bat" uninstallCmd="uninstall.bat" configTool="ConfigTool.exe">WEB服务</Service>
+</Configuration>

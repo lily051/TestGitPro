@@ -1,0 +1,36 @@
+package cms_8120;
+import "type/cmd.proto";
+option java_package = "com.hikvision.finance.fms.cms.hpp.center";
+option java_outer_classname = "StorageConfigProto";
+option java_generic_services = true;
+
+//数据请求消息
+message ReqStorageConfig
+{
+    optional int32 cmd                      = 1;    // CMD_DT_STORAGE_INFO
+    optional string ip                      = 2;    // 采集设备IP
+    optional int32 port                     = 3;    // 采集设备端口
+}
+//数据响应信息
+message RspStorageConfig
+{
+    optional int32 cmd                      = 1;    // CMD_DT_STORAGE_INFO
+    optional int32 result                   = 2;    // 是否成功
+    optional int32 type                     = 3;    // 类型
+    optional string startTime               = 4[default = "1970-01-01 00:00:00"];    // 上传开始工作时间
+    optional string stopTime                = 5[default = "1970-01-01 00:00:00"];    // 上传结束工作时间
+    optional int32 devicetype               = 6;    // 存储器类型
+    optional string storageIp               = 7;    // 存储器IP
+    optional int32 storagePort              = 8;    // 存储器端口
+    optional string storageUserName         = 9;    // 存储器用户名
+    optional string storagePwd              = 10;    // 存储器密码
+    optional int32 poolid                   = 11;   // poolid
+    optional string device_code             = 12;   // 设备编码
+}
+
+
+service ModifyStorageConfigService {
+	
+	rpc QueryStorageConfiginfo(ReqStorageConfig) returns (RspStorageConfig);			// CMD_DT_STORAGE_INFO--获取存储设备参数
+	
+}

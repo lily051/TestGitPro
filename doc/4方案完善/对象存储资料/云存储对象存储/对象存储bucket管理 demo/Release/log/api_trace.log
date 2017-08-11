@@ -1,0 +1,235 @@
+2016-08-31 16:25:03,832 [0x0000151c] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,init client success, access_key: 62dz356jj5YQ11X5364pm681slTd92xm6nE931oqG99NX7T0b0q812t8t49j0Ag  secret_key: 9p828SN200FnH028wj7h5k922G5uO0i469u2eT0919C3Y1kO1vM7Mv65D6qaJ19  endpoint: 10.33.34.20:6201 >
+2016-08-31 16:25:03,833 [0x0000151c] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,request create bucket, bucket name(ltl_test1), new size(10), region(LOCAL-1)>
+2016-08-31 16:25:03,875 [0x0000151c] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,create bucket success, bucket name: ltl_test1, region: LOCAL-1>
+2016-08-31 16:25:04,715 [0x0000151c] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,uninit client success>
+2016-08-31 16:25:11,368 [0x0000151c] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,init client success, access_key: 62dz356jj5YQ11X5364pm681slTd92xm6nE931oqG99NX7T0b0q812t8t49j0Ag  secret_key: 9p828SN200FnH028wj7h5k922G5uO0i469u2eT0919C3Y1kO1vM7Mv65D6qaJ19  endpoint: 10.33.34.20:6201 >
+2016-08-31 16:25:11,373 [0x0000151c] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,request delete bucket, bucket name: ltl_test1>
+2016-08-31 16:25:11,498 [0x0000151c] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,delete bucket success, bucket name: ltl_test1>
+2016-08-31 16:25:12,201 [0x0000151c] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,uninit client success>
+2016-08-31 16:42:10,471 [0x00001e84] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,init client success, access_key: 62dz356jj5YQ11X5364pm681slTd92xm6nE931oqG99NX7T0b0q812t8t49j0Ag  secret_key: 9p828SN200FnH028wj7h5k922G5uO0i469u2eT0919C3Y1kO1vM7Mv65D6qaJ19  endpoint: 10.33.34.20:6201 >
+2016-08-31 16:42:10,473 [0x00001e84] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,request create bucket, bucket name(222), new size(10), region(LOCAL-1)>
+2016-08-31 16:42:10,580 [0x00001e84] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,create bucket success, bucket name: 222, region: LOCAL-1>
+2016-08-31 16:42:11,368 [0x00001e84] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,uninit client success>
+2016-08-31 16:42:15,782 [0x00001e84] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,init client success, access_key: 62dz356jj5YQ11X5364pm681slTd92xm6nE931oqG99NX7T0b0q812t8t49j0Ag  secret_key: 9p828SN200FnH028wj7h5k922G5uO0i469u2eT0919C3Y1kO1vM7Mv65D6qaJ19  endpoint: 10.33.34.20:6201 >
+2016-08-31 16:42:15,784 [0x00001e84] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,request delete bucket, bucket name: 222>
+2016-08-31 16:42:15,865 [0x00001e84] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,delete bucket success, bucket name: 222>
+2016-08-31 16:42:16,616 [0x00001e84] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,uninit client success>
+2016-08-31 16:42:26,054 [0x00001e84] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,init client success, access_key: 62dz356jj5YQ11X5364pm681slTd92xm6nE931oqG99NX7T0b0q812t8t49j0Ag  secret_key: 9p828SN200FnH028wj7h5k922G5uO0i469u2eT0919C3Y1kO1vM7Mv65D6qaJ19  endpoint: 10.33.34.20:6201 >
+2016-08-31 16:42:26,056 [0x00001e84] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,request delete bucket, bucket name: test>
+2016-08-31 16:42:26,139 [0x00001e84] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,delete bucket success, bucket name: test>
+2016-08-31 16:42:26,836 [0x00001e84] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,uninit client success>
+2016-08-31 16:42:32,400 [0x00001e84] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,init client success, access_key: 62dz356jj5YQ11X5364pm681slTd92xm6nE931oqG99NX7T0b0q812t8t49j0Ag  secret_key: 9p828SN200FnH028wj7h5k922G5uO0i469u2eT0919C3Y1kO1vM7Mv65D6qaJ19  endpoint: 10.33.34.20:6201 >
+2016-08-31 16:42:32,408 [0x00001e84] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,request delete bucket, bucket name: testa>
+2016-08-31 16:42:32,428 [0x00001e84] ERROR HCS_OBJ_Error - <[hik_errorcode=0], modID=0, busiID=0,http reply status code is not 200, status_code is :409, reply body: <?xml version = "1.0" encoding = "UTF-8"?>
+<Error>
+<Code>BucketNotEmpty</Code>
+<Message>bucket is not empty</Message>
+<RequestID>1472633137539971761198782</RequestID>
+</Error>
+>
+2016-08-31 16:42:33,282 [0x00001e84] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,uninit client success>
+2016-08-31 16:42:41,341 [0x00001e84] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,init client success, access_key: 62dz356jj5YQ11X5364pm681slTd92xm6nE931oqG99NX7T0b0q812t8t49j0Ag  secret_key: 9p828SN200FnH028wj7h5k922G5uO0i469u2eT0919C3Y1kO1vM7Mv65D6qaJ19  endpoint: 10.33.34.20:6201 >
+2016-08-31 16:42:41,341 [0x00001e84] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,request delete bucket, bucket name: testa>
+2016-08-31 16:42:41,355 [0x00001e84] ERROR HCS_OBJ_Error - <[hik_errorcode=0], modID=0, busiID=0,http reply status code is not 200, status_code is :409, reply body: <?xml version = "1.0" encoding = "UTF-8"?>
+<Error>
+<Code>BucketNotEmpty</Code>
+<Message>bucket is not empty</Message>
+<RequestID>14726331464668431238496218</RequestID>
+</Error>
+>
+2016-08-31 16:42:42,508 [0x00001e84] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,uninit client success>
+2016-08-31 16:43:09,922 [0x000028b0] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,init client success, access_key: 62dz356jj5YQ11X5364pm681slTd92xm6nE931oqG99NX7T0b0q812t8t49j0Ag  secret_key: 9p828SN200FnH028wj7h5k922G5uO0i469u2eT0919C3Y1kO1vM7Mv65D6qaJ19  endpoint: 10.33.34.20:6201 >
+2016-08-31 16:43:09,924 [0x000028b0] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,request delete bucket, bucket name: testa>
+2016-08-31 16:43:09,946 [0x000028b0] ERROR HCS_OBJ_Error - <[hik_errorcode=0], modID=0, busiID=0,http reply status code is not 200, status_code is :409, reply body: <?xml version = "1.0" encoding = "UTF-8"?>
+<Error>
+<Code>BucketNotEmpty</Code>
+<Message>bucket is not empty</Message>
+<RequestID>1472633175604732080495384</RequestID>
+</Error>
+>
+2016-08-31 16:43:10,893 [0x000028b0] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,uninit client success>
+2016-08-31 16:43:14,157 [0x000028b0] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,init client success, access_key: 62dz356jj5YQ11X5364pm681slTd92xm6nE931oqG99NX7T0b0q812t8t49j0Ag  secret_key: 9p828SN200FnH028wj7h5k922G5uO0i469u2eT0919C3Y1kO1vM7Mv65D6qaJ19  endpoint: 10.33.34.20:6201 >
+2016-08-31 16:43:14,161 [0x000028b0] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,request delete bucket, bucket name: testa>
+2016-08-31 16:43:14,183 [0x000028b0] ERROR HCS_OBJ_Error - <[hik_errorcode=0], modID=0, busiID=0,http reply status code is not 200, status_code is :409, reply body: <?xml version = "1.0" encoding = "UTF-8"?>
+<Error>
+<Code>BucketNotEmpty</Code>
+<Message>bucket is not empty</Message>
+<RequestID>14726331792935501944671066</RequestID>
+</Error>
+>
+2016-08-31 16:43:15,031 [0x000028b0] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,uninit client success>
+2016-08-31 18:11:41,463 [0x00002500] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,init client success, access_key: 62dz356jj5YQ11X5364pm681slTd92xm6nE931oqG99NX7T0b0q812t8t49j0Ag  secret_key: 9p828SN200FnH028wj7h5k922G5uO0i469u2eT0919C3Y1kO1vM7Mv65D6qaJ19  endpoint: 10.33.34.20:6201 >
+2016-08-31 18:11:41,465 [0x00002500] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,request delete bucket, bucket name: testa>
+2016-08-31 18:11:41,491 [0x00002500] ERROR HCS_OBJ_Error - <[hik_errorcode=0], modID=0, busiID=0,http reply status code is not 200, status_code is :409, reply body: <?xml version = "1.0" encoding = "UTF-8"?>
+<Error>
+<Code>BucketNotEmpty</Code>
+<Message>bucket is not empty</Message>
+<RequestID>1472638486630646699532416</RequestID>
+</Error>
+>
+2016-08-31 18:11:44,324 [0x00002500] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,uninit client success>
+2016-08-31 18:34:47,634 [0x00002760] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,init client success, access_key: 62dz356jj5YQ11X5364pm681slTd92xm6nE931oqG99NX7T0b0q812t8t49j0Ag  secret_key: 9p828SN200FnH028wj7h5k922G5uO0i469u2eT0919C3Y1kO1vM7Mv65D6qaJ19  endpoint: 10.33.34.20:6201 >
+2016-08-31 18:34:47,634 [0x00002760] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,request create bucket, bucket name(ivms_8000_bucket), new size(10), region(LOCAL-1)>
+2016-08-31 18:34:47,730 [0x00002760] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,create bucket success, bucket name: ivms_8000_bucket, region: LOCAL-1>
+2016-08-31 18:34:48,476 [0x00002760] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,uninit client success>
+2016-08-31 18:34:58,716 [0x00002760] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,init client success, access_key: 62dz356jj5YQ11X5364pm681slTd92xm6nE931oqG99NX7T0b0q812t8t49j0Ag  secret_key: 9p828SN200FnH028wj7h5k922G5uO0i469u2eT0919C3Y1kO1vM7Mv65D6qaJ19  endpoint: 10.33.34.20:6201 >
+2016-08-31 18:34:58,719 [0x00002760] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,request delete bucket, bucket name: ivms_8000_bucket>
+2016-08-31 18:34:58,812 [0x00002760] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,delete bucket success, bucket name: ivms_8000_bucket>
+2016-08-31 18:34:59,549 [0x00002760] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,uninit client success>
+2016-08-31 18:40:01,199 [0x00002448] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,init client success, access_key: 62dz356jj5YQ11X5364pm681slTd92xm6nE931oqG99NX7T0b0q812t8t49j0Ag  secret_key: 9p828SN200FnH028wj7h5k922G5uO0i469u2eT0919C3Y1kO1vM7Mv65D6qaJ19  endpoint: 10.33.34.20:6201 >
+2016-08-31 18:40:01,201 [0x00002448] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,request delete object, bucket name: testa, object key: 2, version: 00000000>
+2016-08-31 18:40:01,253 [0x00002448] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,SendRequestRecvReplyAndParseReplyHead success>
+2016-08-31 18:40:01,253 [0x00002448] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,delete object success,  bucket_name: testa, object key: 2 ,version_id: >
+2016-08-31 18:40:02,230 [0x00002448] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,uninit client success>
+2016-08-31 18:40:09,913 [0x00002448] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,init client success, access_key: 62dz356jj5YQ11X5364pm681slTd92xm6nE931oqG99NX7T0b0q812t8t49j0Ag  secret_key: 9p828SN200FnH028wj7h5k922G5uO0i469u2eT0919C3Y1kO1vM7Mv65D6qaJ19  endpoint: 10.33.34.20:6201 >
+2016-08-31 18:40:09,915 [0x00002448] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,request delete object, bucket name: testa, object key: 3, version: 00000000>
+2016-08-31 18:40:09,947 [0x00002448] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,SendRequestRecvReplyAndParseReplyHead success>
+2016-08-31 18:40:09,948 [0x00002448] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,delete object success,  bucket_name: testa, object key: 3 ,version_id: >
+2016-08-31 18:40:10,821 [0x00002448] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,uninit client success>
+2016-08-31 18:40:17,076 [0x00002448] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,init client success, access_key: 62dz356jj5YQ11X5364pm681slTd92xm6nE931oqG99NX7T0b0q812t8t49j0Ag  secret_key: 9p828SN200FnH028wj7h5k922G5uO0i469u2eT0919C3Y1kO1vM7Mv65D6qaJ19  endpoint: 10.33.34.20:6201 >
+2016-08-31 18:40:17,083 [0x00002448] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,request delete object, bucket name: testa, object key: 4, version: 00000000>
+2016-08-31 18:40:17,117 [0x00002448] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,SendRequestRecvReplyAndParseReplyHead success>
+2016-08-31 18:40:17,121 [0x00002448] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,delete object success,  bucket_name: testa, object key: 4 ,version_id: >
+2016-08-31 18:40:17,934 [0x00002448] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,uninit client success>
+2016-08-31 18:40:35,921 [0x00002448] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,init client success, access_key: 62dz356jj5YQ11X5364pm681slTd92xm6nE931oqG99NX7T0b0q812t8t49j0Ag  secret_key: 9p828SN200FnH028wj7h5k922G5uO0i469u2eT0919C3Y1kO1vM7Mv65D6qaJ19  endpoint: 10.33.34.20:6201 >
+2016-08-31 18:40:35,935 [0x00002448] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,request delete object, bucket name: testa, object key: stream.mp4, version: 00000000>
+2016-08-31 18:40:36,049 [0x00002448] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,SendRequestRecvReplyAndParseReplyHead success>
+2016-08-31 18:40:36,050 [0x00002448] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,delete object success,  bucket_name: testa, object key: stream.mp4 ,version_id: >
+2016-08-31 18:40:36,850 [0x00002448] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,uninit client success>
+2016-08-31 18:40:50,671 [0x00002448] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,init client success, access_key: 62dz356jj5YQ11X5364pm681slTd92xm6nE931oqG99NX7T0b0q812t8t49j0Ag  secret_key: 9p828SN200FnH028wj7h5k922G5uO0i469u2eT0919C3Y1kO1vM7Mv65D6qaJ19  endpoint: 10.33.34.20:6201 >
+2016-08-31 18:40:50,674 [0x00002448] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,request delete object, bucket name: testa, object key: 10.16.35.14_20160824155613_20160824163257, version: 00000000>
+2016-08-31 18:40:50,701 [0x00002448] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,SendRequestRecvReplyAndParseReplyHead success>
+2016-08-31 18:40:50,704 [0x00002448] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,delete object success,  bucket_name: testa, object key: 10.16.35.14_20160824155613_20160824163257 ,version_id: >
+2016-08-31 18:40:51,522 [0x00002448] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,uninit client success>
+2016-08-31 18:41:02,371 [0x00002448] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,init client success, access_key: 62dz356jj5YQ11X5364pm681slTd92xm6nE931oqG99NX7T0b0q812t8t49j0Ag  secret_key: 9p828SN200FnH028wj7h5k922G5uO0i469u2eT0919C3Y1kO1vM7Mv65D6qaJ19  endpoint: 10.33.34.20:6201 >
+2016-08-31 18:41:02,381 [0x00002448] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,request create bucket, bucket name(testa), new size(10), region(LOCAL-1)>
+2016-08-31 18:41:02,428 [0x00002448] ERROR HCS_OBJ_Error - <[hik_errorcode=0], modID=0, busiID=0,http reply status code is not 200, status_code is :409, reply body: <?xml version = "1.0" encoding = "UTF-8"?>
+<Error>
+<Code>BucketAlreadyExists</Code>
+<Message>bucket has exist in hcs, please use another bucket name</Message>
+<RequestID>1472640247707090936506541</RequestID>
+</Error>
+>
+2016-08-31 18:41:03,857 [0x00002448] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,uninit client success>
+2016-08-31 18:41:15,142 [0x00002448] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,init client success, access_key: 62dz356jj5YQ11X5364pm681slTd92xm6nE931oqG99NX7T0b0q812t8t49j0Ag  secret_key: 9p828SN200FnH028wj7h5k922G5uO0i469u2eT0919C3Y1kO1vM7Mv65D6qaJ19  endpoint: 10.33.34.20:6201 >
+2016-08-31 18:41:15,146 [0x00002448] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,request delete bucket, bucket name: testa>
+2016-08-31 18:41:15,169 [0x00002448] ERROR HCS_OBJ_Error - <[hik_errorcode=0], modID=0, busiID=0,http reply status code is not 200, status_code is :409, reply body: <?xml version = "1.0" encoding = "UTF-8"?>
+<Error>
+<Code>BucketNotEmpty</Code>
+<Message>bucket is not empty</Message>
+<RequestID>14726402604493591280862347</RequestID>
+</Error>
+>
+2016-08-31 18:41:16,238 [0x00002448] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,uninit client success>
+2016-08-31 18:41:34,705 [0x00002448] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,init client success, access_key: 62dz356jj5YQ11X5364pm681slTd92xm6nE931oqG99NX7T0b0q812t8t49j0Ag  secret_key: 9p828SN200FnH028wj7h5k922G5uO0i469u2eT0919C3Y1kO1vM7Mv65D6qaJ19  endpoint: 10.33.34.20:6201 >
+2016-08-31 18:41:34,717 [0x00002448] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,request delete object, bucket name: testa, object key: 10.16.35.14_20160824155613_20160824163257.thumbnail.jpg.1, version: 00000000>
+2016-08-31 18:41:34,766 [0x00002448] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,SendRequestRecvReplyAndParseReplyHead success>
+2016-08-31 18:41:34,774 [0x00002448] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,delete object success,  bucket_name: testa, object key: 10.16.35.14_20160824155613_20160824163257.thumbnail.jpg.1 ,version_id: >
+2016-08-31 18:41:35,671 [0x00002448] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,uninit client success>
+2016-08-31 18:41:43,713 [0x00002448] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,init client success, access_key: 62dz356jj5YQ11X5364pm681slTd92xm6nE931oqG99NX7T0b0q812t8t49j0Ag  secret_key: 9p828SN200FnH028wj7h5k922G5uO0i469u2eT0919C3Y1kO1vM7Mv65D6qaJ19  endpoint: 10.33.34.20:6201 >
+2016-08-31 18:41:43,717 [0x00002448] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,request delete object, bucket name: testa, object key: 10.16.35.14_20160824155613_20160824163257.thumbnail.jpg.2, version: 00000000>
+2016-08-31 18:41:43,748 [0x00002448] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,SendRequestRecvReplyAndParseReplyHead success>
+2016-08-31 18:41:43,748 [0x00002448] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,delete object success,  bucket_name: testa, object key: 10.16.35.14_20160824155613_20160824163257.thumbnail.jpg.2 ,version_id: >
+2016-08-31 18:41:44,652 [0x00002448] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,uninit client success>
+2016-08-31 18:41:53,273 [0x00002448] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,init client success, access_key: 62dz356jj5YQ11X5364pm681slTd92xm6nE931oqG99NX7T0b0q812t8t49j0Ag  secret_key: 9p828SN200FnH028wj7h5k922G5uO0i469u2eT0919C3Y1kO1vM7Mv65D6qaJ19  endpoint: 10.33.34.20:6201 >
+2016-08-31 18:41:53,274 [0x00002448] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,request delete object, bucket name: testa, object key: 2.thumbnail.jpg.1, version: 00000000>
+2016-08-31 18:41:53,313 [0x00002448] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,SendRequestRecvReplyAndParseReplyHead success>
+2016-08-31 18:41:53,319 [0x00002448] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,delete object success,  bucket_name: testa, object key: 2.thumbnail.jpg.1 ,version_id: >
+2016-08-31 18:41:54,117 [0x00002448] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,uninit client success>
+2016-08-31 18:42:00,028 [0x00002448] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,init client success, access_key: 62dz356jj5YQ11X5364pm681slTd92xm6nE931oqG99NX7T0b0q812t8t49j0Ag  secret_key: 9p828SN200FnH028wj7h5k922G5uO0i469u2eT0919C3Y1kO1vM7Mv65D6qaJ19  endpoint: 10.33.34.20:6201 >
+2016-08-31 18:42:00,035 [0x00002448] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,request delete object, bucket name: testa, object key: 2.thumbnail.jpg.2, version: 00000000>
+2016-08-31 18:42:00,064 [0x00002448] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,SendRequestRecvReplyAndParseReplyHead success>
+2016-08-31 18:42:00,070 [0x00002448] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,delete object success,  bucket_name: testa, object key: 2.thumbnail.jpg.2 ,version_id: >
+2016-08-31 18:42:00,870 [0x00002448] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,uninit client success>
+2016-08-31 18:42:04,891 [0x00002448] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,init client success, access_key: 62dz356jj5YQ11X5364pm681slTd92xm6nE931oqG99NX7T0b0q812t8t49j0Ag  secret_key: 9p828SN200FnH028wj7h5k922G5uO0i469u2eT0919C3Y1kO1vM7Mv65D6qaJ19  endpoint: 10.33.34.20:6201 >
+2016-08-31 18:42:04,902 [0x00002448] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,request delete object, bucket name: testa, object key: 2.thumbnail.jpg.3, version: 00000000>
+2016-08-31 18:42:04,962 [0x00002448] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,SendRequestRecvReplyAndParseReplyHead success>
+2016-08-31 18:42:04,964 [0x00002448] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,delete object success,  bucket_name: testa, object key: 2.thumbnail.jpg.3 ,version_id: >
+2016-08-31 18:42:05,854 [0x00002448] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,uninit client success>
+2016-08-31 18:42:08,330 [0x00002448] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,init client success, access_key: 62dz356jj5YQ11X5364pm681slTd92xm6nE931oqG99NX7T0b0q812t8t49j0Ag  secret_key: 9p828SN200FnH028wj7h5k922G5uO0i469u2eT0919C3Y1kO1vM7Mv65D6qaJ19  endpoint: 10.33.34.20:6201 >
+2016-08-31 18:42:08,331 [0x00002448] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,request delete object, bucket name: testa, object key: 2.thumbnail.jpg.4, version: 00000000>
+2016-08-31 18:42:08,369 [0x00002448] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,SendRequestRecvReplyAndParseReplyHead success>
+2016-08-31 18:42:08,374 [0x00002448] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,delete object success,  bucket_name: testa, object key: 2.thumbnail.jpg.4 ,version_id: >
+2016-08-31 18:42:09,141 [0x00002448] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,uninit client success>
+2016-08-31 18:42:11,224 [0x00002448] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,init client success, access_key: 62dz356jj5YQ11X5364pm681slTd92xm6nE931oqG99NX7T0b0q812t8t49j0Ag  secret_key: 9p828SN200FnH028wj7h5k922G5uO0i469u2eT0919C3Y1kO1vM7Mv65D6qaJ19  endpoint: 10.33.34.20:6201 >
+2016-08-31 18:42:11,246 [0x00002448] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,request delete object, bucket name: testa, object key: 2.thumbnail.jpg.5, version: 00000000>
+2016-08-31 18:42:11,279 [0x00002448] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,SendRequestRecvReplyAndParseReplyHead success>
+2016-08-31 18:42:11,282 [0x00002448] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,delete object success,  bucket_name: testa, object key: 2.thumbnail.jpg.5 ,version_id: >
+2016-08-31 18:42:36,563 [0x0000347c] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,init client success, access_key: 62dz356jj5YQ11X5364pm681slTd92xm6nE931oqG99NX7T0b0q812t8t49j0Ag  secret_key: 9p828SN200FnH028wj7h5k922G5uO0i469u2eT0919C3Y1kO1vM7Mv65D6qaJ19  endpoint: 10.33.34.20:6201 >
+2016-08-31 18:42:36,565 [0x0000347c] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,request delete object, bucket name: testa, object key: 3.thumbnail.jpg.1, version: 00000000>
+2016-08-31 18:42:36,598 [0x0000347c] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,SendRequestRecvReplyAndParseReplyHead success>
+2016-08-31 18:42:36,598 [0x0000347c] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,delete object success,  bucket_name: testa, object key: 3.thumbnail.jpg.1 ,version_id: >
+2016-08-31 18:42:37,383 [0x0000347c] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,uninit client success>
+2016-08-31 18:42:41,203 [0x0000347c] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,init client success, access_key: 62dz356jj5YQ11X5364pm681slTd92xm6nE931oqG99NX7T0b0q812t8t49j0Ag  secret_key: 9p828SN200FnH028wj7h5k922G5uO0i469u2eT0919C3Y1kO1vM7Mv65D6qaJ19  endpoint: 10.33.34.20:6201 >
+2016-08-31 18:42:41,208 [0x0000347c] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,request delete object, bucket name: testa, object key: 3.thumbnail.jpg.2, version: 00000000>
+2016-08-31 18:42:41,232 [0x0000347c] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,SendRequestRecvReplyAndParseReplyHead success>
+2016-08-31 18:42:41,233 [0x0000347c] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,delete object success,  bucket_name: testa, object key: 3.thumbnail.jpg.2 ,version_id: >
+2016-08-31 18:42:42,173 [0x0000347c] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,uninit client success>
+2016-08-31 18:42:44,747 [0x0000347c] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,init client success, access_key: 62dz356jj5YQ11X5364pm681slTd92xm6nE931oqG99NX7T0b0q812t8t49j0Ag  secret_key: 9p828SN200FnH028wj7h5k922G5uO0i469u2eT0919C3Y1kO1vM7Mv65D6qaJ19  endpoint: 10.33.34.20:6201 >
+2016-08-31 18:42:44,758 [0x0000347c] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,request delete object, bucket name: testa, object key: 3.thumbnail.jpg.3, version: 00000000>
+2016-08-31 18:42:44,791 [0x0000347c] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,SendRequestRecvReplyAndParseReplyHead success>
+2016-08-31 18:42:44,796 [0x0000347c] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,delete object success,  bucket_name: testa, object key: 3.thumbnail.jpg.3 ,version_id: >
+2016-08-31 18:42:45,603 [0x0000347c] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,uninit client success>
+2016-08-31 18:42:47,531 [0x0000347c] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,init client success, access_key: 62dz356jj5YQ11X5364pm681slTd92xm6nE931oqG99NX7T0b0q812t8t49j0Ag  secret_key: 9p828SN200FnH028wj7h5k922G5uO0i469u2eT0919C3Y1kO1vM7Mv65D6qaJ19  endpoint: 10.33.34.20:6201 >
+2016-08-31 18:42:47,535 [0x0000347c] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,request delete object, bucket name: testa, object key: 3.thumbnail.jpg.4, version: 00000000>
+2016-08-31 18:42:47,571 [0x0000347c] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,SendRequestRecvReplyAndParseReplyHead success>
+2016-08-31 18:42:47,577 [0x0000347c] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,delete object success,  bucket_name: testa, object key: 3.thumbnail.jpg.4 ,version_id: >
+2016-08-31 18:42:48,199 [0x0000347c] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,uninit client success>
+2016-08-31 18:42:50,424 [0x0000347c] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,init client success, access_key: 62dz356jj5YQ11X5364pm681slTd92xm6nE931oqG99NX7T0b0q812t8t49j0Ag  secret_key: 9p828SN200FnH028wj7h5k922G5uO0i469u2eT0919C3Y1kO1vM7Mv65D6qaJ19  endpoint: 10.33.34.20:6201 >
+2016-08-31 18:42:50,429 [0x0000347c] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,request delete object, bucket name: testa, object key: 3.thumbnail.jpg.5, version: 00000000>
+2016-08-31 18:42:50,449 [0x0000347c] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,SendRequestRecvReplyAndParseReplyHead success>
+2016-08-31 18:42:50,449 [0x0000347c] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,delete object success,  bucket_name: testa, object key: 3.thumbnail.jpg.5 ,version_id: >
+2016-08-31 18:42:51,196 [0x0000347c] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,uninit client success>
+2016-08-31 18:42:59,243 [0x0000347c] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,init client success, access_key: 62dz356jj5YQ11X5364pm681slTd92xm6nE931oqG99NX7T0b0q812t8t49j0Ag  secret_key: 9p828SN200FnH028wj7h5k922G5uO0i469u2eT0919C3Y1kO1vM7Mv65D6qaJ19  endpoint: 10.33.34.20:6201 >
+2016-08-31 18:42:59,250 [0x0000347c] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,request delete object, bucket name: testa, object key: stream.mp4.thumbnail.jpg.1, version: 00000000>
+2016-08-31 18:42:59,295 [0x0000347c] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,SendRequestRecvReplyAndParseReplyHead success>
+2016-08-31 18:42:59,297 [0x0000347c] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,delete object success,  bucket_name: testa, object key: stream.mp4.thumbnail.jpg.1 ,version_id: >
+2016-08-31 18:43:00,014 [0x0000347c] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,uninit client success>
+2016-08-31 18:43:03,004 [0x0000347c] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,init client success, access_key: 62dz356jj5YQ11X5364pm681slTd92xm6nE931oqG99NX7T0b0q812t8t49j0Ag  secret_key: 9p828SN200FnH028wj7h5k922G5uO0i469u2eT0919C3Y1kO1vM7Mv65D6qaJ19  endpoint: 10.33.34.20:6201 >
+2016-08-31 18:43:03,009 [0x0000347c] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,request delete object, bucket name: testa, object key: stream.mp4.thumbnail.jpg.2, version: 00000000>
+2016-08-31 18:43:03,048 [0x0000347c] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,SendRequestRecvReplyAndParseReplyHead success>
+2016-08-31 18:43:03,050 [0x0000347c] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,delete object success,  bucket_name: testa, object key: stream.mp4.thumbnail.jpg.2 ,version_id: >
+2016-08-31 18:43:03,875 [0x0000347c] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,uninit client success>
+2016-08-31 18:43:06,995 [0x0000347c] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,init client success, access_key: 62dz356jj5YQ11X5364pm681slTd92xm6nE931oqG99NX7T0b0q812t8t49j0Ag  secret_key: 9p828SN200FnH028wj7h5k922G5uO0i469u2eT0919C3Y1kO1vM7Mv65D6qaJ19  endpoint: 10.33.34.20:6201 >
+2016-08-31 18:43:06,999 [0x0000347c] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,request delete object, bucket name: testa, object key: stream.mp4.thumbnail.jpg.3, version: 00000000>
+2016-08-31 18:43:07,039 [0x0000347c] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,SendRequestRecvReplyAndParseReplyHead success>
+2016-08-31 18:43:07,043 [0x0000347c] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,delete object success,  bucket_name: testa, object key: stream.mp4.thumbnail.jpg.3 ,version_id: >
+2016-08-31 18:43:07,732 [0x0000347c] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,uninit client success>
+2016-08-31 18:43:10,582 [0x0000347c] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,init client success, access_key: 62dz356jj5YQ11X5364pm681slTd92xm6nE931oqG99NX7T0b0q812t8t49j0Ag  secret_key: 9p828SN200FnH028wj7h5k922G5uO0i469u2eT0919C3Y1kO1vM7Mv65D6qaJ19  endpoint: 10.33.34.20:6201 >
+2016-08-31 18:43:10,585 [0x0000347c] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,request delete object, bucket name: testa, object key: stream.mp4.thumbnail.jpg.4, version: 00000000>
+2016-08-31 18:43:10,622 [0x0000347c] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,SendRequestRecvReplyAndParseReplyHead success>
+2016-08-31 18:43:10,632 [0x0000347c] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,delete object success,  bucket_name: testa, object key: stream.mp4.thumbnail.jpg.4 ,version_id: >
+2016-08-31 18:43:11,553 [0x0000347c] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,uninit client success>
+2016-08-31 18:43:14,123 [0x0000347c] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,init client success, access_key: 62dz356jj5YQ11X5364pm681slTd92xm6nE931oqG99NX7T0b0q812t8t49j0Ag  secret_key: 9p828SN200FnH028wj7h5k922G5uO0i469u2eT0919C3Y1kO1vM7Mv65D6qaJ19  endpoint: 10.33.34.20:6201 >
+2016-08-31 18:43:14,130 [0x0000347c] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,request delete object, bucket name: testa, object key: stream.mp4.thumbnail.jpg.5, version: 00000000>
+2016-08-31 18:43:14,176 [0x0000347c] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,SendRequestRecvReplyAndParseReplyHead success>
+2016-08-31 18:43:14,178 [0x0000347c] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,delete object success,  bucket_name: testa, object key: stream.mp4.thumbnail.jpg.5 ,version_id: >
+2016-08-31 18:43:14,848 [0x0000347c] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,uninit client success>
+2016-08-31 18:43:20,888 [0x0000347c] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,init client success, access_key: 62dz356jj5YQ11X5364pm681slTd92xm6nE931oqG99NX7T0b0q812t8t49j0Ag  secret_key: 9p828SN200FnH028wj7h5k922G5uO0i469u2eT0919C3Y1kO1vM7Mv65D6qaJ19  endpoint: 10.33.34.20:6201 >
+2016-08-31 18:43:20,888 [0x0000347c] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,request delete bucket, bucket name: testa>
+2016-08-31 18:43:20,979 [0x0000347c] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,delete bucket success, bucket name: testa>
+2016-08-31 18:43:21,820 [0x0000347c] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,uninit client success>
+2016-08-31 18:46:47,995 [0x00003438] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,init client success, access_key: 62dz356jj5YQ11X5364pm681slTd92xm6nE931oqG99NX7T0b0q812t8t49j0Ag  secret_key: 9p828SN200FnH028wj7h5k922G5uO0i469u2eT0919C3Y1kO1vM7Mv65D6qaJ19  endpoint: 10.33.34.20:0 >
+2016-08-31 18:46:47,996 [0x00003438] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,request create bucket, bucket name(ivms_8000_bucket), new size(10), region(LOCAL-1)>
+2016-09-01 10:33:43,510 [0x00001c3c] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,init client success, access_key: 62dz356jj5YQ11X5364pm681slTd92xm6nE931oqG99NX7T0b0q812t8t49j0Ag  secret_key: 9p828SN200FnH028wj7h5k922G5uO0i469u2eT0919C3Y1kO1vM7Mv65D6qaJ19  endpoint: 10.33.34.20:6201 >
+2016-09-01 10:34:12,566 [0x00001c3c] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,uninit client success>
+2016-09-01 10:35:40,797 [0x00000530] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,init client success, access_key: 62dz356jj5YQ11X5364pm681slTd92xm6nE931oqG99NX7T0b0q812t8t49j0Ag  secret_key: 9p828SN200FnH028wj7h5k922G5uO0i469u2eT0919C3Y1kO1vM7Mv65D6qaJ19  endpoint: 10.33.34.20:6201 >
+2016-09-01 10:35:44,714 [0x00000530] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,uninit client success>
+2016-09-01 10:36:12,935 [0x000026b4] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,init client success, access_key: 62dz356jj5YQ11X5364pm681slTd92xm6nE931oqG99NX7T0b0q812t8t49j0Ag  secret_key: 9p828SN200FnH028wj7h5k922G5uO0i469u2eT0919C3Y1kO1vM7Mv65D6qaJ19  endpoint: 10.33.34.20:6201 >
+2016-09-01 10:36:15,086 [0x000026b4] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,request create bucket, bucket name(ivms_8000_bucket), new size(100), region(LOCAL-1)>
+2016-09-01 10:36:15,220 [0x000026b4] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,create bucket success, bucket name: ivms_8000_bucket, region: LOCAL-1>
+2016-09-01 10:36:20,837 [0x000026b4] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,request delete bucket, bucket name: ivms_8000_bucket>
+2016-09-01 10:36:20,919 [0x000026b4] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,delete bucket success, bucket name: ivms_8000_bucket>
+2016-09-01 10:36:48,512 [0x000026b4] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,uninit client success>
+2016-09-01 11:01:40,327 [0x00000690] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,init client success, access_key: 62dz356jj5YQ11X5364pm681slTd92xm6nE931oqG99NX7T0b0q812t8t49j0Ag  secret_key: 9p828SN200FnH028wj7h5k922G5uO0i469u2eT0919C3Y1kO1vM7Mv65D6qaJ19  endpoint: 10.33.34.20:6201 >
+2016-09-01 11:01:40,831 [0x00000690] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,request create bucket, bucket name(ivms_8000_bucket), new size(100), region(LOCAL-1)>
+2016-09-01 11:01:40,950 [0x00000690] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,create bucket success, bucket name: ivms_8000_bucket, region: LOCAL-1>
+2016-09-01 11:01:56,513 [0x00000690] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,request list objects, bucket_name(ivms_8000_bucket),to store objects list(0030F218)>
+2016-09-01 11:01:56,525 [0x00000690] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,SendRequestRecvReplyAndParseReplyHead success>
+2016-09-01 11:01:56,526 [0x00000690] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,parse list object reply over, summary count: 0, commom prefix count: 0>
+2016-09-01 11:01:56,527 [0x00000690] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,request free objects list,list pp(0030F218)>
+2016-09-01 11:02:04,744 [0x00000690] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,request delete bucket, bucket name: ivms_8000_bucket>
+2016-09-01 11:02:04,778 [0x00000690] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,delete bucket success, bucket name: ivms_8000_bucket>
+2016-09-01 11:02:12,114 [0x00000690] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,uninit client success>
+2016-09-01 11:02:41,170 [0x00000fd8] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,init client success, access_key: 62dz356jj5YQ11X5364pm681slTd92xm6nE931oqG99NX7T0b0q812t8t49j0Ag  secret_key: 9p828SN200FnH028wj7h5k922G5uO0i469u2eT0919C3Y1kO1vM7Mv65D6qaJ19  endpoint: 10.33.34.20:6201 >
+2016-09-01 11:03:12,850 [0x00000fd8] INFO  HCS_OBJ_Info - <[hik_errorcode=0], modID=0, busiID=0,uninit client success>

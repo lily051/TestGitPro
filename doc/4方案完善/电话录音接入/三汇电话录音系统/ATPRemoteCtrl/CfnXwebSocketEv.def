@@ -1,0 +1,37 @@
+LIBRARY CfnXwebSocketEv
+
+EXPORTS
+ GetEvent				@1
+ Connect				@2
+ Disconnect				@3
+ SetNetTimeout			@4
+ GetHardwareInfo		@5
+ GetChannelStatus		@6
+ GetDiskFreeSpaceB		@7
+ StartMonitor			@8
+ StopMonitor			@9
+ RebootDevice			@10
+ SetDateTime			@11
+ GetGlobalCfg			@12
+ SetGlobalCfg			@13
+ GetChannelCfg			@14
+ SetChannelCfg			@15
+ SetNetworkCfg			@16
+ GetLineVol				@17
+ DelFile				@18
+ DelFiles				@19
+ StopDelFile			@20
+ EnableDebugMsg			@21
+ StartUploadFile		@22
+ SetAdminPassword		@23
+ UploadFile				@24
+ DownloadFile			@25
+ WriteDVD				@26
+ CheckMediaAvailable		@27
+ CheckMediaConnected		@28
+ CalculateData				@29
+ GetChannelRunningStatus	@30
+ GetDeviceID				@31
+ GetDeviceTime				@32
+ SetWebPort					@33
+ GetWebPort					@34

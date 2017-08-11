@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FUiControl", "FUiControl\FUiControl.vcproj", "{977FB731-7F10-4782-A0E8-5897DF0A45CC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FUiDemo", "FUiDemo\FUiDemo.vcproj", "{4A187EA0-163E-48B7-9352-9B0DFB624B12}"
+	ProjectSection(ProjectDependencies) = postProject
+		{977FB731-7F10-4782-A0E8-5897DF0A45CC} = {977FB731-7F10-4782-A0E8-5897DF0A45CC}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ResPacker", "ResPacker\ResPacker.vcproj", "{641BA504-3EC4-4DB1-A304-4C17B55619A2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{977FB731-7F10-4782-A0E8-5897DF0A45CC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{977FB731-7F10-4782-A0E8-5897DF0A45CC}.Debug|Win32.Build.0 = Debug|Win32
+		{977FB731-7F10-4782-A0E8-5897DF0A45CC}.Release|Win32.ActiveCfg = Release|Win32
+		{977FB731-7F10-4782-A0E8-5897DF0A45CC}.Release|Win32.Build.0 = Release|Win32
+		{4A187EA0-163E-48B7-9352-9B0DFB624B12}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4A187EA0-163E-48B7-9352-9B0DFB624B12}.Debug|Win32.Build.0 = Debug|Win32
+		{4A187EA0-163E-48B7-9352-9B0DFB624B12}.Release|Win32.ActiveCfg = Release|Win32
+		{4A187EA0-163E-48B7-9352-9B0DFB624B12}.Release|Win32.Build.0 = Release|Win32
+		{641BA504-3EC4-4DB1-A304-4C17B55619A2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{641BA504-3EC4-4DB1-A304-4C17B55619A2}.Debug|Win32.Build.0 = Debug|Win32
+		{641BA504-3EC4-4DB1-A304-4C17B55619A2}.Release|Win32.ActiveCfg = Release|Win32
+		{641BA504-3EC4-4DB1-A304-4C17B55619A2}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

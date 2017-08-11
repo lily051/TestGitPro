@@ -1,0 +1,66 @@
+// PreviewS20OCX.idl : ActiveX 控件项目的类型库源。
+
+// 此文件将由 MIDL 编译器工具处理以
+// 产生类型库(PreviewS20OCX.tlb)，该类型库将成为
+// PreviewS20OCX.ocx.
+
+#include <olectl.h>
+#include <idispids.h>
+
+[ uuid(0DE56021-BC11-4491-BA24-EA0ADABED334), version(1.0),
+  helpfile("PreviewS20OCX.hlp"),
+  helpstring("PreviewS20OCX ActiveX 控件模块"),
+  control ]
+library PreviewS20OCXLib
+{
+	importlib(STDOLE_TLB);
+
+	//  CPreviewS20OCXCtrl 的主调度接口
+
+	[ uuid(A25F1DD7-D47C-466C-A075-5EE2CCC534AE),
+	  helpstring("PreviewS20OCX Control 的调度接口")]
+	dispinterface _DPreviewS20OCX
+	{
+		properties:
+			[id(7) , helpstring("属性 lLayoutMode")] LONG lLayoutMode;
+			[id(8) , helpstring("属性 lSkinType")] LONG lSkinType;
+			[id(11) , helpstring("属性 lBtnRights")] LONG lBtnRights;
+	methods:
+
+			[id(DISPID_ABOUTBOX)] void AboutBox();
+			[id(1), helpstring("方法StartPreview")] LONG StartPreview(BSTR strXML);
+			[id(3), helpstring("方法StopPreview")] LONG StopPreview(LONG lWndNum);
+			[id(4), helpstring("方法StartRecord")] LONG StartRecord(LONG lWndNum);
+			[id(5), helpstring("方法StopRecord")] LONG StopRecord(LONG lWndNum);
+			[id(6), helpstring("方法SetShowString")] LONG SetShowString(BSTR strXML);
+			[id(9), helpstring("方法SetConfigData")] LONG SetConfigData(BSTR strXML);
+			[id(10), helpstring("方法GetAllUSBCameraInfo")] BSTR GetAllUSBCameraInfo();
+	};
+
+	//  CPreviewS20OCXCtrl 的事件调度接口
+
+	[ uuid(46292E59-6C27-4A45-9B1A-2E96B8E10659),
+	  helpstring("PreviewS20OCX Control 的事件接口") ]
+	dispinterface _DPreviewS20OCXEvents
+	{
+		properties:
+			//  事件接口没有任何属性
+
+		methods:
+			[id(1), helpstring("方法RecordFile")] void RecordFile(BSTR lpstrXML);
+			[id(2), helpstring("方法FireIDCardInfo")] void FireIDCardInfo(BSTR lpName, BSTR lpIDCardNo, BSTR lpBirthday,
+                                                                             BSTR lpSex, BSTR lpNation, BSTR lpAddress,
+                                                                             BSTR lpBeginDate, BSTR lpEndDate, BSTR lpGovernment);
+	};
+
+	//  CPreviewS20OCXCtrl 的类信息
+
+	[ uuid(04655FF8-9979-4FFA-8F77-C3A539EA7370),
+	  helpstring("PreviewS20OCX Control"), control ]
+	coclass PreviewS20OCX
+	{
+		[default] dispinterface _DPreviewS20OCX;
+		[default, source] dispinterface _DPreviewS20OCXEvents;
+	};
+
+};

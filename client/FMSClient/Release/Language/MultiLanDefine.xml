@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MultiLanDefine>
+  <SPB_MI_ENTER_DIGTAL_ZOOM>进入电子放大</SPB_MI_ENTER_DIGTAL_ZOOM>
+  <SPB_MI_EXIT_DIGTAL_ZOOM>退出电子放大</SPB_MI_EXIT_DIGTAL_ZOOM>
+  <SPB_MI_TO_TVWALL>回放上墙</SPB_MI_TO_TVWALL>
+  <SPB_MI_OPEN_SOUND>打开声音</SPB_MI_OPEN_SOUND>
+  <SPB_MI_CLOSE_SOUND>关闭声音</SPB_MI_CLOSE_SOUND>
+  <SPB_MI_SNAPSHOT_ONE>单张抓图</SPB_MI_SNAPSHOT_ONE>
+  <SPB_MI_SNAPSHOT_CONTINUOUS>连续抓图</SPB_MI_SNAPSHOT_CONTINUOUS>
+  <SPB_MI_CLOSE>关闭</SPB_MI_CLOSE>
+  <Camera>监控点</Camera>
+  <SearchingForRecords>正在查询录像，请稍等...</SearchingForRecords>
+  <NoRecordFound>查询成功，但无录像文件</NoRecordFound>
+  <SearchFailed>查询失败，错误码 = %d</SearchFailed>
+  <GetingStream>正在取流...</GetingStream>
+  <GetStreamFailed>取流失败，请查看错误日志文件获取详细信息</GetStreamFailed>
+  <PBDT_DRY_UP>取流异常，请检查网络</PBDT_DRY_UP>
+  <TBMI_CANCEL_SELECT>取消框选</TBMI_CANCEL_SELECT>
+  <TBMI_LOCK>锁定录像</TBMI_LOCK>
+  <TBMI_UNLOCK>解锁录像</TBMI_UNLOCK>
+  <TBMI_ADD_LABEL>添加标签</TBMI_ADD_LABEL>
+  <TBMI_MODIFY_LABEL>修改标签</TBMI_MODIFY_LABEL>
+  <TBMI_DELETE_LABEL>删除标签</TBMI_DELETE_LABEL>
+  <SPB_MI_FORWARD_PLAY>切换到正放</SPB_MI_FORWARD_PLAY>
+  <SPB_MI_BACKWARD_PLAY>切换到倒放</SPB_MI_BACKWARD_PLAY>
+</MultiLanDefine>

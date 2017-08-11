@@ -1,0 +1,11 @@
+LIBRARY	"UploadService"
+EXPORTS
+    UploadSvc_Init               @1
+	UploadSvc_Fini               @2
+	UploadSvc_Start              @3
+	UploadSvc_Stop               @4
+	UploadSvc_GetVersion         @5
+	UploadSvc_GetLastError       @6
+	UploadSvc_SetMsgCallback	 @7
+
+ 

@@ -1,0 +1,169 @@
+.sideBar li{
+  display: list-item;
+  text-align: -webkit-match-parent;
+  color: #4C4C4C;
+  border-bottom:1px solid #DBDBDB; 
+  height: 40px;
+  line-height: 40px;
+  padding-left: 40px;
+  color: #333333;
+  display: block;
+  font-size: 14px;
+}
+.sideBar li span{
+  float:left;
+}
+.vertical{
+  width:5px;
+  height:100%;
+  margin-left:-40px;
+  _filter:none;
+  _background-color: #EDEDED;
+}
+.active .vertical{
+  background-color: #3F85E4 !important;
+  _filter:none;
+}
+.sideBarBg{
+  background: #EDEDED;
+}
+.sideBar li.active,.sideBar li:hover{
+  font-weight: 600;
+  color:#3F85E4;
+}
+.sideBar li.active span.vertical, .sideBar li:focus span.vertical{
+  background-color: #3F85E4;
+}
+.sideBar li:hover span.vertical{
+  /* background-color: #3F85E4; */
+}
+.serviceIcon_107001 {
+  background: url("/images/icons/server.png") no-repeat 0px center; 
+}
+.active .serviceIcon_107001 {
+  background: url("/images/icons/server_focus.png") no-repeat 0px center; 
+}
+/* #sideBar li:hover .serviceIcon_107001{
+  background: url("/images/icons/server_focus.png") no-repeat 0px center; 
+} */
+.serviceIcon_107002{
+  background: url("/images/icons/role.png") no-repeat 0px center; 
+}
+/* .active .serviceIcon_107002 {
+  background: url("/images/icons/role_focus.png") no-repeat 0px center; 
+} */
+/* #sideBar li:hover .serviceIcon_107002{
+  background: url("/images/icons/role_focus.png") no-repeat 0px center; 
+} */
+.serviceIcon_107003{
+  background: url("/images/icons/people_normal.png") no-repeat 0px center; 
+}
+/* .active .serviceIcon_107003 {
+  background: url("/images/icons/people_focus.png") no-repeat 0px center; 
+}
+#sideBar li:hover .serviceIcon_107003{
+  background: url("/images/icons/people_focus.png") no-repeat 0px center; 
+} */
+.serviceIcon_107004{
+  background: url("/images/icons/log.png") no-repeat 0px center; 
+}
+/* .active .serviceIcon_107004 {
+  background: url("/images/icons/log_focus.png") no-repeat 0px center; 
+}
+#sideBar li:hover .serviceIcon_107004{
+  background: url("/images/icons/log_focus.png") no-repeat 0px center; 
+} */
+.serviceIcon_107005{
+  background: url("/images/icons/setting.png") no-repeat 0px center; 
+}
+/* .active .serviceIcon_107005 {
+  background: url("/images/icons/setting_focus.png") no-repeat 0px center; 
+}
+#sideBar li:hover .serviceIcon_107005{
+  background: url("/images/icons/setting_focus.png") no-repeat 0px center; 
+} */
+.selectBox{
+  width:150px!important;
+}
+.serviceIcon_102001{
+  background: url("/images/icons/user.png") no-repeat 0px center;
+}
+.active .serviceIcon_102001{
+  background: url("/images/icons/user_active.png") no-repeat 0px center;
+}
+#sideBar li:hover .serviceIcon_102001{
+  background: url("/images/icons/user_active.png") no-repeat 0px center;
+}
+.serviceIcon_102002{
+  background: url("/images/icons/role.png") no-repeat 0px center;
+}
+.active .serviceIcon_102002{
+  background: url("/images/icons/role_active.png") no-repeat 0px center;
+}
+#sideBar li:hover .serviceIcon_102002{
+  background: url("/images/icons/role_active.png") no-repeat 0px center;
+}
+/*参数配置*/
+.serviceIcon_105002{
+  background: url("/images/icons/card.png") no-repeat 0px center;
+}
+.active .serviceIcon_105002{
+  background: url("/images/icons/card_active.png") no-repeat 0px center;
+}
+#sideBar li:hover .serviceIcon_105002{
+  background: url("/images/icons/card_active.png") no-repeat 0px center;
+}  
+.collectIcon{
+  background: url("/images/icons/collect.png") no-repeat 0px center;
+}
+/* .active .collectIcon{
+  background: url("/images/icons/collect_active.png") no-repeat 0px center;
+}
+#sideBar li:hover .collectIcon{
+  background: url("/images/icons/collect_active.png") no-repeat 0px center;
+}  */
+.serviceIcon_105001{
+  background: url("/images/icons/system.png") no-repeat 0px center;
+}
+.active .serviceIcon_105001{
+  background: url("/images/icons/system_active.png") no-repeat 0px center;
+}
+#sideBar li:hover .serviceIcon_105001{
+  background: url("/images/icons/system_active.png") no-repeat 0px center;
+}  
+.recordLogIcon{
+  background: url("/images/icons/recordLog.png") no-repeat 0px center;
+}
+ .active .recordLogIcon{
+  background: url("/images/icons/recordLog_active.png") no-repeat 0px center;
+}
+#sideBar li:hover .recordLogIcon{
+  background: url("/images/icons/recordLog_active.png") no-repeat 0px center;
+} 
+.serviceIcon_111002{
+  background: url("/images/icons/delLog.png") no-repeat 0px center;
+}
+.active .serviceIcon_111002{
+  background: url("/images/icons/delLog_active.png") no-repeat 0px center;
+}
+.special:hover .serviceIcon_111002{
+  background: url("/images/icons/delLog_active.png") no-repeat 0px center;
+}
+.serviceIcon_111003{
+  background: url("/images/icons/configLog.png") no-repeat 0px center;
+}
+ .active .serviceIcon_111003{
+  background: url("/images/icons/configLog_active.png") no-repeat 0px center;
+}
+.special:hover .serviceIcon_111003{
+  background: url("/images/icons/configLog_active.png") no-repeat 0px center;
+} 
+.serviceIcon_111004{
+  background: url("/images/icons/logSys.png") no-repeat 0px center;
+}
+ .active .serviceIcon_111004{
+  background: url("/images/icons/logSys_active.png") no-repeat 0px center;
+}
+.special:hover .serviceIcon_111004{
+  background: url("/images/icons/logSys_active.png") no-repeat 0px center;
+} 

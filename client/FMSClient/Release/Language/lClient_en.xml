@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<language>
+    <type key="1" value="en" />
+    <resource>
+        <string keyword="sysconfig_title" en="Parameter Settings" />
+        <string keyword="sysconfig_component" en="Component Settings" />
+        <string keyword="sysconfig_save_ok" en="Saving successed." />
+        <string keyword="sysconfig_save_failed" en="Saving failed." />
+        <string keyword="sysconfig_is_save" en="Is save config?" />
+        <string keyword="sysconfig_basic" en="Basic" />
+        <string keyword="sysconfig_preview" en="Live View" />
+        <string keyword="sysconfig_playback" en="Playback" />
+        <string keyword="sysconfig_alarm" en="Alarm" />
+        <string keyword="sysconfig_apply" en="Apply" />
+        <string keyword="sysconfig_cancel" en="Cancel" />
+        <string keyword="sysconfig_basic_loginconfig" en="Login config" />
+        <string keyword="sysconfig_basic_savepwd" en="Save password" />
+        <string keyword="sysconfig_basic_autologin" en="Auto login" />
+        <string keyword="sysconfig_basic_fingerprint" en="Open Fingerprint login" />
+        <string keyword="sysconfig_basic_fp_ip" en="Finger prints IP:" />
+        <string keyword="sysconfig_basic_fp_port" en="Finger prints port:" />
+        <string keyword="sysconfig_basic_fp_user" en="User:" />
+        <string keyword="sysconfig_basic_fp_pwd" en="Password:" />
+        <string keyword="sysconfig_basic_fp_check" en="Check connect" />
+        <string keyword="sysconfig_basic_fp_success" en="Connect Success" />
+        <string keyword="sysconfig_basic_fp_failed" en="Connect Failed" />
+        <string keyword="sysconfig_basic_fp_info_error" en="FingerPrint info error" />
+        <string keyword="sysconfig_basic_fp_port_error" en="Port number range[1000-65535]" />
+        <string keyword="sysconfig_basic_fp_user_too_long" en="" />
+        <string keyword="sysconfig_basic_fp_pwd_too_long" en="" />
+        <string keyword="sysconfig_basic_netconfig" en="Network config" />
+        <string keyword="sysconfig_basic_timeout" en="Timeout" />
+        <string keyword="sysconfig_basic_heart_beat" en="Heart Beat" />
+        <string keyword="sysconfig_basic_sysinfo" en="System info" />
+        <string keyword="sysconfig_basic_showlogo" en="Show logo" />
+        <string keyword="sysconfig_basic_showcopyright" en="CopyRight" />
+        <string keyword="sysconfig_basic_netinfo" en="Network Info" />
+        <string keyword="sysconfig_basic_showdate" en="Show date" />
+        <string keyword="sysconfig_basic_showtime" en="Show time" />
+        <string keyword="sysconfig_basic_showweek" en="Show Week" />
+        <string keyword="sysconfig_preview_error1" en="Failed to save the picture directory. Error Code: %u" />
+        <string keyword="sysconfig_preview_error2" en="Failed to save the captured picture format. Error Code: %u" />
+        <string keyword="sysconfig_preview_error3" en="Failed to save the captured picture type. Error Code: %u" />
+        <string keyword="sysconfig_preview_error4" en="Failed to save the record file directory. Error Code: %u" />
+        <string keyword="sysconfig_preview_error5" en="Failed to save the record file package size. Error Code: %u" />
+        <string keyword="sysconfig_preview_error6" en="Failed to save the record file length. Error Code: %u" />
+        <string keyword="sysconfig_preview_error7" en="Serial port No. saving failed. Error Code: %u" />
+        <string keyword="sysconfig_preview_error8" en="Configuration is done. Failed to notify component. Error Code %u" />
+        <string keyword="sysconfig_preview_single_main" en="When live view in single screen, use main stream." />
+        <string keyword="sysconfig_preview_multi_sub" en="When live view in multi-screen, use substream." />
+        <string keyword="sysconfig_preview_direct_view" en="Always connect the device directly." />
+        <string keyword="sysconfig_preview_capture" en="Capture" />
+        <string keyword="sysconfig_preview_record" en="Record" />
+        <string keyword="sysconfig_preview_stream" en="Stream" />
+        <string keyword="sysconfig_preview_format" en="Picture format" />
+        <string keyword="sysconfig_preview_dir" en="Saving path" />
+        <string keyword="sysconfig_preview_rec_size" en="Saving size" />
+        <string keyword="sysconfig_preview_stream_autochg" en="Auto change the type of stream" />
+        <string keyword="sysconfig_preview_stream1" en="default configuration" />
+        <string keyword="sysconfig_preview_stream2" en="Always use subtream" />
+        <string keyword="sysconfig_preview_stream3" en="Always use main stream" />
+        <string keyword="sysconfig_playback_dowmload" en="Saving Path:" />
+        <string keyword="sysconfig_playback_dir" en="Picture path" />
+        <string keyword="sysconfig_playback_cur" en="Move cursor to the next item" />
+        <string keyword="sysconfig_playback_file_wnd" en="File list" />
+        <string keyword="sysconfig_playback_show" en="Show " />
+        <string keyword="sysconfig_playback_hide" en="Hide " />
+        <string keyword="sysconfig_playback_video_title" en="Video title" />
+        <string keyword="sysconfig_playback_capture" en="Capture" />
+        <string keyword="sysconfig_playback_record" en="Record" />
+        <string keyword="sysconfig_playback_other" en="Stream" />
+        <string keyword="sysconfig_playback_format" en="Picture format" />
+        <string keyword="sysconfig_playback_transtype" en="Cascading stream type" />
+        <string keyword="sysconfig_playback_transip" en="Cascading stream IP" />
+        <string keyword="titlebar_menu" en="System Menu" />
+        <string keyword="titlebar_menu_config" en="System Configuration" />
+        <string keyword="titlebar_menu_nettip" en="NetWork Tip" />
+        <string keyword="titlebar_menu_psw" en="Change Password" />
+        <string keyword="titlebar_menu_broad" en="Broadcast" />
+        <string keyword="titlebar_menu_duty" en="Shift Changing Log" />
+        <string keyword="titlebar_menu_relogin" en="Logout" />
+        <string keyword="titlebar_menu_locksys" en="Lock System" />
+        <string keyword="titlebar_menu_exit" en="Exit" />
+        <string keyword="titlebar_info_username" en="User Name: " />
+        <string keyword="titlebar_info_psw_day" en="Your password will expire in %2d day(s)" />
+        <string keyword="titlebar_title_ext" en="[Trial Version]" />
+        <string keyword="home_type_bbs" en="Announcement" />
+        <string keyword="home_type_download" en="Download info" />
+        <string keyword="home_btn_homepage" en="Home" />
+        <string keyword="home_type_bussiness" en="Business Application" />
+        <string keyword="home_type_tool" en="Tools" />
+        <string keyword="home_btn_preview" en="Live View" />
+        <string keyword="home_btn_tvwall" en="Video Wall Display" />
+        <string keyword="home_btn_playback" en="Playback" />
+        <string keyword="home_btn_alarm" en="Alarm Center" />
+        <string keyword="home_btn_emap" en="E-map" />
+        <string keyword="home_btn_gismap" en="GIS Map" />
+        <string keyword="home_btn_statusctrl" en="Status Control" />
+        <string keyword="home_btn_intel" en="Intelligent Inspection " />
+        <string keyword="home_btn_log" en="Log Search" />
+        <string keyword="home_btn_vault" en="Vault Guard" />
+        <string keyword="home_btn_viewwall" en="View Wall" />
+        <string keyword="home_btn_acsystem" en="Access Control" />
+        <string keyword="home_btn_sysconfig" en="System Configuration" />
+        <string keyword="home_btn_viewtalk" en="Video Intercom" />
+        <string keyword="home_btn_viewtalk_short" en="VI" />
+        <string keyword="home_btn_preview_sub" en="Displaying the live view and providing the remote configuration of the live view. " />
+        <string keyword="home_btn_tvwall_sub" en="Displaying the live video on the video wall, setting the auto-switch schedule, and so on." />
+        <string keyword="home_btn_playback_sub" en="Searching and playing back the record files." />
+        <string keyword="home_btn_alarm_sub" en="Receiving and handling the alarm information." />
+        <string keyword="home_btn_emap_sub" en="Showing the map, camera, alarm point, device and operating information." />
+        <string keyword="home_btn_gismap_sub" en="" />
+        <string keyword="home_btn_statusctrl_sub" en="Managing the alarm host, access control, two-way audio, capsule and other devices." />
+        <string keyword="home_btn_intel_sub" en="DVR status, inspecting the record files, time synchronization, parameters analysis, and inspecting the servers. " />
+        <string keyword="home_btn_log_sub" en="Searching and exporting the log files of alarm, operation and event." />
+        <string keyword="home_btn_vault_sub" en="Managing the video of the bank vault, remotely opening and closing the vault door, rechecking the persons, and so on." />
+        <string keyword="home_btn_sysconfig_sub" en="Configuring the parameters for the clients. " />
+        <string keyword="home_btn_viewwall_sub" en="Showing alarm pictures" />
+        <string keyword="home_btn_acsystem_sub" en="Centralized management of access control resources" />
+        <string keyword="home_btn_tool_sub" en="Delete or add tools by self" />
+        <string keyword="home_btn_player" en="Player" />
+        <string keyword="home_btn_nettool" en="Network Test" />
+        <string keyword="home_btn_vertool" en="Version Tool" />
+        <string keyword="home_btn_player_sub" en="Playing and controlling the record files stored on the local device." />
+        <string keyword="home_btn_nettool_sub" en="Testing whether the devices or the servers are online." />
+        <string keyword="home_btn_vertool_sub" en="Checking the version information of the client and modules." />
+        <string keyword="home_btn_more" en="More" />
+        <string keyword="login_title" en="Central Client" />
+        <string keyword="login_btn_server" en="CMS" />
+        <string keyword="login_error1" en="The user name cannot be empty." />
+        <string keyword="login_error2" en='The user name cannot contain invalid characters\/:*&amp;&amp;?&quot;&lt;|&apos;%&gt;' />
+        <string keyword="login_error3" en="The length of the user name exceeds the maximum limit." />
+        <string keyword="login_error4" en="The password cannot be empty." />
+        <string keyword="login_error5" en="The length of the password exceeds the maximum limit." />
+        <string keyword="login_error6" en="Invalid IP address." />
+        <string keyword="login_error7" en="Port No. Range [1000~65535]" />
+        <string keyword="login_error_fp_login_failed" en="Connect device failed" />
+        <string keyword="login_error_fp_device_error" en="Device is not supported" />
+        <string keyword="login_error_fp_alarm_failed" en="" />
+        <string keyword="login_error_fp_time_error" en="" />
+        <string keyword="login_error_fp_getuser_error" en="" />
+        <string keyword="login_tip_forcelogoff" en="You have been forced off the assembly line, contact your administrator" />
+        <string keyword="login_connect_fail" en="Failed to connect to CMS." />
+        <string keyword="login_result_pwdchange" en="Password is original password, please change it." />
+        <string keyword="login_result_pwdexpire" en="Password has expired." />
+        <string keyword="login_loadskin_fail" en="Failed to load the resources." />
+        <string keyword="login_btn_login" en="Login" />
+        <string keyword="login_btn_cancel" en="Cancel" />
+        <string keyword="login_btn_type_user" en="Account Login" />
+        <string keyword="login_btn_type_fp" en="Finger Login" />
+        <string keyword="login_msg_logining" en="Connecting to CMS…" />
+        <string keyword="login_tip_finger" en="Please input fingerprint" />
+        <string keyword="login_error8" en="Failed to open the file %s." />
+        <string keyword="login_user" en="User name" />
+        <string keyword="login_pwd" en="Password" />
+        <string keyword="login_ip" en="IP address" />
+        <string keyword="login_port" en="Port" />
+        <string keyword="wnd1" en="1-window" />
+        <string keyword="wnd4" en="4-window" />
+        <string keyword="wnd6" en="6-window" />
+        <string keyword="wnd8" en="8-window" />
+        <string keyword="wnd9" en="9-window" />
+        <string keyword="wnd10" en="10-window" />
+        <string keyword="wnd13" en="13-window" />
+        <string keyword="wnd14" en="14-window" />
+        <string keyword="wnd16" en="16-window" />
+        <string keyword="wnd17" en="17-window" />
+        <string keyword="wnd22" en="22-window" />
+        <string keyword="wnd25" en="25-window" />
+        <string keyword="wnd36" en="36-window" />
+        <string keyword="screen1" en="Screen-1" />
+        <string keyword="sysconfig_alarm_viewwall" en="View wall" />
+        <string keyword="sysconfig_alarm_center" en="Alarm center" />
+        <string keyword="sysconfig_alarm_wndtype" en="Screen Layout" />
+        <string keyword="sysconfig_alarm_playback" en="Record time before and after the alarm(m)" />
+        <string keyword="sysconfig_alarm_screen" en="Position" />
+        <string keyword="sysconfig_alarm_cover_type" en="Cover Mode" />
+        <string keyword="sysconfig_alarm_order" en="Sequential Cover" />
+        <string keyword="sysconfig_alarm_intel" en="Smart Cover" />
+        <string keyword="sysconfig_alarm_handling_suggestion" en="Processing template" />
+        <string keyword="sysconfig_alarm_hs_add" en="Add" />
+        <string keyword="sysconfig_alarm_hs_mod" en="Edit" />
+        <string keyword="sysconfig_alarm_hs_del" en="Delete" />
+        <string keyword="sysconfig_alarm_del_confirm" en="Delete it?" />
+        <string keyword="sysconfig_alarm_hs_max" en="Up to 15 templates can be added." />
+        <string keyword="sysconfig_alarm_transconfig" en="Overtime retransmit" />
+        <string keyword="sysconfig_alarm_trans_to" en="Retransmit to" />
+        <string keyword="sysconfig_alarm_trans_time" en="Timeout" />
+        <string keyword="sysconfig_second" en="s" />
+        <string keyword="sysconfig_enable" en="Enable" />
+        <string keyword="sysconfig_alarm_template" en="Template" />
+        <string keyword="sysconfig_alarm_invalid_char" en="No special characters are allowed." />
+        <string keyword="sysconfig_alarm_no_content" en="The content cannot be empty." />
+        <string keyword="sysconfig_alarm_time_invalid" en="Record time before and after the alarm(m):Please input integer from 0 to 60!" />
+        <string keyword="sysconfig_alarm_time_toolong" en="Retransmit can&apos;t more than 1 hour." />
+        <string keyword="sysconfig_alarm_msg_toolong" en="Process template cannot exceed 256 characters" />
+        <string keyword="sysconfig_alarm_string_illegal" en="Process template cannot contain &amp;" />
+        <string keyword="sysconfig_alarm_msg_noselect" en="Select a template" />
+        <string keyword="app_error1" en="Client has already been initialized." />
+        <string keyword="app_exit_confirm" en="Exit the system?" />
+        <string keyword="app_exiting" en="Closing the client…" />
+        <string keyword="app_relogin_confirm" en="Logout?" />
+        <string keyword="app_loading_component" en="Loading component…" />
+        <string keyword="home_error2" en="No permission for module configuration." />
+        <string keyword="home_error_lack_tvwall" en="No video wall module available. Please contact our technical support engineers for help." />
+        <string keyword="home_run_tvwall_fail" en="Failed to open the video wall module." />
+        <string keyword="home_update_confirm" en="New version is available for Central Client. Exit and update now? " />
+        <string keyword="home_closing_component" en="Closing component…" />
+        <string keyword="home_create_wnd_fail" en="Failed to create the window." />
+        <string keyword="home_create_tvwall_fail" en="" />
+        <string keyword="home_show_wnd_fail" en="Failed to display the window." />
+        <string keyword="home_loading_component" en="Loading the components…" />
+        <string keyword="home_wnd_max" en="No more window can be opened. Please close one and try again." />
+        <string keyword="home_upload" en="Upload: %s" />
+        <string keyword="home_download" en="Download: %s" />
+        <string keyword="duty_title" en="Shift Changing Log" />
+        <string keyword="duty_current_user" en="Current User: %s" />
+        <string keyword="duty_state_normal" en="Normal" />
+        <string keyword="duty_state_abnormal" en="Abnormal" />
+        <string keyword="duty_system_state" en="System State" />
+        <string keyword="duty_tvwall" en="Video Wall Display" />
+        <string keyword="duty_acsystem" en="Access Control" />
+        <string keyword="duty_alarm" en="Alarm System" />
+        <string keyword="duty_talk" en="Intercom System" />
+        <string keyword="duty_platform" en="Live view System" />
+        <string keyword="duty_work_desc" en="Detailed description" />
+        <string keyword="remind_title" en="Anti-dozing" />
+        <string keyword="remind_duty_less" en="[%s] was not on duty." />
+        <string keyword="remind_label_fail" en="Recorded anti-dozing failed." />
+        <string keyword="remind_input_error" en="The number you entered is not correct, please enter again." />
+        <string keyword="remind_need_input" en="Please enter numbers, and click OK." />
+        <string keyword="remind_not_match" en="The passwords you enter are not identical." />
+        <string keyword="remind_pwd_empty" en="The password cannot be empty." />
+        <string keyword="remind_pwd_invalid" en="The password cannot contain special characters." />
+        <string keyword="remind_pws_long" en="The password length cannot be longer then %d." />
+        <string keyword="remind_countdown" en="Count down" />
+        <string keyword="remind_tip" en="Please enter the following number and press OK button. Otherwise, it will be recorded." />
+        <string keyword="remind_log" en="Violations log" />
+        <string keyword="pwd_title" en="Change the password" />
+        <string keyword="pwd_old" en="Old password" />
+        <string keyword="pwd_new" en="New password" />
+        <string keyword="pwd_confirm" en="Confirm password" />
+        <string keyword="pwd_need_input" en="Please input the new password." />
+        <string keyword="pwd_not_match" en="The passwords you entered do not match" />
+        <string keyword="pwd_invalid" en="The password cannot contain special characters." />
+        <string keyword="pwd_length" en="The password length range:[8-32]" />
+        <string keyword="pwd_fail3" en="Other Errors" />
+        <string keyword="pwd_format_error" en="Invalid Password." />
+        <string keyword="pwd_fail1" en="Communication failed." />
+        <string keyword="pwd_fail2" en="Communication error." />
+        <string keyword="pwd_successed" en="The password is changed." />
+        <string keyword="pwd_old_wrong" en="Wrong Old Password " />
+        <string keyword="lock_title" en="Lock System" />
+        <string keyword="lock_username" en="User name:" />
+        <string keyword="lock_pwd" en="Password:" />
+        <string keyword="lock_error_outof_mem" en="" />
+        <string keyword="btn_ok" en="OK" />
+        <string keyword="btn_save" en="Save" />
+        <string keyword="btn_cancel" en="Cancel" />
+        <string keyword="app_error2" en="Setup failed to initialize." />
+        <string keyword="default_font" en="Segoe UI" />
+        <string keyword="new_login_welcome" en="Welcome" />
+        <string keyword="new_login_remember_password" en="Remember me" />
+        <string keyword="new_login_autologin" en="Auto login" />
+        <string keyword="new_login_server" en="Server Config" />
+        <string keyword="new_login_account" en="User info" />
+        <string keyword="new_login_server_ip" en="" />
+        <string keyword="new_login_server_port" en="" />
+        <string keyword="app_copyright" en="" />
+        <string keyword="new_login_local_ip" en="" />
+        <string keyword="sysconfig_preview_decode" en="" />
+        <string keyword="sysconfig_preview_decode_rate" en="Buffer Rate" />
+        <string keyword="sysconfig_preview_decode_buffer" en="Buffer Size" />
+        <string keyword="sysconfig_preview_real" en="" />
+        <string keyword="sysconfig_preview_fluncy" en="" />
+        <string keyword="sysconfig_preview_vca" en="Display intelligent rule" />
+        <string keyword="sysconfig_preview_cardno" en="Display Card No." />
+        <string keyword="sysconfig_preview_caminfo" en="Display camera info" />
+        <string keyword="sysconfig_preview_show" en="" />
+        <string keyword="sysconfig_preview_hide" en="" />
+        <string keyword="sysconfig_alarm_fullscreen" en="Full screen" />
+        <string keyword="sysconfig_alarm_escfullscreen" en="Esc to exit full screen" />
+        <string keyword="sysinfo_about" en="About" />
+        <string keyword="sysinfo_more_info" en="More…" />
+        <string keyword="sysinfo_st_platname" en="Plat name:" />
+        <string keyword="sysinfo_st_max_devs" en="Max of devices:" />
+        <string keyword="sysinfo_st_max_peripdevs" en="Max of Perip-devices:" />
+        <string keyword="sysinfo_st_max_channels" en="Max of channels:" />
+        <string keyword="sysinfo_st_max_smart" en="Max of smart:" />
+        <string keyword="sysinfo_st_prob_period" en="Probation period:" />
+        <string keyword="sysinfo_st_db_ver" en="Database version:" />
+        <string keyword="sysinfo_st_ver_official" en="Official version" />
+        <string keyword="pwd_change_tip" en="" />
+        <string keyword="error_web_noexsist" en="" />
+        <string keyword="server_info_change" en="" />
+        <string keyword="sysinfo_st_searching" en="Searching…" />
+        <string keyword="sysinfo_warn_faliture" en="For more information failure!" />
+        <string keyword="app_error_logining" en="" />
+        <string keyword="new_login_clear_history" en="" />
+        <string keyword="new_login_clear_confirm" en="" />
+        <string keyword="sysconfig_preview_videoinfo" en="" />
+        <string keyword="open_tool_error" en="Can not found file %s&#x0A;Please check install path." />
+        <string keyword="screen_number" en="Screen %d" />
+        <string keyword="SYSCONFIG_ENABLE_VIDEO_REVIEW" en="Enable real-time video review." />
+        <string keyword="titlebar_info_realname" en="" />
+        <string keyword="titlebar_info_userlevel" en="" />
+        <string keyword="titlebar_info_expire" en="" />
+        <string keyword="titlebar_info_telephone" en="" />
+        <string keyword="titlebar_info_email" en="" />
+        <string keyword="titlebar_info_role" en="" />
+        <string keyword="titlebar_info_department" en="" />
+        <string keyword="titlebar_info_duty" en="" />
+        <string keyword="titlebar_info_gender" en="" />
+        <string keyword="titlebar_info_education" en="" />
+        <string keyword="titlebar_info_userlevel1" en="" />
+        <string keyword="titlebar_info_userlevel2" en="" />
+        <string keyword="titlebar_info_userlevel3" en="" />
+        <string keyword="titlebar_info_gender_male" en="" />
+        <string keyword="titlebar_info_gender_female" en="" />
+        <string keyword="toolmgr_dlg_text" en="Tool Manager" />
+        <string keyword="toolmgr_load_config_failed" en="Load config failed" />
+        <string keyword="toolmgr_edit" en="Edit" />
+        <string keyword="toolmgr_edit_done" en="Done" />
+        <string keyword="toolmgr_open_tool_failed" en="" />
+        <string keyword="toolmgr_tool_no_exist" en="Tools directory does not exist" />
+        <string keyword="toolmgr_add_dlg_text" en="Add Tool" />
+        <string keyword="toolmgr_add_name" en="" />
+        <string keyword="toolmgr_add_path" en="" />
+        <string keyword="toolmgr_add_desc" en="" />
+        <string keyword="toolmgr_add_param" en="" />
+        <string keyword="toolmgr_add_add" en="" />
+        <string keyword="toolmgr_add_cancle" en="" />
+        <string keyword="log_unlock" en="Client Unlock" />
+        <string keyword="log_lock" en="Client Lock" />
+        <string keyword="msgbox_tips" en="Tips" />
+        <string keyword="msgbox_warning" en="Warning" />
+        <string keyword="msgbox_error" en="Error" />
+    </resource>
+</language>

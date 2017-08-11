@@ -1,0 +1,67 @@
+#VERSION 1.0.0.15905  20120327
+#缺省不输出日志到控制台
+log4j.rootLogger=TRACE, default
+
+#log4j.logger用于控制日志采集级别及采集内容，Threshold用于控制日志输出级别
+
+#应用于控制台
+#log4j.appender.stdout=org.apache.log4j.ConsoleAppender 
+#log4j.appender.stdout.layout=org.apache.log4j.PatternLayout 
+#log4j.appender.stdout.layout.ConversionPattern=%d{HH:mm:ss,SSS} [%t] %-5p - %m%n
+
+#应用于文件回滚
+log4j.appender.default=org.apache.log4j.RollingFileAppender
+log4j.appender.default.File=./log/default.log
+log4j.appender.default.MaxFileSize=25MB
+log4j.appender.default.MaxBackupIndex=12
+log4j.appender.default.Append=true
+log4j.appender.default.Threshold=TRACE
+log4j.appender.default.layout=org.apache.log4j.PatternLayout
+log4j.appender.default.layout.ConversionPattern=%d %-5p [%t] %.16c <%l - %M> <%m>%n
+
+#设置 HPP   2012-3-27 ljg add
+log4j.logger.HPP=TRACE, hppLog, hppLogError
+log4j.additivity.HPP = false // 不把内容附加到root
+#HPP的配置
+log4j.appender.hppLog=org.apache.log4j.RollingFileAppender
+log4j.appender.hppLog.File=./log/hppLog.log
+log4j.appender.hppLog.MaxFileSize=25MB
+log4j.appender.hppLog.MaxBackupIndex=4
+log4j.appender.hppLog.Append=true
+log4j.appender.hppLog.Threshold=TRACE
+log4j.appender.hppLog.layout=org.apache.log4j.PatternLayout
+log4j.appender.hppLog.layout.ConversionPattern=%d %-5p [%t] - %m%n
+#hppLogError的配置
+log4j.appender.hppLogError=org.apache.log4j.RollingFileAppender
+log4j.appender.hppLogError.File=./log/hppLogError.log
+log4j.appender.hppLogError.MaxFileSize=25MB
+log4j.appender.hppLogError.MaxBackupIndex=4
+log4j.appender.hppLogError.Append=true
+log4j.appender.hppLogError.Threshold=ERROR
+log4j.appender.hppLogError.layout=org.apache.log4j.PatternLayout
+log4j.appender.hppLogError.layout.ConversionPattern=%d %-5p [%t] - %m%n
+
+#设置PlaybackSDK    2012-5-17 16:35 add by yd  
+log4j.logger.PlaybackSDK=TRACE, PlaybackSDK, PlaybackSDKError
+log4j.additivity.PlaybackSDK = false // 不把内容附加到root
+#CLIENT的配置
+log4j.appender.PlaybackSDK=org.apache.log4j.RollingFileAppender
+log4j.appender.PlaybackSDK.File=./log/PlaybackSDK.log
+log4j.appender.PlaybackSDK.MaxFileSize=25MB
+log4j.appender.PlaybackSDK.MaxBackupIndex=4
+log4j.appender.PlaybackSDK.Append=true
+log4j.appender.PlaybackSDK.Threshold=TRACE
+log4j.appender.PlaybackSDK.layout=org.apache.log4j.PatternLayout
+log4j.appender.PlaybackSDK.layout.ConversionPattern=%d %-5p [%t] - %m%n
+#clientLogError的配置
+log4j.appender.PlaybackSDKError=org.apache.log4j.RollingFileAppender
+log4j.appender.PlaybackSDKError.File=./log/PlaybackSDKError.log
+log4j.appender.PlaybackSDKError.MaxFileSize=25MB
+log4j.appender.PlaybackSDKError.MaxBackupIndex=4
+log4j.appender.PlaybackSDKError.Append=true
+log4j.appender.PlaybackSDKError.Threshold=ERROR
+log4j.appender.PlaybackSDKError.layout=org.apache.log4j.PatternLayout
+log4j.appender.PlaybackSDKError.layout.ConversionPattern=%d %-5p [%t] - %m%n
+
+
+

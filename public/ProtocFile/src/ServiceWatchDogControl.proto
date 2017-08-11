@@ -1,0 +1,46 @@
+//服务管理中心控制请求
+package cms_8120;
+import "cmd.proto";
+
+// 控制命令
+enum ServerWatchDogCmd
+{
+    SERVER_START = 10001;       // 启动服务
+    SERVER_STOP = 10002;        // 停止服务
+    COMPUTER_RESTART = 10003;   // 重启机器
+    SERVER_INSTALL = 10004;		// 安装
+    SERVER_UNINSTALL = 10005;	// 卸载
+	SERVER_RESTART = 10006; 	// 重启服务
+	SERVER_CMD = 10007; 	    // 执行cmd命令
+}
+
+//模块类型定义,大类:
+enum ServerType
+{
+	SVC_RECGUARD   = 6001;  //录像守卫服务
+	SVC_ADJUST     = 6002;  //校时服务
+	SVC_TRANS      = 6003;  //上传服务
+	SVC_VRM        = 6004;  //VRM服务	
+	SVC_DC         = 6005;  //数据中心服务
+	SVC_CENTET_WEB = 6006;  //中心web服务
+	SVC_COLL_WEB   = 6007;	//采集web服务
+}
+
+// 请求控制信息
+message ServiceWatchDogControlReq
+{
+    optional int32 data_type = 1;    // CMD_SERVICE_WATCH_DOG_CONTROL_REQ
+    optional int32 control_type = 2; // ServerWatchDogCmd
+	optional int32 server_type = 3;  // ServerType
+    optional string server_name = 4; // Server Name
+	optional string shell_cmd = 5;   // shell cmd context
+	optional string shell_dir = 6;	 // shell cmd default dir
+}
+
+// 收到消息的应答信息
+message ServiceWatchDogControlRsp
+{
+    optional int32 data_type = 1;     // CMD_SERVICE_WATCH_DOG_CONTROL_RSP
+    optional int32 result = 2;        // 0:recv failed; 1:recv success
+    optional int32 control_type = 3;  // ServerWatchDogCmd
+}

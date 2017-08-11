@@ -1,0 +1,10 @@
+/**
+ * 不是栅格的布局
+ */
+ .main-content{
+ 	position: absolute;
+ 	top:20px;
+ 	left:20px;
+ 	bottom:0;
+ 	right:20px;
+ }

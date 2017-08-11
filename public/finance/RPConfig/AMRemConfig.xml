@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<AB_Rem_Configure>
+ <DeviceDisPlayLists>
+  <List>status</List>
+  <List>general</List>
+  <List>network</List>
+  <List>user</List>
+  <List>exception</List>
+  <List>other</List>
+  <List>alarm</List>
+  <List>log</List>
+  <List>resourceusage</List>
+  <List>atm</List>
+  <List>zerochannel</List>
+  <List>holiday</List>
+  <List>channel</List>
+  <List>files</List>
+  <List>channel</List>
+  <List>hdd</List>
+ </DeviceDisPlayLists>
+ <AlarmDisPlayLists>
+  <List>information</List>
+  <List>network</List>
+  <List>alarm</List>
+  <List>sensorconfig</List>
+  <List>sirenconfig</List>
+  <List>gateguard</List>
+  <List>alarmmonitor</List>
+  <List>user</List>
+  <List>hdd</List>
+  <List>exception</List>
+  <List>log</List>
+  <List>other</List>
+ </AlarmDisPlayLists>
+ <DecoderDisPlayLists>
+  <List>information</List>
+  <List>general</List>
+  <List>network</List>
+  <List>alarm</List>
+  <List>user</List>
+  <List>exception</List>
+  <List>log</List>
+  <List>other</List>
+ </DecoderDisPlayLists>
+ <Language>Chinese</Language>
+ <DefaultFilePath>./</DefaultFilePath>
+</AB_Rem_Configure>

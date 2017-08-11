@@ -1,0 +1,51 @@
+//
+// PreviewDll.RC2 - Microsoft Visual C++ 不会直接编辑的资源
+//
+
+#ifdef APSTUDIO_INVOKED
+#error 此文件不能用 Microsoft Visual C++ 编辑
+#endif //APSTUDIO_INVOKED
+
+/////////////////////////////////////////////////////////////////////////////
+// 在此处添加手动编辑的资源...
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 2,2,0,0
+ PRODUCTVERSION 2,2,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x21L
+#else
+ FILEFLAGS 0x20L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "Comments", "$WCNOW$ $WCREV$+ $WCMODS?Modified:$ $WCMIXED?Mixed:$\0"
+            VALUE "CompanyName", "Hikvision"
+            VALUE "FileDescription", "build $WCNOW=%Y%m%d$-$WCREV$"
+            VALUE "FileVersion", "2.2.0.$WCREV$+\0"
+            VALUE "InternalName", "PlaybackOCX2.0"
+            VALUE "LegalCopyright", "HangZhou Hikvision System Technology Co., Ltd. All Right Reserved"
+            VALUE "OriginalFilename", "PlaybackOCX2.0"
+            VALUE "ProductName", "PlaybackOCX2.0"
+            VALUE "ProductVersion", "2.2.0.$WCREV$+\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+/////////////////////////////////////////////////////////////////////////////

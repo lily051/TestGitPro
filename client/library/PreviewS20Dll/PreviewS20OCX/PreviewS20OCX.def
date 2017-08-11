@@ -1,0 +1,9 @@
+; PreviewS20OCX.def : 定义模块参数。
+
+LIBRARY      "PreviewS20OCX.OCX"
+
+EXPORTS
+	DllCanUnloadNow     PRIVATE
+	DllGetClassObject   PRIVATE
+	DllRegisterServer   PRIVATE
+	DllUnregisterServer PRIVATE

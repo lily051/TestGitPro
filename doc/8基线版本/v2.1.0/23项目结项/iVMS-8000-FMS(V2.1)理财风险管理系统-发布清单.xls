@@ -1,0 +1,158 @@
+<table border=1>
+<tr><td colspan="5" align="center"><b><font size="5" face="华文楷体">发布归档清单</font></b></td></tr>
+<tr>
+<td colspan="1" align="left" bgcolor="#99CCFF">项目编号</td>
+<td colspan="4" align="left">PJ03D2016040708</td>
+</tr>
+<tr>
+<td colspan="1" align="left" bgcolor="#99CCFF">项目名称</td>
+<td colspan="4" align="left">iVMS-8000-FMS(V2.1)理财风险管理系统</td>
+</tr>
+<tr>
+<td colspan="1" align="left" bgcolor="#99CCFF">项目经理</td>
+<td colspan="4" align="left">曹富春</td>
+</tr>
+<tr>
+<td colspan="1" align="left" bgcolor="#99CCFF">发布主题</td>
+<td colspan="4" align="left">iVMS-8000-FMS(V2.1)理财风险管理系统 发布</td>
+</tr>
+<tr><td colspan="5" align="center"></td></tr>
+<tr><td align="left" bgcolor="#99CCFF">系统测试-提交内容列表</td><td align="left" bgcolor="#99CCFF">文件或子目录名称</td><td align="left" bgcolor="#99CCFF">SVN版本号</td><td align="left" bgcolor="#99CCFF">SVN存放目录</td><td align="left" bgcolor="#99CCFF">关联评审单</td></tr>
+<tr>
+<td align="left">系统测试方案</td>
+<td align="left">iVMS-8000-FMS(V2.1)理财风险管理系统系统测试方案.doc</td>
+<td align="left">92</td>
+<td align="left">https://192.0.0.77/PJ03D2016040708/trunk/工程/14检测认证/系统测试/系统测试方案/iVMS-8000-FMS(V2.1)理财风险管理系统系统测试方案.doc</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">系统测试用例</td>
+<td align="left">iVMS-8000-FMS(V2.1)理财风险管理系统系统测试用例集V2.0.xlsx</td>
+<td align="left">225</td>
+<td align="left">https://192.0.0.77/PJ03D2016040708/trunk/工程/14检测认证/系统测试/系统测试用例/测试用例/iVMS-8000-FMS(V2.1)理财风险管理系统系统测试用例集V2.0.xlsx</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">系统测试报告</td>
+<td align="left">PJ03D2016040708-iVMS-8000-FMS理财风险管理系统-Build3系统测试报告</td>
+<td align="left">255</td>
+<td align="left">https://192.0.0.77/PJ03D2016040708/trunk/工程/14检测认证/系统测试/系统测试报告/PJ03D2016040708-iVMS-8000-FMS理财风险管理系统-Build3系统测试报告.xlsx</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr><td align="left" bgcolor="#99CCFF">用户文档	成果物名称</td><td align="left" bgcolor="#99CCFF">成果物类型</td><td align="left" bgcolor="#99CCFF">SVN版本号</td><td align="left" bgcolor="#99CCFF">SVN路径</td><td align="left" bgcolor="#99CCFF">关联评审单</td></tr>
+<tr>
+<td align="left">iVMS-8000-FMS(v2.1.0)安装配置文档.pdf</td>
+<td align="left">产品使用说明手册</td>
+<td align="left">266</td>
+<td align="left">https://192.0.0.77/PJ03D2016040708/trunk/工程/13用户文档/iVMS-8000-FMS(v2.1.0)安装配置文档.pdf</td>
+<td align="left"> </td>
+</tr>
+<tr><td align="left" bgcolor="#99CCFF">系统成果物名称</td><td align="left" bgcolor="#99CCFF">成果物类型</td><td align="left" bgcolor="#99CCFF">SVN版本号</td><td align="left" bgcolor="#99CCFF">SVN路径</td><td align="left" bgcolor="#99CCFF">关联评审单</td></tr>
+<tr>
+<td align="left">iVMS-8000-FMS(V2.1)理财风险管理系统需求跟踪矩阵.xls</td>
+<td align="left">需求跟踪矩阵</td>
+<td align="left">83</td>
+<td align="left">https://192.0.0.77/PJ03D2016040708/trunk/工程/10需求开发/iVMS-8000-FMS(V2.1)理财风险管理系统需求跟踪矩阵.xls</td>
+<td align="left"> </td>
+</tr>
+<tr>
+<td align="left">iVMS-8000-FMS(V2.1)理财风险管理系统产品需求规格说明书.doc</td>
+<td align="left">产品需求规格说明书</td>
+<td align="left">240</td>
+<td align="left">https://192.0.0.77/PJ03D2016040708/trunk/工程/10需求开发/iVMS-8000-FMS(V2.1)理财风险管理系统产品需求规格说明书.doc</td>
+<td align="left"> </td>
+</tr>
+<tr>
+<td align="left">iVMS-8000-FMS(V2.1)理财风险管理系统总体设计说明书.doc</td>
+<td align="left">总体设计说明书</td>
+<td align="left">198</td>
+<td align="left">https://192.0.0.77/PJ03D2016040708/trunk/工程/11总体设计/iVMS-8000-FMS(V2.1)理财风险管理系统总体设计说明书.doc</td>
+<td align="left"> </td>
+</tr>
+<tr><td align="left" bgcolor="#99CCFF">软件名称</td><td align="left" bgcolor="#99CCFF">属性</td><td align="left" bgcolor="#99CCFF">语言</td><td align="left" bgcolor="#99CCFF">SVN版本号</td><td align="left" bgcolor="#99CCFF">SVN路径</td></tr>
+<tr>
+<td align="left">程序</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left">64406</td>
+<td align="left">https://192.0.0.241/Financial-CustomPrj/系统集成项目/tags/iVMS-8120/V2.1/v2.1.0</td>
+</tr>
+<tr><td align="left" bgcolor="#99CCFF">软件成果物名称</td><td align="left" bgcolor="#99CCFF">成果物类型</td><td align="left" bgcolor="#99CCFF">SVN版本号</td><td align="left" bgcolor="#99CCFF">SVN路径</td><td align="left" bgcolor="#99CCFF">关联评审单</td></tr>
+<tr>
+<td align="left">v2.0.1</td>
+<td align="left">源代码</td>
+<td align="left">92766</td>
+<td align="left">https://192.0.0.241/APP-Financial/trunk/iVMS-8120/v2.0.1</td>
+<td align="left"> </td>
+</tr>
+<tr>
+<td align="left">iVMS-8000-FMS(V2.1)理财风险管理系统概要设计说明书.docx</td>
+<td align="left">概要设计说明书</td>
+<td align="left">198</td>
+<td align="left">https://192.0.0.77/PJ03D2016040708/trunk/工程/11总体设计/iVMS-8000-FMS(V2.1)理财风险管理系统概要设计说明书.docx</td>
+<td align="left"> </td>
+</tr>
+<tr>
+<td align="left">iVMS-8000-FMS(V2.1)理财风险管理系统集成测试方案.doc</td>
+<td align="left">软件集成测试方案</td>
+<td align="left">105</td>
+<td align="left">https://192.0.0.77/PJ03D2016040708/trunk/工程/12软件开发/软件集成测试/iVMS-8000-FMS(V2.1)理财风险管理系统集成测试方案.doc</td>
+<td align="left"> </td>
+</tr>
+<tr>
+<td align="left">iVMS-8000-FMS(V2.1)理财风险管理系统集成测试用例.xlsx</td>
+<td align="left">集成测试用例</td>
+<td align="left">149</td>
+<td align="left">https://192.0.0.77/PJ03D2016040708/trunk/工程/12软件开发/软件集成测试/iVMS-8000-FMS(V2.1)理财风险管理系统集成测试用例.xlsx</td>
+<td align="left"> </td>
+</tr>
+<tr>
+<td align="left">iVMS-8000-FMS(V2.1)集成测试报告（Build1）.xlsx</td>
+<td align="left">集成测试报告</td>
+<td align="left">218</td>
+<td align="left">https://192.0.0.77/PJ03D2016040708/trunk/工程/12软件开发/软件集成测试/iVMS-8000-FMS(V2.1)集成测试报告（Build1）.xlsx</td>
+<td align="left"> </td>
+</tr>
+<tr>
+<td align="left">iVMS-8000-FMS(V2.1)集成测试报告（Build2）.xlsx</td>
+<td align="left">集成测试报告</td>
+<td align="left">220</td>
+<td align="left">https://192.0.0.77/PJ03D2016040708/trunk/工程/12软件开发/软件集成测试/iVMS-8000-FMS(V2.1)集成测试报告（Build2）.xlsx</td>
+<td align="left"> </td>
+</tr>
+<tr>
+<td align="left">iVMS-8000-FMS(V2.1)集成测试报告（Build3）.xlsx</td>
+<td align="left">集成测试报告</td>
+<td align="left">246</td>
+<td align="left">https://192.0.0.77/PJ03D2016040708/trunk/工程/12软件开发/软件集成测试/iVMS-8000-FMS(V2.1)集成测试报告（Build3）.xlsx</td>
+<td align="left"> </td>
+</tr>
+<tr>
+<td align="left">iVMS-8000-FMS-MySQL-5.6.29-Winx64.rar</td>
+<td align="left">程序</td>
+<td align="left">59202</td>
+<td align="left">https://192.0.0.241/Financial-CustomPrj/定制项目/基线版本/软件包/iVMS-8000-FMS/v2.1/v2.1.0/DB/iVMS-8000-FMS-MySQL-5.6.29-Winx64.rar</td>
+<td align="left"> </td>
+</tr>
+<tr>
+<td align="left">iVMS-8000-FMS(v2.1.0).exe</td>
+<td align="left">程序</td>
+<td align="left">65137</td>
+<td align="left">https://192.0.0.241/Financial-CustomPrj/定制项目/基线版本/软件包/iVMS-8000-FMS/v2.1/v2.1.0/安装包/iVMS-8000-FMS(v2.1.0).exe</td>
+<td align="left"> </td>
+</tr>
+</table>

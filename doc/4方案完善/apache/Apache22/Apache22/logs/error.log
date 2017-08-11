@@ -1,0 +1,172 @@
+Starting the Apache Http Server service
+The Apache Http Server service is running.
+2.2.31 (Win64) configured -- resuming normal operations
+[Tue Jan 03 14:13:05 2017] [notice] Server built: Jul 16 2015 11:53:54
+[Tue Jan 03 14:13:05 2017] [notice] Parent: Created child process 19600
+[Tue Jan 03 14:13:05 2017] [notice] Child 19600: Child process is running
+[Tue Jan 03 14:13:05 2017] [notice] Child 19600: Acquired the start mutex.
+[Tue Jan 03 14:13:05 2017] [notice] Child 19600: Starting 1000 worker threads.
+[Tue Jan 03 14:13:05 2017] [notice] Child 19600: Starting thread to listen on port 80.
+[Tue Jan 03 14:13:05 2017] [notice] Child 19600: Starting thread to listen on port 80.
+[Tue Jan 03 14:14:37 2017] [notice] Child 19600: Process exiting because it reached MaxRequestsPerChild. Signaling the parent to restart a new child process.
+[Tue Jan 03 14:14:37 2017] [notice] Parent: Received restart signal -- Restarting the server.
+[Tue Jan 03 14:14:37 2017] [warn] (OS 10038)在一个非套接字上尝试了一个操作。  : setsockopt(SO_UPDATE_ACCEPT_CONTEXT) failed.
+[Tue Jan 03 14:14:37 2017] [notice] Apache/2.2.31 (Win64) configured -- resuming normal operations
+[Tue Jan 03 14:14:37 2017] [notice] Server built: Jul 16 2015 11:53:54
+[Tue Jan 03 14:14:37 2017] [notice] Parent: Created child process 25080
+[Tue Jan 03 14:14:38 2017] [notice] Child 25080: Child process is running
+[Tue Jan 03 14:14:38 2017] [notice] Child 25080: Acquired the start mutex.
+[Tue Jan 03 14:14:38 2017] [notice] Child 19600: Released the start mutex
+[Tue Jan 03 14:14:38 2017] [notice] Child 25080: Starting 1000 worker threads.
+[Tue Jan 03 14:14:38 2017] [notice] Child 25080: Starting thread to listen on port 80.
+[Tue Jan 03 14:14:38 2017] [notice] Child 25080: Starting thread to listen on port 80.
+[Tue Jan 03 14:14:39 2017] [notice] Child 19600: All worker threads have exited.
+[Tue Jan 03 14:14:39 2017] [notice] Child 19600: Child process is exiting
+[Tue Jan 03 14:15:21 2017] [notice] Child 25080: Process exiting because it reached MaxRequestsPerChild. Signaling the parent to restart a new child process.
+[Tue Jan 03 14:15:21 2017] [notice] Parent: Received restart signal -- Restarting the server.
+[Tue Jan 03 14:15:21 2017] [warn] (OS 10038)在一个非套接字上尝试了一个操作。  : setsockopt(SO_UPDATE_ACCEPT_CONTEXT) failed.
+[Tue Jan 03 14:15:21 2017] [notice] Apache/2.2.31 (Win64) configured -- resuming normal operations
+[Tue Jan 03 14:15:21 2017] [notice] Server built: Jul 16 2015 11:53:54
+[Tue Jan 03 14:15:21 2017] [notice] Parent: Created child process 26224
+[Tue Jan 03 14:15:21 2017] [notice] Child 26224: Child process is running
+[Tue Jan 03 14:15:22 2017] [notice] Child 26224: Acquired the start mutex.
+[Tue Jan 03 14:15:22 2017] [notice] Child 25080: Released the start mutex
+[Tue Jan 03 14:15:22 2017] [notice] Child 26224: Starting 1000 worker threads.
+[Tue Jan 03 14:15:22 2017] [notice] Child 26224: Starting thread to listen on port 80.
+[Tue Jan 03 14:15:22 2017] [notice] Child 26224: Starting thread to listen on port 80.
+[Tue Jan 03 14:15:23 2017] [notice] Child 25080: All worker threads have exited.
+[Tue Jan 03 14:15:23 2017] [notice] Child 25080: Child process is exiting
+[Tue Jan 03 14:18:08 2017] [notice] Child 26224: Process exiting because it reached MaxRequestsPerChild. Signaling the parent to restart a new child process.
+[Tue Jan 03 14:18:08 2017] [notice] Parent: Received restart signal -- Restarting the server.
+[Tue Jan 03 14:18:08 2017] [warn] (OS 10038)在一个非套接字上尝试了一个操作。  : setsockopt(SO_UPDATE_ACCEPT_CONTEXT) failed.
+[Tue Jan 03 14:18:08 2017] [notice] Apache/2.2.31 (Win64) configured -- resuming normal operations
+[Tue Jan 03 14:18:08 2017] [notice] Server built: Jul 16 2015 11:53:54
+[Tue Jan 03 14:18:08 2017] [notice] Parent: Created child process 25808
+[Tue Jan 03 14:18:09 2017] [notice] Child 25808: Child process is running
+[Tue Jan 03 14:18:09 2017] [notice] Child 25808: Acquired the start mutex.
+[Tue Jan 03 14:18:09 2017] [notice] Child 26224: Released the start mutex
+[Tue Jan 03 14:18:09 2017] [notice] Child 25808: Starting 1000 worker threads.
+[Tue Jan 03 14:18:09 2017] [notice] Child 25808: Starting thread to listen on port 80.
+[Tue Jan 03 14:18:09 2017] [notice] Child 25808: Starting thread to listen on port 80.
+[Tue Jan 03 14:18:10 2017] [notice] Child 26224: All worker threads have exited.
+[Tue Jan 03 14:18:10 2017] [notice] Child 26224: Child process is exiting
+[Tue Jan 03 14:18:14 2017] [notice] Child 25808: Process exiting because it reached MaxRequestsPerChild. Signaling the parent to restart a new child process.
+[Tue Jan 03 14:18:14 2017] [notice] Parent: Received restart signal -- Restarting the server.
+[Tue Jan 03 14:18:14 2017] [warn] (OS 10038)在一个非套接字上尝试了一个操作。  : setsockopt(SO_UPDATE_ACCEPT_CONTEXT) failed.
+[Tue Jan 03 14:18:14 2017] [notice] Apache/2.2.31 (Win64) configured -- resuming normal operations
+[Tue Jan 03 14:18:14 2017] [notice] Server built: Jul 16 2015 11:53:54
+[Tue Jan 03 14:18:14 2017] [notice] Parent: Created child process 24252
+[Tue Jan 03 14:18:14 2017] [notice] Child 24252: Child process is running
+[Tue Jan 03 14:18:15 2017] [notice] Child 24252: Acquired the start mutex.
+[Tue Jan 03 14:18:15 2017] [notice] Child 25808: Released the start mutex
+[Tue Jan 03 14:18:15 2017] [notice] Child 24252: Starting 1000 worker threads.
+[Tue Jan 03 14:18:15 2017] [notice] Child 24252: Starting thread to listen on port 80.
+[Tue Jan 03 14:18:15 2017] [notice] Child 24252: Starting thread to listen on port 80.
+[Tue Jan 03 14:18:16 2017] [notice] Child 25808: All worker threads have exited.
+[Tue Jan 03 14:18:16 2017] [notice] Child 25808: Child process is exiting
+[Tue Jan 03 14:18:36 2017] [notice] Child 24252: Process exiting because it reached MaxRequestsPerChild. Signaling the parent to restart a new child process.
+[Tue Jan 03 14:18:36 2017] [notice] Parent: Received restart signal -- Restarting the server.
+[Tue Jan 03 14:18:36 2017] [warn] (OS 10038)在一个非套接字上尝试了一个操作。  : setsockopt(SO_UPDATE_ACCEPT_CONTEXT) failed.
+[Tue Jan 03 14:18:36 2017] [notice] Apache/2.2.31 (Win64) configured -- resuming normal operations
+[Tue Jan 03 14:18:36 2017] [notice] Server built: Jul 16 2015 11:53:54
+[Tue Jan 03 14:18:36 2017] [notice] Parent: Created child process 5788
+[Tue Jan 03 14:18:36 2017] [notice] Child 5788: Child process is running
+[Tue Jan 03 14:18:37 2017] [notice] Child 5788: Acquired the start mutex.
+[Tue Jan 03 14:18:37 2017] [notice] Child 24252: Released the start mutex
+[Tue Jan 03 14:18:37 2017] [notice] Child 5788: Starting 1000 worker threads.
+[Tue Jan 03 14:18:37 2017] [notice] Child 5788: Starting thread to listen on port 80.
+[Tue Jan 03 14:18:37 2017] [notice] Child 5788: Starting thread to listen on port 80.
+[Tue Jan 03 14:18:38 2017] [notice] Child 24252: All worker threads have exited.
+[Tue Jan 03 14:18:38 2017] [notice] Child 24252: Child process is exiting
+[Tue Jan 03 14:19:38 2017] [notice] Child 5788: Process exiting because it reached MaxRequestsPerChild. Signaling the parent to restart a new child process.
+[Tue Jan 03 14:19:38 2017] [notice] Parent: Received restart signal -- Restarting the server.
+[Tue Jan 03 14:19:38 2017] [warn] (OS 10038)在一个非套接字上尝试了一个操作。  : setsockopt(SO_UPDATE_ACCEPT_CONTEXT) failed.
+[Tue Jan 03 14:19:38 2017] [notice] Apache/2.2.31 (Win64) configured -- resuming normal operations
+[Tue Jan 03 14:19:38 2017] [notice] Server built: Jul 16 2015 11:53:54
+[Tue Jan 03 14:19:38 2017] [notice] Parent: Created child process 24272
+[Tue Jan 03 14:19:38 2017] [notice] Child 24272: Child process is running
+[Tue Jan 03 14:19:39 2017] [notice] Child 24272: Acquired the start mutex.
+[Tue Jan 03 14:19:39 2017] [notice] Child 5788: Released the start mutex
+[Tue Jan 03 14:19:39 2017] [notice] Child 24272: Starting 1000 worker threads.
+[Tue Jan 03 14:19:40 2017] [notice] Child 24272: Starting thread to listen on port 80.
+[Tue Jan 03 14:19:40 2017] [notice] Child 24272: Starting thread to listen on port 80.
+[Tue Jan 03 14:19:41 2017] [notice] Child 5788: All worker threads have exited.
+[Tue Jan 03 14:19:41 2017] [notice] Child 5788: Child process is exiting
+[Tue Jan 03 14:21:49 2017] [notice] Child 24272: Process exiting because it reached MaxRequestsPerChild. Signaling the parent to restart a new child process.
+[Tue Jan 03 14:21:49 2017] [notice] Parent: Received restart signal -- Restarting the server.
+[Tue Jan 03 14:21:49 2017] [warn] (OS 10038)在一个非套接字上尝试了一个操作。  : setsockopt(SO_UPDATE_ACCEPT_CONTEXT) failed.
+[Tue Jan 03 14:21:49 2017] [notice] Apache/2.2.31 (Win64) configured -- resuming normal operations
+[Tue Jan 03 14:21:49 2017] [notice] Server built: Jul 16 2015 11:53:54
+[Tue Jan 03 14:21:49 2017] [notice] Parent: Created child process 3784
+[Tue Jan 03 14:21:49 2017] [notice] Child 3784: Child process is running
+[Tue Jan 03 14:21:50 2017] [notice] Child 3784: Acquired the start mutex.
+[Tue Jan 03 14:21:50 2017] [notice] Child 24272: Released the start mutex
+[Tue Jan 03 14:21:50 2017] [notice] Child 3784: Starting 1000 worker threads.
+[Tue Jan 03 14:21:50 2017] [notice] Child 3784: Starting thread to listen on port 80.
+[Tue Jan 03 14:21:50 2017] [notice] Child 3784: Starting thread to listen on port 80.
+[Tue Jan 03 14:21:51 2017] [notice] Child 24272: All worker threads have exited.
+[Tue Jan 03 14:21:51 2017] [notice] Child 24272: Child process is exiting
+[Tue Jan 03 14:22:34 2017] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jan 03 14:22:34 2017] [notice] Child 3784: Exit event signaled. Child process is ending.
+[Tue Jan 03 14:22:35 2017] [notice] Child 3784: Released the start mutex
+[Tue Jan 03 14:22:36 2017] [notice] Child 3784: All worker threads have exited.
+[Tue Jan 03 14:22:36 2017] [notice] Child 3784: Child process is exiting
+[Tue Jan 03 14:22:36 2017] [notice] Parent: Child process exited successfully.
+Starting the Apache Http Server service
+The Apache Http Server service is running.
+2.2.31 (Win64) configured -- resuming normal operations
+[Tue Jan 03 14:36:32 2017] [notice] Server built: Jul 16 2015 11:53:54
+[Tue Jan 03 14:36:32 2017] [notice] Parent: Created child process 20760
+[Tue Jan 03 14:36:32 2017] [notice] Child 20760: Child process is running
+[Tue Jan 03 14:36:32 2017] [notice] Child 20760: Acquired the start mutex.
+[Tue Jan 03 14:36:32 2017] [notice] Child 20760: Starting 1920 worker threads.
+[Tue Jan 03 14:36:32 2017] [notice] Child 20760: Starting thread to listen on port 80.
+[Tue Jan 03 14:36:32 2017] [notice] Child 20760: Starting thread to listen on port 80.
+[Tue Jan 03 17:54:54 2017] [notice] Child 20760: Process exiting because it reached MaxRequestsPerChild. Signaling the parent to restart a new child process.
+[Tue Jan 03 17:54:54 2017] [notice] Parent: Received restart signal -- Restarting the server.
+[Tue Jan 03 17:54:54 2017] [warn] (OS 10038)在一个非套接字上尝试了一个操作。  : setsockopt(SO_UPDATE_ACCEPT_CONTEXT) failed.
+[Tue Jan 03 17:54:54 2017] [notice] Apache/2.2.31 (Win64) configured -- resuming normal operations
+[Tue Jan 03 17:54:54 2017] [notice] Server built: Jul 16 2015 11:53:54
+[Tue Jan 03 17:54:54 2017] [notice] Parent: Created child process 33884
+[Tue Jan 03 17:54:55 2017] [notice] Child 33884: Child process is running
+[Tue Jan 03 17:54:55 2017] [notice] Child 33884: Acquired the start mutex.
+[Tue Jan 03 17:54:55 2017] [notice] Child 20760: Released the start mutex
+[Tue Jan 03 17:54:55 2017] [notice] Child 33884: Starting 1920 worker threads.
+[Tue Jan 03 17:54:55 2017] [notice] Child 33884: Starting thread to listen on port 80.
+[Tue Jan 03 17:54:55 2017] [notice] Child 33884: Starting thread to listen on port 80.
+[Tue Jan 03 17:54:56 2017] [notice] Child 20760: All worker threads have exited.
+[Tue Jan 03 17:54:56 2017] [notice] Child 20760: Child process is exiting
+[Tue Jan 03 17:55:15 2017] [notice] Child 33884: Process exiting because it reached MaxRequestsPerChild. Signaling the parent to restart a new child process.
+[Tue Jan 03 17:55:15 2017] [notice] Parent: Received restart signal -- Restarting the server.
+[Tue Jan 03 17:55:15 2017] [warn] (OS 10038)在一个非套接字上尝试了一个操作。  : setsockopt(SO_UPDATE_ACCEPT_CONTEXT) failed.
+[Tue Jan 03 17:55:15 2017] [notice] Apache/2.2.31 (Win64) configured -- resuming normal operations
+[Tue Jan 03 17:55:15 2017] [notice] Server built: Jul 16 2015 11:53:54
+[Tue Jan 03 17:55:15 2017] [notice] Parent: Created child process 27436
+[Tue Jan 03 17:55:15 2017] [notice] Child 27436: Child process is running
+[Tue Jan 03 17:55:16 2017] [notice] Child 27436: Acquired the start mutex.
+[Tue Jan 03 17:55:16 2017] [notice] Child 33884: Released the start mutex
+[Tue Jan 03 17:55:16 2017] [notice] Child 27436: Starting 1920 worker threads.
+[Tue Jan 03 17:55:16 2017] [notice] Child 27436: Starting thread to listen on port 80.
+[Tue Jan 03 17:55:16 2017] [notice] Child 27436: Starting thread to listen on port 80.
+[Tue Jan 03 17:55:17 2017] [notice] Child 33884: All worker threads have exited.
+[Tue Jan 03 17:55:17 2017] [notice] Child 33884: Child process is exiting
+[Tue Jan 03 17:56:39 2017] [notice] Child 27436: Process exiting because it reached MaxRequestsPerChild. Signaling the parent to restart a new child process.
+[Tue Jan 03 17:56:39 2017] [notice] Parent: Received restart signal -- Restarting the server.
+[Tue Jan 03 17:56:39 2017] [warn] (OS 10038)在一个非套接字上尝试了一个操作。  : setsockopt(SO_UPDATE_ACCEPT_CONTEXT) failed.
+[Tue Jan 03 17:56:40 2017] [notice] Apache/2.2.31 (Win64) configured -- resuming normal operations
+[Tue Jan 03 17:56:40 2017] [notice] Server built: Jul 16 2015 11:53:54
+[Tue Jan 03 17:56:40 2017] [notice] Parent: Created child process 25472
+[Tue Jan 03 17:56:40 2017] [notice] Child 25472: Child process is running
+[Tue Jan 03 17:56:40 2017] [notice] Child 25472: Acquired the start mutex.
+[Tue Jan 03 17:56:40 2017] [notice] Child 27436: Released the start mutex
+[Tue Jan 03 17:56:40 2017] [notice] Child 25472: Starting 1920 worker threads.
+[Tue Jan 03 17:56:40 2017] [notice] Child 25472: Starting thread to listen on port 80.
+[Tue Jan 03 17:56:40 2017] [notice] Child 25472: Starting thread to listen on port 80.
+[Tue Jan 03 17:56:41 2017] [notice] Child 27436: All worker threads have exited.
+[Tue Jan 03 17:56:41 2017] [notice] Child 27436: Child process is exiting
+[Tue Jan 03 18:17:53 2017] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jan 03 18:17:53 2017] [notice] Child 25472: Exit event signaled. Child process is ending.
+[Tue Jan 03 18:17:54 2017] [notice] Child 25472: Released the start mutex
+[Tue Jan 03 18:17:55 2017] [notice] Child 25472: All worker threads have exited.
+[Tue Jan 03 18:17:55 2017] [notice] Child 25472: Child process is exiting
+[Tue Jan 03 18:17:55 2017] [notice] Parent: Child process exited successfully.

@@ -1,0 +1,183 @@
+.gridIconFix{
+  width: 20px;
+  height: 16px;
+  line-height: 16px;
+}
+.devicetool{
+	width:98%;
+	height:50px;
+	border-bottom: 1px solid #DBDBDB;
+}
+.deviceMain{
+	position: absolute;
+	bottom:0;
+	top:55px;
+	width:1010px;
+	overflow-x:hidden;
+	overflow-y:auto;  
+}
+.devicetool ul{
+	height:49px;
+}
+.devicetool li{
+	float: left;
+	padding:0 20px;
+	line-height: 49px;
+	font-size: 14px;
+	cursor: pointer;
+	color:#999999;
+}
+.devicetool li:hover{
+	color:#3F85E4;
+}
+.devicetool li.active{
+	color:#3F85E4;
+	border-bottom:solid 2px #3F85E4;
+	background: white;
+}
+.oprTiming{
+  background: url("/images/icons/timing.png") no-repeat 4px center;
+}
+.oprTiming:hover {
+  color: #3F85E4;
+  background: url("/images/icons/timing_hover.png") no-repeat 4px center;
+}
+.oprTiming:active,.oprTiming:focus {
+  color: #2D5FA4;
+  background: url("/images/icons/timing_press.png") no-repeat 4px center;
+}
+.oprRemote{
+  background: url("/images/icons/remote.png") no-repeat 4px center;
+}
+.oprRemote:hover {
+  color: #3F85E4;
+  background: url("/images/icons/remote_hover.png") no-repeat 4px center;
+}
+.oprRemote:active,.oprRemote:focus {
+  color: #2D5FA4;
+  background: url("/images/icons/remote_press.png") no-repeat 4px center;
+}
+.oprVideoIssue{
+  background: url("/images/icons/video.png") no-repeat 4px center;
+}
+.oprVideoIssue:hover {
+  color: #3F85E4;
+  background: url("/images/icons/video_hover.png") no-repeat 4px center;
+}
+.oprVideoIssue:active,.oprVideoIssue:focus {
+  color: #2D5FA4;
+  background: url("/images/icons/video_press.png") no-repeat 4px center;
+}
+.height20{
+	height:20px;
+}
+.groupHidden{
+	display: none;
+}
+.groupHidden .controls, .groupShow .controls{
+	margin-left:0;
+}
+.subInfo{
+	border: solid 1px #cccccc;
+    margin-left: 40px;
+    margin-right: 60px;
+}
+.groupShow .subInfo{
+	 margin-right: 30px;
+	 height:190px;
+	 overflow-y:auto;
+	 overflow-x:hidden; 
+}
+.subInfo .subInfo1{
+	padding-left: 20px;
+	height:40px;
+	line-height: 40px;
+	color:#ADADAD;
+}
+.controls span.password{
+	color:#ADADAD;
+	display:inline-block;
+}
+.rePWD{
+	display: inline-block;
+	_display:inline;
+}
+.rePWD span{
+	width:27px;
+	height:8px;
+}
+.rePWD i{
+	margin-left:5px;
+	display: inline-block;
+}
+.thirtyField{
+	width:350px;
+	float:left;
+}
+.thirtyField #tooltip.success,.thirtyField #tooltip.error{
+	margin-left:0;
+}
+.channelInfo{
+	position: relative;
+	margin:0 40px 0 30px;
+	border:solid 1px #ccc;
+	height:190px;
+	overflow-y:hidden;
+	overflow-x:hidden;
+}
+.clickA{
+	width:100%;
+	height:100%;
+	text-align: center;
+	line-height: 170px;
+	vertical-align: middle;
+}
+.input-select{
+	width:200px;
+	position: absolute;
+	left:0;
+	top:105%;
+	height:200px;
+	overflow: auto;
+	border:solid 1px #cccccc;
+	z-index: 1000;
+	background: white;
+	display: none;
+}
+.subInfo .viewInfo p{
+	padding-left:80px;
+	color:#ADADAD;
+}
+.subInfo .addcollect p{
+	width: 200px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    border: 1px solid #DFDFDF;
+    cursor: pointer;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    border-radius: 3px;
+}
+.subInfo .addcollect p:hover{
+	background: #3F85E4;
+	color:#fff;
+}
+.subInfo .addcollect p.active{
+	background: #3F85E4;
+	color:#fff;
+}
+a.notPlane{
+	color:blue;
+}
+a.readyPlane{
+	color:green;
+}
+.channelTable{
+	width:100%;
+	display: none;
+}
+.gridTips{
+	display:block;
+	width:100%;
+}

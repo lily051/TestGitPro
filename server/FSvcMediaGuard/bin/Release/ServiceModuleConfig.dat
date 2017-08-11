@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+	<Service name="FSvcMediaGuard" ModuleType="20002" startCmd="start.bat" stopCmd="stop.bat" installCmd="install.bat" uninstallCmd="uninstall.bat" startTime="" stopTime="" configTool="ConfigTool.exe">录像守卫服务</Service>
+</Configuration>

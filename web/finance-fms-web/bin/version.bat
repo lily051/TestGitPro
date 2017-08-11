@@ -1,0 +1,1 @@
+subwcrev .. plate.txt ..\src\main\webapp\js\version.js

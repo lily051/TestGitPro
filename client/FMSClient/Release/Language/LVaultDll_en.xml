@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<language>
+    <type key="1" value="en" />
+    <resource>
+        <string keyword="vlt_list_alarm_level1" en="Level 1 Alarm" />
+        <string keyword="vlt_list_alarm_level2" en="Level 2 Alarm" />
+        <string keyword="vlt_list_alarm_level3" en="Level 3 Alarm" />
+        <string keyword="vlt_list_alarm_level4" en="Level 4 Alarm" />
+        <string keyword="vlt_list_alarm_level5" en="Level 5 Alarm" />
+        <string keyword="vlt_tab_unhandle_event" en="Unprocessed" />
+        <string keyword="vlt_tab_handled_event" en="Processed" />
+        <string keyword="vlt_tip_suggestion_empty" en="Comments are required." />
+        <string keyword="vlt_tip_special_char" en="Special characters cannot be contained." />
+        <string keyword="vlt_title_event_handle" en="Event Handle" />
+        <string keyword="vlt_btn_open_door" en="Open Door" />
+        <string keyword="vlt_btn_close_door" en="Close Door" />
+        <string keyword="vlt_btn_start_talk" en="Start Two-way Audio" />
+        <string keyword="vlt_btn_stop_talk" en="Stop Two-way Audio" />
+        <string keyword="vlt_btn_open_io" en="Open" />
+        <string keyword="vlt_button_close_io" en="Close" />
+        <string keyword="vlt_button_disarm" en="Disarm" />
+        <string keyword="vlt_button_arm" en="Arm" />
+        <string keyword="vlt_hint_closing" en="%s (Closing)" />
+        <string keyword="vlt_hint_starting" en="%s (Starting)" />
+        <string keyword="vlt_hint_talking" en="%s (Two-way Audio)" />
+        <string keyword="vlt_hint_idling" en="%s (Idling)" />
+        <string keyword="vlt_hint_arming" en="%s (Arming)" />
+        <string keyword="vlt_hint_disarming" en="%s (Disarming)" />
+        <string keyword="vlt_hint_access_control_failed" en="Access Control Failed." />
+        <string keyword="vlt_hint_door_open_success" en="Door is opened." />
+        <string keyword="vlt_hint_close_other_talk" en="Please close other two-way audios." />
+        <string keyword="vlt_hint_talk_failed" en="Two-way Audio control failed." />
+        <string keyword="vlt_hint_alarmhost_control_failed" en="Alarm host control failed." />
+        <string keyword="vlt_hint_iocontrol_succ" en="Output control success." />
+        <string keyword="vlt_hint_iocontrol_failed" en="Output control failed." />
+        <string keyword="vlt_hin_get_webservice_ip" en="Failed to get web service IP address." />
+        <string keyword="vlt_hint_get_webservice_port" en="Failed to get web service port No." />
+        <string keyword="vlt_hint_configure_webservice_ip" en="Please configure web service address." />
+        <string keyword="vlt_hint_check_webservice_configuration" en="Please check web service configuration." />
+        <string keyword="vlt_hint_vault_capture_and_recording" en="Vault Capture and Recording" />
+        <string keyword="vlt_title_link_preview" en="Link to Live View" />
+        <string keyword="vlt_hint_select_alarm_to_handle" en="Please choose alarm to handle." />
+        <string keyword="vlt_button_handle" en="Handle" />
+        <string keyword="vlt_button_time" en="Time" />
+        <string keyword="vlt_button_event_type" en="Event Type" />
+        <string keyword="vlt_button_event_detail" en="Event Detail" />
+        <string keyword="vlt_hint_unknown_alarmtype" en="Unknown Alarm" />
+        <string keyword="vlt_hint_employee_info" en="Access control point:%s Card user:%s Card No.:%s" />
+        <string keyword="vlt_hint_vault" en="Vault" />
+        <string keyword="vlt_hint_charger" en="Person in Charge" />
+        <string keyword="vlt_hint_telphone" en="Tel:" />
+        <string keyword="vlt_hint_address" en="Address:" />
+        <string keyword="vlt_tip_get_contrlcell_failed" en="Get the list of control unit is failed." />
+        <string keyword="vlt_tip_get_region_failed" en="Get the regional list is faild at regional." />
+        <string keyword="vlt_tip_get_regionres_failed" en="Get the camera list is faild at regional." />
+        <string keyword="vlt_button_refresh" en="Refresh" />
+        <string keyword="vlt_tip_load_skin_failed" en="Vault load the skin is faild." />
+        <string keyword="vlt_tip_load_preview_failed" en="Vault load the preview is faild." />
+        <string keyword="vlt_tip_load_vault_failed" en="Vault load is faild,error is:" />
+        <string keyword="vlt_button_history_alarm" en="&lt;a&gt;History Record&lt;/a&gt;" />
+        <string keyword="vlt_hint_person_card_no" en="Person (Card No.):" />
+        <string keyword="vlt_hint_gender" en="Gender" />
+        <string keyword="vlt_hint_male" en="Male" />
+        <string keyword="vlt_hint_female" en="Female" />
+        <string keyword="vlt_hint_birth" en="Day of Birth" />
+        <string keyword="vlt_hint_id_no" en="ID No.:" />
+        <string keyword="vlt_hint_position" en="Position:" />
+        <string keyword="vlt_hint_swipe_time" en="Credit card time:" />
+        <string keyword="vlt_hint_swipe_person" en="Credit card personnel:" />
+        <string keyword="vlt_hint_handler" en="Handled by:" />
+        <string keyword="vlt_hint_suggestion" en="Comment:" />
+        <string keyword="vlt_title_vault_log_search" en="Vault Log Search" />
+        <string keyword="vlt_hint_display" en="Display:" />
+        <string keyword="vlt_checkbox_all" en="All" />
+        <string keyword="vlt_checkbox_open_door" en="Open Door" />
+        <string keyword="vlt_checkbox_talk" en="Two-way Audio" />
+        <string keyword="vlt_checkbox_swipe" en="Wiping Card" />
+        <string keyword="vlt_checkbox_alarm" en="Alarm" />
+        <string keyword="vlt_event_ok" en="OK" />
+        <string keyword="vlt_event_cancel" en="Cancel" />
+        <string keyword="vlt_card_alarm_nocarddata" en="No credit card data" />
+        <string keyword="vlt_card_alarm_cardinfo" en="Credit and show person specific information." />
+        <string keyword="vlt_view_menu_preview" en="a" />
+        <string keyword="vlt_view_menu_capture" en="Capture" />
+        <string keyword="vlt_view_menu_recd" en="a" />
+        <string keyword="vlt_view_menu_audio" en="Audio" />
+        <string keyword="vlt_view_menu_alarm" en="a" />
+        <string keyword="vlt_view_menu_opendoor" en="a" />
+        <string keyword="vlt_view_menu_previewcapture" en="a" />
+        <string keyword="vlt_view_menu_startrecd" en="a" />
+        <string keyword="vlt_view_menu_stoprecd" en="a" />
+        <string keyword="vlt_view_menu_recdcmplt" en="a" />
+        <string keyword="vlt_view_menu_openaudio" en="a" />
+        <string keyword="vlt_view_menu_closeaudio" en="a" />
+        <string keyword="vlt_view_menu_stopplay" en="a" />
+        <string keyword="vlt_view_menu_stopallpreview" en="a" />
+        <string keyword="vlt_view_menu_fullscreen" en="Full Screen" />
+        <string keyword="vlt_alarm_warn_devoffline" en="a" />
+        <string keyword="vlt_alarm_warn_alarmhostoffline" en="a" />
+        <string keyword="vlt_alarm_warn_protectoffline" en="a" />
+        <string keyword="vlt_alarm_warn_talkoffline" en="a" />
+        <string keyword="vlt_alarm_warn_hddexcept" en="a" />
+        <string keyword="vlt_alarm_warn_accectrloffline" en="a" />
+        <string keyword="vlt_alarm_warn_devparamexcept" en="a" />
+        <string keyword="vlt_alarm_warn_disarm" en="a" />
+        <string keyword="vlt_alarm_warn_actevent" en="a" />
+        <string keyword="vlt_alarm_warn_videolost" en="a" />
+        <string keyword="vlt_alarm_warn_motion" en="a" />
+        <string keyword="vlt_alarm_warn_cover" en="a" />
+        <string keyword="vlt_alarm_warn_diagnosis" en="a" />
+        <string keyword="vlt_alarm_warn_normalface" en="a" />
+        <string keyword="vlt_alarm_warn_abnormalface" en="a" />
+        <string keyword="vlt_alarm_warn_smartrule1" en="a" />
+        <string keyword="vlt_alarm_warn_smartrule2" en="a" />
+        <string keyword="vlt_alarm_warn_smartrule3" en="a" />
+        <string keyword="vlt_alarm_warn_smartrule4" en="a" />
+        <string keyword="vlt_alarm_warn_smartrule5" en="a" />
+        <string keyword="vlt_alarm_warn_smartrule6" en="a" />
+        <string keyword="vlt_alarm_warn_smartrule7" en="a" />
+        <string keyword="vlt_alarm_warn_smartrule8" en="a" />
+        <string keyword="vlt_alarm_warn_recexcept" en="a" />
+        <string keyword="vlt_alarm_warn_paramexcept" en="a" />
+        <string keyword="vlt_alarm_warn_dvrio" en="a" />
+        <string keyword="vlt_alarm_warn_protectzoom" en="a" />
+        <string keyword="vlt_alarm_warn_analog" en="a" />
+        <string keyword="vlt_alarm_warn_protectio" en="a" />
+        <string keyword="vlt_alarm_warn_opendoor" en="a" />
+        <string keyword="vlt_alarm_warn_opendoorevent" en="a" />
+        <string keyword="vlt_alarm_warn_illegalopendoor" en="a" />
+        <string keyword="vlt_alarm_warn_coercion" en="a" />
+        <string keyword="vlt_alarm_warn_accectrl" en="a" />
+        <string keyword="vlt_alarm_warn_opening" en="a" />
+        <string keyword="vlt_alarm_warn_reqtalk" en="a" />
+        <string keyword="vlt_alarm_warn_restalk" en="a" />
+        <string keyword="vlt_alarm_warn_seroffline" en="a" />
+        <string keyword="vlt_alarm_warn_comb" en="a" />
+        <string keyword="vlt_alarm_warn_clock" en="a" />
+        <string keyword="vlt_alarm_warn_timeexcept" en="a" />
+        <string keyword="vlt_alarm_warn_persacce" en="a" />
+        <string keyword="vlt_log_st_vault" en="Vault log" />
+        <string keyword="vlt_log_st_searchreq" en="a" />
+        <string keyword="vlt_log_st_starttime" en="Start time" />
+        <string keyword="vlt_log_st_endtime" en="End time" />
+        <string keyword="vlt_log_st_vaultname" en="Vault name" />
+        <string keyword="vlt_log_btn_search" en="Search" />
+        <string keyword="vlt_log_btn_export" en="Export" />
+        <string keyword="vlt_log_st_handle" en="a" />
+        <string keyword="vlt_log_list_no" en="No." />
+        <string keyword="vlt_log_list_vaultname" en="Vault name" />
+        <string keyword="vlt_log_list_resname" en="Resource name" />
+        <string keyword="vlt_log_list_handletype" en="Handle type" />
+        <string keyword="vlt_log_list_result" en="Result" />
+        <string keyword="vlt_log_list_time" en="Time" />
+        <string keyword="vlt_log_list_handleby" en="a" />
+        <string keyword="vlt_log_list_remarks" en="a" />
+        <string keyword="vlt_log_st_page" en="Page:" />
+        <string keyword="vlt_log_st_total" en="Total:" />
+        <string keyword="vlt_log_st_firstpage" en="First page" />
+        <string keyword="vlt_log_st_prevpage" en="a" />
+        <string keyword="vlt_log_st_nextpage" en="a" />
+        <string keyword="vlt_log_st_lastpage" en="a" />
+        <string keyword="vlt_log_btn_refresh" en="Refresh" />
+        <string keyword="vlt_log_list_alarmtime" en="a" />
+        <string keyword="vlt_log_list_alarmname" en="a" />
+        <string keyword="vlt_log_list_alarmtype" en="a" />
+        <string keyword="vlt_log_list_customalarmtype" en="a" />
+        <string keyword="vlt_log_list_alarmlevel" en="a" />
+        <string keyword="vlt_log_list_sugges" en="a" />
+        <string keyword="vlt_log_list_handletime" en="a" />
+    </resource>
+</language>

@@ -1,0 +1,74 @@
+// PlaybackOCX30.idl : ActiveX 控件项目的类型库源。
+
+// 此文件将由 MIDL 编译器工具处理以
+// 产生类型库(PlaybackOCX30.tlb)，该类型库将成为
+// PlaybackOCX2.0.ocx.
+
+#include <olectl.h>
+#include <idispids.h>
+
+[ uuid(92F662D8-C422-4A20-9AA8-C91E97B8B96F), version(1.0),
+  helpfile("PlaybackOCX3.0.hlp"),
+  helpstring("PlaybackOCX3.0 ActiveX 控件模块"),
+  control ]
+library PlaybackOCX30Lib
+{
+	importlib(STDOLE_TLB);
+
+	//  CPlaybackOCX30Ctrl 的主调度接口
+
+	[ uuid(FAB0C0D8-95B8-4A2C-BA94-69584AC7EC53),
+	  helpstring("PlaybackOCX30 Control 的调度接口")]
+	dispinterface _DPlaybackOCX30
+	{
+		properties:
+			[id(1) , helpstring("属性 lLayout")] LONG lLayout;
+			[id(2) , helpstring("属性 lSkinType")] LONG lSkinType;
+			[id(8) , helpstring("属性 lpstrPath")] BSTR lpstrPath;
+			[id(9) , helpstring("属性 lPicType")] LONG lPicType;
+			[id(10) , helpstring("属性 lModuleStyle")] LONG lModuleStyle;
+			[id(11) , helpstring("属性 lpstrPicPath")] BSTR lpstrPicPath;
+			[id(13) , helpstring("属性 lpstrBwInfo")] BSTR lpstrBwInfo;
+			[id(14) , helpstring("属性 lUserLevel")] LONG lUserLevel;
+			[id(15) , helpstring("属性 lpstrIP")] BSTR lpstrIP;
+			[id(16) , helpstring("属性 lPort")] LONG lPort;
+	methods:
+
+			[id(DISPID_ABOUTBOX)] void AboutBox();
+			[id(3), helpstring("方法PB_Playback")] LONG PB_Playback(BSTR lpstrXML);
+			[id(4), helpstring("方法PB_GetRecordFile")] BSTR PB_GetRecordFile(BSTR lpstrXML);
+			[id(5), helpstring("方法PB_StopPlayback")] LONG PB_StopPlayback(LONG lWndNo);
+			[id(6), helpstring("方法PB_StopAll")] LONG PB_StopAll(void);
+			[id(7), helpstring("方法PB_SetParam")] LONG PB_SetParam(BSTR lpstrParam);
+			[id(12), helpstring("方法PB_GetPlaybackInfo")] BSTR PB_GetPlaybackInfo(LONG lWndNo);
+			[id(17), helpstring("方法PB_EnableWindow")] LONG PB_EnableWindow(LONG lEnable);
+			[id(18), helpstring("方法PB_GetVersion")] BSTR PB_GetVersion(void);
+			[id(19), helpstring("方法PB_LocalPlayback")] LONG PB_LocalPlayback(BSTR lpstrXML);
+	};
+
+	//  CPlaybackOCX30Ctrl 的事件调度接口
+
+	[ uuid(10CC88DC-D85C-402B-840E-8B86118704D6),
+	  helpstring("PlaybackOCX30 Control 的事件接口") ]
+	dispinterface _DPlaybackOCX30Events
+	{
+		properties:
+			//  事件接口没有任何属性
+
+		methods:
+			[id(1)] void OnEventLabel(BSTR lpstrXML);
+			[id(2)] void OnWriteLog(BSTR lpstrXML);
+			[id(3)] void OnFileInfo(BSTR lpstrXML);
+	};
+
+	//  CPlaybackOCX30Ctrl 的类信息
+
+	[ uuid(07EBE387-935C-45DA-A121-AE19F18CEF44),
+	  helpstring("PlaybackOCX30 Control"), control ]
+	coclass PlaybackOCX30
+	{
+		[default] dispinterface _DPlaybackOCX30;
+		[default, source] dispinterface _DPlaybackOCX30Events;
+	};
+
+};

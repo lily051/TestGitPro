@@ -1,0 +1,960 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "PBResource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "PBResource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\PBSkinRed.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""l.CHS\\afxres.rc""      // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "TODO: <公司名>"
+            VALUE "FileDescription", "TODO: <文件说明>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "PBSkinRed.dll"
+            VALUE "LegalCopyright", "TODO: (C) <公司名>。保留所有权利。"
+            VALUE "OriginalFilename", "PBSkinRed.dll"
+            VALUE "ProductName", "TODO: <产品名>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_PLAY_THUMB          BITMAP                  "res\\ToolBar\\VolumeThumb.bmp"
+IDB_LOCALPLAY_THUMB     BITMAP                  "res\\ToolBar\\PlayerThumb.bmp"
+IDB_CHANNEL_ON          BITMAP                  "res\\ToolBar\\Scrobar_On.bmp"
+IDB_CHANNEL_OFF         BITMAP                  "res\\ToolBar\\Scrobar.bmp"
+IDB_BMP_TREENODE_STATE  BITMAP                  "res\\tree\\TreeNodeState.bmp"
+IDB_BMP_CUSTOMPOPUPDLG_TITLE_RIGHT BITMAP                  "res\\dlg\\title_right.bmp"
+IDB_BMP_CUSTOMPOPUPDLG_TITLE_MIDDLE BITMAP                  "res\\dlg\\title_middle.bmp"
+IDB_BMP_CUSTOMPOPUPDLG_TITLE_LEFT BITMAP                  "res\\dlg\\title_left.bmp"
+IDB_BMP_CUSTOMPOPUPDLG_BKRIGHT BITMAP                  "res\\dlg\\bkRight.bmp"
+IDB_BMP_CUSTOMPOPUPDLG_BKMID BITMAP                  "res\\dlg\\bkMiddle.bmp"
+IDB_BMP_CUSTOMPOPUPDLG_BKLEFT BITMAP                  "res\\dlg\\bkLeft.bmp"
+IDB_BITMAP_SERACHSEL    BITMAP                  "res\\button\\SearchSel.bmp"
+IDB_BITMAP_SERACH       BITMAP                  "res\\button\\Search.bmp"
+IDB_BITMAP_PLAYSPEEDON  BITMAP                  "res\\ToolBar\\Playback_Speed_On.bmp"
+IDB_BITMAP_PLAYSPEED    BITMAP                  "res\\ToolBar\\Playback_Speed.bmp"
+IDB_BITMAP_PBTHUMBSEL   BITMAP                  "res\\ToolBar\\PBThumbSel.bmp"
+IDB_BITMAP_PBTHUMB      BITMAP                  "res\\ToolBar\\pbthumb.BMP"
+IDB_BITMAP_OPENFILEON   BITMAP                  "res\\button\\OpenFile.bmp"
+IDB_BITMAP_OPENFILEOFF  BITMAP                  "res\\button\\OpenFileSel.bmp"
+IDB_BITMAP_LAYOUTMODE_9 BITMAP                  "res\\Layout\\9.bmp"
+IDB_BITMAP_LAYOUTMODE_4 BITMAP                  "res\\Layout\\4.bmp"
+IDB_BITMAP_LAYOUTMODE_16 BITMAP                  "res\\Layout\\16.bmp"
+IDB_BITMAP_LAYOUTMODE_1 BITMAP                  "res\\Layout\\1.bmp"
+IDB_BITMAP_MINI_TOOLBAR_BAKE BITMAP                  "res\\ToolBar\\MiniToolbarBake.bmp"
+IDB_BITMAP_FILESLICED_SLIDER_ON BITMAP                  "res\\LocalPlayToolBar\\fslider_on.bmp"
+IDB_BITMAP_FILESLICED_SLIDER BITMAP                  "res\\LocalPlayToolBar\\fslider.bmp"
+IDB_BITMAP_SOUNDVALUE   BITMAP                  "res\\LocalPlayToolBar\\soundvalue_over.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_CURSOR_POINT        CURSOR                  "res\\cursor\\H_point.cur"
+IDC_CURSOR_HANLD        CURSOR                  "res\\cursor\\H_point1.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PNG
+//
+
+IDR_PNG_TOOLBARBAKE     PNG                     "res\\ToolBar\\PlayviewToolbarbake.png"
+IDR_PNG_TOOL_STOP       PNG                     "res\\ToolBar\\AllStop.png"
+IDR_PNG_TOOL_SOUND      PNG                     "res\\ToolBar\\Sound.png"
+IDR_PNG_TOOL_SAVINGDATA PNG                     "res\\ToolBar\\SavingData.png"
+IDR_PNG_TOOL_SAVEDATA   PNG                     "res\\ToolBar\\SaveData.png"
+IDR_PNG_TOOL_PLAYGROUPCFG PNG                     "res\\ToolBar\\PlayGroupCfg.png"
+IDR_PNG_TOOL_PLAYFRAME  PNG                     "res\\ToolBar\\PlayFrame.png"
+IDR_PNG_TOOL_PLAY       PNG                     "res\\ToolBar\\Play.png"
+IDR_PNG_TOOL_PAUSE      PNG                     "res\\ToolBar\\Pause.png"
+IDR_PNG_TOOL_OTHERBAKESEL PNG                     "res\\ToolBar\\otherbakeSel.png"
+IDR_PNG_TOOL_OTHERBAKE  PNG                     "res\\ToolBar\\otherbake.png"
+IDR_PNG_TOOL_FULLSCREEN PNG                     "res\\ToolBar\\Fullscreen.png"
+IDR_PNG_TOOL_ESCFULLSCREEN PNG                     "res\\ToolBar\\EscFullscreen.png"
+IDR_PNG_TOOL_CAPTURE    PNG                     "res\\ToolBar\\AllCap.png"
+IDR_PNG_SERACHSEL       PNG                     "res\\button\\SearchSel.png"
+IDR_PNG_SERACH          PNG                     "res\\button\\Search.png"
+IDR_PNG_SAMLLBTN_EDIT   PNG                     "res\\button\\edit.png"
+IDR_PNG_SAMLLBTN_ADD    PNG                     "res\\button\\add.png"
+IDR_PNG_LAYOUT_9        PNG                     "res\\ToolBar\\9.png"
+IDR_PNG_LAYOUT_4        PNG                     "res\\ToolBar\\4.png"
+IDR_PNG_LAYOUT_16       PNG                     "res\\ToolBar\\16.png"
+IDR_PNG_LAYOUT_1        PNG                     "res\\ToolBar\\1.png"
+IDR_PNG_GROUPCAM_MOVEUP PNG                     "res\\button\\moveup.png"
+IDR_PNG_GROUPCAM_MOVEDOWN PNG                     "res\\button\\movedown.png"
+IDR_PNG_DLG_BTNSEL      PNG                     "res\\button\\btn.png"
+IDR_PNG_DLG_BTN         PNG                     "res\\button\\btnSel.png"
+IDR_PNG_CUSTOMPOPUPDLG_XSEL PNG                     "res\\dlg\\XXSel.png"
+IDR_PNG_CUSTOMPOPUPDLG_X PNG                     "res\\dlg\\XX.png"
+IDR_PNG_CUSTOMPOPUPDLG_UPRIGHT PNG                     "res\\dlg\\up_right.png"
+IDR_PNG_CUSTOMPOPUPDLG_UPMID PNG                     "res\\dlg\\up_middle.png"
+IDR_PNG_CUSTOMPOPUPDLG_UPLEFT PNG                     "res\\dlg\\up_left.png"
+IDR_PNG_CUSTOMPOPUPDLG_RIGHT PNG                     "res\\dlg\\right.png"
+IDR_PNG_CUSTOMPOPUPDLG_LEFT PNG                     "res\\dlg\\left.png"
+IDR_PNG_CUSTOMPOPUPDLG_DOWNRIGHT PNG                     "res\\dlg\\down_right.png"
+IDR_PNG_CUSTOMPOPUPDLG_DOWNMID PNG                     "res\\dlg\\down_middle.png"
+IDR_PNG_CUSTOMPOPUPDLG_DOWNLEFT PNG                     "res\\dlg\\down_left.png"
+IDR_PNG_CTRL_SPRESEL    PNG                     "res\\SearchCtrl\\preSel.png"
+IDR_PNG_CTRL_SPREDIS    PNG                     "res\\SearchCtrl\\preDis.png"
+IDR_PNG_CTRL_SPRE       PNG                     "res\\SearchCtrl\\pre.png"
+IDR_PNG_CTRL_SNEXTSEL   PNG                     "res\\SearchCtrl\\nextSel.png"
+IDR_PNG_CTRL_SNEXTDIS   PNG                     "res\\SearchCtrl\\nextDis.png"
+IDR_PNG_CTRL_SNEXT      PNG                     "res\\SearchCtrl\\next.png"
+IDR_PNG_CTRL_SEDITRIGHT PNG                     "res\\SearchCtrl\\SearchE_right.png"
+IDR_PNG_CTRL_SEDITMIDDLE PNG                     "res\\SearchCtrl\\SearchE_middle.png"
+IDR_PNG_CTRL_SEDITLEFT  PNG                     "res\\SearchCtrl\\SearchE_left.png"
+IDR_PNG_CTRL_SEARCHSEL  PNG                     "res\\SearchCtrl\\SearchSel.png"
+IDR_PNG_CTRL_SEARCH     PNG                     "res\\SearchCtrl\\Search.png"
+IDR_PNG_CTRL_SBKRIGHT   PNG                     "res\\SearchCtrl\\SearchBK_right.png"
+IDR_PNG_CTRL_SBKMIDDLE  PNG                     "res\\SearchCtrl\\SearchBK_middle.png"
+IDR_PNG_CTRL_SBKLEFT    PNG                     "res\\SearchCtrl\\SearchBK_left.png"
+IDR_PNG_BTNSEL_RIGHT    PNG                     "res\\button\\btnSel_right.png"
+IDR_PNG_BTNSEL_MIDDLE   PNG                     "res\\button\\btnSel_middle.png"
+IDR_PNG_BTNSEL_LEFT     PNG                     "res\\button\\btnSel_left.png"
+IDR_PNG_BTNBK           PNG                     "res\\button\\btnbk.png"
+IDR_CAPTION_MINIHOVER   PNG                     "res\\uiDlg\\Mini_Hover.png"
+IDR_CAPRION_MINI        PNG                     "res\\uiDlg\\Mini.png"
+IDR_CAPRION_MAXHOVER    PNG                     "res\\uiDlg\\Max_Hover.png"
+IDR_CAPRION_MAX         PNG                     "res\\uiDlg\\Max.png"
+IDR_CAPRION_CLOSEHOVER  PNG                     "res\\uiDlg\\Close_Hover.png"
+IDR_CAPRION_CLOSE       PNG                     "res\\uiDlg\\Close.png"
+IDR_CAPRION_BACKHOVER   PNG                     "res\\uiDlg\\Back_Hover.png"
+IDR_CAPRION_BACK        PNG                     "res\\uiDlg\\Back.png"
+IDB_PNG_VOLUMNSPLIDER   PNG                     "res\\ToolBar\\VolumnSplide.png"
+IDB_PNG_VEDIOFOLDER     PNG                     "res\\list\\VedioFolder.png"
+IDB_PNG_VEDIOFILE       PNG                     "res\\list\\VedioFile.png"
+IDB_PNG_TREE_NODE_GUNCAMERAPLAY PNG                     "res\\tree\\GunCameral_online_play.png"
+IDB_PNG_TREE_NODE_GUNCAMERA PNG                     "res\\tree\\GunCamera.png"
+IDB_PNG_TREE_NODE_CENTER PNG                     "res\\tree\\center.png"
+IDB_PNG_TREE_NODE_AREA  PNG                     "res\\tree\\Area.png"
+IDB_PNG_TREE_EXPAND     PNG                     "res\\tree\\Expand.png"
+IDB_PNG_TREE_COLLAPSE   PNG                     "res\\tree\\collapse.png"
+IDB_PNG_TITLE           PNG                     "res\\common\\Title.png"
+IDB_PNG_TIMEDOWNLOAD    PNG                     "res\\ToolBar\\TimeDownload.png"
+IDB_PNG_TAB_SEL         PNG                     "res\\TabCtrl\\Tab_Sel.png"
+IDB_PNG_TAB_CONTROL     PNG                     "res\\TabCtrl\\TabControl.png"
+IDB_PNG_TAB             PNG                     "res\\TabCtrl\\Tab.png"
+IDB_PNG_SYNPLAY         PNG                     "res\\ToolBar\\Synchronous.png"
+IDB_PNG_STOPDOWNLOAD    PNG                     "res\\button\\Stop.png"
+IDB_PNG_STOP            PNG                     "res\\ToolBar\\Stop.png"
+IDB_PNG_STARTDOWNLOAD   PNG                     "res\\button\\Start.png"
+IDB_PNG_SOUNDDIS        PNG                     "res\\ToolBar\\SoundDis.png"
+IDB_PNG_SELBK           PNG                     "res\\button\\BtnSelBk.png"
+IDB_PNG_SCROLLTHUMBSEL  PNG                     "res\\ToolBar\\ScrollThumbSel .png"
+IDB_PNG_SCROLLTHUMB     PNG                     "res\\ToolBar\\ScrollThumb.png"
+IDB_PNG_SCROLLBARON     PNG                     "res\\ToolBar\\Scrollbar_On.png"
+IDB_PNG_SCROLLBAR       PNG                     "res\\ToolBar\\Scrollbar.png"
+IDB_PNG_PRE             PNG                     "res\\ToolBar\\Pre.png"
+IDB_PNG_PLAYSPEED_BK    PNG                     "res\\ToolBar\\Playback_Speed.png"
+IDB_PNG_PLAYGROUPCFG    PNG                     "res\\Config\\PlayGroupCfg.png"
+IDB_PNG_PLAYBACKCFGSEL  PNG                     "res\\Config\\PlaybackCfgSel.png"
+IDB_PNG_PLAYBACKCFG     PNG                     "res\\Config\\PlaybackCfg.png"
+IDB_PNG_ONBTN_FOLDER    PNG                     "res\\button\\folder.png"
+IDB_PNG_ONBTN_DOWNLOAD  PNG                     "res\\button\\download.png"
+IDB_PNG_ONBTN_DELETE    PNG                     "res\\button\\delete.png"
+IDB_PNG_ONBTN_CLEAR     PNG                     "res\\button\\clear.png"
+IDB_PNG_NEXT            PNG                     "res\\ToolBar\\Next.png"
+IDB_PNG_LISTTITLE_RIGHT PNG                     "res\\list\\list_Title_right.png"
+IDB_PNG_LISTTITLE_MID   PNG                     "res\\list\\list_Title_mid.png"
+IDB_PNG_LISTTITLE_LEFT  PNG                     "res\\list\\list_Title_left.png"
+IDB_PNG_LIST_HEADER     PNG                     "res\\list\\ListHeader.png"
+IDB_PNG_DOWNSUCCESS     PNG                     "res\\button\\DownSuccess.png"
+IDB_PNG_DIALOGRIGHT     PNG                     "res\\uiDlg\\dialog_right.png"
+IDB_PNG_DIALOGLEFT      PNG                     "res\\uiDlg\\dialog_left.png"
+IDB_PNG_DIALOGBOTTOM    PNG                     "res\\uiDlg\\dialog_bottom.png"
+IDB_PNG_CAPTION         PNG                     "res\\uiDlg\\Caption.png"
+IDB_PNG_BTNHOVERBK      PNG                     "res\\button\\BtnHoverBk.png"
+IDB_PNG_BTN_SHRINKSEL   PNG                     "res\\button\\ShrinkSel.png"
+IDB_PNG_BTN_SHRINK      PNG                     "res\\button\\Shrink.png"
+IDB_PNG_BTN_EXPANDSEL   PNG                     "res\\button\\ExpandSel.png"
+IDB_PNG_BTN_EXPAND      PNG                     "res\\button\\Expand.png"
+IDB_PNG_BACKPLAY        PNG                     "res\\ToolBar\\BackPlay.png"
+IDB_PNG_AGAIN           PNG                     "res\\button\\Again.png"
+IDB_PNG_ADDDOWNLOAD     PNG                     "res\\button\\AddDown.png"
+IDB_PNG_UIDIALOG        PNG                     "res\\uiDlg\\uidialog.png"
+IDB_PNG_VOLUMN          PNG                     "res\\ToolBar\\Volumn.png"
+IDB_PNG_CAPTURE         PNG                     "res\\ToolBar\\Capture.png"
+IDB_PNG_EVENT           PNG                     "res\\ToolBar\\Event.png"
+IDB_PNG_SAVE            PNG                     "res\\ToolBar\\Save.png"
+IDB_PNG_MINI_TOOLBAR_BAKE PNG                     "res\\ToolBar\\BtnBake.png"
+IDB_PNG_MINI_BTNBAKE    PNG                     "res\\ToolBar\\MiniBtnBake.png"
+IDB_PNG_MINI_BTNFAST    PNG                     "res\\ToolBar\\MiniFast.png"
+IDB_PNG_MINI_BTNFRAME   PNG                     "res\\ToolBar\\MiniFrame.png"
+IDB_PNG_MINI_BTNPAUSE   PNG                     "res\\ToolBar\\MiniPause.png"
+IDB_PNG_MINI_BTNPLAY    PNG                     "res\\ToolBar\\MiniPlay.png"
+IDB_PNG_MINI_BTNSLOW    PNG                     "res\\ToolBar\\MiniSlow.png"
+IDB_PNG_MINI_BTNSTOP    PNG                     "res\\ToolBar\\MiniStop.png"
+IDB_PNG_DOWNLOAD        PNG                     "res\\ToolBar\\download.png"
+IDB_PNG_EXPAND          PNG                     "res\\ToolBar\\expand.png"
+IDB_PNG_MINIEXPAND_BTNBAKE PNG                     "res\\ToolBar\\MiniExpandBtnBake.png"
+IDB_PNG_CLOSE_VOLUMN    PNG                     "res\\ToolBar\\CloseVolumn.png"
+IDB_PNG_STOPSAVE        PNG                     "res\\ToolBar\\StopSave.png"
+IDB_PNG_AUDIO_TWO       PNG                     "res\\window\\1.png"
+IDB_PNG_AUDIO_THREE     PNG                     "res\\window\\2.png"
+IDB_PNG_AUDIO_FORE      PNG                     "res\\window\\3.png"
+IDB_PNG_AUDIO_ONE       PNG                     "res\\window\\4.png"
+IDB_PNG_MINI_BTNSLOW_DIS PNG                     "res\\ToolBar\\MiniSlowDis.png"
+IDB_PNG_MINI_BTNBAKE_SEL PNG                     "res\\ToolBar\\MiniBtnBakeSel.png"
+IDB_PNG_MINI_BTNFAST_DIS PNG                     "res\\ToolBar\\MiniFastDis.png"
+IDB_PNG_MINI_BTNFRAME_DIS PNG                     "res\\ToolBar\\MiniFrameDis.png"
+IDB_PNG_MINI_BTNPAUSE_DIS PNG                     "res\\ToolBar\\MiniPauseDis.png"
+IDB_PNG_MINI_BTNPLAY_DIS PNG                     "res\\ToolBar\\MiniPlayDis.png"
+IDR_PNG_TOOL_REVERSE_PLAY PNG                     "res\\ToolBar\\ReversePlay.png"
+IDB_PNG_CAP_HOVER       PNG                     "res\\ToolBar\\Capture_hover.png"
+IDB_PNG_CLOSEVOLUMN_HOVER PNG                     "res\\ToolBar\\CloseVolumn_hover.png"
+IDB_PNG_DOWNLOAD_HOVER  PNG                     "res\\ToolBar\\download_hover.png"
+IDB_PNG_EVENT_HOVER     PNG                     "res\\ToolBar\\Event_hover.png"
+IDB_PNG_MINI_FAST_HOVER PNG                     "res\\ToolBar\\MiniFast_hover.png"
+IDB_PNG_MINI_FRAME_HOVER PNG                     "res\\ToolBar\\MiniFrame_hover.png"
+IDB_PNG_MINI_PAUSE_HOVER PNG                     "res\\ToolBar\\MiniPause_hover.png"
+IDB_PNG_MINI_PLAY_HOVER PNG                     "res\\ToolBar\\MiniPlay_hover.png"
+IDB_PNG_MINI_SLOW_HOVER PNG                     "res\\ToolBar\\MiniSlow_hover.png"
+IDB_PNG_MINI_STOP_HOVER PNG                     "res\\ToolBar\\MiniStop_hover.png"
+IDB_PNG_SAVE_HOVER      PNG                     "res\\ToolBar\\Save_hover.png"
+IDB_PNG_VOLUMN_HOVER    PNG                     "res\\ToolBar\\Volumn_hover.png"
+IDB_PNG_BTN_CLOSE_WND   PNG                     "res\\button\\close3.png"
+IDB_PNG_CONVERT_NORMAL  PNG                     "res\\ToolBar\\transcoding_playback.png"
+IDB_PNG_CONVERT_HOVER   PNG                     "res\\ToolBar\\transcoding_playback_hover_red.png"
+IDB_PNG_CLOSE_BK        PNG                     "res\\button\\close_bk.png"
+IDB_PNG_CLOSE_NOR       PNG                     "res\\button\\menu_close.png"
+IDB_PNG_CLOSE_HOVER     PNG                     "res\\button\\menu_close_click.png"
+IDB_PNG_FILESLICED_PAUSE PNG                     "res\\LocalPlayToolBar\\pause.png"
+IDB_PNG_FILESLICED_PAUSE_OVER PNG                     "res\\LocalPlayToolBar\\pause_over.png"
+IDB_PNG_FILESLICED_STOP PNG                     "res\\LocalPlayToolBar\\stop.png"
+IDB_PNG_FILESLICED_STOP_OVER PNG                     "res\\LocalPlayToolBar\\stop_over.png"
+IDB_PNG_FILESLICED_FAST PNG                     "res\\LocalPlayToolBar\\fast.png"
+IDB_PNG_FILESLICED_FAST_OVER PNG                     "res\\LocalPlayToolBar\\fast_over.png"
+IDB_PNG_FILESLICED_PLAY PNG                     "res\\LocalPlayToolBar\\fplay.png"
+IDB_PNG_FILESLICED_SOUND PNG                     "res\\LocalPlayToolBar\\fsound.png"
+IDB_PNG_FILESLICED_SOUND_CLOSE PNG                     "res\\LocalPlayToolBar\\fsound_close.png"
+IDB_PNG_FILESLICED_SOUND_CLOSE_OVER PNG                     "res\\LocalPlayToolBar\\fsound_close_over.png"
+IDB_PNG_FILESLICED_SOUND_OVER PNG                     "res\\LocalPlayToolBar\\fsound_over.png"
+IDB_PNG_FILESLICED_PLAY_OVER PNG                     "res\\LocalPlayToolBar\\play_over.png"
+IDB_PNG_FILESLICED_SLOW PNG                     "res\\LocalPlayToolBar\\slow.png"
+IDB_PNG_FILESLICED_SLOW_OVER PNG                     "res\\LocalPlayToolBar\\slow_over.png"
+IDB_PNG_TOOLBAR_FULLSCREEN PNG                     "res\\LocalPlayToolBar\\fullscreen.png"
+IDB_PNG_TOOLBAR_FULLSCREEN_OVER PNG                     "res\\LocalPlayToolBar\\fullscreen_over.png"
+IDB_PNG_TOOLBAR_EXITFULL PNG                     "res\\LocalPlayToolBar\\closefullcreen.png"
+IDB_PNG_TOOLBAR_EXITFULL_OVER PNG                     "res\\LocalPlayToolBar\\closefullcreen_over.png"
+IDB_PNG_TOOLBAR_CAPTURE PNG                     "res\\LocalPlayToolBar\\capture.png"
+IDB_PNG_TOOLBAR_CAPTURE_OVER PNG                     "res\\LocalPlayToolBar\\capture_over.png"
+IDB_PNG_VEDIOFILE_PLAY  PNG                     "res\\list\\VedioFile_play.png"
+IDB_PNG_BTN_REFRESH     PNG                     "res\\button\\RefreshBtn.png"
+IDB_PNG_BTN_REFRESH_OVER PNG                     "res\\button\\RefreshBtn_over.png"
+IDB_PNG_DEL_TASK        PNG                     "res\\button\\deletetask.png"
+IDB_PNG_ALLSTART        PNG                     "res\\ToolBar\\AllStart.png"
+IDB_PNG_TOOLBAR_REPLAY  PNG                     "res\\LocalPlayToolBar\\replay.png"
+IDB_PNG_TOOLBAR_REPLAY_OVER PNG                     "res\\LocalPlayToolBar\\replay_over.png"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DLG_SINGLEPLAY_PREGROUP_GROUPEDIT DIALOGEX 0, 0, 224, 107
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_PREGROUP_NAME,87,19,100,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_CMB_PREGROUP_LAYOUTMODE,"ComboBoxEx32",CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP,87,40,100,241
+    DEFPUSHBUTTON   "确定",IDC_BTN_PREGROUP_OK,54,73,50,14
+    PUSHBUTTON      "取消",IDC_BTN_PREGROUP_CANCEL,125,73,50,14
+    LTEXT           "分组名称:",IDC_STATIC,42,22,36,8
+    LTEXT           "分组分割模式:",IDC_STATIC,26,42,52,8
+    PUSHBUTTON      "",IDC_BUTTON_EXIT,210,2,13,12,NOT WS_VISIBLE
+END
+
+IDD_DLG_CAPTURE_TIP DIALOGEX 0, 0, 288, 183
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "图片"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "静态",IDC_STATIC_PATH,29,145,244,18
+END
+
+IDD_DLG_CAM_ADD DIALOGEX 0, 0, 226, 246
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDC_BTN_PREGROUP_CAMSEL_OK,36,225,50,14
+    PUSHBUTTON      "取消",IDC_BTN_PREGROUP_CAMSEL_CANCEL,111,225,50,14
+    CONTROL         "",IDC_TREE_PREGROUP_CAMSEL,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_CHECKBOXES | WS_BORDER | WS_HSCROLL | WS_TABSTOP,21,8,176,205
+    PUSHBUTTON      "",IDC_BTN_PREGROUP_CAMSEL_EXIT,199,7,20,14,NOT WS_VISIBLE
+END
+
+IDD_DIALOG_VEDIOFILE DIALOGEX 0, 0, 226, 315
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_LIST_VEDIO,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,16,137,182,164
+    EDITTEXT        IDC_EDIT_VEDIOPATH,15,61,107,15,ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "..",IDC_BUTTON_VEDIOPATH,123,60,21,16
+    LTEXT           "录像位置：",IDC_STATIC_VEDIOPATH,15,47,43,12
+    LTEXT           "录像类型：",IDC_STATIC_TYPE,15,89,45,12
+    COMBOBOX        IDC_COMBO_VEDIOTYPE,17,102,124,67,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "自动匹配录像类型",IDC_CHECK_AUTOMATCH,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,19,121,122,16
+    GROUPBOX        "",IDC_STATIC_GROUP,162,25,49,74
+    PUSHBUTTON      "视频列表",IDC_BUTTON_TITLE,19,15,122,17
+END
+
+IDD_DIALOG_TREEPARAM DIALOGEX 0, 0, 200, 322
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "",IDC_STATIC_GROUP,15,161,160,107,WS_GROUP
+    CONTROL         "",IDC_TREE_RESOURCE,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | WS_HSCROLL | WS_TABSTOP,23,17,126,135
+    CONTROL         "DVR",IDC_RADIO_DVR,"Button",BS_AUTORADIOBUTTON,22,175,24,19
+    CONTROL         "CVR",IDC_RADIO_CVR,"Button",BS_AUTORADIOBUTTON,50,175,24,19
+    CONTROL         "NVR",IDC_RADIO_NVR,"Button",BS_AUTORADIOBUTTON,78,175,24,19
+    CONTROL         "代理",IDC_RADIO_PROXY,"Button",BS_AUTORADIOBUTTON,106,175,32,19
+    CONTROL         "备份",IDC_RADIO_BDP,"Button",BS_AUTORADIOBUTTON,142,175,24,19
+    LTEXT           "录像类型：",IDC_STATIC_RECORDTYPE,21,201,40,12
+    COMBOBOX        IDC_COMBO_RECORDTYPE,70,196,86,69,CBS_DROPDOWNLIST | WS_VSCROLL | WS_GROUP | WS_TABSTOP,WS_EX_TRANSPARENT
+    LTEXT           "开始时间：",IDC_STATIC_STARTTIME,22,222,40,12
+    CONTROL         "",IDC_DATETIMEPICKER_STARTDATE,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,68,217,47,15,WS_EX_TRANSPARENT
+    CONTROL         "",IDC_DATETIMEPICKER_STARTTIME,"SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | WS_TABSTOP | 0x8,120,218,50,15,WS_EX_TRANSPARENT
+    LTEXT           "结束时间：",IDC_STATIC_STOPTIME,22,245,40,12
+    CONTROL         "",IDC_DATETIMEPICKER_STOPDATE,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,67,242,47,15,WS_EX_TRANSPARENT
+    CONTROL         "",IDC_DATETIMEPICKER_STOPTIME,"SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | WS_TABSTOP | 0x8,123,242,48,14,WS_EX_TRANSPARENT
+    PUSHBUTTON      "搜  索",IDC_BUTTON_PLAY,22,281,153,22
+END
+
+IDD_DIALOG_SUBSERACH DIALOGEX 0, 0, 316, 183
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+END
+
+IDD_DIALOG_RECORDLIST DIALOGEX 0, 0, 204, 257
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_LIST_RECORDFILE,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,41,63,135,162
+    PUSHBUTTON      "下载",IDC_BUTTON_DOWNLOAD,19,33,39,15
+    PUSHBUTTON      "",IDC_BUTTON_SHOW,14,73,17,109
+END
+
+IDD_DIALOG_PLAYVEDIO DIALOGEX 0, 0, 447, 268
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+END
+
+IDD_DIALOG_PLAYGROUPCFG DIALOGEX 0, 0, 498, 304
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_LIST_GROUP,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,173,24,317,237
+    GROUPBOX        "",IDC_STATIC_TREE,4,0,167,23
+    GROUPBOX        "",IDC_STATIC_LIST,173,0,317,23
+    CONTROL         "",IDC_TREE_GROUP,"SysTreeView32",WS_BORDER | WS_HSCROLL | WS_TABSTOP,4,24,168,237
+    PUSHBUTTON      "",IDC_BUTTON_ADDGROUP,104,6,17,14
+    PUSHBUTTON      "",IDC_BUTTON_EDITGROUP,128,6,17,14
+    PUSHBUTTON      "",IDC_BUTTON_DELGROUP,150,6,17,14
+    PUSHBUTTON      "",IDC_BUTTON_ADDCAMERA,262,6,17,14
+    PUSHBUTTON      "",IDC_BUTTON_DELCAM,290,6,17,14
+    PUSHBUTTON      "",IDC_BUTTON_MOVEUP,438,6,17,14
+    PUSHBUTTON      "",IDC_BUTTON_MOVEDOWN,466,6,17,14
+    PUSHBUTTON      "确定",IDC_BUTTON_APPLY,350,266,54,17
+    PUSHBUTTON      "取消",IDC_BUTTON_CANCEL,422,266,54,17
+    PUSHBUTTON      "",IDC_BUTTON_EXIT,484,1,13,12,NOT WS_VISIBLE
+END
+
+IDD_DIALOG_PLAYBACKCFG DIALOGEX 0, 0, 316, 183
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    RTEXT           "参数配置",IDC_STATIC_PARAMCFG,27,22,67,31,SS_NOTIFY
+    RTEXT           "分组配置",IDC_STATIC_GROUPCFG,27,59,67,31,SS_NOTIFY
+    PUSHBUTTON      "应用",IDC_BUTTON_APPLY,172,155,58,21
+    PUSHBUTTON      "还原",IDC_BUTTON_CANCEL,240,155,58,21
+END
+
+IDD_DIALOG_PLAYBACK_MAIN DIALOGEX 0, 0, 350, 210
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_TAB_PLAY,"SysTabControl32",0x0,19,19,155,81
+END
+
+IDD_DIALOG_PLAYBACK DIALOGEX 0, 0, 316, 183
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+END
+
+IDD_DIALOG_LOCALPLAYVEDIO DIALOGEX 0, 0, 423, 294
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "",IDC_STATIC_LOCALPLAYWND,108,55,125,95,SS_NOTIFY
+    LTEXT           "视频路径",IDC_STATIC_TITLE,19,17,215,12
+END
+
+IDD_DIALOG_LOCALPLAYBACK DIALOGEX 0, 0, 396, 241
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+END
+
+IDD_DIALOG_LOCALCFG DIALOGEX 0, 0, 362, 218
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "下载路径：",IDC_STATIC,53,46,41,12
+    LTEXT           "图片路径：",IDC_STATIC,53,70,41,12
+    LTEXT           "图片格式：",IDC_STATIC,53,93,41,12
+    EDITTEXT        IDC_EDIT_DOWNPATH,98,44,200,16,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_PICPATH,98,68,200,16,ES_AUTOHSCROLL | ES_READONLY
+    COMBOBOX        IDC_COMBO_PICTYPE,98,92,52,39,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "..",IDC_BUTTON_DOWNPATH,300,46,17,14
+    PUSHBUTTON      "..",IDC_BUTTON_PICPATH,300,70,17,14
+END
+
+IDD_DIALOG_LABEL DIALOGEX 0, 0, 707, 379
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_LIST_LABELINFO,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,88,405,284
+    GROUPBOX        "检索条件",IDC_RADIO_PROXY,12,6,615,36
+    LTEXT           "监控点：",IDC_STATIC_CAMERA,31,22,33,12
+    COMBOBOX        IDC_COMBO_CAMERA,67,19,69,13,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "记录时间：",IDC_STATIC_LABELTIME,155,22,43,12
+    CONTROL         "",IDC_DATETIMEPICKER_STARTDATA,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,196,19,106,14
+    CONTROL         "",IDC_DATETIMEPICKER_ENDDATE,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,330,19,111,14
+    LTEXT           "到",IDC_STATIC_TIMETO,317,22,11,12
+    LTEXT           "用户：",IDC_STATIC_USER,466,22,31,11
+    COMBOBOX        IDC_COMBO_USER,504,19,69,13,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "搜索",IDC_BUTTON_SERACH,547,49,51,18
+    LTEXT           "显示记录数：",IDC_STATIC_SHOWLABEL,25,53,52,13
+    COMBOBOX        IDC_COMBO_SHOWLABEL,75,51,59,15,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "当前页：",IDC_STATIC_CURPAGE,217,53,36,12
+    LTEXT           "0/0",IDC_STATIC_PAGE,255,53,28,12
+    PUSHBUTTON      "上一页",IDC_BUTTON_PAGEUP,354,49,46,14
+    PUSHBUTTON      "下一页",IDC_BUTTON_PAGENEXT,418,49,46,14
+    LTEXT           "标签数：",IDC_STATIC_CURPAGE2,147,53,36,12
+    LTEXT           "0",IDC_STATIC_PAGE2,185,53,28,12
+END
+
+IDD_DIALOG_DOWNSUCCESS DIALOGEX 0, 0, 345, 221
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "打开文件",IDC_BUTTON_OPENFILE,32,15,71,25
+    PUSHBUTTON      "删除任务",IDC_BUTTON_DELETE,114,15,71,25
+    PUSHBUTTON      "清空",IDC_BUTTON_CLEAR,262,16,71,25,NOT WS_VISIBLE
+    CONTROL         "",IDC_LIST_DOWNLOADSUC,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,49,48,249,145
+    PUSHBUTTON      "打开目录",IDC_BUTTON_OPEN_DIR,193,15,71,25
+END
+
+IDD_DIALOG_DOWNLOADTITLE DIALOGEX 0, 0, 197, 270
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "下载列表",IDC_BUTTON_DOWNTITLE,24,17,119,21
+    LTEXT           "",IDC_STATIC_DOWNLOADING,25,49,109,16,SS_NOTIFY
+    LTEXT           "",IDC_STATIC_DOWNSUCCESS,27,70,109,16,SS_NOTIFY
+    LTEXT           "",IDC_STATIC_DOWNFAILED,26,90,109,16,SS_NOTIFY
+END
+
+IDD_DIALOG_DOWNLOADTASKADD DIALOGEX 0, 0, 370, 227
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "下载",IDC_BUTTON_ADDDOWNLOAD,215,186,64,21
+    PUSHBUTTON      "取消",IDC_BUTTON_CANCEL,287,186,64,21
+    PUSHBUTTON      "",IDC_BUTTON_CLOSEDLG,356,2,13,12,NOT WS_VISIBLE
+    CONTROL         "",IDC_TAB_DOWNLOAD_TYPE,"SysTabControl32",0x0,7,7,356,47
+END
+
+IDD_DIALOG_DOWNLOADING DIALOGEX 0, 0, 408, 250
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "开始下载",IDC_BUTTON_STARTDOWNLOAD,31,26,71,25
+    PUSHBUTTON      "停止下载",IDC_BUTTON_STOPDOWNLOAD,114,30,71,25
+    PUSHBUTTON      "删除任务",IDC_BUTTON_DELETE,198,33,71,25
+    PUSHBUTTON      "清空",IDC_BUTTON_CLEAR,286,35,71,25,NOT WS_VISIBLE
+    CONTROL         "",IDC_LIST_DOWNLOADING,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,73,67,249,145
+END
+
+IDD_DIALOG_DOWNLOAD DIALOGEX 0, 0, 378, 239
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+END
+
+IDD_DIALOG_DOWNFAILED DIALOGEX 0, 0, 363, 248
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "重新下载",IDC_BUTTON_REDOWN,69,17,71,25
+    PUSHBUTTON      "删除任务",IDC_BUTTON_DELETE,171,19,71,25
+    PUSHBUTTON      "清空",IDC_BUTTON_CLEAR,253,16,71,25,NOT WS_VISIBLE
+    CONTROL         "",IDC_LIST_DOWNLOADFAILED,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,49,65,249,145
+END
+
+IDD_DIALOG_ADDLABEL DIALOGEX 0, 0, 303, 237
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "内容:",IDC_STATIC,14,90,22,8
+    EDITTEXT        IDC_EDIT_LABELINFO,42,92,244,88,ES_MULTILINE | WS_VSCROLL
+    PUSHBUTTON      "确定",IDC_BUTTON_APPLY,149,198,59,20
+    PUSHBUTTON      "取消",IDC_BUTTON_CANCEL,219,198,59,20
+    CONTROL         "",IDC_DATESTART,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,42,37,54,14
+    CONTROL         "",IDC_TIMESTART,"SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | WS_TABSTOP | 0x8,98,37,54,14
+    CONTROL         "",IDC_DATAEND,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,176,37,54,14
+    CONTROL         "",IDC_TIMEEND,"SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | WS_TABSTOP | 0x8,232,37,54,14
+    LTEXT           "到",IDC_STATIC,159,40,11,8
+    PUSHBUTTON      "",IDC_BUTTON_EXIT,290,2,13,12,NOT WS_VISIBLE
+    LTEXT           "标题:",IDC_STATIC,14,66,22,8
+    LTEXT           "时间:",IDC_STATIC,14,40,22,8
+    EDITTEXT        IDC_EDIT1,42,63,244,14,ES_AUTOHSCROLL
+    LTEXT           "标签:",IDC_STATIC,14,13,20,8
+    COMBOBOX        IDC_CMB_LABEL_TYPE,42,11,110,169,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_DLG_DOWNLOAD_BYTIME DIALOGEX 0, 0, 370, 159
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "监控点",IDC_STATIC_GROUP,10,4,343,146
+    LTEXT           "时间段1：",IDC_STATIC,45,20,39,13
+    CONTROL         "",IDC_DATETIMEPICKER_DATASTART1,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,85,17,57,19
+    CONTROL         "",IDC_DATETIMEPICKER_TIMESTART1,"SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | WS_TABSTOP | 0x8,143,17,57,19
+    CONTROL         "",IDC_DATETIMEPICKER__DATEEND1,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,225,17,57,19
+    CONTROL         "",IDC_DATETIMEPICKER_TIMEEND1,"SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | WS_TABSTOP | 0x8,283,17,57,19
+    LTEXT           "到",IDC_STATIC,207,20,14,16
+    LTEXT           "时间段2：",IDC_STATIC,45,54,39,13
+    CONTROL         "",IDC_DATETIMEPICKER_DATASTART2,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,85,49,57,19
+    CONTROL         "",IDC_DATETIMEPICKER_TIMESTART2,"SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | WS_TABSTOP | 0x8,143,49,57,19
+    CONTROL         "",IDC_DATETIMEPICKER_DATEEND1,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,225,49,57,19
+    CONTROL         "",IDC_DATETIMEPICKER_TIMEEND2,"SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | WS_TABSTOP | 0x8,283,49,57,19
+    LTEXT           "到",IDC_STATIC,207,54,14,16
+    LTEXT           "时间段3：",IDC_STATIC,45,87,39,13
+    CONTROL         "",IDC_DATETIMEPICKER_DATASTART3,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,85,83,57,19
+    CONTROL         "",IDC_DATETIMEPICKER_TIMESTART3,"SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | WS_TABSTOP | 0x8,143,83,57,19
+    CONTROL         "",IDC_DATETIMEPICKER_DATEEND3,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,225,83,57,19
+    CONTROL         "",IDC_DATETIMEPICKER__TIMEEND3,"SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | WS_TABSTOP | 0x8,283,83,57,19
+    LTEXT           "到",IDC_STATIC,207,87,14,16
+    LTEXT           "时间段4：",IDC_STATIC,45,120,39,13
+    CONTROL         "",IDC_DATETIMEPICKER_DATASTART4,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,85,116,57,19
+    CONTROL         "",IDC_DATETIMEPICKER_TIMESTART4,"SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | WS_TABSTOP | 0x8,143,116,57,19
+    CONTROL         "",IDC_DATETIMEPICKER_DATEEND4,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,225,116,57,19
+    CONTROL         "",IDC_DATETIMEPICKER_TIMEEND4,"SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | WS_TABSTOP | 0x8,283,116,57,19
+    LTEXT           "到",IDC_STATIC,207,120,14,16
+    CONTROL         "",IDC_CHK_ENABLE_TIME1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,25,20,16,10
+    CONTROL         "",IDC_CHK_ENABLE_TIME2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,25,54,16,10
+    CONTROL         "",IDC_CHK_ENABLE_TIME3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,25,87,16,10
+    CONTROL         "",IDC_CHK_ENABLE_TIME4,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,25,120,16,10
+END
+
+IDD_DLG_DOWNLOAD_BYFILE DIALOGEX 0, 0, 370, 159
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_LIST_FILE,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,7,356,134
+    CONTROL         "全选",IDC_CHECK_ALL,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,147,32,10
+END
+
+IDD_DIALOG_CONVERT DIALOGEX 0, 0, 184, 123
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_BORDER | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,41,102,50,14
+    PUSHBUTTON      "取消",IDCANCEL,103,102,50,14
+    LTEXT           "分辨率：",IDC_STATIC_res,10,52,33,8
+    LTEXT           "码率：",IDC_STATIC_bit,11,35,25,8
+    LTEXT           "帧率：",IDC_STATIC_FRAME,21,84,25,8
+    COMBOBOX        IDC_COMBO_Resolution,59,32,105,30,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_VideoBitrate,59,57,105,30,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_VideoFrameRate,59,82,105,30,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "",IDC_STATIC_TITLE,15,14,8,8
+    PUSHBUTTON      "",IDC_BTN_CLOSE,127,7,50,14
+    CONTROL         "",IDC_STATIC_line1,"Static",SS_ETCHEDHORZ,33,15,20,20
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DLG_SINGLEPLAY_PREGROUP_GROUPEDIT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 217
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 100
+    END
+
+    IDD_DLG_CAPTURE_TIP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 281
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 176
+    END
+
+    IDD_DLG_CAM_ADD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 219
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 239
+    END
+
+    IDD_DIALOG_VEDIOFILE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 219
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 308
+    END
+
+    IDD_DIALOG_TREEPARAM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 193
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 315
+    END
+
+    IDD_DIALOG_SUBSERACH, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 309
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 176
+    END
+
+    IDD_DIALOG_RECORDLIST, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 197
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 250
+    END
+
+    IDD_DIALOG_PLAYVEDIO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 440
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 261
+    END
+
+    IDD_DIALOG_PLAYGROUPCFG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 491
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 297
+    END
+
+    IDD_DIALOG_PLAYBACKCFG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 309
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 176
+    END
+
+    IDD_DIALOG_PLAYBACK_MAIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 343
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 203
+    END
+
+    IDD_DIALOG_PLAYBACK, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 309
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 176
+    END
+
+    IDD_DIALOG_LOCALPLAYVEDIO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 416
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 287
+    END
+
+    IDD_DIALOG_LOCALPLAYBACK, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 389
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 234
+    END
+
+    IDD_DIALOG_LOCALCFG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 355
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 211
+    END
+
+    IDD_DIALOG_LABEL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 700
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 372
+    END
+
+    IDD_DIALOG_DOWNSUCCESS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 338
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 214
+    END
+
+    IDD_DIALOG_DOWNLOADTITLE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 190
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 263
+    END
+
+    IDD_DIALOG_DOWNLOADTASKADD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 363
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 220
+    END
+
+    IDD_DIALOG_DOWNLOADING, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 401
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 243
+    END
+
+    IDD_DIALOG_DOWNLOAD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 371
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 232
+    END
+
+    IDD_DIALOG_DOWNFAILED, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 356
+        TOPMARGIN, 7
+    END
+
+    IDD_DIALOG_ADDLABEL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 296
+        TOPMARGIN, 8
+    END
+
+    IDD_DLG_DOWNLOAD_BYTIME, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 363
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 152
+    END
+
+    IDD_DLG_DOWNLOAD_BYFILE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 363
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 152
+    END
+
+    IDD_DIALOG_CONVERT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 177
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 116
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\CentralClient.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_UI_COLOR_BKGND      "RGB(124,124,124)"
+    IDS_UI_WND_BKGND        "RGB(237,237,237)"
+    IDS_UI_LISTITEMF_COLOR  "RGB(255,255,255)"
+    IDS_UI_LISTITEMS_COLOR  "RGB(240,244,247)"
+    IDS_UI_LISTSELECT_COLOR "RGB(123,23,23)"
+    IDS_UI_TEXT_COLOR       "RGB(0,0,0)"
+    IDS_UI_TREE_BKCOLOR     "RGB(255,255,255)"
+    IDS_UI_PLAYWND_COLOR    "RGB(53,53,53)"
+    IDS_UI_PLAYWND_SPACE    "RGB(38,38,38)"
+    IDS_UI_PLAYWNDSEL_FRAME "RGB(225,0,0)"
+    IDS_UI_PLAYBAR_TITLEBK  "RGB(222,222,222)"
+    IDS_UI_PLAYBAR_RECORDBK "RGB(32,35,39)"
+    IDS_UI_PLAYBAR_TITLESPACE "RGB(203,203,203)"
+    IDS_UI_PLAYBAR_CURTIME  "RGB(182,39,22)"
+    IDS_UI_PLAYBAR_SELECT   "RGB(0,255,0)"
+    IDS_UI_PLAYBAR_MINPEN   "RGB(26,103,158)"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_UI_PLAYBAR_ELEMENT  "RGB(255,255,255)"
+    IDS_UI_PLAYBAR_LIGHT    "RGB(188,112,237)"
+    IDS_UI_PLAYBAR_RECORDTIMEING "RGB(68,84,172)"
+    IDS_UI_PLAYBAR_RECORDMANUAL "RGB(57,215,68)"
+    IDS_UI_PLAYBAR_RECORDALARM "RGB(255, 0, 0)"
+    IDS_UI_PLAYWND_TITLE_COLOR "RGB(45,45,45)"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_STATIC_BKSEL_COLOR  "RGB(195,224,225)"
+    IDS_STATIC_BKON_COLOR   "RGB(229,238,245)"
+END
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\PBSkinRed.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "l.CHS\afxres.rc"      // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

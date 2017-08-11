@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>复盘计划-上海兴业问题</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">
+/* GitHub stylesheet for MarkdownPad (http://markdownpad.com) */
+/* Author: Nicolas Hery - http://nicolashery.com */
+/* Version: b13fe65ca28d2e568c6ed5d7f06581183df8f2ff */
+/* Source: https://github.com/nicolahery/markdownpad-github */
+
+/* RESET
+=============================================================================*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* BODY
+=============================================================================*/
+
+body {
+  font-family: Helvetica, arial, freesans, clean, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #333;
+  background-color: #fff;
+  padding: 20px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+body>*:first-child {
+  margin-top: 0 !important;
+}
+
+body>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+/* BLOCKS
+=============================================================================*/
+
+p, blockquote, ul, ol, dl, table, pre {
+  margin: 15px 0;
+}
+
+/* HEADERS
+=============================================================================*/
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 20px 0 10px;
+  padding: 0;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 tt, h1 code, h2 tt, h2 code, h3 tt, h3 code, h4 tt, h4 code, h5 tt, h5 code, h6 tt, h6 code {
+  font-size: inherit;
+}
+
+h1 {
+  font-size: 28px;
+  color: #000;
+}
+
+h2 {
+  font-size: 24px;
+  border-bottom: 1px solid #ccc;
+  color: #000;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+h5 {
+  font-size: 14px;
+}
+
+h6 {
+  color: #777;
+  font-size: 14px;
+}
+
+body>h2:first-child, body>h1:first-child, body>h1:first-child+h2, body>h3:first-child, body>h4:first-child, body>h5:first-child, body>h6:first-child {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6 {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+h1+p, h2+p, h3+p, h4+p, h5+p, h6+p {
+  margin-top: 10px;
+}
+
+/* LINKS
+=============================================================================*/
+
+a {
+  color: #4183C4;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* LISTS
+=============================================================================*/
+
+ul, ol {
+  padding-left: 30px;
+}
+
+ul li > :first-child, 
+ol li > :first-child, 
+ul li ul:first-of-type, 
+ol li ol:first-of-type, 
+ul li ol:first-of-type, 
+ol li ul:first-of-type {
+  margin-top: 0px;
+}
+
+ul ul, ul ol, ol ol, ol ul {
+  margin-bottom: 0;
+}
+
+dl {
+  padding: 0;
+}
+
+dl dt {
+  font-size: 14px;
+  font-weight: bold;
+  font-style: italic;
+  padding: 0;
+  margin: 15px 0 5px;
+}
+
+dl dt:first-child {
+  padding: 0;
+}
+
+dl dt>:first-child {
+  margin-top: 0px;
+}
+
+dl dt>:last-child {
+  margin-bottom: 0px;
+}
+
+dl dd {
+  margin: 0 0 15px;
+  padding: 0 15px;
+}
+
+dl dd>:first-child {
+  margin-top: 0px;
+}
+
+dl dd>:last-child {
+  margin-bottom: 0px;
+}
+
+/* CODE
+=============================================================================*/
+
+pre, code, tt {
+  font-size: 12px;
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
+}
+
+code, tt {
+  margin: 0 0px;
+  padding: 0px 0px;
+  white-space: nowrap;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 3px;
+}
+
+pre>code {
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  border: none;
+  background: transparent;
+}
+
+pre {
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px;
+}
+
+pre code, pre tt {
+  background-color: transparent;
+  border: none;
+}
+
+kbd {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #DDDDDD;
+    background-image: linear-gradient(#F1F1F1, #DDDDDD);
+    background-repeat: repeat-x;
+    border-color: #DDDDDD #CCCCCC #CCCCCC #DDDDDD;
+    border-image: none;
+    border-radius: 2px 2px 2px 2px;
+    border-style: solid;
+    border-width: 1px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 10px;
+    padding: 1px 4px;
+}
+
+/* QUOTES
+=============================================================================*/
+
+blockquote {
+  border-left: 4px solid #DDD;
+  padding: 0 15px;
+  color: #777;
+}
+
+blockquote>:first-child {
+  margin-top: 0px;
+}
+
+blockquote>:last-child {
+  margin-bottom: 0px;
+}
+
+/* HORIZONTAL RULES
+=============================================================================*/
+
+hr {
+  clear: both;
+  margin: 15px 0;
+  height: 0px;
+  overflow: hidden;
+  border: none;
+  background: transparent;
+  border-bottom: 4px solid #ddd;
+  padding: 0;
+}
+
+/* TABLES
+=============================================================================*/
+
+table th {
+  font-weight: bold;
+}
+
+table th, table td {
+  border: 1px solid #ccc;
+  padding: 6px 13px;
+}
+
+table tr {
+  border-top: 1px solid #ccc;
+  background-color: #fff;
+}
+
+table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+
+/* IMAGES
+=============================================================================*/
+
+img {
+  max-width: 100%
+}
+</style>
+</head>
+<body>
+<h2>上海兴业-录像上传阻塞</h2>
+<h3>问题</h3>
+<pre><code>录像无法上传
+</code></pre>
+
+<h3>现象</h3>
+<pre><code>录像阻塞，每天产生1600条录像数据，只能上传800条
+</code></pre>
+
+<h3>HModifyRecordsinfoServiceImpl--获取录像列表信息并上传给上传服务</h3>
+<pre><code>public void qyeryRecordsInfo(RpcController controller, ReqRecords request,RpcCallback&lt;RecordsList&gt; done) {
+    Date date = new Date();
+    //1.设置返回参数
+    RecordsList.Builder rspRecordsList = RecordsList.newBuilder();
+    rspRecordsList.setCmd(CMD.CMD_DT_RECORDS_LIST_VALUE);
+
+    //获得当前登录的上传服务的ip
+    RpcControllerImpl rpcControllerImpl = (RpcControllerImpl)controller;
+    long sessionId = rpcControllerImpl.getSessionId();
+    HppChannel hppChannel = ContextUtil.getHppChannel(HppConstants.TYPE_SERVER + sessionId);
+    String clientIP = ((InetSocketAddress)hppChannel.getSession().getRemoteAddress()).getAddress().getHostAddress();
+    String Modelusb = sysconfigService.getModeParam().getChoiceUsbIpc();//2：usb模式    1：ipc模式
+
+    try{
+        List&lt;com.hikvision.finance.fms.model.Records&gt; listRecords = prosaveRecordDao.getRecordsbyRecordsStatus(clientIP,Modelusb);  //获取录像列表
+        if(listRecords==null){
+            throw new CMSException(CMSException.RECORDS_NO_EXITS, &quot;没有对应的录像信息！&quot;);
+        }
+        int k = 0;
+        for(int i=0;i&lt;listRecords.size();i++){
+            Records.Builder rspRecords = Records.newBuilder();
+            setrspRecords(listRecords.get(i),rspRecords);
+            boolean bFindKmsorCvr = handleUsborIpc(listRecords.get(i),rspRecords);
+            if(bFindKmsorCvr){
+                rspRecordsList.addRecord(k, rspRecords);
+                k++;
+            }
+        }
+        //2.结果处理
+        done.run(rspRecordsList.build());
+    }catch(CMSException e){
+        done.run(rspRecordsList.build());
+        logger.error(&quot;结束 根据录像状态获取录像信息  请求处理: 异常: 【&quot; + e.getMessage() + &quot;】&quot;,e);
+        return;
+    }
+    logger.info(&quot;结束   根据录像状态获取录像信息  请求:cmd: 【&quot; + CMD.CMD_DT_RECORDS_LIST.getNumber() + &quot;】; resultInfo:【&quot; + rspRecordsList.build().toString()+ &quot;】&quot;);
+}
+</code></pre>
+
+<h3>获取录像列表</h3>
+<pre><code>public List&lt;Records&gt; getRecordsbyRecordsStatus(String clientIP, String modelusb) {
+    StringBuffer sql = null;
+    if(&quot;2&quot;.equals(modelusb)){//USB模式
+        sql = new StringBuffer(&quot;SELECT * FROM Records WHERE nRecordStatus in (2,3) and strIp = &quot;);//降序  
+        sql.append(&quot;'&quot;);
+        sql.append(clientIP);
+        sql.append(&quot;'&quot;);
+        sql.append(&quot; ORDER BY nRecordStatus desc&quot;);
+    }else if(&quot;1&quot;.equals(modelusb)){
+        sql = new StringBuffer(&quot;SELECT * FROM Records WHERE nRecordStatus in (2,3) ORDER BY nRecordStatus desc LIMIT 50&quot;);//降序
+    }
+    return this.createSQLQuery(sql.toString()).addEntity(Records.class).list();
+}
+</code></pre>
+
+<h4>不足之处</h4>
+<pre><code>按照录像状态查询录像信息（上传中和待上传），先取上传中的录像，再取已关联的录像，每次50条
+不是按照时间顺序来查的
+可能每次取的都是同一个网点的录像，其他网点的取不到，所以有的网点的一直都传不上去（这个不可控，有这个风险）
+现场带宽为2M，按照这个带宽，每个网点只能传一路录像，如果获取的录像列表中，某一个网点的录像条数多于一条，就会造成资源上的浪费
+</code></pre>
+
+<h4>处理方案</h4>
+<pre><code>public List&lt;Records&gt; getRecordsForUploadService() {
+    StringBuffer sql = new StringBuffer(&quot;SELECT * FROM Records WHERE nRecordStatus in (2,3) ORDER BY nRecordStatus desc, ID ASC LIMIT 500&quot;);//降序
+    return this.createSQLQuery(sql.toString()).addEntity(Records.class).list();
+}
+</code></pre>
+
+<h4>说明</h4>
+<pre><code>按照状态查询录像，同时按照状态和ID排序，先按录像状态取值（先上传中，再待上传），再按ID升序排序（其实就是按照时间），先把以前的录像传上去
+</code></pre>
+
+<h3></h3>
+<pre><code>        List&lt;com.hikvision.finance.fms.model.Records&gt; listRecords = null;
+        //目前的逻辑是考虑到现场只有2M带宽，一次只能传1条录像，多条容易造成阻塞
+        if(&quot;1&quot;.equals(Modelusb)){//IPC-CVR模式
+            listRecords = new ArrayList&lt;com.hikvision.finance.fms.model.Records&gt;(); 
+            List&lt;com.hikvision.finance.fms.model.Records&gt; records = prosaveRecordDao.getRecordsForUploadService();
+
+            List&lt;Integer&gt; regionIds = new ArrayList&lt;Integer&gt;();
+            List&lt;Integer&gt; recordIds = new ArrayList&lt;Integer&gt;();
+
+            int count = 0;
+            for(com.hikvision.finance.fms.model.Records record : records){
+                if(regionIds.contains(record.getNcollectRegionId())){
+                    continue;
+                }
+                if(recordIds.contains(record.getId())){
+                    continue;
+                }
+                listRecords.add(record);
+                regionIds.add(record.getNcollectRegionId());
+                recordIds.add(record.getId());
+                if(++count &gt;= 50 ){
+                    break;
+                }
+            }
+        }else{//USB
+            listRecords = prosaveRecordDao.getRecordsbyRecordsStatus(clientIP,Modelusb);
+        }
+</code></pre>
+
+<h3>说明</h3>
+<pre><code>取500条，在这500条中遍历，每个网点取一条，取够50条就跳出循环
+有个问题：也不能保证够50条，因为万一500条录像都是同一个网点的，就会有这个问题
+</code></pre>
+
+<h3>第一版结束！</h3>
+<h3>问题2</h3>
+<pre><code>有两个网点，某一时刻起录像全部无法上传，怀疑是某笔录像阻塞上传
+采集设备正常、网络正常
+</code></pre>
+
+<h5>到这里，看看之前的代码，会发现如果某个网点的某条录像阻塞了，那这个网点所有的录像都无法上传了【很严重！】</h5>
+<h5>然后，查看日志，发现每次上传服务获取录像的条数都不足50条，然后对录像获取方法做了重新的优化</h5>
+<pre><code>public List&lt;Records&gt; getRecordsbyRecordsStatus(String clientIP, String modelusb) {
+    StringBuffer sql = null;
+    if(&quot;2&quot;.equals(modelusb)){//USB模式
+        sql = new StringBuffer(&quot;SELECT * FROM Records WHERE nRecordStatus in (2,3) and strIp = &quot;);//降序  
+        sql.append(&quot;'&quot;);
+        sql.append(clientIP);
+        sql.append(&quot;'&quot;);
+        sql.append(&quot; ORDER BY nRecordStatus desc&quot;);
+    }else if(&quot;1&quot;.equals(modelusb)){
+        sql = new StringBuffer(&quot; SELECT * from &quot;
+                + &quot; (SELECT * FROM records WHERE nRecordStatus in (2,3) ORDER BY nRecordStatus  DESC, startTime ASC) AS t &quot;
+                + &quot; group by t.nCollectRegionId ORDER BY t.nRecordStatus  DESC, t.startTime  LIMIT 50&quot;); //先查询录像状态为3和2的录像，再按照网点分组，状态和时间排序，取50条
+    }
+    return this.createSQLQuery(sql.toString()).addEntity(Records.class).list();
+}
+</code></pre>
+
+<h5>这样基本能够保证录像条数到达50条了（现场78个网点）</h5>
+<h5>但是，录像阻塞的问题仍存在</h5>
+<h5>然后，拿到现场数据库，执行之前的SQL，看看取到的50条数据（实际可能不足50），找出网点编号为阻塞网点的网点编号的数据</h5>
+<h5>再去prosaverecords表中根据recordID查询相关录像，发现prosaverecords中没有该条录像信息</h5>
+<h4>原因1</h4>
+<pre><code>录像守卫服务将到期录像删掉了——排除
+</code></pre>
+
+<h4>原因2</h4>
+<pre><code>用户直接操作数据库 —— 排除
+</code></pre>
+
+<h5>好吧，卡住了</h5>
+<h5>然后，李大爷和我说按照录像名称是可以找到相关的录像的，并且录像开始时间和结束时间、StreamNo这些信息都可以对应上，可以确定是同一条录像，但是奇怪的是，recordID字段是空的【这点很重要】</h5>
+<h5>什么情况下回出现recordId是空的呢？</h5>
+<pre><code>录像已经上传成功
+</code></pre>
+
+<h5>prosaverecords表中录像的uoload状态就是已上传！</h5>
+<h5>那为什么records表中是待上传（录像状态为2）？？？？ —— 这个问题未找到原因！</h5>
+<h5>好吧，就算录像状态为2，那上传服务再传一次不就得了？</h5>
+<pre><code>往回看！
+</code></pre>
+
+<h4>handleUsborIpc</h4>
+<pre><code>private boolean handleUsborIpc(com.hikvision.finance.fms.model.Records records, Builder rspRecords) {
+    boolean isSuccess = false;
+    if(2==records.getNrecordFileType()){//2 代表本地录像--usb模式
+        //不管这个
+    }else{// 1代表DVR录像--ipc模式
+        // DVR的ID
+        if(records.getNrepairDevId()!=null){
+            rspRecords.setNRepairDevId(records.getNrepairDevId()); 
+        }
+        // DVR的IP
+        if(records.getStrCollectIp()!=null){
+            rspRecords.setStrCollectIp(records.getStrCollectIp());
+        }
+        // DVR的端口
+        if(records.getDvrPort()!=null){
+            rspRecords.setDvrPort(records.getDvrPort());
+        }
+        // DVR用户名
+        if(records.getDvrUserName()!=null){
+            rspRecords.setDvrUserName(records.getDvrUserName());
+        }
+        // DVR的密码
+        if(records.getDvrPwd()!=null){
+            rspRecords.setDvrPwd(records.getDvrPwd());
+        }
+        //根据dvr找到cvr的id然后存到prosaverecords.cvr字段，如果找不到对应的cvr的id（就是说dvr没有配置对应的cvr）抛出异常
+        //后面的话要修改下，因为可能只抛出异常web断没有表现出来是什么问题
+        isSuccess = setPorsaverecordsCvr(records);
+
+    }
+    return isSuccess;
+}
+</code></pre>
+
+<h4>setPorsaverecordsCvr</h4>
+<pre><code>private boolean setPorsaverecordsCvr(com.hikvision.finance.fms.model.Records records) {
+    List&lt;Cvrassociatemapping&gt; cvrassociatemappingList =  cvrassociatemappingDao.findBy(&quot;ncollId&quot;, records.getNrepairDevId());
+    boolean isflag = false;
+    if(cvrassociatemappingList.size()&gt;0){
+        Cvrassociatemapping cvrassociatemapping = cvrassociatemappingList.get(0);
+        List&lt;Prosaverecord&gt; prosaverecordOlds = recordDao.findBy(&quot;recordId&quot;, records.getId()); //注意这句话！！！  针对两个问题网点，prosaverecordOlds.size()==0  然后录像就被过滤了，相当于这两个网点被过滤了
+        if(prosaverecordOlds.size()&gt;0){
+            Prosaverecord prosaverecordOld=prosaverecordOlds.get(0);
+            prosaverecordOld.setCvr(cvrassociatemapping.getNcvrId().toString()); // CVR的ID
+            recordDao.saveOrUpdate(prosaverecordOld);
+            isflag = true;
+            if(prosaverecordOlds.size()&gt;1){
+             for(int i=1;i&lt;prosaverecordOlds.size();i++){
+                if(prosaverecordOlds.get(i).getUpload()==0){
+                    recordDao.delete(prosaverecordOlds.get(i)); 
+                }
+            }
+          }
+        }
+    }else{
+        logger.error(&quot;结束 根据录像状态获取录像信息  请求处理: 异常: 【没有配置对应的cvr,请给该dvr配置对应的cvr】&quot;);
+        //错误信息存入records表，前台给出相应提示
+        com.hikvision.finance.fms.model.Records recordOld = datacollectDao.get(records.getId());
+        recordOld.setErrorMsg(&quot;没有配置对应的cvr,请给该dvr配置对应的cvr！&quot;);  //注意：现场说设备正常！！
+        recordOld.setNrecordStatus(9);
+        datacollectDao.saveOrUpdate(recordOld);
+
+        isflag = false;
+    }
+    return isflag;
+}
+</code></pre>
+
+<h3>处理</h3>
+<pre><code>        List&lt;Prosaverecord&gt; prosaverecordOlds = recordDao.findBy(&quot;recordId&quot;, records.getId());
+        if(prosaverecordOlds.size()&gt;0){
+            Prosaverecord prosaverecordOld=prosaverecordOlds.get(0);
+            prosaverecordOld.setCvr(cvrassociatemapping.getNcvrId().toString()); // CVR的ID
+            recordDao.saveOrUpdate(prosaverecordOld);
+            isflag = true;
+            if(prosaverecordOlds.size()&gt;1){
+             for(int i=1;i&lt;prosaverecordOlds.size();i++){
+                if(prosaverecordOlds.get(i).getUpload()==0){
+                    recordDao.delete(prosaverecordOlds.get(i)); 
+                }
+            }
+          }
+        }else{
+            com.hikvision.finance.fms.model.Records dbRecords = datacollectDao.get(records.getId());
+            String[] propertyName = {&quot;streamNo&quot;,&quot;startTime&quot;,&quot;endTime&quot;};
+            Object[] propertyValue = {dbRecords.getStreamNo(),dbRecords.getStartTime(),dbRecords.getEndTime()};
+            List&lt;Prosaverecord&gt; prosaverecords = recordDao.findBy(propertyName, propertyValue);
+            for(Prosaverecord prosaverecord : prosaverecords){
+                if(VideoUploadStatus.UPLOADED == prosaverecord.getUpload()){
+                    dbRecords.setNrecordStatus(RecordStatus.UPLOADED);
+                    break;
+                }
+            }
+        }
+</code></pre>
+
+<h3>总结</h3>
+<pre><code>这种处理方案暂时解决了现场问题，后来未反馈有录像阻塞的问题了，但是其实还是有不足之处的：
+如果是其他原因造成录像阻塞怎么办？
+最好是再加一个上传时间的判断，由上传服务判断该录像是否上传超期，如果超期，置为失败！
+或许其他更好的方法？？？
+</code></pre>
+
+
+</body>
+</html>
+<!-- This document was created with MarkdownPad, the Markdown editor for Windows (http://markdownpad.com) -->

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:context="http://www.springframework.org/schema/context" xmlns:jee="http://www.springframework.org/schema/jee" xmlns:aop="http://www.springframework.org/schema/aop" xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="
+			http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+			http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-2.5.xsd
+			http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee-2.5.xsd
+			http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-2.5.xsd
+			http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-2.5.xsd"
+			default-autowire="byName">
+
+	<!-- 服务的登录和退出 -->
+	<bean id="hServerLoginService" class="com.hikvision.finance.fms.cms.hppservice.verify.HServerLoginServiceImpl"/>
+	<bean id="hServerLogoutService" class="com.hikvision.finance.fms.cms.hppservice.verify.HServerLogoutServiceImpl"/>
+	
+	<!-- 上传服务 -->
+	<bean id="hModifyRecordsinfoService" class="com.hikvision.finance.fms.cms.hppservice.collect.HModifyRecordsinfoServiceImpl"/>
+	<bean id="hModifyStorageConfigService" class="com.hikvision.finance.fms.cms.hppservice.center.HStorageConfigServiceImpl"/>
+	<bean id="hModifyProsaverecordService" class="com.hikvision.finance.fms.cms.hppservice.center.HProsaverecordServiceImpl"/>
+	
+	
+	<!-- 系统巡检服务 -->
+	<bean id="hModifyAlarmlogService" class="com.hikvision.finance.fms.cms.hppservice.center.HModifyAlarmlogServiceImpl"/>
+	<bean id="hModifyDeviceService" class="com.hikvision.finance.fms.cms.hppservice.center.HModifyDeviceServiceImpl"/>
+	<bean id="hModifyServerService" class="com.hikvision.finance.fms.cms.hppservice.center.HModifyServerServiceImpl"/>
+	
+	<!-- 录像守卫服务 -->
+	<bean id="hModifySysconfigService" class="com.hikvision.finance.fms.cms.hppservice.center.HModifySysconfigServiceImpl"/>
+	<bean id="hModifyOvertimeRecordService" class="com.hikvision.finance.fms.cms.hppservice.center.HModifyOvertimeRecordServiceImpl"/>
+	
+	<!-- 以下为CS客户端接口 -->
+	
+	<!-- 客户端登录登出 -->
+	<bean id="hClientVerifyService" class="com.hikvision.finance.fms.cms.hppservice.verify.HClientVerifyServiceImpl"/>
+	
+	<!-- 组织 -->
+	<bean id="hRegionService" class="com.hikvision.finance.fms.cms.hppservice.csclient.HRegionServiceImpl"/>
+	
+	<!-- 证件类型 -->
+	<bean id="hParamDictionaryService" class="com.hikvision.finance.fms.cms.hppservice.csclient.HParamDictionaryServiceImpl"/>
+	
+	<!-- 产品类型 -->
+	<bean id="hProductTypeService" class="com.hikvision.finance.fms.cms.hppservice.csclient.HProductTypeServiceImpl"/>
+	
+	<!-- 产品 -->
+	<bean id="hProductService" class="com.hikvision.finance.fms.cms.hppservice.csclient.HProductServiceImpl"/>	
+	
+	<!-- 业务单信息 -->
+	<bean id="hCsClientRecordService" class="com.hikvision.finance.fms.cms.hppservice.csclient.HCsClientRecordServiceImpl"/>	
+	
+	<!-- 历史业务单信息 -->
+	<bean id="hHisClientInputService" class="com.hikvision.finance.fms.cms.hppservice.csclient.HHisClientInputServiceImpl"/>	
+	
+	<!-- 列表参数信息 -->
+	<bean id="hSystemConfigService" class="com.hikvision.finance.fms.cms.hppservice.csclient.HSystemConfigServiceImpl"/>	
+	
+	
+</beans>

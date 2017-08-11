@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VIDEOTYPES>
+  <VideoType playertype="0" name="海康" />
+</VIDEOTYPES>
+
+<!--说明playertype为GeneralPlayerAPI.h中播放类型的定义-->

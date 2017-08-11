@@ -1,0 +1,1 @@
+FSvcUpload.exe -install

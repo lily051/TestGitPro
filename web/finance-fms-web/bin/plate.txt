@@ -1,0 +1,2 @@
+version="build $WCNOW=%Y%m%d$-$WCREV$"
+platform="v2.2.0"

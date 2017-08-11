@@ -1,0 +1,39 @@
+package cms_8120;
+option java_package = "com.hikvision.finance.fms.cms.hpp.csclient";
+option java_outer_classname = "ParamDictionaryProto";
+option java_generic_services = true;
+
+//证件表
+message ParamDictionary
+{
+    //必须字段
+    optional int32 id                       = 1;    // 在数据库中的流水号
+    optional string strCode                 = 2;    // 证件编码
+    optional string strName                 = 3;    // 证件名称
+    optional int32 nsortId                  = 4;    // 证件序号
+    optional int32 enable                   = 5;    // 是否启用(0-不启用;1-启用)
+}
+
+message ReqParamDictionary             		
+{
+	optional int32 cmd                      = 1;    // CMD_DT_PARAMDICTIONARY_LIST
+    optional int32 id                       = 2;    // 在数据库中的流水号
+    optional string strCode                 = 3;    // 证件编码
+    optional string strName                 = 4;    // 证件名称
+    optional int32 nsortId                  = 5;    // 证件序号
+    optional int32 enable                   = 6;    // 是否启用(0-不启用;1-启用)
+}
+
+message ParamDictionaryList
+{
+    optional int32 cmd                        = 1;    // CMD_DT_PARAMDICTIONARY_LIST
+    optional int32 result                     = 2;    // 验证结果，0-验证通过，其它值验证失败
+    optional string result_info               = 3;    // 信息
+    repeated ParamDictionary paramDictionary  = 4;    // 证件列表
+}
+
+service ParamDictionaryService {
+	
+	rpc GetParamDictionaryList(ReqParamDictionary) returns (ParamDictionaryList);   // CMD_DT_PARAMDICTIONARY_LIST(获取证件信息)
+	
+}

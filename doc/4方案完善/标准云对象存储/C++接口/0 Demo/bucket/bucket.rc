@@ -1,0 +1,241 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\bucket.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""l.CHS\\afxres.rc""      // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\bucket.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 170, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 bucket"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,21,20
+    LTEXT           "bucket，1.0 版",IDC_STATIC,42,14,114,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2016",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "确定",IDOK,113,41,50,14,WS_GROUP
+END
+
+IDD_BUCKET_DIALOG DIALOGEX 0, 0, 587, 249
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "bucket"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "创建bucket",IDC_BTN_CREATE_BUCKET,24,86,68,14
+    PUSHBUTTON      "删除bucket",IDC_BTN_DELETE_BUCKET,100,86,68,14
+    LTEXT           "bucket名称：",IDC_STATIC,45,31,43,8
+    EDITTEXT        IDC_EDIT_BUCKET,89,28,67,14,ES_AUTOHSCROLL
+    LTEXT           "Object Key:",IDC_STATIC,226,42,38,8
+    EDITTEXT        IDC_EDIT_OBJECT_KEY,269,40,80,14,ES_AUTOHSCROLL
+    GROUPBOX        "bucket管理",IDC_STATIC,23,11,152,211
+    GROUPBOX        "Object管理",IDC_STATIC,213,11,204,210
+    PUSHBUTTON      "删除Object",IDC_BTN_DELETE_OBJECT,299,125,56,14
+    GROUPBOX        "对象存储系统信息",IDC_STATIC,435,15,128,122
+    LTEXT           "IP地址：",IDC_STATIC,455,34,28,8
+    LTEXT           "端口：",IDC_STATIC,462,56,22,8
+    LTEXT           "AccessKey：",IDC_STATIC,451,74,40,8
+    LTEXT           "SecretKey：",IDC_STATIC,452,92,40,8
+    EDITTEXT        IDC_EDIT_CLOUD_IP,496,32,61,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_CLOUD_PORT,496,51,61,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_CLOUD_ACCESSKEY,496,70,61,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_CLOUD_SECRETKEY,496,89,61,14,ES_AUTOHSCROLL
+    LTEXT           "bucket名称：",IDC_STATIC,228,25,43,8
+    EDITTEXT        IDC_EDIT_BUCKET2,271,21,77,14,ES_AUTOHSCROLL
+    LTEXT           "bucket大小(G)：",IDC_STATIC,35,52,54,8
+    EDITTEXT        IDC_EDIT_BUCKET_SIZE,89,49,67,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "初始化",IDC_BTN_INITIAL,468,114,50,14
+    PUSHBUTTON      "删除所有Object",IDC_BTN_DELETE_ALLOBJECT,358,125,56,14
+    PUSHBUTTON      "设置bucket容量",IDC_BTN_CREATE_BUCKET2,24,106,68,14
+    LTEXT           "生命周期(天)：",IDC_STATIC,34,69,48,8
+    EDITTEXT        IDC_EDIT_BUCKET_SIZE2,88,68,67,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "设置bucket生命周期",IDC_BTN_DELETE_BUCKET2,101,105,68,14
+    CONTROL         "",IDC_LIST1,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,26,147,144,70
+    PUSHBUTTON      "查询所有bucket",IDC_BTN_DELETE_BUCKET3,61,125,68,14
+    PUSHBUTTON      "普通上传(从文件)",IDC_BTN_DELETE_OBJECT2,228,76,56,14
+    PUSHBUTTON      "流式上传(仅限海康视频文件)",IDC_BTN_DELETE_ALLOBJECT2,306,94,93,14
+    PUSHBUTTON      "普通下载",IDC_BTN_DELETE_OBJECT3,228,110,56,14
+    PUSHBUTTON      "流式下载((仅限海康视频文件)",IDC_BTN_DELETE_ALLOBJECT3,307,109,93,14
+    PUSHBUTTON      "查询所有Object",IDC_BTN_DELETE_OBJECT4,229,126,56,14
+    CONTROL         "",IDC_LIST2,"SysListView32",LVS_REPORT | LVS_EDITLABELS | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,223,143,190,73
+    LTEXT           "文件路径:",IDC_STATIC,231,61,31,8
+    EDITTEXT        IDC_EDIT_SELECT_FILE,268,58,116,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "浏览",IDC_BTN_DELETE_OBJECT5,389,58,25,14
+    PUSHBUTTON      "普通上传(从内存)",IDC_BTN_DELETE_OBJECT6,228,93,56,14
+    PUSHBUTTON      "小文件普通上传(从内存)",IDC_BTN_DELETE_OBJECT7,306,77,92,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "TODO: <公司名>"
+            VALUE "FileDescription", "TODO: <文件说明>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "bucket.exe"
+            VALUE "LegalCopyright", "TODO: (C) <公司名>。保留所有权利。"
+            VALUE "OriginalFilename", "bucket.exe"
+            VALUE "ProductName", "TODO: <产品名>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 163
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+
+    IDD_BUCKET_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 580
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 242
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 bucket(&A)..."
+END
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\bucket.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "l.CHS\afxres.rc"      // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

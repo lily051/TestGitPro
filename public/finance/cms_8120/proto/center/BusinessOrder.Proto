@@ -1,0 +1,43 @@
+package cms_8120;
+option java_package = "com.hikvision.finance.fms.cms.hpp.center";
+option java_outer_classname = "BusinessOrderProto";
+
+//临时业务单表
+message BusinessOrder
+{
+    //必须字段
+    optional int32 id                       = 1;    // 在数据库中的流水号
+	optional int32 inputRegionId			= 2;	//区域Id(关联Region的id)
+	optional int32 nUserId					= 3;	//业务员id(关联表Users的id)
+	optional int32 clientId					= 4;	//关联表clientinput的id
+	optional int32 productTypeId			= 5;	//产品类型Id（关联表productType的id）
+	optional int32 productId				= 6;	//产品Id（关联表product的Id）
+	optional int32 creditCode				= 7; 	//客户证件类型Id（关联表paramdictionary的id）
+	optional int32 status					= 8;	//理财业务类型：0-签约，1-投诉
+    optional string nProId                  = 9;    // 业务单号
+	optional string businessTime			= 10;	//业务办理时间
+    optional string customerName            = 11;    // 客户姓名
+    optional string creditId                = 12;    // 证件号
+    optional int32 productTypeName          = 13;    // 产品类型名称
+	optional string productName             = 14;   // 产品名称
+	optional string productCode             = 15;   // 产品代码
+	optional string strEndDate              = 16;   // 产品到期日
+	optional int32 guaranteeYears           = 17;   // 保障年限
+	optional int32 productSaveMonth         = 18;   // 产品到期后保存期限
+	optional string strGrade                = 19;   // 产品发行机构
+    optional string strRisklevel            = 20;   // 产品风险等级
+    optional string strBankNo               = 21;   // 客户银行卡号
+    optional string strBuyMoney             = 22;   // 购买金额
+	optional string strCreditPhone          = 23;   // 客户电话
+	optional string strRemarks				= 33;	//备注
+	optional string compReason				= 34;	//投诉原因
+	optional string complainTime			= 35;	//投诉时间
+	optional string proName                 = 36;   // 业务员姓名
+    optional string proUserNo               = 37;   // 业务员工号
+}
+
+message BusinessOrderInfo
+{
+    optional int32 cmd                		= 1;    // CMD_WDT_BUSINESSORDER_INFO(写入)、CMD_MDT_BUSINESSORDER_INFO(更新)、CMD_DDT_BUSINESSORDER_INFO(删除)
+    optional BusinessOrder businessOrder    = 2;    // 临时业务单表
+}

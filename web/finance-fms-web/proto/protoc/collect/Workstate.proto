@@ -1,0 +1,36 @@
+package cms_8120;
+import "type/cmd.proto";
+import "server/RspServerData.proto";
+option java_package = "com.hikvision.finance.fms.cms.hpp.collect";
+option java_outer_classname = "WorkstateProto";
+option java_generic_services = true;
+
+
+//服务器状态表
+message Workstate
+{
+    //必须字段
+    optional int32 id                       = 1;    // 在数据库中的流水号
+    optional int32 nKey                     = 2;    // 状态类型
+    optional int32 nParentkey               = 3;    // 状态父类型
+    optional string strKeyValue             = 4;    // 状态信息
+    optional int32 nUserID                  = 5;    // 用户id
+    optional int32 nState                   = 6;    // 0-正常，1-异常
+    optional string dtOccurTime             = 7[default = "1970-01-01 00:00:00"];    // 发生时间
+    optional string strInfo                 = 8;    // 异常具体信息
+    optional int32 nRev                     = 9;    // 保留
+    optional string strRev                  = 10;   // 保留
+    optional int32 nChannel                 = 11;   // 异常通道
+}
+
+message WorkstateInfo
+{
+    optional int32 cmd                      = 1;    // CMD_MDT_WORKSTATE
+    optional Workstate workstate            = 2;    // 服务器状态列表
+}
+
+service ModifyWorkstateInfoService {
+	
+	rpc UpdateWorkstate(WorkstateInfo) returns (RspServerData);			// CMD_MDT_WORKSTATE(更新workstate表)
+	
+}

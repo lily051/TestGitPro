@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<language>
+    <type key="1" value="en" />
+    <resource>
+        <string keyword="find_empty" en="No result found." />
+        <string keyword="find_tip" en="Please enter keyword to search." />
+        <string keyword="find_next" en="Next" />
+        <string keyword="find_previous" en="Previous" />
+        <string keyword="find_last" en="This is the last node." />
+        <string keyword="find_first" en="This is the first node." />
+        <string keyword="group_save_fail" en="Failed to save group message." />
+        <string keyword="group_add_title" en="Add Auto-switch Group" />
+        <string keyword="group_add" en="New Group " />
+        <string keyword="group_edit" en="Edit Auto-switch Group" />
+        <string keyword="group_del" en="Delete Group" />
+        <string keyword="page_add" en="Add Page" />
+        <string keyword="page_edit" en="Edit Page" />
+        <string keyword="page_del" en="Delete Page" />
+        <string keyword="group_name0" en="Group Name:" />
+        <string keyword="group_tip_sel_node" en="Please choose a node." />
+        <string keyword="group_tip_sel_page" en="Please choose a page break node." />
+        <string keyword="group_belong_region" en="District " />
+        <string keyword="group_type1" en="My Auto-switch Group" />
+        <string keyword="group_type2" en="Shared Auto-switch Group" />
+        <string keyword="group_page_idx" en="Page %d" />
+        <string keyword="group_error1" en="No more camera can be added in this page." />
+        <string keyword="group_tip1" en="Dwell time(second) between views" />
+        <string keyword="group_new_view" en="New View" />
+        <string keyword="group_error2" en="No more camera can be added to the view." />
+        <string keyword="group_view_name" en="View Name:" />
+        <string keyword="group_name_used" en="The view name is used." />
+        <string keyword="group_dwell_time" en="Dwell Time Range [15-900] seconds" />
+        <string keyword="group_del_confirm" en="Delete the selected group?" />
+        <string keyword="group_name_used1" en="The group name is used. Please enter again." />
+        <string keyword="group_page_name" en="Page Name:" />
+        <string keyword="group_select_wndtype" en="Please choose the screen layout mode." />
+        <string keyword="group_stop_cycle" en="Please stop the current auto-switch." />
+        <string keyword="group_pause_cycle" en="Please stop the auto-switch." />
+        <string keyword="group_cycle_no_camera" en="Group does not exist camera" />
+        <string keyword="group_list" en="Auto-switch Group List" />
+        <string keyword="group_start_cycle" en="Start Auto-switch" />
+        <string keyword="event_log" en="Event Tag Record" />
+        <string keyword="event_need_logtype" en="Please set the illegal log type." />
+        <string keyword="event_empty_title" en="The title cannot be empty." />
+        <string keyword="event_empty_content" en="The content cannot be empty." />
+        <string keyword="cas_device" en="Cascading Device" />
+        <string keyword="res_code" en="Resource Code:" />
+        <string keyword="ptz_select_patrol_point" en="Please choose a patrol key point to delete." />
+        <string keyword="ptz_save_patrol_route" en="Saving patrol succeeded." />
+        <string keyword="ptz_save_patrol_route_fail" en="Saving patrol failed." />
+        <string keyword="ptz_select_preset" en="Please choose preset." />
+        <string keyword="ptz_patrol_time_rag" en="Patrol Time Range [1-128]" />
+        <string keyword="ptz_patrol_speed_rag" en="Speed Range [1-40]" />
+        <string keyword="ptz_patrol_point" en="Key Point" />
+        <string keyword="ptz_preset1" en="Preset" />
+        <string keyword="ptz_patrol_time" en="Patrol Time" />
+        <string keyword="ptz_patrol_speed" en="Speed" />
+        <string keyword="ptz_patrol_route" en="Route %d" />
+        <string keyword="last_page" en="This is the last page." />
+        <string keyword="first_page" en="This is the first page." />
+        <string keyword="group_tvwall" en="Video Wall Group" />
+        <string keyword="ptz_preset_name_used" en="The preset name is used. Please enter again." />
+        <string keyword="ptz_control" en="Preset, pattern, patrol" />
+        <string keyword="ptz_stop_auto" en='Please stop the PTZ &quot;auto-scan&quot; first.' />
+        <string keyword="preview_tip" en="Attention" />
+        <string keyword="no_permission" en="No permission." />
+        <string keyword="group_cam_num" en="Only %d cameras are allowed in this group." />
+        <string keyword="view_cam_num" en="Only %d cameras are allowed in this view." />
+        <string keyword="choose_cam" en="Please choose a camera." />
+        <string keyword="cc_stop_view" en="The live view is stopped due to bandwidth control.%s" />
+        <string keyword="data_save_confirm" en="Data is not saved. Save now?" />
+        <string keyword="record_time" en="The recording time is 5 seconds to 60 seconds." />
+        <string keyword="unknown_type" en="Unknown Type" />
+        <string keyword="main_stream" en="Main Stream" />
+        <string keyword="sub_stream" en="Substream" />
+        <string keyword="box_camera" en="Box Camera" />
+        <string keyword="dome_camera" en="Dome Camera" />
+        <string keyword="speed_camera" en="Speed Dome" />
+        <string keyword="ptz" en="PTZ" />
+        <string keyword="tab_liveview" en="Live View" />
+        <string keyword="tab_cycleview" en="Auto-switch" />
+        <string keyword="preview_error1" en="" />
+        <string keyword="preview_error2" en="" />
+        <string keyword="preview_error3" en="" />
+        <string keyword="cc_max_link" en="Bandwidth is limited. No live view permission." />
+        <string keyword="info_video" en="Video" />
+        <string keyword="info_video_audio" en="Video &amp; Audio" />
+        <string keyword="info_variable" en="Variable" />
+        <string keyword="info_constant" en="Constant" />
+        <string keyword="info_private264" en="Private H.264" />
+        <string keyword="info_standard264" en="Standard H.264" />
+        <string keyword="image_best" en="Best" />
+        <string keyword="image_better" en="Better" />
+        <string keyword="image_good" en="Good" />
+        <string keyword="image_normal" en="Normal" />
+        <string keyword="image_worse" en="Worse" />
+        <string keyword="image_bad" en="Bad" />
+        <string keyword="ptz_auto_scan" en="Auto Scan" />
+        <string keyword="ptz_zoom1" en="Zoom +" />
+        <string keyword="ptz_zoom2" en="Zoom -" />
+        <string keyword="ptz_iris1" en="Iris -" />
+        <string keyword="ptz_iris2" en="Iris +" />
+        <string keyword="ptz_focus1" en="Focus +" />
+        <string keyword="ptz_focus2" en="Focus -" />
+        <string keyword="ptz_light1" en="Light" />
+        <string keyword="ptz_wiper" en="Wiper" />
+        <string keyword="ptz_init" en="Init Camera" />
+        <string keyword="ptz_speed" en="PTZ Speed" />
+        <string keyword="menu_3d_zoom" en="3D Zooming" />
+        <string keyword="menu_video_set" en="Video Settings" />
+        <string keyword="info_brightness" en="Brightness" />
+        <string keyword="info_contrast" en="Contrast" />
+        <string keyword="info_staturation" en="Saturation" />
+        <string keyword="info_hue" en="Hue" />
+        <string keyword="reset_video_set" en="Reset Video Parameters" />
+        <string keyword="full_screen" en="Full Screen" />
+        <string keyword="wnd_type" en="Screen Layout" />
+        <string keyword="pre_stop_all" en="Stop Live View for All" />
+        <string keyword="local_config" en="Local Configuration" />
+        <string keyword="pre_group_config" en="Custom Live View Group" />
+        <string keyword="broadcast" en="Broadcast" />
+        <string keyword="ptz_control1" en="xxx" />
+        <string keyword="talk_start" en="Start Two-way Audio" />
+        <string keyword="talk_stop" en="Stop Two-way Audio" />
+        <string keyword="disply_scale" en="Scale" />
+        <string keyword="disply_auto_fill" en="Auto-fill Screen" />
+        <string keyword="high_quality" en="High Quality" />
+        <string keyword="low_quality" en="Low Quality" />
+        <string keyword="menu_cam_detail" en="Camera Detailed Information" />
+        <string keyword="menu_open_sound" en="Start Audio" />
+        <string keyword="menu_close_sound" en="Close Audio" />
+        <string keyword="menu_sart_rec" en="Start Recording" />
+        <string keyword="menu_stop_rec" en="Stop Recording" />
+        <string keyword="menu_goto_pb" en="Go to Playback Page" />
+        <string keyword="menu_goto_pb_dvr" en="DVR playback" />
+        <string keyword="menu_goto_pb_cvr" en="CVR playback" />
+        <string keyword="menu_goto_pb_cloud" en="Cloud playback" />
+        <string keyword="menu_nettip" en="Network tip" />
+        <string keyword="menu_eventlabel" en="Event Tag" />
+        <string keyword="zero_pre" en="Channel Zero Previous Page" />
+        <string keyword="zero_next" en="Channel Zero Next Page" />
+        <string keyword="pre_open_digi_zoom" en="Open Digital Zoom" />
+        <string keyword="pre_close_digi_zoom" en="Disable Digital Zoom" />
+        <string keyword="ptz_add_preset" en="Add Preset" />
+        <string keyword="ptz_mod_preset" en="Modify preset" />
+        <string keyword="ptz_del_preset" en="Delete preset" />
+        <string keyword="ptz_call_preset" en="Call Presets" />
+        <string keyword="ptz_cfg_patrol" en="Configure Patrol " />
+        <string keyword="ptz_start_patrol" en="Start Patrol" />
+        <string keyword="ptz_stop_patrol" en="Stop Patrol" />
+        <string keyword="cycle_config" en="Configure Auto-switch Group" />
+        <string keyword="cycle_page_cam" en="Cameras of This Page" />
+        <string keyword="cycle_group_wndtype" en="Screen Layout for Group" />
+        <string keyword="bat_page_add" en="Batch Add Pages" />
+        <string keyword="wnd1" en="1-window" />
+        <string keyword="wnd4" en="4-window" />
+        <string keyword="wnd6" en="6-window" />
+        <string keyword="wnd8" en="8-window" />
+        <string keyword="wnd9" en="9-window" />
+        <string keyword="wnd10" en="10-window" />
+        <string keyword="wnd13" en="13-window" />
+        <string keyword="wnd14" en="14-window" />
+        <string keyword="wnd16" en="16-window" />
+        <string keyword="wnd17" en="17-window" />
+        <string keyword="wnd22" en="22-window" />
+        <string keyword="wnd25" en="25-window" />
+        <string keyword="wnd36" en="36-window" />
+        <string keyword="previous_page" en="Previous Page" />
+        <string keyword="next_page" en="Next Page" />
+        <string keyword="capture_all" en="Capture All" />
+        <string keyword="capture_pic" en="Capture" />
+        <string keyword="record_file" en="Record" />
+        <string keyword="saving_successed" en="Saved." />
+        <string keyword="menu_reresh" en="Refresh" />
+        <string keyword="menu_input_ctrl" en="Alarm Input Configuration" />
+        <string keyword="menu_output_ctrl" en="Alarm Output Configuration" />
+        <string keyword="find_start" en="Search" />
+        <string keyword="ptz_up" en="Up" />
+        <string keyword="ptz_left_up" en="Upper-left" />
+        <string keyword="ptz_right_up" en="Upper-right" />
+        <string keyword="ptz_left" en="Left" />
+        <string keyword="ptz_left_down" en="Lower-left" />
+        <string keyword="ptz_right" en="Right" />
+        <string keyword="ptz_right_down" en="Lower-right" />
+        <string keyword="ptz_down" en="Down" />
+        <string keyword="ptz_preset0" en="Preset" />
+        <string keyword="ptz_patrol" en="Patrol" />
+        <string keyword="ptz_pattern" en="Pattern" />
+        <string keyword="ptz_pattern_start_rec" en="Start Recording Pattern" />
+        <string keyword="ptz_pattern_stop_rec" en="Stop Recording Pattern" />
+        <string keyword="ptz_pattern_start_call" en="Call Pattern" />
+        <string keyword="ptz_pattern_stop_call" en="Stop Calling Pattern" />
+        <string keyword="ptz_control_failed" en="Ptz  control failed" />
+        <string keyword="pre_stop_group_cycle" en="Stop Group Auto-switch" />
+        <string keyword="pre_pause_cycle" en="Pause Auto-swicth" />
+        <string keyword="pre_resume_cycle" en="Resume Auto-swicth" />
+        <string keyword="pre_stopplay" en="Stop Live View" />
+        <string keyword="menu_acctrl" en="Access Control" />
+        <string keyword="info_compress_info" en="Compression Parameters" />
+        <string keyword="vedio_definition" en="Change Definition" />
+        <string keyword="stream_reconnecting" en="Failed to get stream, start reconnecting." />
+        <string keyword="stream_reconnect_fail" en="Connecting failed." />
+        <string keyword="stream_try_later" en="Network Exception,start reconnect" />
+        <string keyword="stream_reconnect_succ" en="Connected." />
+        <string keyword="stream_connect_succ" en="Connected." />
+        <string keyword="pre_group" en="Group" />
+        <string keyword="group_add_btn" en="Add" />
+        <string keyword="group_edit_btn" en="Edit" />
+        <string keyword="group_del_btn" en="Delete" />
+        <string keyword="group_moveup" en="Move Up" />
+        <string keyword="group_movedown" en="Move Down" />
+        <string keyword="default_font" en="Segoe UI" />
+        <string keyword="empty_input" en="Input cannot be empty." />
+        <string keyword="invalid_input" en="Input cannot contain invalid character(s)." />
+        <string keyword="input_max_len" en="The maximum length:" />
+        <string keyword="unknown_error" en="Unknown Error!" />
+        <string keyword="app_exit" en="Exit" />
+        <string keyword="btn_save" en="Save" />
+        <string keyword="btn_arm" en="Arm" />
+        <string keyword="btn_disarm" en="Disarm" />
+        <string keyword="linked_view" en="Linked View" />
+        <string keyword="device_view" en="View All Cameras" />
+        <string keyword="remote_config" en="Remote Configuration" />
+        <string keyword="vca_config" en="VCA Configuration" />
+        <string keyword="min_5_60" en="5-60 min." />
+        <string keyword="sec_15_600" en="15-600s" />
+        <string keyword="page_info0" en="Page" />
+        <string keyword="select_camera" en="Select Cameras" />
+        <string keyword="group_replace" en="Replace" />
+        <string keyword="group_index" en="Index" />
+        <string keyword="camera_name" en="Camera Name" />
+        <string keyword="saved_failed" en="Saving failed." />
+        <string keyword="page_del_confirm" en="Delete the selected page?" />
+        <string keyword="cam_del_confirm" en="Delete the selected camera?" />
+        <string keyword="group_edit_title" en="Edit Auto-switch Group" />
+        <string keyword="group_del_title" en="Delete Auto-switch Group" />
+        <string keyword="group_dwell_time1" en="Dwell Time Range [%d-%d] seconds" />
+        <string keyword="already_first_page" en="This is the last page." />
+        <string keyword="already_last_page" en="This is the first page." />
+        <string keyword="invalid_title" en="Title cannot contain invalid character(s)." />
+        <string keyword="device_id" en="Device ID:" />
+        <string keyword="group_user" en="User" />
+        <string keyword="preset_name" en="Preset Name:" />
+        <string keyword="preset_name_null" en="NULL" />
+        <string keyword="preset_name_used" en="The preset name is used." />
+        <string keyword="view_group_add" en="Add View Group" />
+        <string keyword="view_group_edit" en="Edit View Group" />
+        <string keyword="group_type3" en="My View Group" />
+        <string keyword="group_type4" en="Shared View Group" />
+        <string keyword="view_group" en="View Group:" />
+        <string keyword="advanced0" en="Advanced" />
+        <string keyword="ptz_start" en="Enable PTZ Control on Window" />
+        <string keyword="ptz_stop" en="Disable PTZ Control on Window" />
+        <string keyword="menu_talk" en="Two-way Audio" />
+        <string keyword="stop_talk_first" en="Stop two-way audio first!" />
+        <string keyword="control_unit" en="Root" />
+        <string keyword="camera_asso_error1" en="Getting linked camera(s) failed." />
+        <string keyword="camera_asso_error2" en="Getting linked camera(s) failed." />
+        <string keyword="config_error1" en="Failed to open the file %s." />
+        <string keyword="del_file_failed" en="Deleting file failed." />
+        <string keyword="capture_failed" en="Capture failed." />
+        <string keyword="oper_failed" en="Operation failed." />
+        <string keyword="alarm_input" en="Alarm Input" />
+        <string keyword="ip_addr" en="IP Address" />
+        <string keyword="dev_port" en="Port" />
+        <string keyword="dev_channel" en="Channel" />
+        <string keyword="dev_status" en="Status" />
+        <string keyword="unknown_status" en="Unknown Status" />
+        <string keyword="em_temp" en="Temperature" />
+        <string keyword="em_hum" en="Humidity" />
+        <string keyword="em_ws" en="Wind Speed" />
+        <string keyword="em_con" en="Concentration" />
+        <string keyword="camera_add" en="Add Camera" />
+        <string keyword="camera_del" en="Delete Camera" />
+        <string keyword="stream_connecting" en="Connecting %s" />
+        <string keyword="log_start_view" en="Start Live View" />
+        <string keyword="log_stop_view" en="Stop Live View" />
+        <string keyword="log_start_rec" en="Start Recording" />
+        <string keyword="log_stop_rec" en="Stop Recording" />
+        <string keyword="log_capture_all" en="Capture all" />
+        <string keyword="log_start_attention" en="Start attention" />
+        <string keyword="log_stop_attention" en="Stop attention" />
+        <string keyword="log_start_voice" en="Start voice" />
+        <string keyword="log_stop_voice" en="Stop voice" />
+        <string keyword="record_error1" en="No enough space in  record files saving directory." />
+        <string keyword="record_error2" en="Failed to create the record file directory." />
+        <string keyword="audio_oper" en="Audio" />
+        <string keyword="digital_zoom_oper" en="Digital Zoom" />
+        <string keyword="linked_ctrl" en="Linked Control" />
+        <string keyword="view_del_confirm" en="Delete the selected gview?" />
+        <string keyword="not_supported" en="Not supported." />
+        <string keyword="info_standard_mp4" en="Standard MPEG4" />
+        <string keyword="btn_ok" en="OK" />
+        <string keyword="btn_cancel" en="Cancel" />
+        <string keyword="log_type0" en="Log Type" />
+        <string keyword="log_time" en="Time:" />
+        <string keyword="log_title" en="Title:" />
+        <string keyword="log_content" en="Content:" />
+        <string keyword="info_dev_type" en="Device Type:" />
+        <string keyword="info_manu_type" en="Manufacturer Type:" />
+        <string keyword="info_product_type" en="Product Type:" />
+        <string keyword="info_dev_name" en="Device Name:" />
+        <string keyword="info_dev_detail" en="Device Info:" />
+        <string keyword="info_channel_no" en="Channel:" />
+        <string keyword="info_stream_type" en="Video Type:" />
+        <string keyword="info_camera_type" en="Camera Type:" />
+        <string keyword="info_get_stream_type" en="Getting Stream Type:" />
+        <string keyword="info_server_detail" en="Server Info:" />
+        <string keyword="cycle_page_name" en="Auto-switch page name:" />
+        <string keyword="cycle_interval" en="Dwell Time:" />
+        <string keyword="btn_share" en="Share" />
+        <string keyword="btn_apply" en="Apply" />
+        <string keyword="info_video_type" en="Stream Type:" />
+        <string keyword="info_resolution" en="Resolution:" />
+        <string keyword="info_bitrate_type" en="Bitrate Type:" />
+        <string keyword="info_max_bitrate" en="Max.Bitrate" />
+        <string keyword="info_frame_rate" en="Frame Rate:" />
+        <string keyword="info_encode_type" en="Encoding Type:" />
+        <string keyword="info_image_quality" en="Image Quality:" />
+        <string keyword="lock_window" en="Lock Window" />
+        <string keyword="menu_playback" en="Playback" />
+        <string keyword="log_start_ptz" en="Start Ptz Control" />
+        <string keyword="log_stop_ptz" en="Stop Ptz Control" />
+        <string keyword="menu_lock_wnd" en="Lock Window" />
+        <string keyword="menu_unlock_wnd" en="Unlock Window" />
+        <string keyword="pv_regioninfo_menu_info" en="Region Information" />
+        <string keyword="pv_regioninfo_title_details" en="Details" />
+        <string keyword="pv_regioninfo_st_name" en="Name:" />
+        <string keyword="pv_regioninfo_st_code" en="Code:" />
+        <string keyword="pv_regioninfo_st_maxpv" en="Max Preview:" />
+        <string keyword="pv_regioninfo_st_maxpb" en="Max Playback:" />
+        <string keyword="pv_regioninfo_st_no" en="NO.:" />
+        <string keyword="pv_regioninfo_st_addr" en="Address:" />
+        <string keyword="pv_regioninfo_st_percharge" en="Person in charge:" />
+        <string keyword="pv_regioninfo_st_secuoffi" en="Security Officer:" />
+        <string keyword="pv_regioninfo_st_remark" en="Remark:" />
+        <string keyword="pv_pbwnd_menu_preview" en="Preview" />
+        <string keyword="alarm_output" en="" />
+        <string keyword="btn_open_output" en="" />
+        <string keyword="btn_close_output" en="" />
+        <string keyword="video_info_region" en="" />
+        <string keyword="video_info_device" en="" />
+        <string keyword="video_info_stream1" en="" />
+        <string keyword="video_info_stream2" en="" />
+        <string keyword="menu_show_video_info" en="" />
+        <string keyword="menu_hide_video_info" en="" />
+        <string keyword="find_type" en="" />
+        <string keyword="find_type_region" en="" />
+        <string keyword="find_type_res" en="电子放大功能仅支持海康设备，请检查设备类型" />
+        <string keyword="find_nothing" en="" />
+        <string keyword="confirm_delete_preset" en="Confirm Delete Preset？" />
+        <string keyword="error_type_of_electronic_zoom" en="Electronic zoom function supports HIKVISION device only, please check the device type." />
+        <string keyword="hint_replace_support_only_one" en="Support single resource point replacement only, more resource points please batch deleted and re-add. " />
+        <string keyword="fmt_error_open_sound_field" en="Open Sound Failed, Error Code %d" />
+        <string keyword="kMerge" en="Merge " />
+        <string keyword="kCancelMerge" en="Separate " />
+        <string keyword="kLayoutName" en="Layout Name" />
+        <string keyword="kNewLayout" en="New Layout" />
+        <string keyword="kCustomLayoutLimit" en="Custom Layout Limited" />
+        <string keyword="kCustomLayout" en="Custom Layout" />
+        <string keyword="KCONFIRMQUIT" en="There has some objects not be save. Confirm quit?" />
+        <string keyword="KCONFIRMDELETE" en="This operate can&apos;t be resume. Confirm delete?" />
+        <string keyword="kOverwirteLayoutWarning" en="Current layout will be overwrite, Confirm continue?" />
+        <string keyword="stream_client_m3" en="Error [-3], streaming client sessions have been exhausted, please try again later." />
+        <string keyword="stream_client_m2" en="Error [-2], streaming media client is not initialized, please contact the developer." />
+        <string keyword="stream_client_m1" en="Error [-1], undefined error, please contact the Streaming Client SDK maintenance colleagues." />
+        <string keyword="stream_client_0" en="Error [0], normal." />
+        <string keyword="stream_client_1" en="Error [1], the session handle is invalid [0-999], please contact the developer." />
+        <string keyword="stream_client_2" en="Error [2], a streaming service connections limit is exceeded [1000], please try again later." />
+        <string keyword="stream_client_3" en="Error [3], streaming service connection fails, the test server network status [ping ip], as well as network status [telnet ip port] front-end equipment." />
+        <string keyword="stream_client_4" en="Error [4], the front-end device does not request online, please test the network status server [ping ip], the front-end device and network status [telnet ip port]." />
+        <string keyword="stream_client_5" en="Error [5], the request exceeds the maximum front-end device connected to the number of users, use the SDK demo equipment front-end device users to view the number of connections reaches the limit." />
+        <string keyword="stream_client_6" en="Error [6], the reception data error, please contact the Streaming Client SDK maintenance colleagues." />
+        <string keyword="stream_client_7" en="Error [7], the received data is timed out." />
+        <string keyword="stream_client_8" en="Error [8], the transmission data errors." />
+        <string keyword="stream_client_9" en="Error [9], the transmission mode is invalid, please contact the developer." />
+        <string keyword="stream_client_10" en="Errors [10], created SOCKET error, please contact the developer." />
+        <string keyword="stream_client_11" en="Errors [11], setting SOCKET error, please contact the developer." />
+        <string keyword="stream_client_12" en="Errors [12], bind SOCKET error, please contact the developer." />
+        <string keyword="stream_client_13" en="Errors [13], listening SOCKET error, please contact the developer." />
+        <string keyword="stream_client_14" en="Errors [14], the request was invalid URL format, please keep Stream Layer_V30.log, and contact the developer." />
+        <string keyword="stream_client_15" en="Errors [15], RTSP state is invalid, please test the network status server [ping ip], as well as the status of the front-end network devices [telnet ip port]." />
+        <string keyword="stream_client_16" en="Errors [16], RTSP response error [RTSP syntax error, field must contain not included], please test the network status server network status [ping ip], as well as front-end equipment [telnet ip port]." />
+        <string keyword="stream_client_17" en="Errors [17], RTSP response status error [not equal to 200 or 302], please test the network status server [ping ip], as well as the status of the front-end network devices [telnet ip port]." />
+        <string keyword="stream_client_18" en="Errors [18], analytical SDP (Session Description Protocol) failed, please contact the developer." />
+        <string keyword="stream_client_19" en="Errors [19], to resolve RTSP signaling fails, contact the developer." />
+        <string keyword="stream_client_20" en="Errors [20], when parsing SDP, unresolved to traceID, please contact the developer." />
+        <string keyword="stream_client_21" en="Errors [21], sending describe signaling fails, the test server network status [ping ip], as well as network status [telnet ip port] front-end equipment." />
+        <string keyword="stream_client_22" en="Errors [22], sending setup signaling fails, the test server network status [ping ip], as well as the status of the front-end network devices [telnet ip port]." />
+        <string keyword="stream_client_23" en="Errors [23], send play command fails, the network status of the test server [ping ip], as well as network status [telnet ip port] front-end equipment." />
+        <string keyword="stream_client_24" en="Errors [24], sending pause signaling fails, the network status of the test server [ping ip], as well as network status [telnet ip port] front-end equipment." />
+        <string keyword="stream_client_25" en="Errors [25], sending teardown signaling fails, the network status of the test server [ping ip], as well as network status [telnet ip port] front-end equipment." />
+        <string keyword="stream_client_26" en="Errors [26], describe the signaling receiver timeout, the test server network status [ping ip], as well as network status [telnet ip port] front-end equipment." />
+        <string keyword="stream_client_27" en="Errors [27], the reception setup signaling timeout, the test server network status [ping ip], as well as network status [telnet ip port] front-end equipment." />
+        <string keyword="stream_client_28" en="Errors [28], receiving signaling timeout play, test the server&apos;s network status [ping ip], as well as network status [telnet ip port] front-end equipment." />
+        <string keyword="stream_client_29" en="Errors [29], the reception pause signaling timeout, the test server network status [ping ip], as well as network status [telnet ip port] front-end equipment." />
+        <string keyword="stream_client_30" en="Errors [30], received teardown signaling timeout, the test server network status [ping ip], as well as network status [telnet ip port] front-end equipment." />
+        <string keyword="stream_client_31" en="Errors [31], describe the signaling response error, the network status of the test server [ping ip], the front-end device and network status [telnet ip port]." />
+        <string keyword="stream_client_32" en="Errors [32], setup signaling response error, please test server network status [ping ip], as well as network status [telnet ip port] front-end equipment." />
+        <string keyword="stream_client_33" en="Errors [33], play a signaling response error, the network status of the test server [ping ip], the front-end device and network status [telnet ip port]." />
+        <string keyword="stream_client_34" en="Errors [34], pause command response error, please test server network status [ping ip], as well as network status [telnet ip port] front-end equipment." />
+        <string keyword="stream_client_35" en="Errors [35], teardown signaling response error, the network status of the test server [ping ip], the front-end device and network status [telnet ip port]." />
+        <string keyword="stream_client_36" en="Errors [36], redirection fails, please contact the developer." />
+        <string keyword="stream_client_37" en="Errors [37], the setup signaling from RTSP server ports fail to resolve, please contact the developer." />
+        <string keyword="stream_client_38" en="Errors [38], create UDP asynchronous network connection fails, please contact the developer." />
+        <string keyword="stream_client_39" en="Errors [39], open UDP asynchronous network connection fails, please contact the developer." />
+        <string keyword="stream_client_40" en="Errors [40], UDP delivery asynchronous receiver request failed, please contact the developer." />
+        <string keyword="stream_client_41" en="Errors [41], the time intervals relative error, please contact the developer." />
+        <string keyword="stream_client_42" en="Errors [42], the absolute time playback time error, please contact the developer." />
+        <string keyword="stream_client_43" en="Errors [43], set up a callback message is invalid, please contact the developer." />
+        <string keyword="stream_client_44" en="Errors [44], sending PTZ control signaling fails, contact the developer." />
+        <string keyword="stream_client_45" en="Errors [45], forced I-frame transmit signaling fails, contact the developer." />
+        <string keyword="stream_client_46" en="Errors [46], sent to get video parameter signaling fails, contact the developer." />
+        <string keyword="stream_client_47" en="Errors [47], set the video parameters send signaling fails, contact the developer." />
+        <string keyword="stream_client_48" en="Errors [48], the reception PTZ control signaling timeout, please contact the developer." />
+        <string keyword="stream_client_49" en="Errors [49], forced I-frame received signaling timeout, please contact the developer." />
+        <string keyword="stream_client_50" en="Errors [50], the reception to get video parameter signaling timeout, please contact the developer." />
+        <string keyword="stream_client_51" en="Errors [51], the reception to get video parameter signaling timeout, please contact the developer." />
+        <string keyword="stream_client_52" en="Errors [52], the function is not implemented, please contact the developer." />
+        <string keyword="stream_client_53" en="Errors [53] The RTSP session fails, please contact the developer." />
+        <string keyword="stream_client_54" en="Errors [54], the function parameter is invalid, please contact the developer." />
+        <string keyword="stream_client_55" en="Errors [55], the session pointer is invalid, please contact the developer." />
+        <string keyword="stream_client_56" en="Errors [56], the application memory fails, contact the developer." />
+        <string keyword="stream_client_57" en="Errors [57], transmission setting parameter signaling fails, contact the developer." />
+        <string keyword="stream_client_58" en="Errors [58], receiving signaling timeout to set parameters, please contact the developer." />
+        <string keyword="stream_client_59" en="Errors [59], send a heartbeat signaling fails, contact the developer." />
+        <string keyword="stream_client_60" en="Errors [60], to receive a heartbeat signaling timeout, please contact the developer." />
+        <string keyword="stream_client_61" en="Errors [61], push invalid stream transmission (only supports RTP UDP TRANSMODE), please contact the developer." />
+        <string keyword="stream_client_62" en="Errors [62], insufficient permissions, access is refused streaming media server." />
+        <string keyword="stream_client_63" en="Errors [63], frame analysis failed,, please contact the developer." />
+        <string keyword="stream_client_64" en="Errors [64], signaling resolve error (VTM), please contact the developer." />
+        <string keyword="stream_client_65" en="Errors [65], the presence of a cluster without vtdu (VTM), please contact the developer." />
+        <string keyword="stream_client_66" en="Errors [66], the cluster overload, insufficient permissions (VTM), please contact the developer." />
+        <string keyword="stream_client_67" en="Errors [67], access restrictions (VTM), please contact the developer." />
+        <string keyword="stream_client_68" en="Errors [68], an internal server error (VTM), please contact the developer." />
+        <string keyword="STR_NEW_OBJECT_FAILED" en="Take stream fails: application of resources fails, check the disk." />
+        <string keyword="STR_NO_FREESLOT" en="Take flow failure: the system is busy. Please try again later." />
+        <string keyword="STR_PARAM_ERROR" en="Take stream fails: SLStartStream_V30 argument exception." />
+        <string keyword="FMT_RECONNECT_ERR_INFO_S" en="Take stream fails, being reconnect. &#x0A;Error message:%s" />
+        <string keyword="FMT_RECONNECT_ERR_INFO_HIK_D" en="Take stream fails, being reconnect. &#x0A;Error Message: Haikang SDK Error [%d], please refer to the development of documentation and related log files [Keywords: NET_DVR]." />
+        <string keyword="FMT_RECONNECT_ERR_INFO_DH_D" en="Take stream fails, being reconnect. &#x0A;Error Message: DaHua SDK Error [%d], please refer to the development of documentation and related log files [Keywords: CDahuaStream]." />
+        <string keyword="FMT_RECONNECT_ERR_INFO_DH_LOGIN_D" en="Take stream fails, being reconnect. &#x0A;Error Message: DaHua Login SDK Error [%d], please refer to the development of documentation and related log files [Keywords: CDahuaStream]." />
+        <string keyword="fmt_stream_error_hik_d_s" en="Failed to take the stream being reconnect ...&#x0A;Error message:%s" />
+        <string keyword="stream_error_hik_1" en="Username password. Username entered during registration or password is incorrect." />
+        <string keyword="stream_error_hik_2" en="Permission denied. Please check the channel preview authority. For example, channel 1 Preview privileges, no privileges preview Channel 2, that the preview authority but not completely, preview channel 2 returns this error." />
+        <string keyword="stream_error_hik_3" en="SDK is not initialized." />
+        <string keyword="stream_error_hik_4" en="Channel number error. Device does not have a corresponding channel number." />
+        <string keyword="stream_error_hik_5" en="Equipment exceeds the maximum total number of connections." />
+        <string keyword="stream_error_hik_6" en="Version mismatch. It does not match the version of the SDK and equipment." />
+        <string keyword="stream_error_hik_7" en="Connecting device failed. Device is not online or the network connection causes timeout." />
+        <string keyword="stream_error_hik_8" en="Failed to send to the device." />
+        <string keyword="stream_error_hik_9" en="Failure to receive data from the device." />
+        <string keyword="stream_error_hik_10" en="Receive data from the device timed out." />
+    </resource>
+</language>

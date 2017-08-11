@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<!-- 开发模式，修改struts配置文件支持热部署，发布时要设置为false -->
+	<constant name="struts.devMode" value="false" />
+	<!-- 禁用动态方法调用，使用这个设置后可以这样调用：action!method，存在安全漏洞 -->
+	<constant name="struts.enable.DynamicMethodInvocation" value="false" />
+	<include file="struts/struts-base.xml"></include>
+	<package name="ivms" extends="ivms-base" namespace="/web">
+		<interceptors>
+			<interceptor name="hikException" class="com.hikvision.finance.fms.common.interceptor.HikExceptionInterceptor" />
+			<interceptor name="xssInterceptor" class="com.hikvision.finance.fms.common.interceptor.XSSInterceptor" >
+				<param name="excludedParams">
+					jsonStr, server.strConfig
+				</param>
+			</interceptor>
+			<interceptor-stack name="ivms">
+				<interceptor-ref name="xssInterceptor" />
+				<interceptor-ref name="defaultStack" />
+				<interceptor-ref name="hikException" />
+			</interceptor-stack>
+		</interceptors>
+		<!-- 默认拦截器栈 -->
+		<default-interceptor-ref name="ivms" /> 
+		<global-results>
+			<result name="treeList" type="tree">
+				<param name="root">list</param>
+			</result>
+		</global-results>
+	</package>
+	
+	<!-- 导航菜单 -->
+	<package name="menu" extends="ivms" namespace="/web">
+		<!-- 一级导航，在LoginAction.menuNavigation()方法中定义 -->
+		<action name="reg" method="menuNavigation" class="loginAction">
+			<result>/modules/region/region.jsp</result>
+		</action>
+		<action name="auth" method="menuNavigation" class="loginAction">
+			<result>/modules/auth/auth.jsp</result>
+		</action>
+		<action name="server" method="menuNavigation" class="loginAction">
+			<result>/modules/server/server.jsp</result>
+		</action>
+		<action name="product" method="menuNavigation" class="loginAction">
+			<result>/modules/product/product.jsp</result>
+		</action>
+		<action name="configure" method="menuNavigation" class="loginAction">
+			<result>/modules/configure/configure.jsp</result>
+		</action>
+		<action name="device" method="menuNavigation" class="loginAction">
+			<result>/modules/device/device.jsp</result>
+		</action>
+		<action name="log" method="menuNavigation" class="loginAction">
+			<result>/modules/log/log.jsp</result>
+		</action>
+		<action name="alarm" method="menuNavigation" class="loginAction">
+			<result>/modules/alarm/alarm.jsp</result>
+		</action>
+		<action name="record" method="menuNavigation" class="loginAction">
+			<result>/modules/video/video.jsp</result>
+		</action>
+		<action name="sale" method="menuNavigation" class="loginAction">
+			<result>/modules/sale/sale.jsp</result>
+		</action>
+		<action name="duerecord" method="menuNavigation" class="loginAction">
+			<result>/modules/duerecord/duerecord.jsp</result>
+		</action>
+		<action name="analysis" method="menuNavigation" class="loginAction">
+			<result>/modules/analysis/analysis.jsp</result>
+		</action>
+		<!-- 采集端菜单 -->
+		<action name="datacollect" method="menuNavigation" class="loginAction">
+			<result>/webDevice/datacollect/datacollect.jsp</result>
+		</action>
+		<action name="contact" method="menuNavigation" class="loginAction">
+			<result>/webDevice/datacollect/contact.jsp</result>
+		</action>
+		
+		
+		
+		<!-- 二级导航菜单，由模块内Action定义 -->
+		<action name="user" method="toUsersPage" class="userAction"></action>
+		<action name="role" method="toRolePage" class="roleAction"></action>
+		<action name="sysconfig" method="toConfigPage" class="sysconfigAction"></action>
+		<action name="card" method="toCardPage" class="cardAction"></action>
+		<action name="collect" method="toCollectPage" class="collectAction"></action>
+		<action name="recordLog" method="toRecordLog" class="logAction"></action>
+		<action name="delLog" method="toDelLog" class="logAction"></action>
+		<action name="configLog" method="toConfigLog" class="logAction"></action>
+		<action name="sysLog" method="toLogSys" class="logAction"></action>
+	</package>
+	
+	<!-- 功能模块Struts引入 -->
+	<include file="com/hikvision/finance/fms/system/struts-system.xml"></include>
+	<include file="com/hikvision/finance/fms/common/tree/resources/struts-tree.xml"></include>
+	<include file="com/hikvision/finance/fms/modules/region/struts-config-region.xml"></include>
+	<include file="com/hikvision/finance/fms/modules/role/struts-config-role.xml"></include>
+	<include file="com/hikvision/finance/fms/modules/user/struts-config-user.xml"></include>
+	<include file="com/hikvision/finance/fms/modules/device/struts-config-device.xml"></include>
+	<include file="com/hikvision/finance/fms/modules/product/struts-config-product.xml"></include>
+	<include file="com/hikvision/finance/fms/modules/sysdictionary/struts-dictionary-sys.xml"></include>
+	<include file="com/hikvision/finance/fms/modules/server/struts-config-server.xml"></include>
+	<include file="com/hikvision/finance/fms/modules/card/struts-config-card.xml"></include>
+	<include file="com/hikvision/finance/fms/modules/collect/struts-config-collect.xml"></include>
+	<include file="com/hikvision/finance/fms/modules/product/struts-config-product.xml"></include>
+	<include file="com/hikvision/finance/fms/modules/sysconfig/struts-config-sys.xml"></include>
+	<include file="com/hikvision/finance/fms/modules/record/struts-config-record.xml"></include>
+	<include file="com/hikvision/finance/fms/modules/sale/struts-config-sale.xml"></include>
+	<include file="com/hikvision/finance/fms/modules/log/struts-config-log.xml"></include>
+	<include file="com/hikvision/finance/fms/modules/alarm/struts-config-alarm.xml"></include>
+	<include file="com/hikvision/finance/fms/modules/duerecord/struts-config-duerecord.xml"></include>
+	<include file="com/hikvision/finance/fms/modules/analysis/struts-config-analysis.xml"></include>
+	
+	<!-- 采集端模块 -->
+	<include file="com/hikvision/finance/fms/webdevice/datacollect/struts-webdevice-datacollect.xml"></include>
+	<include file="com/hikvision/finance/fms/webdevice/contact/struts-webdevice-contact.xml"></include>
+	<include file="com/hikvision/finance/fms/webdevice/log/struts-webdevice-log.xml"></include>
+</struts>

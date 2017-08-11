@@ -1,0 +1,26 @@
+HKCR
+{
+	AtlDemo.IAtlDemoCtrl.1 = s 'IAtlDemoCtrl Class'
+	{
+		CLSID = s '{8F55A11E-35B9-4B5F-98BD-53502C1590DD}'
+	}
+	AtlDemo.IAtlDemoCtrl = s 'IAtlDemoCtrl Class'
+	{
+		CLSID = s '{8F55A11E-35B9-4B5F-98BD-53502C1590DD}'
+		CurVer = s 'AtlDemo.IAtlDemoCtrl.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {8F55A11E-35B9-4B5F-98BD-53502C1590DD} = s 'IAtlDemoCtrl Class'
+		{
+			ProgID = s 'AtlDemo.IAtlDemoCtrl.1'
+			VersionIndependentProgID = s 'AtlDemo.IAtlDemoCtrl'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			'TypeLib' = s '{18AD0E93-3DF5-40D1-BD6C-554F9C8315D5}'
+		}
+	}
+}

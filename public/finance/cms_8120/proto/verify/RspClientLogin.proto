@@ -1,0 +1,46 @@
+package cms_8120;
+import "type/cmd.proto";
+import "type/ModuleType.proto";
+
+// <?xml version=\"1.0\" encoding=\"UTF-8\"?>
+// <DataEx>
+//	<ClientIP></ClientIP>
+//	<RealTimeGisWeb></RealTimeGisWeb>
+//	<PlaybackGisWeb></PlaybackGisWeb>
+//	<DataEx>
+
+//客户端登陆请求响应
+message RspClientLogin
+{
+    optional int32 cmd                      = 1;    // CMD_RSP_CLIENT_LOGIN
+    optional int32  result                  = 2;    // 验证结果,0-验证通过，其它值验证失败
+    optional string result_info             = 3;    // 信息
+    optional int32 authorization            = 4;    // 软件授权类型(0-试用,1-正式)
+    optional string production_version      = 5;    // 平台版本
+    optional string trial_end_time          = 6;    // 试用版到期时间
+    optional int32 user_id                  = 7;    // 登陆用户的id
+    optional int32 role_id                  = 8;    // 登陆用户的角色id, 因为用户拥有多角色，该字段废弃不用。
+    optional int32 is_need_sync_time        = 9;    // 1-需要同步时间(从CMS获取时间，修改本地时间，达到本地时间与CMS时间同步)，0-不需要同步时间。
+    repeated int32 ui_cs_right              = 10;   // 当前用户具有模块权限
+    optional int32 is_omni_operator         = 11;   // 1-开放所有权限的用户, 0-否
+    optional int32 user_level               = 12;   // 用户等级
+    optional UserPwdCheck user_pwd_check    = 13;   // 用户密码保鲜
+    // 20130624
+    optional string custom_title            = 14;   // 平台描述文字，用于定制客户端标题
+    optional int32 skin_color               = 15[default=-1];   // 皮肤颜色:0-红黑；1-蓝白
+	optional string update_server_ip        = 16;   //自动升级服务IP
+	optional int32  update_server_port      = 17;   //自动升级服务端口
+    optional int32  line                    = 18[default=0];   // 线路，0-内网（默认线路）；1-外网；[主要用于某些模块需要输入线路号的配置]
+    optional int32 language                 = 19[default=0];   // 语言类型 0-中文
+	optional string copyright               = 20;   // 版权描述信息
+	optional int32 is_inital_pwd        	= 21;   // 登录使用的密码是否为初始密码
+	optional string data_ex                	= 22;    //拓展数据	 DataEx XML
+}
+
+// 客户端密码保鲜信息
+message UserPwdCheck
+{
+    optional int32 cmd                      = 1;    // CMD_RSP_CLIENT_PWD_CHECK
+    optional int32 is_pwdcheck_enabled      = 2;    // 用户密码保鲜是否启用
+    optional int32 remaining_days           = 3;    // 剩余天数
+}

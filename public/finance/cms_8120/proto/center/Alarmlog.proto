@@ -1,0 +1,46 @@
+package cms_8120;
+import "server/RspServerData.proto";
+option java_package = "com.hikvision.finance.fms.cms.hpp.center";
+option java_outer_classname = "AlarmlogProto";
+option java_generic_services = true;
+
+//报警日志表
+message Alarmlog
+{
+    //必须字段
+    optional int32 id                       = 1;    // 在数据库中的流水号
+    optional int32 checkType                = 2;    // 检测对象类型
+    optional int32 checkObjId               = 3;    // 检测对象ID
+    optional int32 checkChan                = 4;    // 检查对象关联端口
+    optional int32 contactObjId             = 5;    // 关联对象
+    optional int32 alarmType                = 6;    // 报警类型
+    optional string alarmTime               = 7;    // 报警最新时间
+    optional string alarmbeginTime          = 8;    // 报警开始时间
+    optional int32 alarmRegionId            = 9;    // 报警区域
+    optional string comments                = 10;   // 报警详细内容
+    optional string strHost                 = 11;   // 报警来源IP
+    optional int32 status                   = 12;   // 报警处理状态
+    optional string checker                 = 13;   // 报警处理人姓名
+    optional string userNo                  = 14;   // 报警处理人工号
+    optional string dealTime                = 15;   // 报警处理时间
+    optional string dealcomment             = 16;   // 报警处理备注
+    optional int32 alarmlevel               = 17;   // 报警等级
+    optional string strGuid                 = 18;   // 报警GUID
+}
+
+message AlarmlogInfo
+{
+    optional int32 cmd                		= 1;    // CMD_DT_ALARMLOG(查询报警日志ID)、CMD_WDT_ALARMLOG_INFO(添加报警日志信息)、CMD_MDT_ALARMTIME(更新报警日志信息)
+    optional Alarmlog alarmlog              = 2;    // 报警日志
+}
+
+
+service ModifyAlarmlogService {
+	
+	rpc QyeryAlarmlogID(AlarmlogInfo) returns (AlarmlogInfo);			// CMD_DT_ALARMLOG(查询报警日志ID)
+	
+	rpc InsertAlarmlogInfo(AlarmlogInfo) returns (RspServerData);	// CMD_WDT_ALARMLOG_INFO(添加报警日志信息)
+	
+	rpc UpdateAlarmlogInfo(AlarmlogInfo) returns (RspServerData);	// CMD_MDT_ALARMTIME(更新报警日志信息)
+	
+}

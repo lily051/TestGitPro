@@ -1,0 +1,21 @@
+package cms_8120;
+import "server/RspServerData.proto";
+option java_package = "com.hikvision.finance.fms.cms.hpp.server";
+option java_outer_classname = "ReqServerDataProto";
+option java_generic_services = true;
+
+
+message ReqServerData
+{
+    optional int32 cmd                = 1;    
+    optional string id                = 2;
+}
+
+
+service ModifyReqServerDataService {
+	
+	rpc MarkOvertimeProsaverecord(ReqServerData) returns (RspServerData);			//CMD_MDT_OVERTIMERECORD--标记过期录像记录
+	
+	rpc DeleteOvertimeLog(ReqServerData) returns (RspServerData);					//CMD_DDT_OVERTIMELOG--删除过期日志
+	
+}

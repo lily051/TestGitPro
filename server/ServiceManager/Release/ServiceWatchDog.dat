@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Config>
+    <RecvSocketPort>6677</RecvSocketPort>
+    <LOGONAME>服务管理中心</LOGONAME>
+    <SKINTYPE>0</SKINTYPE>
+    <MSM_MAX_COUNT>500</MSM_MAX_COUNT>
+    <SHUT_DOWN_INTERVAL>5</SHUT_DOWN_INTERVAL>
+	<COPY_PARAM>3.0.0.35528</COPY_PARAM>
+	<Processor>2</Processor>
+</Config>

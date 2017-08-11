@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<script>
+function dvrplay()
+{
+	var xml = "<?xml version=\"1.0\" encoding=\"UTF-8\"?><Param><RecordType>255</RecordType><SearchType>0</SearchType><WndNo>0</WndNo><PlayType>0</PlayType><ManType>0</ManType><DvrType>100</DvrType><Right>255</Right><LoginInfo><IP>10.16.37.105</IP><Port>8000</Port><User>admin</User><Password>MTIzNDU=</Password><Rev>999</Rev></LoginInfo><PlayInfo><CamID>1001</CamID><CamName>9116</CamName><Channel>0</Channel><StartTime>2016-11-01 00:00:00</StartTime><StopTime>2016-11-09 23:10:12</StopTime><Rev>999</Rev><lBwControl>0</lBwControl></PlayInfo></Param>";
+	
+	document.getElementById("ocx").PB_Playback(xml);
+	
+}
+function cvrplay()
+{
+	var xml = "<?xml version=\"1.0\" encoding=\"UTF-8\"?><Param><RecordType>255</RecordType><SearchType>0</SearchType><WndNo>1</WndNo><PlayType>1</PlayType><ManType>0</ManType><DvrType>100</DvrType><Right>255</Right><LoginInfo><IP>10.10.48.112</IP><Port>8000</Port><User>admin</User><Password>MTIzNDU=</Password><Rev>999</Rev></LoginInfo><PlayInfo><CamID>5</CamID><CamName>9116</CamName><Channel>1</Channel><StartTime>2016-10-22 12:00:00</StartTime><StopTime>2016-11-08 23:10:12</StopTime><Rev>999</Rev></PlayInfo></Param>";
+	document.getElementById("ocx").PB_Playback(xml);
+}
+function cloudplay()
+{
+	var xml = "<?xml version=\"1.0\" encoding=\"UTF-8\"?><Param><RecordType>255</RecordType><SearchType>0</SearchType><WndNo>2</WndNo><PlayType>2</PlayType><ManType>0</ManType><DvrType>100</DvrType><Right>255</Right><LoginInfo><IP>10.10.48.231</IP><Port>6021</Port><User>root</User><Password>6b74M23cd87D</Password><Index>33000000511310983706</Index><Rev>999</Rev></LoginInfo><PlayInfo><CamID>1</CamID><CamName>9116</CamName><Channel>0</Channel><StartTime>2016-03-24 12:00:00</StartTime><StopTime>2016-03-25 23:10:12</StopTime><Rev>999</Rev></PlayInfo></Param>";
+	document.getElementById("ocx").PB_Playback(xml);
+}
+function kmsplay()
+{
+	var xml = "<?xml version=\"1.0\" encoding=\"UTF-8\"?><Param><RecordType>255</RecordType><SearchType>1</SearchType><WndNo>3</WndNo><PlayType>3</PlayType><ManType>0</ManType><DvrType>100</DvrType><Right>255</Right><LoginInfo><IP>10.10.48.101</IP><Port>8080</Port><User>admin</User><Password>hik12345_</Password><Rev>rtsp://10.10.48.101:8304/file/local://C:/kms/data/file/20160331/multi/18/85a2c3f03eee43e4971ee4a2bc19d6e0.mp4</Rev></LoginInfo><PlayInfo><CamID>1</CamID><CamName>9116</CamName><Channel>0</Channel><FileName>sss</FileName><FileSize>5161412</FileSize><FileType>255</FileType><StartTime>2016-03-31 18:30:56</StartTime><StopTime>2016-03-31 18:36:17</StopTime><Rev>999</Rev></PlayInfo></Param>";
+	document.getElementById("ocx").PB_Playback(xml);
+}
+function objectcloudplay()
+{
+	var xml = "<?xml version=\"1.0\" encoding=\"UTF-8\"?><Param><RecordType>255</RecordType><SearchType>0</SearchType><WndNo>3</WndNo><PlayType>4</PlayType><ManType>0</ManType><DvrType>100</DvrType><Right>255</Right><LoginInfo><IP>10.33.34.20</IP><Port>6201</Port><AccessKey>N2tBNDA0ZTExN24zWjMyRG85MXZObHJvN3U0Z3Z4ZVNTMGs3ZzBVNzI5eDg5NzByMmdDd0VJVjlGWEE4eHdD</AccessKey><SecretKey>ZFM2WUpDOFYwZTQ4NkRVMzcyOFh2M2NVTmU3QTY3ZHhDNUcwYTAxNlo3M2o4czYyMzM4YzAyNjNOMldFUEsy</SecretKey><Bucket>ivms_8000_bucket</Bucket><ObjectKey>1</ObjectKey><Rev>999</Rev></LoginInfo><PlayInfo><CamID>1</CamID><CamName>9116</CamName><Channel>0</Channel><StartTime>2015-08-14  07:14:09</StartTime><StopTime>2015-08-14 07:16:09</StopTime><Rev>999</Rev><lBwControl>0</lBwControl></PlayInfo></Param>";
+	//var xml = "<?xml version=\"1.0\" encoding=\"UTF-8\"?><Param><RecordType>255</RecordType><SearchType>0</SearchType><WndNo>3</WndNo><PlayType>4</PlayType><ManType>0</ManType><DvrType>100</DvrType><Right>255</Right><LoginInfo><IP>10.33.34.20</IP><Port>6201</Port><AccessKey>62dz356jj5YQ11X5364pm681slTd92xm6nE931oqG99NX7T0b0q812t8t49j0Ag</AccessKey><SecretKey>9p828SN200FnH028wj7h5k922G5uO0i469u2eT0919C3Y1kO1vM7Mv65D6qaJ19</SecretKey><Bucket>ivms_8000_bucket</Bucket><ObjectKey>2</ObjectKey><Rev>999</Rev></LoginInfo><PlayInfo><CamID>1</CamID><CamName>9116</CamName><Channel>0</Channel><StartTime>2016-08-24 15:28:13</StartTime><StopTime>2016-08-24 16:30:57</StopTime><Rev>999</Rev><lBwControl>0</lBwControl></PlayInfo></Param>";
+	
+	// 7kA404e117n3Z32Do91vNlro7u4gvxeSS0k7g0U729x8970r2gCwEIV9FXA8xwC      dS6YJC8V0e486DU3728Xv3cUNe7A67dxC5G0a016Z73j8s62338c0263N2WEPK2
+	document.getElementById("ocx").PB_Playback(xml);
+}
+function stop()
+{                             
+	document.getElementById("ocx").PB_StopAll();
+}
+function init()
+{
+	var xml = "<?xml version=\"1.0\" encoding=\"UTF-8\"?><Param><PicPath>c:\\lala2\\</PicPath><DownloadPath>c:\\lala2\\</DownloadPath><PicType>1</PicType><ShowTitle>1</ShowTitle></Param>";
+	//document.getElementById("ocx").PB_SetParam(xml);
+}
+</script>
+
+<script language="javascript" type="text/javascript" for=ocx event="OnEventLabel(lpstrXML)">
+    alert(lpstrXML);
+</script>
+
+<script language="javascript" type="text/javascript" for=ocx event="OnWriteLog(lpstrXML)">
+    alert(lpstrXML);
+</script>
+<script language="javascript" type="text/javascript" for=ocx event="OnFileInfo(lpstrXML)">
+    //alert(lpstrXML);
+</script>
+</head>
+
+<body onload="init()">
+<table>
+<tr>
+  <td>
+    <tr>
+		<td>
+			<input type="button" value="DVR开始回放" onclick="dvrplay()" />
+		</td>
+		<td>
+			<input type="button" value="CVR开始回放" onclick="cvrplay()" />
+		</td>
+		<td>
+			<input type="button" value="Cloud开始回放" onclick="cloudplay()" />
+		</td>
+		<td>
+			<input type="button" value="Kms开始回放" onclick="kmsplay()" />
+		</td>
+		<td>
+			<input type="button" value="ObjectCloud开始回放" onclick="objectcloudplay()" />
+		</td>
+		<td>
+			<input type="button" value="停止回放" onclick="stop()" />
+		</td>
+	</tr>
+  </td>
+</tr>
+</table>
+<table>
+<tr>
+		<td>
+			<OBJECT ID="ocx" CLASSID="CLSID:07EBE387-935C-45DA-A121-AE19F18CEF44", width="800", height="500">
+				<param name="lLayout" value="4" />
+				<param name="lSkinType" value="0" />
+				<param name="lpstrPath" value="c:\lala3\" />
+				<param name="lPicType" value="0" />
+				<param name="lModuleStyle" value="255" />
+				<param name="lBwControl" value="11" />
+			</OBJECT>
+		</td>
+	</tr>
+</table>
+</body>
+</html>

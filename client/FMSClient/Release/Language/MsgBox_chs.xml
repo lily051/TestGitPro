@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<language>
+    <type key="0" value="chs" />
+    <resource>
+        <string keyword="msgbox_warning" chs="警告" />
+        <string keyword="msgbox_title" chs="确认" />
+        <string keyword="msgbox_error" chs="错误" />
+        <string keyword="msgbox_ok" chs="确定" />
+        <string keyword="msgbox_cancel" chs="取消" />
+        <string keyword="msgbox_yes" chs="是" />
+        <string keyword="msgbox_no" chs="否" />
+        <string keyword="msgbox_infomation" chs="提示" />
+        <string keyword="msgbox_hide" chs="%4d 秒后自动消失！" />
+    </resource>
+</language>

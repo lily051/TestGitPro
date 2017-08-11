@@ -1,0 +1,28 @@
+package cms_8120;
+option java_package = "com.hikvision.finance.fms.cms.hpp.center";
+option java_outer_classname = "BussinesstypeProto";
+
+//产品类型表
+message Bussinesstype
+{
+    //必须字段
+    optional int32 id                       = 1;    //在数据库中的流水号
+    optional int32 nKey                     = 2;    //参数key值
+    optional string strValue                = 3;    //参数值（产品类型/名称）
+    optional string strCode                 = 4;    //产品编码
+    optional int32 nLevel                   = 5;    //类型等级
+    optional int32 pid                      = 6;    //父级ID
+    optional int32 saveYears                = 7;    //产品到期后保存年限
+    optional int32 guaranteeYears           = 8;    //保障年限
+    optional int32 nEnabled                 = 9;    //是否可用
+    optional string strEndDate              = 10;   //产品结束日期
+    optional string strApplyDate            = 11;   //产品申购日
+    optional string strVideoEndDate         = 12;   //视频到期日
+    optional int32 importUser               = 13;   //导入用户id
+    optional int32 checkUser                = 14;   //复核用户id
+    optional string importTime              = 15;   //导入时间
+    optional string checkTime               = 16;   //复核时间
+    optional string strGrade                = 17;   //发行机构
+    optional string strRisklevel            = 18;   //风险等级
+    optional string wordTemplate            = 19;   //话术模板
+}

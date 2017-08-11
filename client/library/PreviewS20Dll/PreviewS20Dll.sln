@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PVSkin_Red", "PVSkin_Red\PVSkin_Red.vcproj", "{589D7D85-5720-4310-BAC9-9FFF1F257DDE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PreviewS20Dll", "PreviewS20Dll\PreviewS20Dll.vcproj", "{878229B8-AA9D-4DBB-AA07-E732768A66FC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PreviewS20OCX", "PreviewS20OCX\PreviewS20OCX.vcproj", "{F8B1B1B6-DDE3-4958-9740-DFFF282041A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{589D7D85-5720-4310-BAC9-9FFF1F257DDE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{589D7D85-5720-4310-BAC9-9FFF1F257DDE}.Debug|Win32.Build.0 = Debug|Win32
+		{589D7D85-5720-4310-BAC9-9FFF1F257DDE}.Release|Win32.ActiveCfg = Release|Win32
+		{589D7D85-5720-4310-BAC9-9FFF1F257DDE}.Release|Win32.Build.0 = Release|Win32
+		{878229B8-AA9D-4DBB-AA07-E732768A66FC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{878229B8-AA9D-4DBB-AA07-E732768A66FC}.Debug|Win32.Build.0 = Debug|Win32
+		{878229B8-AA9D-4DBB-AA07-E732768A66FC}.Release|Win32.ActiveCfg = Release|Win32
+		{878229B8-AA9D-4DBB-AA07-E732768A66FC}.Release|Win32.Build.0 = Release|Win32
+		{F8B1B1B6-DDE3-4958-9740-DFFF282041A9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F8B1B1B6-DDE3-4958-9740-DFFF282041A9}.Debug|Win32.Build.0 = Debug|Win32
+		{F8B1B1B6-DDE3-4958-9740-DFFF282041A9}.Release|Win32.ActiveCfg = Release|Win32
+		{F8B1B1B6-DDE3-4958-9740-DFFF282041A9}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

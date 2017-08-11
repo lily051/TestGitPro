@@ -1,0 +1,192 @@
+﻿<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+<html lang="zh">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<style type="text/css" media="print">  
+.noprint{display : none } 
+td{
+	font-size: 24px;
+	_font-size:18px;
+	height:60px;
+	_height:20px;
+}
+div#content{
+    _width:auto;
+}
+</style>  
+<style type="text/css">
+#content{
+	width:1024px;
+	margin:0 auto;
+	font-size: 20px;
+	_font-size:18px;
+}
+h1{
+	text-align: center;
+}
+hr{
+	border:solid 2px black;
+	margin-bottom:10px;
+}
+table{
+	width:98%;
+	margin:0 auto;
+	border:solid 1px black;
+	border-right:0;
+	border-bottom:0;
+	table-layout:fixed;
+}
+td{
+	padding:10px 8px;
+	border-bottom:solid 1px black;
+	border-right:solid 1px black;
+}
+td :focus{
+	padding:10px 8px !important;
+}
+img{
+	width:490px;
+	height:225px;
+	_height:200px; 
+}
+</style>
+<body>
+		<div id="content" >
+			<h1>理财业务音视频存单</h1><!-- printOrderInfo -->
+			<hr />
+			<table cellspacing="0" cellpadding="0" width="100%">
+				<tr>
+					<td width="20%"><b>客户姓名</b>&nbsp;</td>
+					<td width="30%">qq</td>
+					<td width="20%"><b>居民身份证</b></td><!-- 证件类型 -->
+					<td width="30%">323212345678909876</td><!-- 证件号 -->
+				</tr>
+				<tr>
+					<td><b>业务单号</b>&nbsp;</td>
+					<td colspan="3">2016122212350316983</td>
+				</tr>
+				<tr>
+					<td><b>办理时间</b>&nbsp;</td>
+					<td colspan="3">2016-12-22 12:36:34</td>
+				</tr>
+				<tr>
+					<td><b>发行机构</b>&nbsp;</td>
+					<td colspan="3">2015基金发行</td>
+				</tr>
+				<tr>
+					<td><b>产品类型</b>&nbsp;</td>
+					<td>2015基金</td>
+					<td><b>产品名称</b>&nbsp;</td>
+					<td>2015基金1</td>
+				</tr>
+				<tr>
+					<td><b>业务员姓名</b>&nbsp;</td>
+					<td>乔继法</td>
+					<td><b>业务员编号</b>&nbsp;</td>
+					<td>002</td>
+				</tr>
+				<tr>
+					<input type="file" id="btn_fileStart" style="display:none">
+                    <input type="file" id="btn_fileEnd" style="display:none">
+					<td colspan="2" width="50"><img id="imgStart" onclick="fileOpenDialogStart()" onmouseover="mouseOverStart()" src="D:////Finance////V2.2////Target////FMSClient - 副本////RecordFiles////PV_Capture////图片20161222123542.jpg"></td>
+					<td colspan="2" width="50"><img id="imgEnd" onclick="fileOpenDialogEnd()" onmouseover="mouseOverEnd()" src="D:////Finance////V2.2////Target////FMSClient - 副本////RecordFiles////PV_Capture////图片20161222123613.jpg"></td>
+				</tr>
+				<tr>
+					<td colspan="4"><b>注意事项：</b>&nbsp;
+				</tr>
+				<tr>
+					<td colspan="4">
+						<p>1.此业务单的录音录像过程为双方自愿行为，本存单将由理财产品售出方存档；</p>
+						<p>2.此存单代表业务人员已对购买方宣读购买须知，并将整个过程进行音视频录像；</p>
+						<p>3.此存单双方签字后生效，生效后双方才可进行理财产品购买交易流程</p>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2"><b>客户签字：</b></td>
+					<td colspan="2"><b>业务员签字：</b></td>
+				</tr>
+			</table>
+		</div>
+
+</body>
+
+<script type="text/javascript">
+    window.print();
+
+
+    function fileOpenDialogStart() {
+        var picturePath = "";
+        document.getElementById("btn_fileStart").click();
+        picturePath = document.getElementById('btn_fileStart').value;
+        if (picturePath != "") {
+			var fileSize = getPictureSize(document.getElementById('btn_fileStart'));
+				
+			if (fileSize > 2 * 1024 * 1024){
+				alert("图片大小不能超过2M");  
+				return;
+			}
+            if (!/\.(jpeg|JPEG|jpg|png|JPG|PNG)$/.test(picturePath)) {
+                alert("图片类型必须是*.jpeg,*.jpg,*.png中的一种");
+            } else {
+				//$("#imgStart").attr("src",picturePath);
+				document.getElementById("imgStart").src = picturePath;
+            }
+        }
+    }
+    function fileOpenDialogEnd() {
+        var picturePath = "";
+        document.getElementById("btn_fileEnd").click();
+        picturePath = document.getElementById('btn_fileEnd').value;
+        if (picturePath != "") {
+			var fileSize = getPictureSize(document.getElementById('btn_fileEnd'));
+				
+			if (fileSize > 2 * 1024 * 1024){
+				alert("图片大小不能超过2M");  
+				return;
+			}
+            if (!/\.(jpeg|JPEG|jpg|png|JPG|PNG)$/.test(picturePath)) {
+                alert("图片类型必须是*.jpeg,*.jpg,*.png中的一种");
+            } else {
+				//$("#imgEnd").attr("src",picturePath);
+				document.getElementById("imgEnd").src = picturePath;
+            }
+        }
+    }
+
+    function mouseOverStart() {
+        picturePath = document.getElementById('imgStart').src;
+        if (picturePath.indexOf("nopic") > 0) {
+            //$("#imgStart").attr("title","检测到左侧图片不存在，请点击左侧图片框，进行手动选择图片操作。");
+			document.getElementById("imgStart").title = "检测到左侧图片不存在，请点击左侧图片框，进行手动选择图片操作。";
+        }
+    }
+    function mouseOverEnd() {
+        picturePath = document.getElementById('imgEnd').src;
+        if (picturePath.indexOf("nopic") > 0) {
+            //$("#imgEnd").attr("title","检测到右侧图片不存在，请点击右侧图片框，进行手动选择图片操作。");
+			document.getElementById("imgEnd").title = "检测到右侧图片不存在，请点击右侧图片框，进行手动选择图片操作。";
+        }
+    }
+	
+	//判断图片大小
+	function getPictureSize(obj){
+		var fileSize = 0;
+		var isIE = /msie/i.test(navigator.userAgent) && !window.opera;      
+		if (isIE && !obj.files) {
+		    var filePath = obj.value;      
+		    var fileSystem = new ActiveXObject("Scripting.FileSystemObject"); 
+		    var file = fileSystem.GetFile (filePath);        
+		    fileSize = file.Size;     
+		}else { 
+		    fileSize = obj.files[0].size;   
+		} 
+		return fileSize;
+	}
+</script>
+</html>
+
+
+
+

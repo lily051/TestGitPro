@@ -1,0 +1,33 @@
+#缺省不输出日志到控制台
+log4j.rootLogger=TRACE, default
+
+#log4j.logger用于控制日志采集级别及采集内容，Threshold用于控制日志输出级别
+
+#应用于控制台
+#log4j.appender.stdout=org.apache.log4j.ConsoleAppender 
+#log4j.appender.stdout.layout=org.apache.log4j.PatternLayout 
+#log4j.appender.stdout.layout.ConversionPattern=%d{HH:mm:ss,SSS} [%t] %-5p - %m%n
+
+#应用于文件回滚
+log4j.appender.default=org.apache.log4j.RollingFileAppender
+log4j.appender.default.File=./log/default.log
+log4j.appender.default.MaxFileSize=25MB
+log4j.appender.default.MaxBackupIndex=12
+log4j.appender.default.Append=true
+log4j.appender.default.Threshold=TRACE
+log4j.appender.default.layout=org.apache.log4j.PatternLayout
+log4j.appender.default.layout.ConversionPattern=%d %-5p [%t] %.16c <%l - %M> <%m>%n
+
+#设置 STREAMLAYER
+log4j.logger.STREAMLAYER=TRACE, StreamLayer_V3
+log4j.additivity.STREAMLAYER = false // 不把内容附加到root
+# TVWall的配置
+log4j.appender.StreamLayer_V3=org.apache.log4j.RollingFileAppender
+log4j.appender.StreamLayer_V3.File=./log/StreamLayer.log
+log4j.appender.StreamLayer_V3.MaxFileSize=25MB
+log4j.appender.StreamLayer_V3.MaxBackupIndex=12
+log4j.appender.StreamLayer_V3.Append=true
+log4j.appender.StreamLayer_V3.Threshold=TRACE
+log4j.appender.StreamLayer_V3.layout=org.apache.log4j.PatternLayout
+log4j.appender.StreamLayer_V3.layout.ConversionPattern=%d %-5p [%t] - %m%n
+

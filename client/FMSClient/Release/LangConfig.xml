@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+<CentralClient>
+<type key="0" value="Language/lClient_chs.xml"/>
+<type key="1" value="Language/lClient_en.xml"/>
+</CentralClient>
+<Preview>
+<type key="0" value="Language/lPreview_chs.xml"/>
+<type key="1" value="Language/lPreview_en.xml"/>
+</Preview>
+<MsgBox>
+<type key="0" value="Language/MsgBox_chs.xml"/>
+<type key="1" value="Language/MsgBox_en.xml"/>
+</MsgBox>
+<PreviewDll>
+<type key="0" value="Language/lPreview_chs.xml"/>
+<type key="1" value="Language/lPreview_en.xml"/>
+</PreviewDll>
+<Emap>
+<type key="0" value="Language/LEmap_chs.xml"/>
+<type key="1" value="Language/LEmap_en.xml"/>
+</Emap>
+<AlarmDllEx>
+<type key="0" value="Language/LAlarmDllEx_chs.xml"/>
+<type key="1" value="Language/LAlarmDllEx_en.xml"/>
+</AlarmDllEx>
+<ViewTalk>
+<type key="0" value="Language/LViewTalk_chs.xml"/>
+<type key="1" value="Language/LViewTalk_en.xml"/>
+</ViewTalk>
+<StatusCtrl>
+<type key="0" value="Language/LStatusCtrl_chs.xml"/>
+<type key="1" value="Language/LStatusCtrl_en.xml"/>
+</StatusCtrl>
+<LPlayBack>
+<type key="0" value="Language/LPlayback_chs.xml"/>
+<type key="1" value="Language/LPlayback_en.xml"/>
+</LPlayBack>
+<LIntelNM>
+<type key="0" value="Language/LIntelNM_chs.xml"/>
+<type key="1" value="Language/LIntelNM_en.xml"/>
+</LIntelNM>
+<LVaultDll>
+<type key="0" value="Language/LVaultDll_chs.xml"/>
+<type key="1" value="Language/LVaultDll_en.xml"/>
+</LVaultDll>
+<AssoCtrl>
+<type key="0" value="Language/LAssoCtrl_chs.xml"/>
+<type key="1" value="Language/LAssoCtrl_en.xml"/>
+</AssoCtrl>
+<Emap2>
+<type key="0" value="Language/LEmap2_chs.xml"/>
+<type key="1" value="Language/LEmap2_en.xml"/>
+</Emap2>
+</config>

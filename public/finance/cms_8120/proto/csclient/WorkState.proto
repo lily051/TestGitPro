@@ -1,0 +1,54 @@
+package cms_8120;
+import "type/cmd.proto";
+import "type/ModuleType.proto";
+
+//间隔时间
+enum INTERVAL_TIME
+{
+    BEAT_TIME_INTERVAL = 30;    //心跳间隔时间,单位s 
+    SYNC_TIME_INTERVAL = 3600;  //同步间隔时间，单位秒
+}
+
+// WorkState表
+message WorkState
+{
+    optional int32 id                       = 1;    // 在数据库中的流水号
+    optional int32 module_type              = 2;    // 模块类型,定义参考ModuleType.proto
+    optional int32 user_or_server_id        = 3;    // 用户ID或者服务器ID
+    optional string login_time              = 4;    // 登录时间，格式1970-01-01 00:00:00
+    optional string beat_time               = 5;    // 心跳时间 (持续更新)
+    optional string login_ip                = 6;    // 登录IP地址
+}
+
+// 写WorkState,注意：每间隔30S写一次心跳
+// 数据库操作的时候主要根据user_or_server_id&&module_type
+message WWorkState
+{
+    optional int32 data_type                = 1;    // CMD_WRITE_WORK_STATE
+    optional int32 module_type              = 2;    // 模块类型,定义参考ModuleType.proto
+    optional int32 user_or_server_id        = 3;    // 用户ID或者服务器ID
+    optional string login_ip                = 4;    // 登录IP地址
+    optional int32 is_first_time            = 5;    // 1--是第一次，0--心跳
+	optional int32 login_port            	= 6;    // 端口
+}
+
+message WorkStateList
+{
+    optional int32 data_type            = 1;    // CMD_DT_WORK_STATE_LIST
+    repeated WorkState work_state = 2;  // WorkState表
+}
+
+// WorkState表
+message UserLoginInfo
+{
+    optional int32 id                       = 1;    // 在数据库中的流水号
+    optional int32 user_or_server_id        = 2;    // 用户ID或者服务器ID
+    optional string login_ip                = 3;    // 登录IP地址
+    optional int32 port                     = 4;    // 登陆端口
+}
+
+message UserLoginInfoList
+{
+    optional int32 data_type             = 1;    // CMD_DT_USER_LOGININFO_LIST 
+    repeated UserLoginInfo user_login_info = 2;  // WorkState表
+}

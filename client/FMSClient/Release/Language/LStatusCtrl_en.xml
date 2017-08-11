@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<language>
+    <type key="1" value="en" />
+    <resource>
+        <string keyword="kDeviceInformation" en="Device Information" />
+        <string keyword="kSubsysteminformation" en="Sub-system Information" />
+        <string keyword="kZoneInformation" en="Region Information" />
+        <string keyword="kDefensearea" en="Region" />
+        <string keyword="kZoneName" en="Region Name" />
+        <string keyword="kStatus" en="Status" />
+        <string keyword="kOutputControl" en="Output Control" />
+        <string keyword="kCIDreportinformation" en="CID Report Information" />
+        <string keyword="kType" en="Type" />
+        <string keyword="kCID" en="CID" />
+        <string keyword="kDetail" en="Details" />
+        <string keyword="kTime" en="Time" />
+        <string keyword="kUsercode" en="User Code" />
+        <string keyword="kKeyboardNo" en="Keyboard No." />
+        <string keyword="kWhole" en="All" />
+        <string keyword="kSubsystem" en="Sub-system" />
+        <string keyword="kBypass" en="Bypass" />
+        <string keyword="kDisarm" en="Disarm" />
+        <string keyword="kTurnon" en="Open" />
+        <string keyword="kExport" en="Output" />
+        <string keyword="kSiren" en="Alarm No." />
+        <string keyword="kArm" en="Arm" />
+        <string keyword="kArmingcommandsentsuccessfully" en="Armed. Sending the command completed." />
+        <string keyword="kArmingcommandfailedtosend" en="Armed. Sending the command failed." />
+        <string keyword="kTodisarmthealarmhost" en="No permission for disarming the alarm host." />
+        <string keyword="kDisarmcommandsentsuccessfully" en="Disarmed. Sending the command completed." />
+        <string keyword="kDisarmsendthecommandfailed" en="Disarmed. Sending the command failed." />
+        <string keyword="kEliminatethepolicesuccessfully" en="Alarm cleared. Sending the command completed." />
+        <string keyword="kConsumerspolicecommandfailedtosend" en="Alarm cleared. Sending the command failed." />
+        <string keyword="kThedeviceformabypassoperation" en="The device is armed. Bypass the device?" />
+        <string keyword="kBypasscommandsentsuccessfully" en="Bypassed. Sending the command completed." />
+        <string keyword="kBypasscommandfailedtosend" en="Bypassed. Sending the command failed." />
+        <string keyword="kThedevicebypassrecoveryoperation" en="The device is armed. Bypass recover the device?" />
+        <string keyword="kBypassrestorecommandsentsuccessfully" en="Bypass recovered. Sending the command completed." />
+        <string keyword="kBypassrestorecommandfailedtosend" en="Bypass recovered. Sending the command failed." />
+        <string keyword="kZonedecommandissentsuccessfully" en="Region armed. Sending the command completed." />
+        <string keyword="kZonedisarmcommandsentsuccessfully" en="Region disarmed. Sending the command completed." />
+        <string keyword="kZonedisarmcommandfailedtosend" en="Region disarmed. Sending the command failed." />
+        <string keyword="kKeyboardcommandssentsuccessfully" en="Sending the keyboard command completed." />
+        <string keyword="kKeyboardcommandssendfailed" en="Sending the keyboard command failed." />
+        <string keyword="kFindstatelessthantheoutputnotcontrol" en="Failed to control the output. The status of the output cannot be found." />
+        <string keyword="kCommandsentsuccessfully" en="Sending the operation command completed." />
+        <string keyword="kCommandtransmissionfailure" en="Sending the operation command failed." />
+        <string keyword="kOpentheoutputthecommandissentsuccessfully" en="Output turned on. Sending the command completed." />
+        <string keyword="kOpentheoutputcommandfailedtosend" en="Output turned on. Sending the command failed." />
+        <string keyword="kSorryyoudonothaveauthoritytooperatethealarmhost" en="No permission for operating the alarm host." />
+        <string keyword="kTurnofftheoutputthecommandissentsuccessfully" en="Turn off the output. Sending the command completed." />
+        <string keyword="kTurnofftheoutputthecommandfailedtosend" en="Turn off the output. Sending the command failed." />
+        <string keyword="kControlunit" en="Control Unit" />
+        <string keyword="kThedevicestatusisabnormalcannotoperate" en="The device is abnormal. Failed to operate it." />
+        <string keyword="kThedevicestatusisabnormalcannotoperate2" en="The device is abnormal. Failed to operate it." />
+        <string keyword="kServiceinAlarmhostserverSignalingServer" en="The server information linked with the device is lost (Host &lt;-&gt; Alarm Host Server &lt;-&gt; Signaling Server)." />
+        <string keyword="kSuccessfuloperation" en="Operation done." />
+        <string keyword="kOperationfailed" en="Operation failed." />
+        <string keyword="kAlarmHost" en="Alarm Host" />
+        <string keyword="kAccessSwitch" en="Door Switch" />
+        <string keyword="kVoiceintercom" en="Two-way Audio" />
+        <string keyword="kProtectivecabin" en="ATM Defense" />
+        <string keyword="kEnvironmentalamount" en="Environmental Variables" />
+        <string keyword="kOpen" en="Open Door" />
+        <string keyword="kDoorisalwaysopen" en="Remain Open" />
+        <string keyword="kOffthelistofdevices" en="Offline Devices" />
+        <string keyword="kArmingDeviceList" en="Armed Devices" />
+        <string keyword="kDisarmthedevicelist" en="Disarmed Devices" />
+        <string keyword="kDeviceName" en="Name" />
+        <string keyword="kDevicePort" en="Port No." />
+        <string keyword="kArea" en="Area" />
+        <string keyword="kArmingsuccess" en="Arming completed." />
+        <string keyword="kArmingfailed" en="Arming failed." />
+        <string keyword="kDisarmingfailed" en="Disarming failed." />
+        <string keyword="kBypasssuccess" en="Bypass completed." />
+        <string keyword="kBypassrestorefailed" en="Canceling the bypass failed." />
+        <string keyword="kAnticode" en="Region No." />
+        <string keyword="kLightsituations" en="Indicator Status" />
+        <string keyword="kNosubsystem" en="Sub-system No." />
+        <string keyword="kArmdisarmstatus" en="Arming Status" />
+        <string keyword="kAnticodemustbebetween1to10" en="Region No. Range [1-%d]" />
+        <string keyword="kSubsystemnumbersmustbebetween1to10" en="Sub-system No. Range [1~%d]" />
+        <string keyword="kLightsoff" en="Light On" />
+        <string keyword="kLights" en="Light Off" />
+        <string keyword="kSorryhostofIOoperationspermission" en="No permission for operating the alarm input and output of the alarm host." />
+        <string keyword="kSuccessfulimplementation" en="Operation done." />
+        <string keyword="kExecutionfailed" en="Operation failed." />
+        <string keyword="kSorrypermissiontohostthealarmisarmed" en="No permission for arming or disarming the alarm host." />
+        <string keyword="kHasdeterminethearmingoperation" en="The device is armed. Arm the device?" />
+        <string keyword="kHavedeterminedisarmoperation" en="The device is disarmed. Disarmed the device?" />
+        <string keyword="kDisarmingsuccess" en="Disarming completed." />
+        <string keyword="kSorryostaffiliateddisarmprivileges" en="No permission for clearing the alarm of the alarm host." />
+        <string keyword="kConsumerspolicesuccess" en="The alarm is cleared." />
+        <string keyword="kConsumerspolicefailed" en="Clearing the alarm failed." />
+        <string keyword="kSorryffiliatedarmingpermission" en="No permission for bypassing the alarm host." />
+        <string keyword="kSorrygesbelongingtoarmedpermission" en="No permission for bypass recovering the alarm host." />
+        <string keyword="kBypassrecovery" en="Bypass Recovery" />
+        <string keyword="kNormallyopen" en="Normally Open" />
+        <string keyword="kSorryyoudonothavephostvirtualkeyboard" en="No permission for the virtual keyboard." />
+        <string keyword="kSorryyoudonotcontrolpartofIOcontrolauthority" en="No permission for the output control." />
+        <string keyword="kAlarmstatus" en="Alarm Status" />
+        <string keyword="kBypassstatus" en="Bypass Status" />
+        <string keyword="kFaultStatus" en="Fault Status" />
+        <string keyword="kOutputport" en="Output" />
+        <string keyword="kOnOff" en="Open/Close" />
+        <string keyword="kNoalarm" en="No Alarm" />
+        <string keyword="kTroublefree" en="No Fault" />
+        <string keyword="kMalfunction" en="Fault" />
+        <string keyword="kTurnoff" en="Close" />
+        <string keyword="kGate" en="Door" />
+        <string keyword="kNobypass" en="No Bypass" />
+        <string keyword="kAlreadytoperformabypassoperation" en="In bypass status. Bypass again?" />
+        <string keyword="kBypassfailed" en="Bypass failed." />
+        <string keyword="kHaswanttoperformabypassrecoveryoperation" en="In bypass restoring status. Restore bypass again?" />
+        <string keyword="kBypassrecoverysuccess" en="Restoring bypass completed." />
+        <string keyword="kHasyouwanttoperformopenoperation" en="In open status. Open again?" />
+        <string keyword="kHaswanttoperformcloseoperation" en="In closed status. Close again?" />
+        <string keyword="kCallthepolice" en="Alarm" />
+        <string keyword="kAlarmequipment" en="Offline Devices" />
+        <string keyword="kDisarmingequipment" en="Disarmed Devices" />
+        <string keyword="kOtherequipment" en="Other Devices" />
+        <string keyword="kNo" en="No." />
+        <string keyword="kDeviceIP" en="IP Address" />
+        <string keyword="kPage110" en="Page 1/%d" />
+        <string keyword="kNormallistofdevices" en="Normal Devices" />
+        <string keyword="kExceptionlistofdevices" en="Abnormal Devices" />
+        <string keyword="kNormallycloseddoors" en="Remain Closed" />
+        <string keyword="kCurrentconnectyoucannotoperate" en="The access control is offline or cannot be connected. Failed to operate it." />
+        <string keyword="kSorryaccessoperatingauthority" en="No permission for operating the access control." />
+        <string keyword="kSetdoorisalwaysopensuccess" en="Setting the door as remain open completed." />
+        <string keyword="kSetdoorisalwaysopentofail" en="Setting the door as remain open failed." />
+        <string keyword="kSetdoorisalwaysclosedsuccess" en="Setting the door as remain closed completed." />
+        <string keyword="kFailedtosetnormallycloseddoors" en="Setting the door as remain closed failed." />
+        <string keyword="kCurrentayoucannotoperate" en="The access control is offline or cannot be connected. Failed to operate it." />
+        <string keyword="kDoortorestorenormalitysuccess" en="Restoring the door to normal status completed. " />
+        <string keyword="kDoortorestorenormalityfailed" en="Restoring the door to normal status failed. " />
+        <string keyword="kClosethedoor" en="Close Door" />
+        <string keyword="kSomedeviceslist" en="Devices Being Occupied" />
+        <string keyword="kNolistofdevices" en="Devices Being Available" />
+        <string keyword="kAlarmEquipmentList" en="Devices in Alarm" />
+        <string keyword="kNetworkcommunicationfailure" en="Network communication failed." />
+        <string keyword="kShutdown" en="Close" />
+        <string keyword="kFailedtoopenthescreen" en="Turning on the screen failed." />
+        <string keyword="kOpenscreensuccess" en="Turning on the screen completed." />
+        <string keyword="kTurnoffthescreenfailed" en="Turning off the screen failed." />
+        <string keyword="kSuccessoffthescreen" en="Turning off the screen completed." />
+        <string keyword="kSetbrightnessfailure" en="Setting the brightness failed." />
+        <string keyword="kSetbrightnesssuccess" en="Setting the brightness completed." />
+        <string keyword="kSchoolfailure" en="Time synchronization failed." />
+        <string keyword="kSuccessatschool" en="Time synchronization completed." />
+        <string keyword="kFailuretoobtainthescreencontents" en="Getting the screen content failed." />
+        <string keyword="kFailedtosetscreencontent" en="Setting the screen content failed." />
+        <string keyword="kSettingsscreencontentSuccess" en="Setting the screen content completed." />
+        <string keyword="kParametersettingsscreenfailure" en="Setting the screen parameters failed." />
+        <string keyword="kParametersettingsscreensuccess" en="Setting the screen parameters completed." />
+        <string keyword="kFailuretoobtainthescreenstatus" en="Getting the screen status failed." />
+        <string keyword="kSetthetimerswitchparameterfails" en="Setting the parameters of timing power on or off the device failed." />
+        <string keyword="kSetthetimerswitchparametersuccess" en="Setting the parameters of timing power on or off the device completed." />
+        <string keyword="kQuickhit" en="Rapid Output" />
+        <string keyword="kMoveleft" en="Left" />
+        <string keyword="kMoveright" en="Right" />
+        <string keyword="kMoveup" en="Up" />
+        <string keyword="kMovedown" en="Down" />
+        <string keyword="kMonochrome" en="Monochrome " />
+        <string keyword="kDoubleColor" en="Double Color" />
+        <string keyword="k256twocolorgray" en="256 Gray-levels Double-Color" />
+        <string keyword="kFullcolor" en="Full Color" />
+        <string keyword="kNegativeelectrode" en="Negative Pole&#x0D;&#x0A;" />
+        <string keyword="kAnode" en="Positive Pole" />
+        <string keyword="kLoweffective" en="Low Effective" />
+        <string keyword="kHigheffective" en="Highly Effective" />
+        <string keyword="kStaticstate" en="Static" />
+        <string keyword="kCurrentnotconnectcannotoperate" en="The capsule is offline or cannot be connected. Failed to operate it." />
+        <string keyword="kSorryauthorityprotectivecabin" en="No permission for operating the capsule." />
+        <string keyword="kNoneedforadoor" en="The door No. must be 1." />
+        <string keyword="kOpensuccess" en="Opening the door completed." />
+        <string keyword="kFailedtoopenthedoor" en="Opening the door failed." />
+        <string keyword="kClosedsuccess" en="Closing the door completed." />
+        <string keyword="kFailedtoclose" en="Closing the door failed." />
+        <string keyword="kSirenmustbe1" en="The No. of the alarm device must be 1." />
+        <string keyword="kOpensirensuccess" en="The alarm is enabled." />
+        <string keyword="kOpenthesirenfailed" en="Failed to enable the alarm." />
+        <string keyword="kClosesirensuccess" en="The alarm is disabled." />
+        <string keyword="kClosesirenfailed" en="Failed to disable the alarm." />
+        <string keyword="kPlayvoicesuccessfully" en="Playing the audio completed." />
+        <string keyword="kPlayvoicefailed" en="Playing the audio failed." />
+        <string keyword="kTurnoffvoiceSuccess" en="Turning off the audio completed." />
+        <string keyword="kTurnoffvoicefailed" en="Turning off the audio failed." />
+        <string keyword="kWelcometonedoor" en="Sound for Welcome" />
+        <string keyword="kLeaveouttone" en="Sound for Away" />
+        <string keyword="kSomeonetone" en="Sound for Occupied" />
+        <string keyword="kATMsuspended" en="Suspended" />
+        <string keyword="kDoorisnotclosedtone" en="Sound for Door Unlocked" />
+        <string keyword="kOffline" en="Offline" />
+        <string keyword="kSomeone" en="Occupied" />
+        <string keyword="kUnmanned" en="Available" />
+        <string keyword="kFreelistofequipment" en="Idle Devices" />
+        <string keyword="kBusylistofdevices" en="Busy Devices" />
+        <string keyword="kTalkEquipmentList" en="Talked Devices" />
+        <string keyword="kCallthedevicelist" en="Called Devices" />
+        <string keyword="kUnknownDeviceList" en="Unknown Devices" />
+        <string keyword="kStopBroadcasting" en="Stop Broadcast" />
+        <string keyword="kBeganspeakingsuccess" en="Starting two-way audio completed." />
+        <string keyword="kStartintercomfailed" en="Starting two-way audio failed." />
+        <string keyword="kStopspeakingsuccess" en="Stopping two-way audio completed." />
+        <string keyword="kStopintercomfailed" en="Stopping two-way audio failed." />
+        <string keyword="kAnsweringIntercomsuccess" en="Received the video intercom." />
+        <string keyword="kAnsweringIntercomfailed" en="Failed to receive the video intercom." />
+        <string keyword="kSuccessfulstartlistening" en="Starting monitoring completed." />
+        <string keyword="kStartlisteningtofail" en="Starting monitoring failed." />
+        <string keyword="kSorrytooperateIPintercom" en="No permission for IP video intercom." />
+        <string keyword="kStoplisteningsuccess" en="Stopping monitoring completed." />
+        <string keyword="kStoplisteningtofail" en="Stopping monitoring failed." />
+        <string keyword="kBroadcasting" en="Broadcast" />
+        <string keyword="kResourceType" en="Resource Type" />
+        <string keyword="kResourceName" en="Resource Name" />
+        <string keyword="kChannelnumber" en="Camera No." />
+        <string keyword="kResourcenumbers" en="Resource No." />
+        <string keyword="kTypeID" en="Type ID" />
+        <string keyword="kPanel" en="Panel:" />
+        <string keyword="kIPaddressescannotbeempty" en="The IP address cannot be empty." />
+        <string keyword="kPleasefilloutthecompleteIPaddress" en="Invalid IP address." />
+        <string keyword="kDeviceportmustbebetween0to10" en="Device Port No. Range [0~%d]" />
+        <string keyword="kPanelrequirednumberbetween0and10" en="Panel No. Range [0~%d]" />
+        <string keyword="kOpenOutputsuccess" en="Turning on the output completed." />
+        <string keyword="kFailedtoopentheoutput" en="Turning on the output failed." />
+        <string keyword="kCloseOutputsuccess" en="Turning off the output completed." />
+        <string keyword="kCloseoutputfailure" en="Turning off the output failed." />
+        <string keyword="kPleaseselectbroadcastequipment" en="Please select the devices for broadcast." />
+        <string keyword="kBeganbroadcasting" en="Start Broadcast" />
+        <string keyword="kBeganbroadcastingsuccess" en="Starting the broadcast completed." />
+        <string keyword="kBeganbroadcastingfailed" en="Starting the broadcast failed." />
+        <string keyword="kStopbroadcastingsuccess" en="Stopping the broadcast completed." />
+        <string keyword="kStopBroadcastingfailed" en="Stopping the broadcast failed." />
+        <string keyword="kStatistics" en="Statistics" />
+        <string keyword="kThetotalnumberofdevices" en="Device Number" />
+        <string keyword="kIdle" en="Idle" />
+        <string keyword="kBusy" en="Busy" />
+        <string keyword="ktalking" en="Talking" />
+        <string keyword="kCall" en="Calling" />
+        <string keyword="kUnknown" en="Unknown" />
+        <string keyword="kStartintercom" en="Start Talk" />
+        <string keyword="kOpenOutput" en="Turn On Output" />
+        <string keyword="kCloseOutput" en="Turn Off Output" />
+        <string keyword="kRefresh" en="Refresh" />
+        <string keyword="kConsumeralert" en="Clear Alarm" />
+        <string keyword="kOperationsManagement" en="Operation" />
+        <string keyword="kOpenthedevicelist" en="Open Device List" />
+        <string keyword="kClosingdevicelist" en="Closing device list" />
+        <string keyword="kPrevious" en="Previous" />
+        <string keyword="kNext" en="Next" />
+        <string keyword="kIPAddress" en="IP:" />
+        <string keyword="kModuleType" en="Module Type:" />
+        <string keyword="kModuleID" en="Module ID:" />
+        <string keyword="kStatecontrol" en="State control" />
+        <string keyword="kKeyboard" en="Keyboard" />
+        <string keyword="kZoneStatus" en="Zone Status" />
+        <string keyword="kSend" en="Send" />
+        <string keyword="kUrgent" en="Urgent" />
+        <string keyword="kFire" en="Fire" />
+        <string keyword="kBurglary" en="Burglary" />
+        <string keyword="kNosubsystem2" en="No. subsystems:" />
+        <string keyword="kIOoutput" en="IO output" />
+        <string keyword="kOperatingAccount" en="Operating Account:" />
+        <string keyword="kOutput" en="Output:" />
+        <string keyword="kAccessOperation" en="Access Operation" />
+        <string keyword="kAccessInformation" en="Access Information" />
+        <string keyword="kDoorsname" en="Doors name:" />
+        <string keyword="kLocationDescription" en="Location Description:" />
+        <string keyword="kDoorsnormallyclosed" en="Doors normally closed" />
+        <string keyword="kBacktonormal" en="Back to normal" />
+        <string keyword="kProtectionTankOperation" en="Protection Tank Operation" />
+        <string keyword="kIntercomOperation" en="Intercom Operation" />
+        <string keyword="kStopspeaking" en="Stop Talk" />
+        <string keyword="kAnsweringIntercom" en="Answering Intercom" />
+        <string keyword="kStartlistening" en="Start listening" />
+        <string keyword="kStoplistening" en="Stop listening" />
+        <string keyword="kIntercomResources" en="Intercom Resources" />
+        <string keyword="kOperationcontrol" en="Operation control" />
+        <string keyword="kEquipment" en="Name:" />
+        <string keyword="kEquipmentType" en="Type:" />
+        <string keyword="kResourcenumber" en="Resource number:" />
+        <string keyword="kDeviceIPPort" en="Device IP: Port:" />
+        <string keyword="kSystemIPPort" en="System IP: Port:" />
+        <string keyword="kPanelnumber" en="Panel ID:" />
+        <string keyword="kDeviceID" en="Device ID:" />
+        <string keyword="kCenterequipmentID" en="Center equipment ID:" />
+        <string keyword="kDeviceIP2" en="Device IP:" />
+        <string keyword="kCalleddeviceinfo" en="Called device info" />
+        <string keyword="kSelectivecallpanelnumber" en="(Select call panel id)" />
+        <string keyword="kDevicePort2" en="Port:" />
+        <string keyword="kScreenControl" en="Screen Control" />
+        <string keyword="kScreenstatus" en="Screen status:" />
+        <string keyword="kOpenScreen" en="Open Screen" />
+        <string keyword="kClosescreen" en="Close screen" />
+        <string keyword="kBrightness" en="Brightness:" />
+        <string keyword="kSetBrightness" en="Set Brightness" />
+        <string keyword="kTiming" en="Timing" />
+        <string keyword="kScreencontent" en="Screen content" />
+        <string keyword="kDisplay" en="Display:" />
+        <string keyword="kSubtitleaction" en="Subtitle action:" />
+        <string keyword="kTextspeed" en="Text speed:" />
+        <string keyword="kStay" en="Stay:" />
+        <string keyword="kScreenparameters" en="Screen parameters" />
+        <string keyword="kScreenName" en="Screen Name:" />
+        <string keyword="kCommunicationmode" en="Communication mode:" />
+        <string keyword="kProtocoltype" en="Protocol type:" />
+        <string keyword="kColor" en="Color:" />
+        <string keyword="kDataPolarity" en="Data Polarity:" />
+        <string keyword="kActivelevel" en="Active level:" />
+        <string keyword="kScanmode" en="Scan mode:" />
+        <string keyword="kScreenwidth" en="Screen width:" />
+        <string keyword="kScreenheight" en="Screen height:" />
+        <string keyword="kTimerswitchparameter" en="Timer switch parameter" />
+        <string keyword="kTime1open" en="Time 1 open" />
+        <string keyword="kTime2open" en="Time 2 open" />
+        <string keyword="kTime3open" en="Time 3 open" />
+        <string keyword="kSetup" en="Set up" />
+        <string keyword="kGetstatus" en="Get status" />
+        <string keyword="kGet" en="Get" />
+        <string keyword="kOpenthesiren" en="Open the siren" />
+        <string keyword="kCloseSiren" en="Close Siren" />
+        <string keyword="kVoiceConfiguration" en="Voice Configuration" />
+        <string keyword="kVoiceType" en="Voice Type:" />
+        <string keyword="kPlayVoice" en="Play Voice" />
+        <string keyword="kClearVoice" en="Clear Voice" />
+        <string keyword="kUploadVoice" en="Upload Voice" />
+        <string keyword="kDownloadvoice" en="Download voice" />
+        <string keyword="kFileAddress" en="File Address:" />
+        <string keyword="kEquipmentTotal" en="Equipment Total:" />
+        <string keyword="kPeripheralControl" en="Peripheral Control" />
+        <string keyword="kOpenair" en="Open air" />
+        <string keyword="kDoornormal" en="Door normal" />
+        <string keyword="kCloseairconditioning" en="Close air conditioning" />
+        <string keyword="kLamp1ON" en="Lights %d open" />
+        <string keyword="kLamp1OFF" en="Lights %d Off" />
+        <string keyword="k1openauxiliary" en="Auxiliary %d open" />
+        <string keyword="kAuxiliary1OFF" en="Auxiliary %d Off" />
+        <string keyword="kReset" en="Reset" />
+        <string keyword="kSubsystemstatus" en="Subsystem status" />
+        <string keyword="kAlarmzone" en="Alarm zone" />
+        <string keyword="kSubsystemsandzoneinformation" en="Subsystems and zone information" />
+        <string keyword="kAlarmhostoperating" en="Alarm host operating" />
+        <string keyword="kNetworkModule" en="NetName:" />
+        <string keyword="kZoneNumber" en="Zone Number:" />
+        <string keyword="kOutputs" en="Outputs:" />
+        <string keyword="kDoorNo" en="Door No.:" />
+        <string keyword="kThenumberofsiren" en="Siren Counts:" />
+        <string keyword="kLanguagetype" en="Language type" />
+        <string keyword="kFindTip" en="Please enter keyword to search." />
+        <string keyword="kNetworkModelId" en="NetID:" />
+        <string keyword="kNoMatchingNode" en="No matching node" />
+        <string keyword="kFindNext" en="Find Next" />
+        <string keyword="kFindPrevious" en="Find Previous" />
+        <string keyword="kFind" en="Find" />
+        <string keyword="kAlreadyLastNode" en="Already is the last node" />
+        <string keyword="kAlreadyFirstNode" en="Already the first node" />
+        <string keyword="kCreateTmplistError" en="Create tmplist error" />
+        <string keyword="kTmpListImageListEmpty" en="tmpList.m_hImageList empty" />
+        <string keyword="kIODeviceNotConnectedOpened" en="IO device is not connected to the current output can not be opened!" />
+        <string keyword="kSelectRightSideResources" en="Select the right side of IO resources!" />
+        <string keyword="kIODeviceConnectedOutputClosed" en="IO device is not connected to the current output can not be closed!" />
+        <string keyword="kSelectRightSideofIOResources" en="Select the right side of IO resources!" />
+        <string keyword="kRefreshCheckTheAgain" en="Refresh control unit fails, refresh or check the network status again" />
+        <string keyword="knormal" en="" />
+        <string keyword="kZonedecommandissentfailed" en="" />
+        <string keyword="koutputmustbebetween1to10" en="" />
+        <string keyword="knumber" en="" />
+        <string keyword="kname" en="" />
+        <string keyword="kinitstatus" en="" />
+        <string keyword="kgrouparm" en="" />
+        <string keyword="kgroupdisarm" en="" />
+        <string keyword="ksubsystemarm" en="" />
+        <string keyword="ksubsystemdisarm" en="" />
+        <string keyword="kzonearm" en="" />
+        <string keyword="kzonedisarm" en="" />
+        <string keyword="kzonebypass" en="" />
+        <string keyword="kzonebydispass" en="" />
+        <string keyword="kzonearmsuccessfully" en="" />
+        <string keyword="kzonearmfailed" en="" />
+        <string keyword="kzonedisarmsuccessfully" en="" />
+        <string keyword="kzonedisarmfailed" en="" />
+        <string keyword="kkeyboardcode" en="" />
+        <string keyword="kgroupmsgtext" en="" />
+        <string keyword="kiooutputstatustext" en="" />
+        <string keyword="ksubsystemstatictext" en="" />
+        <string keyword="kzonestatictext" en="" />
+        <string keyword="koutputstatictext" en="" />
+        <string keyword="kconvert" en="" />
+        <string keyword="kSirenNum" en="Alarm No.:" />
+        <string keyword="kCannotOperateOfflineTalk" en="The intercom equipment is offline or cannot be connected. Failed to operate it." />
+        <string keyword="kCannotOperateOfflineAH" en="The alarm host is offline or cannot be connected. Failed to operate it." />
+        <string keyword="knogetstatus" en="no get status" />
+        <string keyword="kScreenContentTooLength" en="screen content too length" />
+        <string keyword="kSwitchParamError" en="Start Time end time is greater than or less than the current time" />
+        <string keyword="kLoading" en="Loading, please wait…" />
+    </resource>
+</language>

@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<language>
+    <type key="1" value="en" />
+    <resource>
+        <string keyword="pb_tip_speedunsupport_onwall" en="Playback to 16 speed and 1/16 speed is not supported on the wall." />
+        <string keyword="pb_localplay_cmb_VAG" en="VAG Player" />
+        <string keyword="pb_tip_tagsave_success" en="Tag information is saved." />
+        <string keyword="pb_tip_tagsave_failed" en="Tag information saving failed." />
+        <string keyword="pb_tip_saving_success" en="Saving succeeded." />
+        <string keyword="pb_msgbox_warn_savegroup" en="Failed to save group information." />
+        <string keyword="pb_remoteplay_cmb_alarmandmotion" en="Alarm &amp; Motion" />
+        <string keyword="pb_remoteplay_cmb_alarmormotion" en="Alarm | Motion" />
+        <string keyword="pb_remoteplay_cmb_alarm" en="Alarm Triggered" />
+        <string keyword="pb_remoteplay_backup" en="Export" />
+        <string keyword="pb_smartconfig_cmb_speed" en="Speed" />
+        <string keyword="pb_main_tab_localplay" en="Local Playback" />
+        <string keyword="pb_addlabel_st_label" en="Tag：" />
+        <string keyword="pb_addlabel_st_name" en="*Title：" />
+        <string keyword="pb_addlabel_st_cvr" en="After you label the video will be back to the CVR" />
+        <string keyword="pb_addlabel_st_cloud" en="After you label the video will be back to the Cloud" />
+        <string keyword="pb_tip_emptytitle_warn" en="Title cannot be empty." />
+        <string keyword="pb_tip_illegaltitle_warn" en="The title contains illegal characters.(&apos;%%)" />
+        <string keyword="pb_tip_titlelength_warn" en="The title length must be shorted than 64 characters." />
+        <string keyword="pb_smartconfig_radiotip_sensitivity" en="Proportion of area with VCA alarm. The lower the proprotion the easier it can be searched. Value Range: 1- more than 80%. 2-More than 40% and lower than 80%; 3- More than 1% and lower than 40%" />
+        <string keyword="pb_remoteplay_menu_play" en="Play" />
+        <string keyword="pb_localplay_st_playtype" en="Play Type" />
+        <string keyword="pb_tip_card_nosupport" en="Search by card No. is not supported." />
+        <string keyword="pb_tip_somecapture_failed" en="Capture failed for some screens." />
+        <string keyword="pb_tip_findfile_failed" en="Failed to find file." />
+        <string keyword="pb_remoteplay_st_window" en="Screen" />
+        <string keyword="pb_tip_wndcapture_failed" en="Screen %02d: Capture failed." />
+        <string keyword="pb_tip_noenough_spaceforsave" en="No enough space, clipping failed." />
+        <string keyword="pb_tip_noenough_spacefordown" en="No enough space, downloading failed." />
+        <string keyword="pb_filedownload_list_path" en="Storage Directory" />
+        <string keyword="pb_filedownload_list_failreason" en="Error " />
+        <string keyword="pb_filedownload_btn_opendir" en="Open-Dir" />
+        <string keyword="pb_remoteplay_menu_opensound" en="Audio On" />
+        <string keyword="pb_filedownload_btn_openfile" en="Open-file" />
+        <string keyword="pb_tip_openfile_failed" en="Opening file failed." />
+        <string keyword="pb_localplay_cmb_dahua" en="DAHUA" />
+        <string keyword="pb_remoteplay_list_size" en="Size" />
+        <string keyword="pb_remoteplay_radio_proxy" en="Proxy" />
+        <string keyword="pb_tip_linklimit_offline" en="Bandwidth limit. A higher level user is operating now." />
+        <string keyword="pb_tip_linklimit_play" en="Bandwidth limit. No playback permission." />
+        <string keyword="pb_remoteplay_menu_singleframe" en="Single Frame play" />
+        <string keyword="pb_tip_nodownload_permission" en="The current user has no downloading permission." />
+        <string keyword="pb_tip_noplayback_permission" en="The current user has no playback permission." />
+        <string keyword="pb_tip_nosave_permission" en="The current user has no clipping permission." />
+        <string keyword="pb_tip_nocapture_permission" en="The current user has no capture permission." />
+        <string keyword="pb_remoteplay_tip_reverseplay" en="Play Reverse" />
+        <string keyword="pb_remoteplay_tip_normalplay" en="Play Normal" />
+        <string keyword="pb_downloadbytime_st_to" en="to" />
+        <string keyword="pb_tip_wallinit_failed" en="Video Wall Initialization Failed" />
+        <string keyword="pb_remoteplay_cmb_timing" en="Continuous" />
+        <string keyword="pb_remoteplay_menu_dynamic" en="Dynamic Analysis" />
+        <string keyword="pb_smartconfig_title_dynamic" en="Dynamic Analysis Configuration" />
+        <string keyword="pb_remoteplay_radio_segment" en="Segment" />
+        <string keyword="pb_smartconfig_st_unconcern_speed" en="Non-Related：" />
+        <string keyword="pb_remoteplay_chk_subplay" en="Playback section：" />
+        <string keyword="pb_groupconfig_st_groupname" en="Group Name：" />
+        <string keyword="pb_tip_operate_nosupport" en="The operation is not supported." />
+        <string keyword="pb_tip_smartsearch_nosupport" en="VCA search is not supported by the device or playback type." />
+        <string keyword="pb_tip_reverse_nosupport" en="The device type and storage mode do not support reverse playback." />
+        <string keyword="pb_localplay_tip_automatch" en="Check this checkbox, the recording file with different type can be automatically matched." />
+        <string keyword="pb_remoteplay_tip_close" en="Close" />
+        <string keyword="pb_remoteplay_menu_closesound" en="Mute" />
+        <string keyword="pb_smartconfig_st_concern_speed" en="Related：" />
+        <string keyword="pb_remoteplay_chk_tellerno" en="Teller No：" />
+        <string keyword="pb_localplay_cmb_gb" en="Standard Player" />
+        <string keyword="pb_localplay_cmb_hik" en="HIKVISION" />
+        <string keyword="pb_localplay_cmb_hanbang" en="HANBANG DVR" />
+        <string keyword="pb_msgbox_warn_triggertime" en="Behavior event triggering time is in the range of [1100], please enter the correct value." />
+        <string keyword="pb_smartconfig_tip_triggertime" en="Behavior event triggering time threshold: 1~100 seconds or 5 seconds, to judge the alarm time." />
+        <string keyword="pb_tip_wallserver_communicatefailed" en="Failed to establish communication with video wall server. Server IP %s; Port No. %d" />
+        <string keyword="pb_groupconfig_st_title" en="Playback Configuration" />
+        <string keyword="pb_remoteplay_st_playtype" en="Playback Type：" />
+        <string keyword="pb_remoteplay_menu_onwall" en="Playback on Video Wall" />
+        <string keyword="pb_tip_playback_onwallfailed" en="Playback on Video Wall Failed." />
+        <string keyword="pb_tip_playback_failed" en="Playback Failed." />
+        <string keyword="pb_tip_stopplayback_failed" en="" />
+        <string keyword="pb_tip_localplayback_failed" en="" />
+        <string keyword="pb_smartbar_tip_drawall" en="Draw All Areas" />
+        <string keyword="pb_tip_getcamerainfo_failed" en="Failed to get camera playback information. Camera ID:%d" />
+        <string keyword="pb_tip_getwallinfo_failed" en="Failed to get video wall information." />
+        <string keyword="pb_msgbox_warn_playbackgroup" en="Failed to get playback group list information." />
+        <string keyword="pb_msgbox_warn_regioncell" en="Failed to get control unit list." />
+        <string keyword="pb_msgbox_warn_regioncamera" en="Failed to get camera list of the area." />
+        <string keyword="pb_msgbox_warn_regionchild" en="Failed to get the subarea list of the area." />
+        <string keyword="pb_remoteplay_menu_speed" en="Speed up" />
+        <string keyword="pb_groupconfig_list_camera" en="Camera" />
+        <string keyword="pb_remoteplay_menu_slow" en="Speed down" />
+        <string keyword="pb_remoteplay_menu_recording" en="Clip" />
+        <string keyword="pb_tip_savedata_failed" en="Failed to clip." />
+        <string keyword="pb_remoteplay_list_endtime" en="End Time" />
+        <string keyword="pb_remoteplay_st_endtime" en="End Time：" />
+        <string keyword="pb_remoteplay_tip_layout_9" en="9-Window Division" />
+        <string keyword="pb_remoteplay_chk_cardno" en="Card No：" />
+        <string keyword="pb_remoteplay_list_begintime" en="Start Time" />
+        <string keyword="pb_remoteplay_st_begintime" en="Start Time：" />
+        <string keyword="pb_filedownload_btn_start" en="Start" />
+        <string keyword="pb_smartbar_tip_smartplay" en="Start VCA Playback" />
+        <string keyword="pb_tip_cmd_dismatch" en="Control types do not match to the send and the return." />
+        <string keyword="pb_tip_bsr_decode_warn" en="LANXIN equipment decoding is consumption of resources, if the 16 windows,it may lead to abnormal, determine to use?" />
+        <string keyword="pb_smartconfig_radio_sensitivity" en="Sens" />
+        <string keyword="pb_smartconfig_edittip_sensitivity" en="Sensitivity Range [1-5]" />
+        <string keyword="pb_tip_recordsize_warn" en="Record file size is larger than 4G. Please cut the time of the record file." />
+        <string keyword="pb_remoteplay_st_filetype" en="Record Type：" />
+        <string keyword="pb_remoteplay_tip_filelist" en="Video List" />
+        <string keyword="pb_localplay_st_filepath" en="Video Location：" />
+        <string keyword="pb_main_tab_filedownload" en="Download Video" />
+        <string keyword="pb_tip_special_char_warn" en="The directory contains special characters." />
+        <string keyword="pb_tip_no_downtask" en="No downloading task." />
+        <string keyword="pb_tip_find_nofile" en="No matched file found." />
+        <string keyword="pb_smartconfig_st_second" en="s" />
+        <string keyword="pb_remoteplay_cmb_command" en="Command" />
+        <string keyword="pb_addlabel_st_content" en="*Content：" />
+        <string keyword="pb_tip_empty_context_warn" en="The content cannot be empty." />
+        <string keyword="pb_tip_illegal_context_warn" en="The content contains illegal characters." />
+        <string keyword="pb_tip_contextlenth_warn" en="The content length must be shorter than 1024 characters." />
+        <string keyword="pb_remoteplay_menu_fullwindow" en="Fill Screen" />
+        <string keyword="pb_remoteplay_menu_digtalzoom" en="Enable Digital Zoom" />
+        <string keyword="pb_tip_start_thread_failed" en="Failed to start thread downloading." />
+        <string keyword="pb_localplay_tip_sliceagain" en="Slice again" />
+        <string keyword="pb_localplay_tip_sliceback" en="Slice returns" />
+        <string keyword="pb_localplay_chk_sliceplay" en="Playback Video Clip" />
+        <string keyword="pb_tip_slice_failed" en="Failed to clip." />
+        <string keyword="pb_tip_slice_abnormal" en="Dividing failed." />
+        <string keyword="pb_tip_clear_cache_failed" en="Failed to clear the clips." />
+        <string keyword="pb_remoteplay_edit_searchtip" en="Please enter keyword to search." />
+        <string keyword="pb_tip_draw_regionfirst" en="Please draw area first." />
+        <string keyword="pb_tip_draw_crossing_rules" en="Please draw crossing rules" />
+        <string keyword="pb_tip_select_time" en="Please choose a time segment." />
+        <string keyword="pb_smartconfig_tip_proportion" en="Portion of area with no alarm" />
+        <string keyword="pb_remoteplay_menu_intrusion" en="Intrusion" />
+        <string keyword="pb_msgbox_warn_sensitivityrange_ea" en="Sensitivity Range [1-100]. Please enter a correct number." />
+        <string keyword="pb_smartconfig_title_intrusion" en="Intrusion Configuration" />
+        <string keyword="pb_common_btn_cancel" en="Cancel" />
+        <string keyword="pb_remoteplay_cmb_all" en="All" />
+        <string keyword="pb_remoteplay_tip_captureall" en="Capture All" />
+        <string keyword="pb_remoteplay_tip_fullscreen" en="Full Screen" />
+        <string keyword="pb_cmomon_btn_ok" en="OK" />
+        <string keyword="pb_groupconfig_btn_delete" en="Delete" />
+        <string keyword="pb_groupconfig_tip_delcamera" en="Delete Camera" />
+        <string keyword="pb_filedownload_btn_deltask" en="Delete" />
+        <string keyword="pb_smartbar_tip_eraseall" en="Delete Area" />
+        <string keyword="pb_remoteplay_tip_previousevent" en="previous event" />
+        <string keyword="pb_groupconfig_btn_up" en="Move Up" />
+        <string keyword="pb_remoteplay_tip_layout_16" en="16-Window Division" />
+        <string keyword="pb_addlabel_st_time" en="Time：" />
+        <string keyword="pb_downloadbytime_chk_segment" en="Time Segment" />
+        <string keyword="pb_tip_timeadd_failed" en="Adding failed,Segment" />
+        <string keyword="pb_tip_time_invalid" en="Segment %d is invalid." />
+        <string keyword="pb_downloadbytime_st_title" en="By the time to download." />
+        <string keyword="pb_remoteplay_menu_downloadbytime" en="By the time to download." />
+        <string keyword="pb_remoteplay_menu_label" en="Event Tag" />
+        <string keyword="pb_smartconfig_st_triggertime" en="Event Trigger Time:" />
+        <string keyword="pb_localplay_title_filelist" en="Video List" />
+        <string keyword="pb_remoteplay_cmb_manual" en="Record" />
+        <string keyword="pb_filedownload_list_source" en="Data Source" />
+        <string keyword="pb_remoteplay_menu_refresh" en="Refresh" />
+        <string keyword="pb_remoteplay_tip_layout_4" en="4-Window Division" />
+        <string keyword="pb_remoteplay_btn_search" en="Search" />
+        <string keyword="pb_groupconfig_btn_add" en="Add" />
+        <string keyword="pb_addlabel_st_title" en="Add Tag" />
+        <string keyword="pb_groupconfig_tip_addcamera" en="Add Camera" />
+        <string keyword="pb_remoteplay_menu_stop" en="Stop" />
+        <string keyword="pb_remoteplay_menu_stoprecording" en="Stop clipping" />
+        <string keyword="pb_tip_stopsave_failed" en="Failed to stop clipping." />
+        <string keyword="pb_remoteplay_tip_stopall" en="Stop All" />
+        <string keyword="pb_filedownload_btn_stop" en="Stop" />
+        <string keyword="pb_remoteplay_tip_stopsmartplay" en="Stop VCA Playback" />
+        <string keyword="pb_msgbox_warn_communication" en="Communucation Failed." />
+        <string keyword="pb_remoteplay_tip_synplay" en="Synch Playback" />
+        <string keyword="pb_tip_filesize_small" en="The file is too small to be divided." />
+        <string keyword="pb_remoteplay_list_filetype" en="File Type" />
+        <string keyword="pb_remoteplay_list_filename" en="File Name" />
+        <string keyword="pb_filedownload_st_byname" en="File download" />
+        <string keyword="pb_remoteplay_panel_title" en="My Playback Group" />
+        <string keyword="pb_remoteplay_tip_nextevent" en="next event" />
+        <string keyword="pb_groupconfig_btn_down" en="Move Down" />
+        <string keyword="pb_remoteplay_btn_download" en="Download" />
+        <string keyword="pb_filedownload_list_downloadtype" en="Download Type" />
+        <string keyword="pb_filedownload_list_progress" en="Downloading process" />
+        <string keyword="pb_filedownload_title_downloadlist" en="Download List" />
+        <string keyword="pb_filedownload_st_failed" en="Failed" />
+        <string keyword="pb_filedownload_tab_downloadfailed" en="Failed" />
+        <string keyword="pb_filedownload_st_abnormal" en="Abnormal" />
+        <string keyword="pb_filedownload_st_done" en="Downloading Completed" />
+        <string keyword="pb_tip_repeat_downtask" en="The information is already in the list, please do not add it again." />
+        <string keyword="pb_remoteplay_menu_proportion" en="Scale" />
+        <string keyword="pb_remoteplay_menu_showtitle" en="Show Title" />
+        <string keyword="pb_remoteplay_tip_showmore" en="Show More" />
+        <string keyword="pb_remoteplay_tip_showarea" en="Show Area" />
+        <string keyword="pb_remoteplay_menu_detailinfo" en="Details" />
+        <string keyword="pb_groupconfig_edit_newgroup" en="New Group" />
+        <string keyword="pb_remoteplay_list_index" en="No." />
+        <string keyword="pb_msgbox_warn_strlegality" en="The directory contains special characters." />
+        <string keyword="pb_remoteplay_tip_layout_1" en="1-Window Division" />
+        <string keyword="pb_remoteplay_cmb_motiondetection" en="Motion" />
+        <string keyword="pb_filedownload_tab_downloaded" en="Downloaded" />
+        <string keyword="pb_remoteplay_tip_asynplay" en="Asynchronous Playback" />
+        <string keyword="pb_remoteplay_tip_volume" en="Volume" />
+        <string keyword="pb_remoteplay_menu_hidetitle" en="Hide Title" />
+        <string keyword="pb_remoteplay_tip_hidearea" en="Hide Area" />
+        <string keyword="pb_smartconfig_st_preplay" en="Pre-play：" />
+        <string keyword="pb_smartconfig_st_postplay" en="Post-play：" />
+        <string keyword="pb_main_tab_remoteplay" en="Remote Playback" />
+        <string keyword="pb_remoteplay_menu_traverse" en="Line Crossing Detection" />
+        <string keyword="pb_msgbox_warn_sensitivityrange_tp" en="Sensitivity Range [1,5]. Please enter a correct number." />
+        <string keyword="pb_smartconfig_title_traverse" en="Line Crossing Detection Configuration" />
+        <string keyword="pb_remoteplay_radio_cloud" en="Cloud Storage" />
+        <string keyword="pb_localplay_menu_sliceagain" en="Divide Again" />
+        <string keyword="pb_remoteplay_menu_pause" en="Pause" />
+        <string keyword="pb_smartconfig_st_proportion" en="Percentage：" />
+        <string keyword="pb_msgbox_warn_proportion" en="Percentage Range [1-100]" />
+        <string keyword="pb_remoteplay_tip_forwardplay" en="Play" />
+        <string keyword="pb_tip_firstevent_playing" en="Playing the first event…" />
+        <string keyword="pb_tip_lastevent_playing" en="Playing the last event…" />
+        <string keyword="pb_filedownload_tab_downloading" en="Downloading" />
+        <string keyword="pb_tip_downloading" en="Downloading" />
+        <string keyword="pb_msgbox_warn_addcamera" en="%d cameras can be added In this page." />
+        <string keyword="pb_smartconfig_cmb_skip" en="Skip" />
+        <string keyword="pb_groupconfig_list_region" en="Belong to Area" />
+        <string keyword="pb_tip_norecord_ea" en="No intrusion triggered record file is found." />
+        <string keyword="pb_tip_norecord_ma" en="No motion triggered record file is found." />
+        <string keyword="pb_tip_norecord_tp" en="No line crossing triggered record file is found." />
+        <string keyword="pb_remoteplay_menu_smartplay" en="Smart" />
+        <string keyword="pb_tip_smartsearch_failed" en="VCA search failed. Please check the area you drawn." />
+        <string keyword="pb_remoteplay_cmb_intelligent" en="VCA" />
+        <string keyword="pb_localplay_cmb_zhinuo" en="ZHINUO DVR" />
+        <string keyword="pb_remoteplay_menu_replay" en="Replay" />
+        <string keyword="pb_filedownload_btn_redownload" en="Again" />
+        <string keyword="pb_remoteplay_menu_capture" en="Capture" />
+        <string keyword="pb_tip_capture_failed" en="Capture failed." />
+        <string keyword="pb_remoteplay_menu_convertplay" en="Transcoding Playback" />
+        <string keyword="pb_localplay_chk_automatch" en="Playback Mode Auto-search" />
+        <string keyword="pb_remoteplay_menu_disabledigtzoom" en="Close Digital Zoom" />
+        <string keyword="pb_remoteplay_st_groupexist" en="Group name is used." />
+        <string keyword="pb_remoteplay_st_selwndsegmtmodel" en="Choose a window division mode." />
+        <string keyword="pb_remoteplay_st_selcameraorgroup" en="Choose a camera or group." />
+        <string keyword="pb_remoteplay_st_selcamera" en="Choose a camera." />
+        <string keyword="pb_remoteplay_st_pbpause" en="Pause" />
+        <string keyword="pb_remoteplay_st_cliping" en="Clipping" />
+        <string keyword="pb_remoteplay_st_pbbysingfrm" en="Single Frame " />
+        <string keyword="pb_remoteplay_tips_sensitivityrange" en="Sensitivity Range [1-100]" />
+        <string keyword="pb_remoteplay_tips_smartzoom" en="The occurrence of event region accounted for intelligent search area percentage, when the event area accounted for the percentage of intelligent search area is the easier to search results, namely the higher sensitivity), value: 1- greater than 80%; 2- greater than 40% and less than 80% 3- greater than 1% and less than 40%." />
+        <string keyword="pb_remoteplay_warn_sensitivityrange" en="The invasion of sensitive area is in the range of [1,100], please enter the correct value" />
+        <string keyword="pb_remoteplay_warn_lengthsize" en="The character is too long:" />
+        <string keyword="pb_remoteplay_warn_characters" en="Cannot contain special characters (%%&apos;)!" />
+        <string keyword="pb_remoteplay_warn_notempty" en="Not null." />
+        <string keyword="pb_remoteplay_warn_unknowdataerr" en="Unknown error!" />
+        <string keyword="pb_remoteplay_st_isparsing" en="Is to parse the file, please try later..." />
+        <string keyword="pb_remoteplay_st_isconningser" en="Connecting to the server..." />
+        <string keyword="pb_remoteplay_st_devtype" en="Device type:" />
+        <string keyword="pb_remoteplay_st_suppliertype" en="Manufacturers type:" />
+        <string keyword="pb_remoteplay_st_prdtype" en="Product type:" />
+        <string keyword="pb_remoteplay_st_devname" en="Device name:" />
+        <string keyword="pb_remoteplay_st_devinfo" en="Device information:" />
+        <string keyword="pb_remoteplay_st_channel" en="Channel:" />
+        <string keyword="pb_remoteplay_st_cameratype" en="Camera type:" />
+        <string keyword="pb_remoteplay_st_stream" en="The stream:" />
+        <string keyword="pb_remoteplay_st_serinfo" en="Server information:" />
+        <string keyword="pb_remoteplay_title_selcamera" en="Select a camera." />
+        <string keyword="pb_remoteplay_warn_cardno" en="Please enter card number." />
+        <string keyword="pb_remoteplay_warn_tellerno" en="Please enter a teller number." />
+        <string keyword="pb_remoteplay_warn_tellerunconncamera" en="The teller number is not associated with the camera." />
+        <string keyword="pb_remoteplay_st_invalid" en="Invalid" />
+        <string keyword="pb_remoteplay_warn_timerange" en="The query time range is not valid!" />
+        <string keyword="pb_remoteplay_warn_searchrangeoftime" en="The query time range is not valid, please less than 7 days!" />
+        <string keyword="pb_remoteplay_warn_cardnoerr" en="The card number is wrong, please input again!" />
+        <string keyword="pb_remoteplay_warn_tellernoerr" en="The teller number is wrong, please input again!" />
+        <string keyword="pb_remoteplay_title_pic" en="Picture" />
+        <string keyword="pb_remoteplay_title_pbclip" en="Clip the playback video." />
+        <string keyword="pb_remoteplay_st_satrtplayclip" en="Start to clip the playback video." />
+        <string keyword="pb_remoteplay_st_endplayclip" en="Stop to clip the playback video." />
+        <string keyword="pb_remoteplay_warn_geteventlabletypeerr" en="Get event tag type errors." />
+        <string keyword="pb_localplay_cmb_lansxjbs" en="蓝色星际BlueStar" />
+        <string keyword="pb_localplay_cmb_hengyrvr" en="恒亿DVR" />
+        <string keyword="pb_localplay_cmb_tumdvr" en="图敏DVR" />
+        <string keyword="pb_localplay_cmb_daldvr" en="大立DVR" />
+        <string keyword="pb_localplay_cmb_daldvr400" en="大立DVR-400" />
+        <string keyword="pb_localplay_cmb_lansxjlimit" en="蓝色星际limit" />
+        <string keyword="pb_localplay_cmb_zhindvr" en="智诺混合DVR" />
+        <string keyword="pb_localplay_cmb_tiandwydvr" en="天地伟业DVR" />
+        <string keyword="pb_remoteplay_st_searchtext" en="Input to find the content" />
+        <string keyword="pb_remoteplay_st_conningdev" en="Connecting device ..." />
+        <string keyword="pb_remoteplay_smart_senrange" en="Sen Range:" />
+        <string keyword="pb_transcdpb_title_set" en="Transcoding settings" />
+        <string keyword="pb_transcdpb_st_resolution" en="Resolution:" />
+        <string keyword="pb_transcdpb_st_rate" en="Rate:" />
+        <string keyword="pb_transcdpb_st_frmrate" en="Frame rate:" />
+        <string keyword="pb_transcdpb_cmb_fullfrmrate" en="Full frame rate" />
+        <string keyword="pb_transcdpb_cmb_curfrmrate" en="Auto(Current Frame Rate)" />
+        <string keyword="pb_transcdpb_cmb_currate" en="Auto(Current Rate)" />
+        <string keyword="pb_transcdpb_cmb_retention" en="Retention" />
+        <string keyword="pb_remoteplay_menu_offwall" en="Playback off the wall" />
+        <string keyword="pb_camdetail_st_no" en="No" />
+        <string keyword="pb_camdetail_st_rescode" en="Resource Code:" />
+        <string keyword="pb_camdetail_st_clistr" en="Client-&gt;NCG-&gt;Take the lower stream" />
+        <string keyword="pb_camdetail_st_devid" en="Device ID:" />
+        <string keyword="pb_camdetail_st_vagclidev" en="Client-&gt;VRM/VOD-&gt;VAG-&gt;Device" />
+        <string keyword="pb_camdetail_st_clidev" en="Client-&gt;VRM/VOD-&gt;Device" />
+        <string keyword="pb_camdetail_st_dirconndev" en="Directly connected devices" />
+        <string keyword="pb_download_title_file" en="By File" />
+        <string keyword="pb_download_title_time" en="By Time" />
+        <string keyword="pb_download_title_all" en="All" />
+        <string keyword="pb_download_st_segment" en="Segment" />
+        <string keyword="pb_download_warn_exist" en="File to be downloaded has a local disk, whether covering?" />
+        <string keyword="pb_log_warn_stopremotepb" en="Stop remote playback." />
+        <string keyword="pb_log_warn_stoppbsucc" en="Stop playback success." />
+        <string keyword="pb_log_warn_stoppbfaild" en="Stop playback faild." />
+        <string keyword="pb_log_warn_startslicedpb" en="Start slice playback." />
+        <string keyword="pb_log_warn_stopslicedpb" en="Stop slice playback." />
+        <string keyword="pb_log_warn_startremotepbbytime" en="Start remote playback by time." />
+        <string keyword="pb_log_warn_startremotepbbyfile" en="Start remote playback by file." />
+        <string keyword="pb_log_warn_startdownloadbytime" en="Start download by time." />
+        <string keyword="pb_log_warn_startdownloadbyfile" en="Start download by file." />
+        <string keyword="pb_log_warn_stopdownload" en="Stop download." />
+        <string keyword="pb_log_warn_capture" en="Capture" />
+        <string keyword="pb_regioninfo_title_regioninfo" en="Region Information" />
+        <string keyword="pb_regioninfo_st_name" en="Name:" />
+        <string keyword="pb_regioninfo_st_code" en="Code:" />
+        <string keyword="pb_regioninfo_st_maxpv" en="Max Preview:" />
+        <string keyword="pb_regioninfo_st_maxpb" en="Max Playback:" />
+        <string keyword="pb_regioninfo_st_no" en="NO.:" />
+        <string keyword="pb_regioninfo_st_addr" en="Address:" />
+        <string keyword="pb_regioninfo_st_percharge" en="Person in charge:" />
+        <string keyword="pb_regioninfo_st_secuoffi" en="Security Officer:" />
+        <string keyword="pb_regioninfo_st_remark" en="Remark:" />
+        <string keyword="pb_pbwnd_menu_preview" en="Preview" />
+        <string keyword="pb_pbwnd_menu_startframeextrac" en="Frame-extracting" />
+        <string keyword="pb_pbwnd_menu_stopframeextrac" en="Stop frame-extracting" />
+        <string keyword="pb_pbwnd_menu_backup" en="Backup" />
+        <string keyword="pb_pbwnd_st_unknow" en="Unknown" />
+        <string keyword="find_type" en="Search Type：" />
+        <string keyword="find_type_region" en="Area" />
+        <string keyword="find_type_res" en="Resources" />
+        <string keyword="pb_remoteplay_tip_groupnamenull" en="Group name is empty." />
+        <string keyword="pb_remoteplay_tip_checkgroupname" en='Group name contains special characters\/:*&amp;&amp;?&quot;&lt;|&apos;%&gt;' />
+        <string keyword="pb_remoteplay_tip_eventtitlenull" en="Event title is empty." />
+        <string keyword="pb_remoteplay_tip_eventtitle" en='Event title contains special characters\/:*&amp;&amp;?&quot;&lt;|&apos;%&gt;' />
+        <string keyword="pb_remoteplay_tip_eventtextnull" en="Event text is empty." />
+        <string keyword="pb_remoteplay_tip_eventtext" en='Event text contains special characters\/:*&amp;&amp;?&quot;&lt;|&apos;%&gt;' />
+        <string keyword="pb_remoteplay_tip_time" en="Event time is not vaild, please check!" />
+        <string keyword="pb_remoteplay_tip_postback_failed" en="Postback failed!" />
+        <string keyword="pb_remoteplay_tip_file_max" en="More than 2000 video files of the current period, obtain a follow-up video, please adjust your search time" />
+        <string keyword="pb_localplay_warn_filesize" en="File length is less than 30 seconds, not sliced again." />
+        <string keyword="pb_localplay_btn_downloadfile" en="Download File" />
+        <string keyword="pb_localplay_btn_downloadsection" en="Download Section" />
+        <string keyword="find_nothing" en="Not Find." />
+        <string keyword="pb_tip_select_camera" en="Select a camera firstly" />
+        <string keyword="pb_backup_dlg_title" en="Backup" />
+        <string keyword="pb_backup_time" en="Backup time:" />
+        <string keyword="pb_backup_to" en="To" />
+        <string keyword="pb_backup_btn_backup" en="Backup" />
+        <string keyword="pb_backup_btn_cancel" en="Cancel" />
+        <string keyword="pb_backup_time_invalid" en="Time for backup invalid" />
+        <string keyword="pb_backup_record_pool" en="Record pool:" />
+        <string keyword="pb_backup_tip" en="Backup record to cloud" />
+        <string keyword="pb_tip_issaving" en="Is saving data…" />
+        <string keyword="pb_download_st_stopped" en="Stopped" />
+        <string keyword="pb_download_st_getresources" en="Get resources…" />
+        <string keyword="pb_playback_errorcode" en="ErrorCode:" />
+        <string keyword="pb_playback_cloudtimelimit" en="Cloud Storage only supports query within three days, please re-enter the query time range." />
+        <string keyword="pb_playback_download_cloudtimelimit" en="Cloud Storage only supports download within three days, please re-enter the time range." />
+        <string keyword="pb_download_stopping" en="Is stopping download…" />
+    </resource>
+</language>

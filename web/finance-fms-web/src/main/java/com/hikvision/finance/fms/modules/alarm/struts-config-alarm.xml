@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="alarmAction" namespace="/modules/alarm" extends="ivms">
+		<action name="*" method="{1}" class="alarmAction">
+		</action>	
+	</package>
+</struts>

@@ -1,0 +1,55 @@
+package cms_8120;
+import "server/RspServerData.proto";
+option java_package = "com.hikvision.finance.fms.cms.hpp.center";
+option java_outer_classname = "ProsaverecordProto";
+option java_generic_services = true;
+
+
+//录像表
+message Prosaverecord
+{
+    //必须字段
+    optional int32 id                       = 1;    // 在数据库中的流水号
+    optional int32 clientId                 = 2;    // 客户端录入ID
+    optional string recordId                = 3;    // 存储信息ID
+    optional int32 regionId                 = 4;    // 区域ID
+    optional int32 cvr                      = 5;    // CVR标识
+    optional string streamNo                = 6;    // 通道在CVR上的唯一标识
+    optional int32 nType                    = 7;    // 存储类型
+    optional int32 mediaType                = 8;    // 媒体类型
+    optional int32 calltype                 = 9;    // 录音呼叫类型
+    optional string callNo                  = 10;    // 通话电话
+    optional string recordUserNo            = 11;   // 录像关联员工号
+    optional int32 stateType                = 12;   // 资料类型
+    optional string startTime               = 13[default = "1970-01-01 00:00:00"];   // 录像开始时间
+    optional string endTime                 = 14[default = "1970-01-01 00:00:00"];   // 录像结束时间
+    optional string fileName                = 15;   // 文件名
+    optional string devIp                   = 16;   // 设备IP
+    optional int32 devId                    = 17;   // 设备ID
+    optional int32 devChannel               = 18;   // 设备通道
+    optional int32 locked                   = 19;   // 是否锁定
+    optional int32 upload                   = 20;   // 录像是否上传
+    optional string strBucket               = 21;   // 对象云存储资源池
+}
+
+message ReqProsaverecord
+{
+    optional int32 cmd                	    = 1;    // CMD_DT_RECORD_LIST--CMD_DDT_RECORD_INFO
+    optional int32 id                       = 2;    // 在数据库中的流水号
+    optional int32 clientId                 = 3;    // 客户端录入ID
+    optional string strIds                  = 4;    // 录像id集合（以","隔开）
+}
+
+message ProsaverecordList
+{
+    optional int32 cmd                	    = 1;    // CMD_DT_RECORD_LIST
+    repeated Prosaverecord prosaverecord    = 2;    // 录像表
+}
+
+
+service ModifyProsaverecordService {
+	rpc SaveProsaverecordInfo(Prosaverecord) returns (RspServerData);				//CMD_WDT_RECORD_INFO--保存录像信息
+	rpc QueryProsaverecordInfo(ReqProsaverecord) returns (ProsaverecordList);			//CMD_DT_RECORD_LIST--获取录像信息
+	rpc DeleteProsaverecordByid(ReqProsaverecord) returns (RspServerData);				//CMD_DDT_RECORD_INFO--删除录像信息
+	
+}

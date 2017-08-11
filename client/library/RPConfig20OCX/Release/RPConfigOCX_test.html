@@ -1,0 +1,77 @@
+<html>
+<head>
+<SCRIPT LANGUAGE=javascript>
+function RP_InitLib()
+{
+    RPConfig_OCX.RP_InitLib();//"<?xml version=\"1.0\" encoding=\"UTF-8\" ?> <ROOT><PARAM_LOG_PATH>C:/iVMS8201/</PARAM_LOG_PATH > </ROOT>"
+}
+function RP_UninitLib()
+{
+    RPConfig_OCX.RP_UninitLib();
+}
+
+function HIKDevInfo()
+{
+    var result;
+    result = RPConfig_OCX.RP_Function1("<?xml version=\"1.0\" encoding=\"UTF-8\" ?> <ROOT><CODE>8100</CODE ><DEV_TYPE>0</DEV_TYPE><DEV_IP>10.16.36.211</DEV_IP><DEV_PORT>8008</DEV_PORT><DEV_USER>test</DEV_USER><DEV_PWD>1qaz2wsx</DEV_PWD><DEV_CHANNEL>0</DEV_CHANNEL><DEV_SHOW_IP_MODE>0</DEV_SHOW_IP_MODE></ROOT>");
+    alert(result);
+}
+
+function HIKChannelName()
+{
+    var result;
+    result = RPConfig_OCX.RP_Function1("<?xml version=\"1.0\" encoding=\"UTF-8\" ?> <ROOT><CODE>8101</CODE ><DEV_TYPE>0</DEV_TYPE><DEV_IP>10.16.36.211</DEV_IP><DEV_PORT>8008</DEV_PORT><DEV_USER>test</DEV_USER><DEV_PWD>1qaz2wsx</DEV_PWD><DEV_CHANNEL>0</DEV_CHANNEL><DEV_SHOW_IP_MODE>0</DEV_SHOW_IP_MODE></ROOT>");
+    alert(result);
+}
+
+function HIKRemoteConfig()
+{ var result;
+    result =RPConfig_OCX.RP_Function1("<?xml version=\"1.0\" encoding=\"UTF-8\" ?> <ROOT><CODE>8102</CODE ><DEV_TYPE>0</DEV_TYPE><DEV_IP>10.16.36.211</DEV_IP><DEV_PORT>8008</DEV_PORT><DEV_USER>test</DEV_USER><DEV_PWD>1qaz2wsx</DEV_PWD><DEV_CHANNEL>0</DEV_CHANNEL><DEV_SHOW_IP_MODE>0</DEV_SHOW_IP_MODE></ROOT>");
+	alert(result);
+}
+
+//获取CVR设备参数
+function GetCvrDevInfo()
+{
+    var result;
+    result = RPConfig_OCX.RP_Function1("<?xml version=\"1.0\" encoding=\"UTF-8\" ?> <ROOT><CODE>8100</CODE ><DEV_TYPE>1</DEV_TYPE><DEV_IP>10.10.48.226</DEV_IP><DEV_PORT>8000</DEV_PORT><DEV_USER>admin</DEV_USER><DEV_PWD>hik12345+</DEV_PWD><DEV_CHANNEL>2</DEV_CHANNEL><DEV_SHOW_IP_MODE>0</DEV_SHOW_IP_MODE></ROOT>");
+    alert(result);
+}
+
+//获取云存储设备参数
+function GetCloudDevInfo()
+{
+    var result;
+    result = RPConfig_OCX.RP_Function1("<?xml version=\"1.0\" encoding=\"UTF-8\" ?> <ROOT><CODE>8100</CODE ><DEV_TYPE>2</DEV_TYPE><DEV_IP>10.10.48.231</DEV_IP><DEV_PORT>6021</DEV_PORT><DEV_USER>root</DEV_USER><DEV_PWD>6b74M23cd87D</DEV_PWD><DEV_CHANNEL>2</DEV_CHANNEL><DEV_SHOW_IP_MODE>0</DEV_SHOW_IP_MODE></ROOT>");
+    alert(result);
+}
+
+//设置设备NTP校时
+function SetDevNTP()
+{
+    var result;
+    result = RPConfig_OCX.RP_Function1("<?xml version=\"1.0\" encoding=\"UTF-8\" ?> <ROOT><CODE>8103</CODE ><DEV_TYPE>1</DEV_TYPE><DEV_IP>10.16.37.105</DEV_IP><DEV_PORT>8000</DEV_PORT><DEV_USER>admin</DEV_USER><DEV_PWD>MTIzNDU=</DEV_PWD><DEV_CHANNEL>2</DEV_CHANNEL><DEV_SHOW_IP_MODE>0</DEV_SHOW_IP_MODE><NTP_SERVER>10.16.36.107</NTP_SERVER><NTP_PORT>123</NTP_PORT><NTP_INTERVAL>10</NTP_INTERVAL><ENABLE_NTP>1</ENABLE_NTP></ROOT>");
+    alert(result);
+}
+</SCRIPT>
+</head>
+<body>
+<input id=RP_InitLib type=button value=初始化库 name=btn_RP_InitLib onclick=javascript:RP_InitLib()>
+<input id=RP_UninitLib type=button value=释放库 name=btn_RP_UninitLib onclick=javascript:RP_UninitLib()>
+
+
+<div>
+<input id=HIKDevInfo type=button value=海康设备参数 name=btn_HIKDevInfo onclick=javascript:HIKDevInfo()>
+<input id=HIKChannelName type=button value=海康通道名称 name=btn_HIKChannelName onclick=javascript:HIKChannelName()>
+<input id=GetCvrDevInfo type=button value=获取CVR设备信息 name=btn_CvrDevInfo onclick=javascript:GetCvrDevInfo()>
+<input id=GetCloudDevInfo type=button value=获取云存储设备信息 name=btn_CloudDevInfo onclick=javascript:GetCloudDevInfo()>
+<input id=SetDevNTP type=button value=设置设备NTP校时 name=btn_SetDevNTP onclick=javascript:SetDevNTP()>
+</div>
+<div>
+<input id=HIKRemoteConfig type=button value=海康远程配置 name=btn_HIKRemoteConfig onclick=javascript:HIKRemoteConfig()>
+</div>
+
+<OBJECT id=RPConfig_OCX classid=clsid:A4660BF5-7356-4A3B-8A34-5859ED6C4F2F codebase ="RPConfig.ocx" Width=1
+Height=1>
+</body>
+</html>

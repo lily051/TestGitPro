@@ -1,0 +1,25 @@
+package cms_8120;
+import "type/ModuleType.proto";
+import "verify/RspServerLogin.proto";
+option java_package = "com.hikvision.finance.fms.cms.hpp.verify";
+option java_outer_classname = "ReqServerLoginProto";
+option java_generic_services = true;
+
+//服务器登陆请求
+message ReqServerLogin
+{
+    optional int32 cmd                   = 1;    // CMD_REQ_SERVER_LOGIN
+    optional int32 moudle_type    		 = 2;    // 服务器类型
+    optional string login_name           = 3;    // 服务器账户
+    optional string login_pwd            = 4;    // 服务器密码
+    optional string ip                   = 5;    // 登陆的机器IP地址
+    optional string mac                  = 6;    // MAC地址
+    optional string server_version       = 7;    // 服务器版本号
+    optional string dc_ip                = 8;    // 数据中心服务IP
+}
+
+service ServerLoginService {
+	
+  rpc ServerLogin (ReqServerLogin) returns (RspServerLogin);//CMD_REQ_SERVER_LOGIN--服务登录
+
+}

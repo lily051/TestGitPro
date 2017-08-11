@@ -1,0 +1,55 @@
+2016-08-31 16:47:56,282 [0x00002bfc] INFO  HCS_OBJ_Info .\application_entry.cpp(177) <[hik_errorcode=0], modID=0, busiID=0,init client success, access_key: 62dz356jj5YQ11X5364pm681slTd92xm6nE931oqG99NX7T0b0q812t8t49j0Ag  secret_key: 9p828SN200FnH028wj7h5k922G5uO0i469u2eT0919C3Y1kO1vM7Mv65D6qaJ19  endpoint: 10.33.34.20:6201 >
+2016-08-31 16:47:56,282 [0x00002bfc] INFO  HCS_OBJ_Info .\application_entry.cpp(256) <[hik_errorcode=0], modID=0, busiID=0,request delete bucket, bucket name: testa>
+2016-08-31 16:47:56,303 [0x00002bfc] ERROR HCS_OBJ_Error .\bucket_service\bucket_service.cpp(449) <[hik_errorcode=0], modID=0, busiID=0,http reply status code is not 200, status_code is :409, reply body: <?xml version = "1.0" encoding = "UTF-8"?>
+<Error>
+<Code>BucketNotEmpty</Code>
+<Message>bucket is not empty</Message>
+<RequestID>14726334614326391008103800</RequestID>
+</Error>
+>
+2016-08-31 16:47:57,607 [0x00002bfc] INFO  HCS_OBJ_Info .\application_entry.cpp(195) <[hik_errorcode=0], modID=0, busiID=0,uninit client success>
+2016-08-31 16:48:28,858 [0x000023a4] INFO  HCS_OBJ_Info .\application_entry.cpp(177) <[hik_errorcode=0], modID=0, busiID=0,init client success, access_key: 62dz356jj5YQ11X5364pm681slTd92xm6nE931oqG99NX7T0b0q812t8t49j0Ag  secret_key: 9p828SN200FnH028wj7h5k922G5uO0i469u2eT0919C3Y1kO1vM7Mv65D6qaJ19  endpoint: 10.33.34.20:6201 >
+2016-08-31 16:48:28,860 [0x000023a4] INFO  HCS_OBJ_Info .\application_entry.cpp(256) <[hik_errorcode=0], modID=0, busiID=0,request delete bucket, bucket name: testa>
+2016-08-31 16:48:28,894 [0x000023a4] ERROR HCS_OBJ_Error .\bucket_service\bucket_service.cpp(449) <[hik_errorcode=0], modID=0, busiID=0,http reply status code is not 200, status_code is :409, reply body: <?xml version = "1.0" encoding = "UTF-8"?>
+<Error>
+<Code>BucketNotEmpty</Code>
+<Message>bucket is not empty</Message>
+<RequestID>147263349423980635185927</RequestID>
+</Error>
+>
+2016-08-31 16:48:30,055 [0x000023a4] INFO  HCS_OBJ_Info .\application_entry.cpp(195) <[hik_errorcode=0], modID=0, busiID=0,uninit client success>
+2016-08-31 16:49:06,776 [0x00002830] INFO  HCS_OBJ_Info .\application_entry.cpp(177) <[hik_errorcode=0], modID=0, busiID=0,init client success, access_key: 62dz356jj5YQ11X5364pm681slTd92xm6nE931oqG99NX7T0b0q812t8t49j0Ag  secret_key: 9p828SN200FnH028wj7h5k922G5uO0i469u2eT0919C3Y1kO1vM7Mv65D6qaJ19  endpoint: 10.33.34.20:6201 >
+2016-08-31 16:49:08,193 [0x00002830] INFO  HCS_OBJ_Info .\application_entry.cpp(256) <[hik_errorcode=0], modID=0, busiID=0,request delete bucket, bucket name: testa>
+2016-08-31 16:49:08,239 [0x00002830] ERROR HCS_OBJ_Error .\bucket_service\bucket_service.cpp(449) <[hik_errorcode=0], modID=0, busiID=0,http reply status code is not 200, status_code is :409, reply body: <?xml version = "1.0" encoding = "UTF-8"?>
+<Error>
+<Code>BucketNotEmpty</Code>
+<Message>bucket is not empty</Message>
+<RequestID>14726335333737031672161247</RequestID>
+</Error>
+>
+2016-08-31 16:49:56,130 [0x00000a98] INFO  HCS_OBJ_Info .\application_entry.cpp(177) <[hik_errorcode=0], modID=0, busiID=0,init client success, access_key: 62dz356jj5YQ11X5364pm681slTd92xm6nE931oqG99NX7T0b0q812t8t49j0Ag  secret_key: 9p828SN200FnH028wj7h5k922G5uO0i469u2eT0919C3Y1kO1vM7Mv65D6qaJ19  endpoint: 10.33.34.20:6201 >
+2016-08-31 16:50:00,303 [0x00000a98] INFO  HCS_OBJ_Info .\application_entry.cpp(256) <[hik_errorcode=0], modID=0, busiID=0,request delete bucket, bucket name: testa>
+2016-08-31 16:50:00,352 [0x00000a98] ERROR HCS_OBJ_Error .\bucket_service\bucket_service.cpp(449) <[hik_errorcode=0], modID=0, busiID=0,http reply status code is not 200, status_code is :409, reply body: <?xml version = "1.0" encoding = "UTF-8"?>
+<Error>
+<Code>BucketNotEmpty</Code>
+<Message>bucket is not empty</Message>
+<RequestID>1472633585498874880357113</RequestID>
+</Error>
+>
+2016-08-31 16:53:57,347 [0x00002084] INFO  HCS_OBJ_Info .\application_entry.cpp(177) <[hik_errorcode=0], modID=0, busiID=0,init client success, access_key: 62dz356jj5YQ11X5364pm681slTd92xm6nE931oqG99NX7T0b0q812t8t49j0Ag  secret_key: 9p828SN200FnH028wj7h5k922G5uO0i469u2eT0919C3Y1kO1vM7Mv65D6qaJ19  endpoint: 10.33.34.20:6201 >
+2016-08-31 16:54:02,870 [0x00002084] INFO  HCS_OBJ_Info .\application_entry.cpp(256) <[hik_errorcode=0], modID=0, busiID=0,request delete bucket, bucket name: testa>
+2016-08-31 16:54:02,901 [0x00002084] ERROR HCS_OBJ_Error .\bucket_service\bucket_service.cpp(449) <[hik_errorcode=0], modID=0, busiID=0,http reply status code is not 200, status_code is :409, reply body: <?xml version = "1.0" encoding = "UTF-8"?>
+<Error>
+<Code>BucketNotEmpty</Code>
+<Message>bucket is not empty</Message>
+<RequestID>1472633828676912143488961</RequestID>
+</Error>
+>
+2016-08-31 16:55:47,958 [0x000026b0] INFO  HCS_OBJ_Info .\application_entry.cpp(177) <[hik_errorcode=0], modID=0, busiID=0,init client success, access_key: 62dz356jj5YQ11X5364pm681slTd92xm6nE931oqG99NX7T0b0q812t8t49j0Ag  secret_key: 9p828SN200FnH028wj7h5k922G5uO0i469u2eT0919C3Y1kO1vM7Mv65D6qaJ19  endpoint: 10.33.34.20:6201 >
+2016-08-31 16:55:47,961 [0x000026b0] INFO  HCS_OBJ_Info .\application_entry.cpp(208) <[hik_errorcode=0], modID=0, busiID=0,request create bucket, bucket name(testb), new size(10), region(LOCAL-1)>
+2016-08-31 16:55:48,088 [0x000026b0] INFO  HCS_OBJ_Info .\bucket_service\bucket_service.cpp(176) <[hik_errorcode=0], modID=0, busiID=0,create bucket success, bucket name: testb, region: LOCAL-1>
+2016-08-31 16:55:48,901 [0x000026b0] INFO  HCS_OBJ_Info .\application_entry.cpp(195) <[hik_errorcode=0], modID=0, busiID=0,uninit client success>
+2016-08-31 17:44:47,754 [0x000026b0] INFO  HCS_OBJ_Info .\application_entry.cpp(177) <[hik_errorcode=0], modID=0, busiID=0,init client success, access_key: 62dz356jj5YQ11X5364pm681slTd92xm6nE931oqG99NX7T0b0q812t8t49j0Ag  secret_key: 9p828SN200FnH028wj7h5k922G5uO0i469u2eT0919C3Y1kO1vM7Mv65D6qaJ19  endpoint: 10.33.34.20:6201 >
+2016-08-31 17:44:47,760 [0x000026b0] INFO  HCS_OBJ_Info .\application_entry.cpp(256) <[hik_errorcode=0], modID=0, busiID=0,request delete bucket, bucket name: testb>
+2016-08-31 17:44:47,870 [0x000026b0] INFO  HCS_OBJ_Info .\bucket_service\bucket_service.cpp(453) <[hik_errorcode=0], modID=0, busiID=0,delete bucket success, bucket name: testb>
+2016-08-31 17:44:48,677 [0x000026b0] INFO  HCS_OBJ_Info .\application_entry.cpp(195) <[hik_errorcode=0], modID=0, busiID=0,uninit client success>

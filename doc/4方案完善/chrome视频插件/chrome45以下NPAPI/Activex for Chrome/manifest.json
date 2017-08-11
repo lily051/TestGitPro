@@ -1,0 +1,20 @@
+{
+    // Required
+	"manifest_version":2,
+	"minimum_chrome_version":"18.0.0.0",
+    "name": "ActiveX hosting plugin",
+    "homepage_url": "http://code.google.com/p/ff-activex-host/",
+    "version": "1.38",
+	"permissions":["<all_urls>","tabs","webRequestBlocking","webRequest"],
+	
+
+    // Recommended
+    "description": "ActiveX hosting plugin",
+
+    // Add any of these that you need
+    "plugins": [
+        {
+            "path": "npactivex.dll", "public": true
+        }
+    ]
+}

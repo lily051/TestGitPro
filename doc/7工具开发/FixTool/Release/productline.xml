@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ProductNames>
+	<Service index="0" ServiceName="FSvcWeb_FMS"></Service>
+	<Service index="1" ServiceName="FSvcWeb_8120"></Service>
+</ProductNames>

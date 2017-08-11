@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FMSClient", "FMSClient\FMSClient.vcproj", "{1AE688FD-C4E4-4369-9CCD-0FDD4BB9D610}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Login", "Login\Login.vcproj", "{B546A141-C7FF-4E7C-8935-A588547E2C85}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RecTool", "RecTool\RecTool.vcproj", "{1131C7AB-56DF-4BEB-803B-92AC7B3991AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1AE688FD-C4E4-4369-9CCD-0FDD4BB9D610}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1AE688FD-C4E4-4369-9CCD-0FDD4BB9D610}.Debug|Win32.Build.0 = Debug|Win32
+		{1AE688FD-C4E4-4369-9CCD-0FDD4BB9D610}.Release|Win32.ActiveCfg = Release|Win32
+		{1AE688FD-C4E4-4369-9CCD-0FDD4BB9D610}.Release|Win32.Build.0 = Release|Win32
+		{B546A141-C7FF-4E7C-8935-A588547E2C85}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B546A141-C7FF-4E7C-8935-A588547E2C85}.Debug|Win32.Build.0 = Debug|Win32
+		{B546A141-C7FF-4E7C-8935-A588547E2C85}.Release|Win32.ActiveCfg = Release|Win32
+		{B546A141-C7FF-4E7C-8935-A588547E2C85}.Release|Win32.Build.0 = Release|Win32
+		{1131C7AB-56DF-4BEB-803B-92AC7B3991AB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1131C7AB-56DF-4BEB-803B-92AC7B3991AB}.Debug|Win32.Build.0 = Debug|Win32
+		{1131C7AB-56DF-4BEB-803B-92AC7B3991AB}.Release|Win32.ActiveCfg = Release|Win32
+		{1131C7AB-56DF-4BEB-803B-92AC7B3991AB}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

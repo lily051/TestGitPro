@@ -1,0 +1,24 @@
+package cms_8120;
+import "type/cmd.proto";
+import "type/ModuleType.proto";
+import "server/RspServerData.proto";
+option java_package = "com.hikvision.finance.fms.cms.hpp.verify";
+option java_outer_classname = "MsgServerLogoutProto";
+option java_generic_services = true;
+
+//服务器退出消息
+message MsgServerLogout
+{
+    optional int32 cmd                      = 1;    // CMD_MSG_SERVER_LOGOUT
+    optional int32 moudle_type              = 2;    // 退出模块类型
+    optional string login_name              = 3;    // 登录名 
+    optional string ip                      = 4;    // 服务ip地址
+    optional string server_version          = 5;    // 服务器版本号
+    optional string dc_ip                   = 6;    // 服务中心服务ip
+}
+
+service ServerLogoutService {
+
+  rpc ServerLogout (MsgServerLogout) returns (RspServerData);
+
+}
