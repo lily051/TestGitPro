@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+    <constant name="struts.i18n.encoding" value="UTF-8" />
+    <constant name="struts.action.extension" value="action,php,," />
+    <constant name="struts.enable.DynamicMethodInvocation" value="false" />
+    <include file="struts-default.xml" />
+    <constant name="struts.devMode" value="true" />
+    <package name="default"  extends="json-default" namespace="">
+        <!--拦截器-->
+        <interceptors>
+        <interceptor name="interceptor" class="com.common.Interceptor"></interceptor>
+        <interceptor-stack name="mydefault">
+            <interceptor-ref name="defaultStack"></interceptor-ref>
+            <interceptor-ref name="interceptor"></interceptor-ref>
+        </interceptor-stack>
+    </interceptors>
+        <default-interceptor-ref name="mydefault"></default-interceptor-ref>
+
+        <global-results>
+            <result name="unlogin" type="redirect">/index.jsp</result>
+            <result name="error" >/error500.jsp</result>
+        </global-results>
+
+        <!--异常配置-->
+        <global-exception-mappings>
+            <exception-mapping exception="java.lang.Exception" result="error" />
+        </global-exception-mappings>
+
+        <action name="roleAction!*" class="com.userAction.RoleAction" method="{1}">
+            <!--<exception-mapping exception="org.hibernate.exception.GenericJDBCException" result="error"/>-->
+           <!-- <result name="error">/error500.jsp</result>-->
+            <result name="login" type="json">
+                <param name="includeProperties">flag,message,modelnum</param>
+            </result>
+            <result name="addrole">roleindex.jsp</result>
+            <result name="updaterole">roleindex.jsp</result>
+            <result name="updateroles" type="json">
+                <param name="includeProperties">flag,message</param>
+            </result>
+            <result name="deleterole" type="json">
+                <param name="includeProperties">flag,message</param>
+            </result>
+            <result name="deleteroles" type="json">
+                <param name="includeProperties">flag,message</param>
+            </result>
+            <result name="deletesrole" type="json">
+                <param name="includeProperties">flag,message</param>
+            </result>
+            <result name="findrolebynode" type="json">
+                <param name="root">roleList</param><!-- action中的属性 -->
+            </result>
+            <result name="findallrole" type="json">
+                <param name="root">roleList</param>
+            </result>
+            <!--角色相关-->
+            <result name="addroles" type="json">
+                <param name="includeProperties">flag,message</param>
+            </result>
+            <result name="findrolesbynode" type="json">
+                <param name="root">rolesList</param><!-- action中的属性 -->
+            </result>
+        </action>
+
+        <!--登录显示首页-->
+        <action name="indexAction!*" class="com.userAction.IndexAction" method="{1}">
+            <result name="gotoRoleIndex">roleindex.jsp</result>
+            <result name="gotoOrgIndex">orgindex.jsp</result>
+            <result name="gotoUserIndex">userindex.jsp</result>
+            <result name="gotoRolesIndex">rindex.jsp</result>
+        </action>
+
+        <action name="userAction!*" class="com.userAction.UserAction" method="{1}">
+            <!--<interceptor-ref name="interceptor"></interceptor-ref>-->
+            <result name="adduser" type="json">
+                <param name="includeProperties">flag,msg</param>
+            </result>
+            <result name="findall" type="json">
+                <param name="root">userList</param><!-- action中的属性 -->
+            </result>
+            <result name="finduser" type="json">
+                <param name="root">usersList</param>
+            </result>
+            <result name="deleteuser">userindex.jsp</result>
+            <result name="updateuser">save.jsp</result>
+            <result name="findsubuser" type="json">
+                <param name="includeProperties">subuserList.*</param>
+            </result>
+        </action>
+
+        <!--节点-->
+        <action name="nodeAction!*" class="com.userAction.NodeAction" method="{1}">
+            <!--<interceptor-ref name="interceptor"></interceptor-ref>-->
+            <result name="addnode" type="json">
+                <param name="includeProperties">flag,level,msg</param>
+            </result>
+            <result name="deletesubnode" type="json">
+                <param name="includeProperties">flag,msg</param>
+            </result>
+            <result name="findsubnode" type="json">
+                <param name="includeProperties">node.*</param><!-- action中的属性 -->
+            </result>
+            <result name="updatenode" type="json">
+                <param name="includeProperties">flag,msg</param>
+            </result>
+            <result name="shownodetree" type="json">
+                <param name="includeProperties">jsonArray.*</param>
+            </result>
+        </action>
+    </package>
+</struts>
