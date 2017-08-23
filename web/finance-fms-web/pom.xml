@@ -19,7 +19,7 @@
 	<dependencies>
 		<dependency>
 			<groupId>com.hikvision.finance</groupId>
-			<artifactId>finance-ui</artifactId>
+			<artifactId>finance-ui-lilitest</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>com.hikvision.finance</groupId>
