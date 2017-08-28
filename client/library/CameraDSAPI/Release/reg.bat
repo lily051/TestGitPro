@@ -1,1 +1,0 @@
-regsvr32 "%~dp0H264Encoder.ax"

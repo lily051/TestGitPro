@@ -1,4 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Configuration>
-	<Service name="FSvcAdjustTime" ModuleType="20001" startCmd="start.bat" stopCmd="stop.bat" installCmd="install.bat" uninstallCmd="uninstall.bat" startTime="" stopTime="" configTool="ConfigTool.exe">系统巡检服务</Service>
-</Configuration>

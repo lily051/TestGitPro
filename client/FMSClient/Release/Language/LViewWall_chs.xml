@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<language>
-    <type key="0" value="chs" />
-    <resource>
-        <string keyword="vw_tip_getcamerainfo_failed" chs="获取监控点信息失败" />
-        <string keyword="vw_tip_preview_failed" chs="预览失败" />
-    </resource>
-</language>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<language>
-    <type key="1" value="en" />
-    <resource>
-        <string keyword="vw_tip_getcamerainfo_failed" en="Failed to get camera information." />
-        <string keyword="vw_tip_preview_failed" en="Live view failed." />
-    </resource>
-</language>

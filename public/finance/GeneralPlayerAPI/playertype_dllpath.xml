@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<PLAYERTYPES>
-  <PlayerType id="PT_HIK">./PlayerTypePlugin/PT_HIK</PlayerType>
-</PLAYERTYPES>
-
-<!--该配置文件为通用播放库支持的播放类型依赖库加载路径配置-->
-<!--1、id必须为GeneralPlayerAPI.h中播放类型的定义字符串一致，该配置项才有效
-	2、不配置播放类型dll加载路径，则默认为GeneralPlayerAPI.dll同级目录 
-	3、配置路径支持中文、支持上层目录配置-->

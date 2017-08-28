@@ -1,1 +1,0 @@
-regsvr32 /u "%~dp0PlaybackOCX3.0.ocx"

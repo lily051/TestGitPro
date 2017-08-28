@@ -1,1 +1,0 @@
-start Preview_HIK.exe 10.16.36.211 8006 test 1qaz2wsx 1

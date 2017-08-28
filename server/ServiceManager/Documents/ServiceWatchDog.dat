@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Config>
-    <RecvSocketPort>6677</RecvSocketPort>
-    <LOGONAME>iVMS-8100</LOGONAME>
-    <SKINTYPE>1</SKINTYPE>
-    <MSMMAXCOUNT>500</MSMMAXCOUNT>
-    <SHUTDOWNINTERVAL>5</SHUTDOWNINTERVAL>
-</Config>

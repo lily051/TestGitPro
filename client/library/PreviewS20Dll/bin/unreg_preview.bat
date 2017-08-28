@@ -1,1 +1,0 @@
-regsvr32 /u "%~dp0PreviewS20OCX.ocx"

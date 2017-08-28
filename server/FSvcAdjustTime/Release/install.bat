@@ -1,1 +1,0 @@
-FSvcAdjustTime.exe -install
